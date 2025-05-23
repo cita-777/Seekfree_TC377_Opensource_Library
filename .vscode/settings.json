@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "zf_common_headfile.h": "c",
+        "zf_device_dl1b.h": "c",
+        "zf_device_uart_receiver.h": "c"
+    }
+}

@@ -1,0 +1,7937 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc32988a --dep-file=libraries/zf_device/lib_icm45686/inv_imu_driver.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/zf_device/lib_icm45686/inv_imu_driver.src ../libraries/zf_device/lib_icm45686/inv_imu_driver.c"
+	.compiler_name		"ctc"
+	;source	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_sleep_us',code,cluster('inv_imu_sleep_us')
+	.sect	'.text.inv_imu_driver.inv_imu_sleep_us'
+	.align	2
+	
+	.global	inv_imu_sleep_us
+; Function inv_imu_sleep_us
+.L141:
+inv_imu_sleep_us:	.type	func
+	ld.w	d15,[a4]12
+.L747:
+	jeq	d15,#0,.L2
+.L748:
+	ld.a	a15,[a4]12
+.L749:
+	calli	a15
+.L2:
+	ret
+.L326:
+	
+__inv_imu_sleep_us_function_end:
+	.size	inv_imu_sleep_us,__inv_imu_sleep_us_function_end-inv_imu_sleep_us
+.L200:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_soft_reset',code,cluster('inv_imu_soft_reset')
+	.sect	'.text.inv_imu_driver.inv_imu_soft_reset'
+	.align	2
+	
+	.global	inv_imu_soft_reset
+; Function inv_imu_soft_reset
+.L143:
+inv_imu_soft_reset:	.type	func
+	sub.a	a10,#8
+.L508:
+	mov.aa	a15,a4
+.L510:
+	mov	d8,#0
+.L511:
+	movh.a	a2,#@his(.1.ini)
+	lea	a2,[a2]@los(.1.ini)
+	ld.bu	d15,[a2]
+.L754:
+	st.b	[a10]2,d15
+.L755:
+	mov	d4,#45
+.L756:
+	mov	d5,#1
+.L757:
+	lea	a5,[a10]0
+.L758:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L509:
+	or	d8,d2
+.L759:
+	mov	d4,#50
+.L760:
+	mov	d5,#1
+.L761:
+	lea	a5,[a10]1
+.L762:
+	mov.aa	a4,a15
+.L513:
+	call	inv_imu_read_reg
+.L514:
+	or	d8,d2
+.L763:
+	ld.bu	d15,[a10]2
+.L764:
+	or	d15,#2
+	st.b	[a10]2,d15
+.L765:
+	mov	d4,#127
+.L766:
+	mov	d5,#1
+.L767:
+	lea	a5,[a10]2
+.L768:
+	mov.aa	a4,a15
+.L515:
+	call	inv_imu_write_reg
+.L516:
+	or	d8,d2
+.L769:
+	mov	d4,#1000
+	mov.aa	a4,a15
+.L517:
+	call	inv_imu_sleep_us
+.L518:
+	mov	d4,#50
+.L770:
+	mov	d5,#1
+.L771:
+	lea	a5,[a10]1
+.L772:
+	mov.aa	a4,a15
+.L519:
+	call	inv_imu_write_reg
+.L520:
+	or	d8,d2
+.L773:
+	mov	d4,#45
+.L774:
+	mov	d5,#1
+.L775:
+	lea	a5,[a10]0
+.L776:
+	mov.aa	a4,a15
+.L521:
+	call	inv_imu_write_reg
+.L522:
+	or	d8,d2
+.L777:
+	mov	d4,#25
+.L778:
+	mov	d5,#1
+.L779:
+	lea	a5,[a10]3
+.L780:
+	mov.aa	a4,a15
+.L523:
+	call	inv_imu_read_reg
+.L524:
+	or	d2,d8
+.L512:
+	ld.bu	d15,[a10]3
+	extr.u	d15,d15,#7,#1
+.L781:
+	jeq	d15,#1,.L3
+.L782:
+	mov	d2,#-1
+.L525:
+	j	.L4
+.L3:
+	j	.L5
+.L5:
+.L4:
+	ret
+.L332:
+	
+__inv_imu_soft_reset_function_end:
+	.size	inv_imu_soft_reset,__inv_imu_soft_reset_function_end-inv_imu_soft_reset
+.L205:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_who_am_i',code,cluster('inv_imu_get_who_am_i')
+	.sect	'.text.inv_imu_driver.inv_imu_get_who_am_i'
+	.align	2
+	
+	.global	inv_imu_get_who_am_i
+; Function inv_imu_get_who_am_i
+.L145:
+inv_imu_get_who_am_i:	.type	func
+	mov.aa	a15,a4
+.L527:
+	mov.aa	a12,a5
+.L528:
+	mov	d4,#114
+.L787:
+	mov	d5,#1
+.L788:
+	mov.aa	a4,a15
+	mov.aa	a5,a12
+	call	inv_imu_read_reg
+.L526:
+	ld.w	d15,[a15]8
+.L789:
+	jne	d15,#0,.L6
+.L790:
+	jeq	d2,#0,.L7
+.L791:
+	mov	d4,#114
+.L792:
+	mov	d5,#1
+.L793:
+	mov.aa	a4,a15
+.L529:
+	mov.aa	a5,a12
+.L530:
+	call	inv_imu_read_reg
+.L7:
+.L6:
+	j	.L8
+.L8:
+	ret
+.L343:
+	
+__inv_imu_get_who_am_i_function_end:
+	.size	inv_imu_get_who_am_i,__inv_imu_get_who_am_i_function_end-inv_imu_get_who_am_i
+.L210:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_accel_mode',code,cluster('inv_imu_set_accel_mode')
+	.sect	'.text.inv_imu_driver.inv_imu_set_accel_mode'
+	.align	2
+	
+	.global	inv_imu_set_accel_mode
+; Function inv_imu_set_accel_mode
+.L147:
+inv_imu_set_accel_mode:	.type	func
+	sub.a	a10,#8
+.L531:
+	mov.aa	a15,a4
+.L533:
+	mov	d8,d4
+.L534:
+	mov	d15,#0
+.L535:
+	mov.aa	a4,a15
+	call	inv_imu_get_endianness
+.L532:
+	or	d15,d2
+.L798:
+	mov	d4,#16
+.L799:
+	mov	d5,#1
+.L800:
+	lea	a5,[a10]0
+.L801:
+	mov.aa	a4,a15
+.L537:
+	call	inv_imu_read_reg
+.L538:
+	or	d15,d2
+.L802:
+	ld.bu	d0,[a10]
+.L803:
+	insert	d0,d0,d8,#0,#2
+	st.b	[a10],d0
+.L804:
+	mov	d4,#16
+.L805:
+	mov	d5,#1
+.L806:
+	lea	a5,[a10]0
+.L807:
+	mov.aa	a4,a15
+.L539:
+	call	inv_imu_write_reg
+.L540:
+	or	d2,d15
+.L536:
+	j	.L9
+.L9:
+	ret
+.L348:
+	
+__inv_imu_set_accel_mode_function_end:
+	.size	inv_imu_set_accel_mode,__inv_imu_set_accel_mode_function_end-inv_imu_set_accel_mode
+.L215:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_gyro_mode',code,cluster('inv_imu_set_gyro_mode')
+	.sect	'.text.inv_imu_driver.inv_imu_set_gyro_mode'
+	.align	2
+	
+	.global	inv_imu_set_gyro_mode
+; Function inv_imu_set_gyro_mode
+.L149:
+inv_imu_set_gyro_mode:	.type	func
+	sub.a	a10,#8
+.L541:
+	mov.aa	a15,a4
+.L543:
+	mov	d8,d4
+.L544:
+	mov	d15,#0
+.L545:
+	mov.aa	a4,a15
+	call	inv_imu_get_endianness
+.L542:
+	or	d15,d2
+.L812:
+	mov	d4,#16
+.L813:
+	mov	d5,#1
+.L814:
+	lea	a5,[a10]0
+.L815:
+	mov.aa	a4,a15
+.L547:
+	call	inv_imu_read_reg
+.L548:
+	or	d15,d2
+.L816:
+	ld.bu	d0,[a10]
+.L817:
+	insert	d0,d0,d8,#2,#2
+	st.b	[a10],d0
+.L818:
+	mov	d4,#16
+.L819:
+	mov	d5,#1
+.L820:
+	lea	a5,[a10]0
+.L821:
+	mov.aa	a4,a15
+.L549:
+	call	inv_imu_write_reg
+.L550:
+	or	d2,d15
+.L546:
+	j	.L10
+.L10:
+	ret
+.L355:
+	
+__inv_imu_set_gyro_mode_function_end:
+	.size	inv_imu_set_gyro_mode,__inv_imu_set_gyro_mode_function_end-inv_imu_set_gyro_mode
+.L220:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_accel_frequency',code,cluster('inv_imu_set_accel_frequency')
+	.sect	'.text.inv_imu_driver.inv_imu_set_accel_frequency'
+	.align	2
+	
+	.global	inv_imu_set_accel_frequency
+; Function inv_imu_set_accel_frequency
+.L151:
+inv_imu_set_accel_frequency:	.type	func
+	sub.a	a10,#8
+.L551:
+	mov.aa	a15,a4
+.L554:
+	mov	d8,d4
+.L555:
+	mov	d15,#0
+.L556:
+	mov	d4,#27
+.L552:
+	mov	d5,#1
+.L826:
+	lea	a5,[a10]0
+.L827:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L553:
+	or	d15,d2
+.L828:
+	ld.bu	d0,[a10]
+.L829:
+	insert	d0,d0,d8,#0,#4
+	st.b	[a10],d0
+.L830:
+	mov	d4,#27
+.L831:
+	mov	d5,#1
+.L832:
+	lea	a5,[a10]0
+.L833:
+	mov.aa	a4,a15
+.L558:
+	call	inv_imu_write_reg
+.L559:
+	or	d2,d15
+.L557:
+	j	.L11
+.L11:
+	ret
+.L361:
+	
+__inv_imu_set_accel_frequency_function_end:
+	.size	inv_imu_set_accel_frequency,__inv_imu_set_accel_frequency_function_end-inv_imu_set_accel_frequency
+.L225:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_gyro_frequency',code,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.text.inv_imu_driver.inv_imu_set_gyro_frequency'
+	.align	2
+	
+	.global	inv_imu_set_gyro_frequency
+; Function inv_imu_set_gyro_frequency
+.L153:
+inv_imu_set_gyro_frequency:	.type	func
+	sub.a	a10,#8
+.L560:
+	mov.aa	a15,a4
+.L563:
+	mov	d8,d4
+.L564:
+	mov	d15,#0
+.L565:
+	mov	d4,#28
+.L561:
+	mov	d5,#1
+.L838:
+	lea	a5,[a10]0
+.L839:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L562:
+	or	d15,d2
+.L840:
+	ld.bu	d0,[a10]
+.L841:
+	insert	d0,d0,d8,#0,#4
+	st.b	[a10],d0
+.L842:
+	mov	d4,#28
+.L843:
+	mov	d5,#1
+.L844:
+	lea	a5,[a10]0
+.L845:
+	mov.aa	a4,a15
+.L567:
+	call	inv_imu_write_reg
+.L568:
+	or	d2,d15
+.L566:
+	j	.L12
+.L12:
+	ret
+.L368:
+	
+__inv_imu_set_gyro_frequency_function_end:
+	.size	inv_imu_set_gyro_frequency,__inv_imu_set_gyro_frequency_function_end-inv_imu_set_gyro_frequency
+.L230:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_accel_fsr',code,cluster('inv_imu_set_accel_fsr')
+	.sect	'.text.inv_imu_driver.inv_imu_set_accel_fsr'
+	.align	2
+	
+	.global	inv_imu_set_accel_fsr
+; Function inv_imu_set_accel_fsr
+.L155:
+inv_imu_set_accel_fsr:	.type	func
+	sub.a	a10,#8
+.L569:
+	mov.aa	a15,a4
+.L572:
+	mov	d8,d4
+.L573:
+	mov	d15,#0
+.L574:
+	mov	d4,#27
+.L570:
+	mov	d5,#1
+.L850:
+	lea	a5,[a10]0
+.L851:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L571:
+	or	d15,d2
+.L852:
+	ld.bu	d0,[a10]
+.L853:
+	insert	d0,d0,d8,#4,#3
+	st.b	[a10],d0
+.L854:
+	mov	d4,#27
+.L855:
+	mov	d5,#1
+.L856:
+	lea	a5,[a10]0
+.L857:
+	mov.aa	a4,a15
+.L576:
+	call	inv_imu_write_reg
+.L577:
+	or	d2,d15
+.L575:
+	j	.L13
+.L13:
+	ret
+.L375:
+	
+__inv_imu_set_accel_fsr_function_end:
+	.size	inv_imu_set_accel_fsr,__inv_imu_set_accel_fsr_function_end-inv_imu_set_accel_fsr
+.L235:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_gyro_fsr',code,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.text.inv_imu_driver.inv_imu_set_gyro_fsr'
+	.align	2
+	
+	.global	inv_imu_set_gyro_fsr
+; Function inv_imu_set_gyro_fsr
+.L157:
+inv_imu_set_gyro_fsr:	.type	func
+	sub.a	a10,#8
+.L578:
+	mov.aa	a15,a4
+.L581:
+	mov	d8,d4
+.L582:
+	mov	d15,#0
+.L583:
+	mov	d4,#28
+.L579:
+	mov	d5,#1
+.L862:
+	lea	a5,[a10]0
+.L863:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L580:
+	or	d15,d2
+.L864:
+	ld.bu	d0,[a10]
+.L865:
+	insert	d0,d0,d8,#4,#4
+	st.b	[a10],d0
+.L866:
+	mov	d4,#28
+.L867:
+	mov	d5,#1
+.L868:
+	lea	a5,[a10]0
+.L869:
+	mov.aa	a4,a15
+.L585:
+	call	inv_imu_write_reg
+.L586:
+	or	d2,d15
+.L584:
+	j	.L14
+.L14:
+	ret
+.L381:
+	
+__inv_imu_set_gyro_fsr_function_end:
+	.size	inv_imu_set_gyro_fsr,__inv_imu_set_gyro_fsr_function_end-inv_imu_set_gyro_fsr
+.L240:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_gyro_ln_bw',code,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.text.inv_imu_driver.inv_imu_set_gyro_ln_bw'
+	.align	2
+	
+	.global	inv_imu_set_gyro_ln_bw
+; Function inv_imu_set_gyro_ln_bw
+.L159:
+inv_imu_set_gyro_ln_bw:	.type	func
+	sub.a	a10,#8
+.L587:
+	mov.aa	a15,a4
+.L590:
+	mov	d8,d4
+.L591:
+	mov	d15,#0
+.L592:
+	mov.u	d4,#42156
+.L588:
+	mov	d5,#1
+.L910:
+	lea	a5,[a10]0
+.L911:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L589:
+	or	d15,d2
+.L912:
+	ld.bu	d0,[a10]
+.L913:
+	insert	d0,d0,d8,#0,#3
+	st.b	[a10],d0
+.L914:
+	mov.u	d4,#42156
+.L915:
+	mov	d5,#1
+.L916:
+	lea	a5,[a10]0
+.L917:
+	mov.aa	a4,a15
+.L594:
+	call	inv_imu_write_reg
+.L595:
+	or	d2,d15
+.L593:
+	j	.L15
+.L15:
+	ret
+.L408:
+	
+__inv_imu_set_gyro_ln_bw_function_end:
+	.size	inv_imu_set_gyro_ln_bw,__inv_imu_set_gyro_ln_bw_function_end-inv_imu_set_gyro_ln_bw
+.L260:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_gyro_lp_avg',code,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.text.inv_imu_driver.inv_imu_set_gyro_lp_avg'
+	.align	2
+	
+	.global	inv_imu_set_gyro_lp_avg
+; Function inv_imu_set_gyro_lp_avg
+.L161:
+inv_imu_set_gyro_lp_avg:	.type	func
+	sub.a	a10,#8
+.L596:
+	mov.aa	a15,a4
+.L599:
+	mov	d8,d4
+.L600:
+	mov	d15,#0
+.L601:
+	mov.u	d4,#42154
+.L597:
+	mov	d5,#1
+.L886:
+	lea	a5,[a10]0
+.L887:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L598:
+	or	d15,d2
+.L888:
+	ld.bu	d0,[a10]
+.L889:
+	insert	d0,d0,d8,#1,#4
+	st.b	[a10],d0
+.L890:
+	mov.u	d4,#42154
+.L891:
+	mov	d5,#1
+.L892:
+	lea	a5,[a10]0
+.L893:
+	mov.aa	a4,a15
+.L603:
+	call	inv_imu_write_reg
+.L604:
+	or	d2,d15
+.L602:
+	j	.L16
+.L16:
+	ret
+.L394:
+	
+__inv_imu_set_gyro_lp_avg_function_end:
+	.size	inv_imu_set_gyro_lp_avg,__inv_imu_set_gyro_lp_avg_function_end-inv_imu_set_gyro_lp_avg
+.L250:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_accel_lp_avg',code,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.text.inv_imu_driver.inv_imu_set_accel_lp_avg'
+	.align	2
+	
+	.global	inv_imu_set_accel_lp_avg
+; Function inv_imu_set_accel_lp_avg
+.L163:
+inv_imu_set_accel_lp_avg:	.type	func
+	sub.a	a10,#8
+.L605:
+	mov.aa	a15,a4
+.L608:
+	mov	d8,d4
+.L609:
+	mov	d15,#0
+.L610:
+	mov.u	d4,#42369
+.L606:
+	mov	d5,#1
+.L874:
+	lea	a5,[a10]0
+.L875:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L607:
+	or	d15,d2
+.L876:
+	ld.bu	d0,[a10]
+.L877:
+	insert	d0,d0,d8,#0,#4
+	st.b	[a10],d0
+.L878:
+	mov.u	d4,#42369
+.L879:
+	mov	d5,#1
+.L880:
+	lea	a5,[a10]0
+.L881:
+	mov.aa	a4,a15
+.L612:
+	call	inv_imu_write_reg
+.L613:
+	or	d2,d15
+.L611:
+	j	.L17
+.L17:
+	ret
+.L387:
+	
+__inv_imu_set_accel_lp_avg_function_end:
+	.size	inv_imu_set_accel_lp_avg,__inv_imu_set_accel_lp_avg_function_end-inv_imu_set_accel_lp_avg
+.L245:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_accel_ln_bw',code,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.text.inv_imu_driver.inv_imu_set_accel_ln_bw'
+	.align	2
+	
+	.global	inv_imu_set_accel_ln_bw
+; Function inv_imu_set_accel_ln_bw
+.L165:
+inv_imu_set_accel_ln_bw:	.type	func
+	sub.a	a10,#8
+.L614:
+	mov.aa	a15,a4
+.L617:
+	mov	d8,d4
+.L618:
+	mov	d15,#0
+.L619:
+	mov.u	d4,#42371
+.L615:
+	mov	d5,#1
+.L898:
+	lea	a5,[a10]0
+.L899:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L616:
+	or	d15,d2
+.L900:
+	ld.bu	d0,[a10]
+.L901:
+	insert	d0,d0,d8,#0,#3
+	st.b	[a10],d0
+.L902:
+	mov.u	d4,#42371
+.L903:
+	mov	d5,#1
+.L904:
+	lea	a5,[a10]0
+.L905:
+	mov.aa	a4,a15
+.L621:
+	call	inv_imu_write_reg
+.L622:
+	or	d2,d15
+.L620:
+	j	.L18
+.L18:
+	ret
+.L401:
+	
+__inv_imu_set_accel_ln_bw_function_end:
+	.size	inv_imu_set_accel_ln_bw,__inv_imu_set_accel_ln_bw_function_end-inv_imu_set_accel_ln_bw
+.L255:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_register_data',code,cluster('inv_imu_get_register_data')
+	.sect	'.text.inv_imu_driver.inv_imu_get_register_data'
+	.align	2
+	
+	.global	inv_imu_get_register_data
+; Function inv_imu_get_register_data
+.L167:
+inv_imu_get_register_data:	.type	func
+	mov.aa	a12,a4
+.L624:
+	mov.aa	a15,a5
+.L625:
+	mov	d15,#0
+.L626:
+	mov	d4,#0
+.L922:
+	mov	d5,#16
+.L923:
+	mov.aa	a4,a12
+	mov.aa	a5,a15
+	call	inv_imu_read_reg
+.L623:
+	or	d2,d15
+.L627:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L19
+	ld.bu	d15,[a15]
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]1
+	or	d0,d15
+	j	.L20
+.L19:
+	ld.bu	d15,[a15]1
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]
+	or	d0,d15
+.L20:
+	st.h	[a15],d0
+.L924:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L21
+	ld.bu	d15,[a15]2
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]3
+	or	d0,d15
+	j	.L22
+.L21:
+	ld.bu	d15,[a15]3
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]2
+	or	d0,d15
+.L22:
+	st.h	[a15]2,d0
+.L925:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L23
+	ld.bu	d15,[a15]4
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]5
+	or	d0,d15
+	j	.L24
+.L23:
+	ld.bu	d15,[a15]5
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]4
+	or	d0,d15
+.L24:
+	st.h	[a15]4,d0
+.L926:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L25
+	ld.bu	d15,[a15]6
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]7
+	or	d0,d15
+	j	.L26
+.L25:
+	ld.bu	d15,[a15]7
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]6
+	or	d0,d15
+.L26:
+	st.h	[a15]6,d0
+.L927:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L27
+	ld.bu	d15,[a15]8
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]9
+	or	d0,d15
+	j	.L28
+.L27:
+	ld.bu	d15,[a15]9
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]8
+	or	d0,d15
+.L28:
+	st.h	[a15]8,d0
+.L928:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L29
+	ld.bu	d15,[a15]10
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]11
+	or	d0,d15
+	j	.L30
+.L29:
+	ld.bu	d15,[a15]11
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]10
+	or	d0,d15
+.L30:
+	st.h	[a15]10,d0
+.L929:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L31
+	ld.bu	d15,[a15]12
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]13
+	or	d0,d15
+	j	.L32
+.L31:
+	ld.bu	d15,[a15]13
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]12
+	or	d0,d15
+.L32:
+	st.h	[a15]12,d0
+.L930:
+	j	.L33
+.L33:
+	ret
+.L415:
+	
+__inv_imu_get_register_data_function_end:
+	.size	inv_imu_get_register_data,__inv_imu_get_register_data_function_end-inv_imu_get_register_data
+.L265:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_fifo_config',code,cluster('inv_imu_set_fifo_config')
+	.sect	'.text.inv_imu_driver.inv_imu_set_fifo_config'
+	.align	2
+	
+	.global	inv_imu_set_fifo_config
+; Function inv_imu_set_fifo_config
+.L169:
+inv_imu_set_fifo_config:	.type	func
+	sub.a	a10,#8
+.L628:
+	mov.aa	a12,a4
+.L631:
+	mov.aa	a15,a5
+.L632:
+	mov	d8,#0
+.L633:
+	mov	d9,#0
+.L635:
+	ld.bu	d0,[a15]7
+.L935:
+	mov	d15,#30
+.L936:
+	jeq	d15,d0,.L34
+.L937:
+	ld.bu	d15,[a15]7
+.L938:
+	jeq	d15,#7,.L35
+.L939:
+	mov	d2,#-11
+.L940:
+	j	.L36
+.L35:
+.L34:
+	mov	d4,#29
+.L941:
+	mov	d5,#6
+.L942:
+	lea	a5,[a10]0
+.L629:
+	mov.aa	a4,a12
+	call	inv_imu_read_reg
+.L630:
+	or	d8,d2
+.L943:
+	ld.bu	d15,[a10]4
+.L944:
+	insert	d15,d15,#0,#0,#1
+	st.b	[a10]4,d15
+.L945:
+	mov	d4,#33
+.L946:
+	mov	d5,#1
+.L947:
+	lea	a5,[a10]4
+.L948:
+	mov.aa	a4,a12
+.L636:
+	call	inv_imu_write_reg
+.L637:
+	or	d8,d2
+.L949:
+	ld.bu	d15,[a10]
+.L950:
+	insert	d15,d15,#0,#6,#2
+	st.b	[a10],d15
+.L951:
+	mov	d4,#29
+.L952:
+	mov	d5,#1
+.L953:
+	lea	a5,[a10]0
+.L954:
+	mov.aa	a4,a12
+.L638:
+	call	inv_imu_write_reg
+.L639:
+	or	d8,d2
+.L955:
+	ld.bu	d0,[a10]
+.L956:
+	ld.bu	d15,[a15]7
+.L957:
+	insert	d15,d0,d15,#0,#6
+	st.b	[a10],d15
+.L958:
+	ld.hu	d15,[a15]4
+.L959:
+	st.b	[a10]1,d15
+.L960:
+	ld.hu	d15,[a15]4
+.L961:
+	sha	d15,#-8
+.L962:
+	st.b	[a10]2,d15
+.L963:
+	ld.bu	d15,[a10]3
+.L964:
+	or	d15,#8
+	st.b	[a10]3,d15
+.L965:
+	ld.bu	d0,[a10]4
+.L966:
+	ld.bu	d15,[a15]2
+.L967:
+	insert	d15,d0,d15,#3,#1
+	st.b	[a10]4,d15
+.L968:
+	ld.bu	d15,[a10]4
+.L969:
+	ld.bu	d0,[a15]
+.L970:
+	insert	d15,d15,d0,#2,#1
+	st.b	[a10]4,d15
+.L971:
+	ld.bu	d0,[a10]4
+.L972:
+	ld.bu	d15,[a15]1
+.L973:
+	insert	d15,d0,d15,#1,#1
+	st.b	[a10]4,d15
+.L974:
+	mov.u	d4,#41560
+.L975:
+	mov	d5,#1
+.L976:
+	lea	a5,[a10]6
+.L977:
+	mov.aa	a4,a12
+.L640:
+	call	inv_imu_read_reg
+.L641:
+	or	d8,d2
+.L978:
+	ld.bu	d15,[a15]6
+.L979:
+	jeq	d15,#0,.L37
+.L980:
+	ld.bu	d15,[a15]1
+.L981:
+	jeq	d15,#0,.L38
+.L982:
+	ld.bu	d15,[a15]
+	jne	d15,#0,.L39
+.L38:
+	ld.bu	d15,[a15]2
+	jeq	d15,#0,.L40
+.L39:
+	ld.bu	d15,[a10]5
+.L983:
+	or	d15,#2
+	st.b	[a10]5,d15
+.L984:
+	ld.bu	d15,[a10]6
+.L985:
+	or	d15,#1
+	st.b	[a10]6,d15
+.L986:
+	j	.L41
+.L40:
+.L37:
+	ld.bu	d15,[a10]5
+.L987:
+	insert	d15,d15,#0,#1,#1
+	st.b	[a10]5,d15
+.L988:
+	ld.bu	d15,[a10]6
+.L989:
+	insert	d15,d15,#0,#0,#1
+	st.b	[a10]6,d15
+.L41:
+	mov.u	d4,#41560
+.L990:
+	mov	d5,#1
+.L991:
+	lea	a5,[a10]6
+.L992:
+	mov.aa	a4,a12
+.L642:
+	call	inv_imu_write_reg
+.L643:
+	or	d8,d2
+.L993:
+	mov	d4,#29
+.L994:
+	mov	d5,#6
+.L995:
+	lea	a5,[a10]0
+.L996:
+	mov.aa	a4,a12
+.L644:
+	call	inv_imu_write_reg
+.L645:
+	or	d8,d2
+.L997:
+	ld.bu	d0,[a10]
+.L998:
+	ld.bu	d15,[a15]6
+.L999:
+	insert	d15,d0,d15,#6,#2
+	st.b	[a10],d15
+.L1000:
+	ld.bu	d15,[a15]6
+.L1001:
+	jne	d15,#0,.L42
+.L1002:
+	ld.bu	d15,[a10]4
+.L1003:
+	insert	d15,d15,#0,#0,#1
+	st.b	[a10]4,d15
+.L1004:
+	mov	d4,#33
+.L1005:
+	mov	d5,#1
+.L1006:
+	lea	a5,[a10]4
+.L1007:
+	mov.aa	a4,a12
+.L646:
+	call	inv_imu_write_reg
+.L647:
+	or	d8,d2
+.L1008:
+	mov	d4,#29
+.L1009:
+	mov	d5,#1
+.L1010:
+	lea	a5,[a10]0
+.L1011:
+	mov.aa	a4,a12
+.L648:
+	call	inv_imu_write_reg
+.L649:
+	or	d2,d8
+.L634:
+	j	.L43
+.L42:
+	mov	d4,#29
+.L1012:
+	mov	d5,#1
+.L1013:
+	lea	a5,[a10]0
+.L1014:
+	mov.aa	a4,a12
+.L650:
+	call	inv_imu_write_reg
+.L651:
+	or	d8,d2
+.L1015:
+	ld.bu	d15,[a10]4
+.L1016:
+	or	d15,#1
+	st.b	[a10]4,d15
+.L1017:
+	mov	d4,#33
+.L1018:
+	mov	d5,#1
+.L1019:
+	lea	a5,[a10]4
+.L1020:
+	mov.aa	a4,a12
+.L652:
+	call	inv_imu_write_reg
+.L653:
+	or	d2,d8
+.L43:
+	ld.bu	d15,[a15]2
+.L1021:
+	jeq	d15,#0,.L44
+.L1022:
+	mov	d9,#20
+.L1023:
+	j	.L45
+.L44:
+	ld.bu	d15,[a15]1
+.L1024:
+	jeq	d15,#0,.L46
+.L1025:
+	add	d9,d9,#8
+.L46:
+	ld.bu	d15,[a15]
+.L1026:
+	jeq	d15,#0,.L47
+.L1027:
+	add	d9,d9,#8
+.L47:
+.L45:
+	st.b	[a12]16,d9
+.L1028:
+	j	.L48
+.L48:
+.L36:
+	ret
+.L420:
+	
+__inv_imu_set_fifo_config_function_end:
+	.size	inv_imu_set_fifo_config,__inv_imu_set_fifo_config_function_end-inv_imu_set_fifo_config
+.L270:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_fifo_config',code,cluster('inv_imu_get_fifo_config')
+	.sect	'.text.inv_imu_driver.inv_imu_get_fifo_config'
+	.align	2
+	
+	.global	inv_imu_get_fifo_config
+; Function inv_imu_get_fifo_config
+.L171:
+inv_imu_get_fifo_config:	.type	func
+	sub.a	a10,#8
+.L654:
+	mov.aa	a15,a5
+.L657:
+	mov	d15,#0
+.L658:
+	mov	d4,#29
+.L1033:
+	mov	d5,#5
+.L1034:
+	lea	a5,[a10]0
+.L655:
+	call	inv_imu_read_reg
+.L656:
+	or	d2,d15
+.L659:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#6,#2
+.L1035:
+	st.b	[a15]6,d15
+.L1036:
+	ld.bu	d15,[a10]
+	and	d15,#63
+.L1037:
+	mov	d0,#30
+.L1038:
+	jeq	d15,d0,.L49
+.L1039:
+	ld.bu	d15,[a10]
+	and	d15,#63
+.L1040:
+	jne	d15,#7,.L50
+.L49:
+	ld.bu	d15,[a10]
+	and	d15,#63
+.L1041:
+	st.b	[a15]7,d15
+.L1042:
+	j	.L51
+.L50:
+	mov	d15,#7
+.L1043:
+	st.b	[a15]7,d15
+.L51:
+	ld.bu	d15,[a10]2
+.L1044:
+	sha	d0,d15,#8
+.L1045:
+	ld.bu	d15,[a10]1
+.L1046:
+	or	d0,d15
+.L1047:
+	st.h	[a15]4,d0
+.L1048:
+	ld.bu	d15,[a10]4
+	extr.u	d15,d15,#3,#1
+.L1049:
+	st.b	[a15]2,d15
+.L1050:
+	ld.bu	d15,[a10]4
+	extr.u	d15,d15,#2,#1
+.L1051:
+	st.b	[a15],d15
+.L1052:
+	ld.bu	d15,[a10]4
+	extr.u	d15,d15,#1,#1
+.L1053:
+	st.b	[a15]1,d15
+.L1054:
+	j	.L52
+.L52:
+	ret
+.L431:
+	
+__inv_imu_get_fifo_config_function_end:
+	.size	inv_imu_get_fifo_config,__inv_imu_get_fifo_config_function_end-inv_imu_get_fifo_config
+.L275:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_flush_fifo',code,cluster('inv_imu_flush_fifo')
+	.sect	'.text.inv_imu_driver.inv_imu_flush_fifo'
+	.align	2
+	
+	.global	inv_imu_flush_fifo
+; Function inv_imu_flush_fifo
+.L173:
+inv_imu_flush_fifo:	.type	func
+	sub.a	a10,#8
+.L660:
+	mov.aa	a15,a4
+.L662:
+	mov	d8,#0
+.L663:
+	mov	d9,#15625
+.L664:
+	sh	d9,#6
+.L1059:
+	mov	d4,#32
+.L1060:
+	mov	d5,#1
+.L1061:
+	lea	a5,[a10]0
+.L1062:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L661:
+	or	d8,d2
+.L1063:
+	ld.bu	d15,[a10]
+.L1064:
+	or	d15,#128
+	st.b	[a10],d15
+.L1065:
+	mov	d4,#32
+.L1066:
+	mov	d5,#1
+.L1067:
+	lea	a5,[a10]0
+.L1068:
+	mov.aa	a4,a15
+.L665:
+	call	inv_imu_write_reg
+.L666:
+	or	d8,d2
+.L1069:
+	mov	d4,#10
+	mov.aa	a4,a15
+.L667:
+	call	inv_imu_sleep_us
+.L668:
+	j	.L53
+.L54:
+	mov	d4,#32
+.L1070:
+	mov	d5,#1
+.L1071:
+	lea	a5,[a10]0
+.L1072:
+	mov.aa	a4,a15
+.L669:
+	call	inv_imu_read_reg
+.L670:
+	or	d8,d2
+.L1073:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#7,#1
+.L1074:
+	jeq	d15,#1,.L55
+.L1075:
+	j	.L56
+.L55:
+	mov	d4,#100
+	mov.aa	a4,a15
+.L671:
+	call	inv_imu_sleep_us
+.L672:
+	add	d9,d9,#-100
+.L1076:
+	jge	d9,#1,.L57
+.L1077:
+	mov	d2,#-4
+.L1078:
+	j	.L58
+.L57:
+.L53:
+	jeq	d8,#0,.L54
+.L56:
+	mov	d2,d8
+.L673:
+	j	.L59
+.L59:
+.L58:
+	ret
+.L437:
+	
+__inv_imu_flush_fifo_function_end:
+	.size	inv_imu_flush_fifo,__inv_imu_flush_fifo_function_end-inv_imu_flush_fifo
+.L280:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_frame_count',code,cluster('inv_imu_get_frame_count')
+	.sect	'.text.inv_imu_driver.inv_imu_get_frame_count'
+	.align	2
+	
+	.global	inv_imu_get_frame_count
+; Function inv_imu_get_frame_count
+.L175:
+inv_imu_get_frame_count:	.type	func
+	mov.aa	a12,a4
+.L675:
+	mov.aa	a15,a5
+.L676:
+	mov	d15,#0
+.L677:
+	mov	d4,#18
+.L1083:
+	mov	d5,#2
+.L1084:
+	mov.aa	a4,a12
+	mov.aa	a5,a15
+	call	inv_imu_read_reg
+.L674:
+	or	d15,d2
+.L1085:
+	mov	d4,#18
+.L1086:
+	mov	d5,#2
+.L1087:
+	mov.aa	a4,a12
+.L679:
+	mov.aa	a5,a15
+.L681:
+	call	inv_imu_read_reg
+.L680:
+	or	d2,d15
+.L678:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L60
+	ld.bu	d15,[a15]
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]1
+	or	d0,d15
+	j	.L61
+.L60:
+	ld.bu	d15,[a15]1
+	sha	d0,d15,#8
+	ld.bu	d15,[a15]
+	or	d0,d15
+.L61:
+	st.h	[a15],d0
+.L1088:
+	j	.L62
+.L62:
+	ret
+.L443:
+	
+__inv_imu_get_frame_count_function_end:
+	.size	inv_imu_get_frame_count,__inv_imu_get_frame_count_function_end-inv_imu_get_frame_count
+.L285:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_fifo_frame',code,cluster('inv_imu_get_fifo_frame')
+	.sect	'.text.inv_imu_driver.inv_imu_get_fifo_frame'
+	.align	2
+	
+	.global	inv_imu_get_fifo_frame
+; Function inv_imu_get_fifo_frame
+.L177:
+inv_imu_get_fifo_frame:	.type	func
+	sub.a	a10,#24
+.L682:
+	mov.aa	a12,a4
+.L685:
+	mov.aa	a15,a5
+.L686:
+	mov	d8,#0
+.L687:
+	mov	d4,#20
+.L1093:
+	ld.bu	d5,[a12]16
+.L1094:
+	lea	a5,[a10]0
+.L683:
+	mov.aa	a4,a12
+	call	inv_imu_read_reg
+.L684:
+	or	d8,d2
+.L1095:
+	ld.bu	d15,[a10]
+.L1096:
+	st.b	[a15],d15
+.L1097:
+	ld.bu	d0,[a12]16
+.L1098:
+	mov	d15,#8
+	jeq	d15,d0,.L63
+.L1099:
+	mov	d15,#16
+	jeq	d15,d0,.L64
+.L1100:
+	mov	d15,#20
+	jeq	d15,d0,.L65
+	j	.L66
+.L63:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L67
+	ld.bu	d15,[a10]1
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]2
+	or	d0,d15
+	j	.L68
+.L67:
+	ld.bu	d15,[a10]2
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]1
+	or	d0,d15
+.L68:
+	st.h	[a15]2,d0
+.L1101:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L69
+	ld.bu	d15,[a10]3
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]4
+	or	d0,d15
+	j	.L70
+.L69:
+	ld.bu	d15,[a10]4
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]3
+	or	d0,d15
+.L70:
+	st.h	[a15]4,d0
+.L1102:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L71
+	ld.bu	d15,[a10]5
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]6
+	or	d0,d15
+	j	.L72
+.L71:
+	ld.bu	d15,[a10]6
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]5
+	or	d0,d15
+.L72:
+	st.h	[a15]6,d0
+.L1103:
+	ld.bu	d15,[a10]7
+.L1104:
+	st.b	[a15]8,d15
+.L1105:
+	j	.L73
+.L64:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L74
+	ld.bu	d15,[a10]1
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]2
+	or	d0,d15
+	j	.L75
+.L74:
+	ld.bu	d15,[a10]2
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]1
+	or	d0,d15
+.L75:
+	st.h	[a15]2,d0
+.L1106:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L76
+	ld.bu	d15,[a10]3
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]4
+	or	d0,d15
+	j	.L77
+.L76:
+	ld.bu	d15,[a10]4
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]3
+	or	d0,d15
+.L77:
+	st.h	[a15]4,d0
+.L1107:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L78
+	ld.bu	d15,[a10]5
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]6
+	or	d0,d15
+	j	.L79
+.L78:
+	ld.bu	d15,[a10]6
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]5
+	or	d0,d15
+.L79:
+	st.h	[a15]6,d0
+.L1108:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L80
+	ld.bu	d15,[a10]7
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]8
+	or	d0,d15
+	j	.L81
+.L80:
+	ld.bu	d15,[a10]8
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]7
+	or	d0,d15
+.L81:
+	st.h	[a15]8,d0
+.L1109:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L82
+	ld.bu	d15,[a10]9
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]10
+	or	d0,d15
+	j	.L83
+.L82:
+	ld.bu	d15,[a10]10
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]9
+	or	d0,d15
+.L83:
+	st.h	[a15]10,d0
+.L1110:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L84
+	ld.bu	d15,[a10]11
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]12
+	or	d0,d15
+	j	.L85
+.L84:
+	ld.bu	d15,[a10]12
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]11
+	or	d0,d15
+.L85:
+	st.h	[a15]12,d0
+.L1111:
+	ld.bu	d15,[a10]13
+.L1112:
+	st.b	[a15]14,d15
+.L1113:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L86
+	ld.bu	d15,[a10]14
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]15
+	or	d0,d15
+	j	.L87
+.L86:
+	ld.bu	d15,[a10]15
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]14
+	or	d0,d15
+.L87:
+	st.h	[a15]16,d0
+.L1114:
+	j	.L88
+.L65:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L89
+	ld.bu	d15,[a10]1
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]2
+	or	d0,d15
+	j	.L90
+.L89:
+	ld.bu	d15,[a10]2
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]1
+	or	d0,d15
+.L90:
+	extr	d15,d0,#0,#16
+	insert	d2,d2,d15,#0,#16
+.L1115:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L91
+	ld.bu	d15,[a10]3
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]4
+	or	d1,d15
+	j	.L92
+.L91:
+	ld.bu	d15,[a10]4
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]3
+	or	d1,d15
+.L92:
+	extr	d15,d1,#0,#16
+	insert	d2,d2,d15,#16,#16
+.L1116:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L93
+	ld.bu	d15,[a10]5
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]6
+	or	d1,d15
+	j	.L94
+.L93:
+	ld.bu	d15,[a10]6
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]5
+	or	d1,d15
+.L94:
+	extr	d15,d1,#0,#16
+	insert	d3,d3,d15,#0,#16
+.L1117:
+	extr	d15,d0,#0,#16
+.L1118:
+	sha	d15,#4
+.L1119:
+	ld.bu	d0,[a10]17
+.L1120:
+	sha	d0,#-4
+.L1121:
+	or	d15,d0
+.L1122:
+	st.w	[a15]2,d15
+.L1123:
+	extr	d15,d2,#16,#16
+.L1124:
+	sha	d15,#4
+.L1125:
+	ld.bu	d0,[a10]18
+.L1126:
+	sha	d0,#-4
+.L1127:
+	or	d15,d0
+.L1128:
+	st.w	[a15]6,d15
+.L1129:
+	extr	d15,d3,#0,#16
+.L1130:
+	sha	d15,#4
+.L1131:
+	ld.bu	d0,[a10]19
+.L1132:
+	sha	d0,#-4
+.L1133:
+	or	d15,d0
+.L1134:
+	st.w	[a15]10,d15
+.L1135:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L95
+	ld.bu	d15,[a10]7
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]8
+	or	d0,d15
+	j	.L96
+.L95:
+	ld.bu	d15,[a10]8
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]7
+	or	d0,d15
+.L96:
+	extr	d15,d0,#0,#16
+	insert	d2,d2,d15,#0,#16
+.L1136:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L97
+	ld.bu	d15,[a10]9
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]10
+	or	d1,d15
+	j	.L98
+.L97:
+	ld.bu	d15,[a10]10
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]9
+	or	d1,d15
+.L98:
+	extr	d15,d1,#0,#16
+	insert	d2,d2,d15,#16,#16
+.L1137:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L99
+	ld.bu	d15,[a10]11
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]12
+	or	d1,d15
+	j	.L100
+.L99:
+	ld.bu	d15,[a10]12
+	sha	d1,d15,#8
+	ld.bu	d15,[a10]11
+	or	d1,d15
+.L100:
+	extr	d15,d1,#0,#16
+	insert	d3,d3,d15,#0,#16
+.L1138:
+	extr	d0,d0,#0,#16
+.L1139:
+	sha	d0,#4
+.L1140:
+	ld.bu	d15,[a10]17
+.L1141:
+	and	d15,#15
+.L1142:
+	or	d0,d15
+.L1143:
+	st.w	[a15]14,d0
+.L1144:
+	extr	d0,d2,#16,#16
+.L1145:
+	sha	d0,#4
+.L1146:
+	ld.bu	d15,[a10]18
+.L1147:
+	and	d15,#15
+.L1148:
+	or	d0,d15
+.L1149:
+	st.w	[a15]18,d0
+.L1150:
+	extr	d0,d3,#0,#16
+.L1151:
+	sha	d0,#4
+.L1152:
+	ld.bu	d15,[a10]19
+.L1153:
+	and	d15,#15
+.L1154:
+	or	d0,d15
+.L1155:
+	st.w	[a15]22,d0
+.L1156:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L101
+	ld.bu	d15,[a10]13
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]14
+	or	d0,d15
+	j	.L102
+.L101:
+	ld.bu	d15,[a10]14
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]13
+	or	d0,d15
+.L102:
+	st.h	[a15]26,d0
+.L1157:
+	ld.bu	d15,[a12]17
+	jne	d15,#1,.L103
+	ld.bu	d15,[a10]15
+	sha	d15,d15,#8
+	ld.bu	d0,[a10]16
+	or	d15,d0
+	j	.L104
+.L103:
+	ld.bu	d15,[a10]16
+	sha	d0,d15,#8
+	ld.bu	d15,[a10]15
+	or	d15,d0
+.L104:
+	st.h	[a15]28,d15
+.L1158:
+	j	.L105
+.L66:
+	mov	d15,#0
+.L1159:
+	st.b	[a15],d15
+.L1160:
+	mov	d2,#-1
+.L1161:
+	j	.L106
+.L105:
+.L88:
+.L73:
+	mov	d2,d8
+.L688:
+	j	.L107
+.L107:
+.L106:
+	ret
+.L448:
+	
+__inv_imu_get_fifo_frame_function_end:
+	.size	inv_imu_get_fifo_frame,__inv_imu_get_fifo_frame_function_end-inv_imu_get_fifo_frame
+.L290:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_config_int',code,cluster('inv_imu_set_config_int')
+	.sect	'.text.inv_imu_driver.inv_imu_set_config_int'
+	.align	2
+	
+	.global	inv_imu_set_config_int
+; Function inv_imu_set_config_int
+.L179:
+inv_imu_set_config_int:	.type	func
+	sub.a	a10,#8
+.L689:
+	mov	d8,#0
+.L693:
+	mov	d15,#0
+	jeq	d15,d4,.L108
+.L1166:
+	mov	d15,#1
+	jeq	d15,d4,.L109
+	j	.L110
+.L108:
+	mov	d4,#22
+.L691:
+	j	.L111
+.L109:
+	mov	d4,#86
+.L695:
+	j	.L112
+.L110:
+	mov	d2,#-11
+.L1167:
+	j	.L113
+.L112:
+.L111:
+	ld.bu	d15,[a10]
+.L1168:
+	ld.bu	d0,[a5]
+.L1169:
+	insert	d15,d15,d0,#0,#1
+	st.b	[a10],d15
+.L1170:
+	ld.bu	d0,[a10]
+.L1171:
+	ld.bu	d15,[a5]1
+.L1172:
+	insert	d15,d0,d15,#1,#1
+	st.b	[a10],d15
+.L1173:
+	ld.bu	d0,[a10]
+.L1174:
+	ld.bu	d15,[a5]2
+.L1175:
+	insert	d15,d0,d15,#2,#1
+	st.b	[a10],d15
+.L1176:
+	ld.bu	d0,[a10]
+.L1177:
+	ld.bu	d15,[a5]4
+.L1178:
+	insert	d15,d0,d15,#4,#1
+	st.b	[a10],d15
+.L1179:
+	ld.bu	d0,[a10]
+.L1180:
+	ld.bu	d15,[a5]5
+.L1181:
+	insert	d15,d0,d15,#5,#1
+	st.b	[a10],d15
+.L1182:
+	ld.bu	d0,[a10]
+.L1183:
+	ld.bu	d15,[a5]6
+.L1184:
+	insert	d15,d0,d15,#6,#1
+	st.b	[a10],d15
+.L1185:
+	ld.bu	d0,[a10]
+.L1186:
+	ld.bu	d15,[a5]7
+.L1187:
+	insert	d15,d0,d15,#7,#1
+	st.b	[a10],d15
+.L1188:
+	ld.bu	d15,[a10]1
+.L1189:
+	ld.bu	d0,[a5]8
+.L1190:
+	insert	d15,d15,d0,#0,#1
+	st.b	[a10]1,d15
+.L1191:
+	ld.bu	d15,[a10]1
+.L1192:
+	ld.bu	d0,[a5]9
+.L1193:
+	insert	d15,d15,d0,#1,#1
+	st.b	[a10]1,d15
+.L1194:
+	ld.bu	d15,[a10]1
+.L1195:
+	ld.bu	d0,[a5]10
+.L1196:
+	insert	d15,d15,d0,#2,#1
+	st.b	[a10]1,d15
+.L1197:
+	ld.bu	d15,[a10]1
+.L1198:
+	ld.bu	d0,[a5]11
+.L1199:
+	insert	d15,d15,d0,#3,#1
+	st.b	[a10]1,d15
+.L1200:
+	ld.bu	d15,[a10]1
+.L1201:
+	ld.bu	d0,[a5]12
+.L1202:
+	insert	d15,d15,d0,#4,#1
+	st.b	[a10]1,d15
+.L1203:
+	ld.bu	d15,[a10]1
+.L1204:
+	ld.bu	d0,[a5]13
+.L1205:
+	insert	d15,d15,d0,#5,#1
+	st.b	[a10]1,d15
+.L1206:
+	ld.bu	d15,[a10]1
+.L1207:
+	ld.bu	d0,[a5]14
+.L1208:
+	insert	d15,d15,d0,#6,#1
+	st.b	[a10]1,d15
+.L1209:
+	mov	d5,#2
+.L1210:
+	lea	a5,[a10]0
+.L690:
+	call	inv_imu_write_reg
+.L692:
+	or	d2,d8
+.L694:
+	j	.L114
+.L114:
+.L113:
+	ret
+.L457:
+	
+__inv_imu_set_config_int_function_end:
+	.size	inv_imu_set_config_int,__inv_imu_set_config_int_function_end-inv_imu_set_config_int
+.L295:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_config_int',code,cluster('inv_imu_get_config_int')
+	.sect	'.text.inv_imu_driver.inv_imu_get_config_int'
+	.align	2
+	
+	.global	inv_imu_get_config_int
+; Function inv_imu_get_config_int
+.L181:
+inv_imu_get_config_int:	.type	func
+	sub.a	a10,#8
+.L696:
+	mov.aa	a15,a5
+.L700:
+	mov	d8,#0
+.L701:
+	mov	d15,#0
+	jeq	d15,d4,.L115
+.L1215:
+	mov	d15,#1
+	jeq	d15,d4,.L116
+	j	.L117
+.L115:
+	mov	d4,#22
+.L698:
+	j	.L118
+.L116:
+	mov	d4,#86
+.L703:
+	j	.L119
+.L117:
+	mov	d2,#-11
+.L1216:
+	j	.L120
+.L119:
+.L118:
+	mov	d5,#2
+.L1217:
+	lea	a5,[a10]0
+.L697:
+	call	inv_imu_read_reg
+.L699:
+	or	d2,d8
+.L702:
+	ld.bu	d15,[a10]
+	and	d15,#1
+.L1218:
+	st.b	[a15],d15
+.L1219:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#1,#1
+.L1220:
+	st.b	[a15]1,d15
+.L1221:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#2,#1
+.L1222:
+	st.b	[a15]2,d15
+.L1223:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#4,#1
+.L1224:
+	st.b	[a15]4,d15
+.L1225:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#5,#1
+.L1226:
+	st.b	[a15]5,d15
+.L1227:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#6,#1
+.L1228:
+	st.b	[a15]6,d15
+.L1229:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#7,#1
+.L1230:
+	st.b	[a15]7,d15
+.L1231:
+	ld.bu	d15,[a10]1
+	and	d15,#1
+.L1232:
+	st.b	[a15]8,d15
+.L1233:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#1,#1
+.L1234:
+	st.b	[a15]9,d15
+.L1235:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#2,#1
+.L1236:
+	st.b	[a15]10,d15
+.L1237:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#3,#1
+.L1238:
+	st.b	[a15]11,d15
+.L1239:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#4,#1
+.L1240:
+	st.b	[a15]12,d15
+.L1241:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#5,#1
+.L1242:
+	st.b	[a15]13,d15
+.L1243:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#6,#1
+.L1244:
+	st.b	[a15]14,d15
+.L1245:
+	j	.L121
+.L121:
+.L120:
+	ret
+.L467:
+	
+__inv_imu_get_config_int_function_end:
+	.size	inv_imu_get_config_int,__inv_imu_get_config_int_function_end-inv_imu_get_config_int
+.L300:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_set_pin_config_int',code,cluster('inv_imu_set_pin_config_int')
+	.sect	'.text.inv_imu_driver.inv_imu_set_pin_config_int'
+	.align	2
+	
+	.global	inv_imu_set_pin_config_int
+; Function inv_imu_set_pin_config_int
+.L183:
+inv_imu_set_pin_config_int:	.type	func
+	sub.a	a10,#8
+.L704:
+	mov.aa	a12,a4
+.L708:
+	mov.aa	a15,a5
+.L709:
+	mov	d8,#0
+.L710:
+	mov	d15,#0
+	jeq	d15,d4,.L122
+.L1250:
+	mov	d15,#1
+	jeq	d15,d4,.L123
+	j	.L124
+.L122:
+	mov	d9,#24
+.L712:
+	j	.L125
+.L123:
+	mov	d9,#88
+.L713:
+	j	.L126
+.L124:
+	mov	d2,#-11
+.L1251:
+	j	.L127
+.L126:
+.L125:
+	mov	d5,#1
+.L1252:
+	lea	a5,[a10]0
+.L705:
+	mov.aa	a4,a12
+	mov	d4,d9
+.L706:
+	call	inv_imu_read_reg
+.L707:
+	or	d8,d2
+.L1253:
+	ld.bu	d0,[a10]
+.L1254:
+	ld.bu	d1,[a15]
+.L1255:
+	insert	d0,d0,d1,#0,#1
+	st.b	[a10],d0
+.L1256:
+	ld.bu	d0,[a10]
+.L1257:
+	ld.bu	d15,[a15]1
+.L1258:
+	insert	d0,d0,d15,#1,#1
+	st.b	[a10],d0
+.L1259:
+	ld.bu	d0,[a10]
+.L1260:
+	ld.bu	d15,[a15]2
+.L1261:
+	insert	d15,d0,d15,#2,#1
+	st.b	[a10],d15
+.L1262:
+	mov	d5,#1
+.L1263:
+	lea	a5,[a10]0
+.L1264:
+	mov.aa	a4,a12
+.L714:
+	mov	d4,d9
+.L716:
+	call	inv_imu_write_reg
+.L715:
+	or	d2,d8
+.L711:
+	j	.L128
+.L128:
+.L127:
+	ret
+.L476:
+	
+__inv_imu_set_pin_config_int_function_end:
+	.size	inv_imu_set_pin_config_int,__inv_imu_set_pin_config_int_function_end-inv_imu_set_pin_config_int
+.L305:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_int_status',code,cluster('inv_imu_get_int_status')
+	.sect	'.text.inv_imu_driver.inv_imu_get_int_status'
+	.align	2
+	
+	.global	inv_imu_get_int_status
+; Function inv_imu_get_int_status
+.L185:
+inv_imu_get_int_status:	.type	func
+	sub.a	a10,#8
+.L717:
+	mov.aa	a15,a5
+.L721:
+	mov	d8,#0
+.L722:
+	mov	d15,#0
+	jeq	d15,d4,.L129
+.L1269:
+	mov	d15,#1
+	jeq	d15,d4,.L130
+	j	.L131
+.L129:
+	mov	d4,#25
+.L719:
+	j	.L132
+.L130:
+	mov	d4,#89
+.L724:
+	j	.L133
+.L131:
+	mov	d2,#-11
+.L1270:
+	j	.L134
+.L133:
+.L132:
+	mov	d5,#2
+.L1271:
+	lea	a5,[a10]0
+.L718:
+	call	inv_imu_read_reg
+.L720:
+	or	d2,d8
+.L723:
+	ld.bu	d15,[a10]
+	and	d15,#1
+.L1272:
+	st.b	[a15],d15
+.L1273:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#1,#1
+.L1274:
+	st.b	[a15]1,d15
+.L1275:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#2,#1
+.L1276:
+	st.b	[a15]2,d15
+.L1277:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#3,#1
+.L1278:
+	st.b	[a15]3,d15
+.L1279:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#4,#1
+.L1280:
+	st.b	[a15]4,d15
+.L1281:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#5,#1
+.L1282:
+	st.b	[a15]5,d15
+.L1283:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#6,#1
+.L1284:
+	st.b	[a15]6,d15
+.L1285:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#7,#1
+.L1286:
+	st.b	[a15]7,d15
+.L1287:
+	ld.bu	d15,[a10]1
+	and	d15,#1
+.L1288:
+	st.b	[a15]8,d15
+.L1289:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#1,#1
+.L1290:
+	st.b	[a15]9,d15
+.L1291:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#2,#1
+.L1292:
+	st.b	[a15]10,d15
+.L1293:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#3,#1
+.L1294:
+	st.b	[a15]11,d15
+.L1295:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#4,#1
+.L1296:
+	st.b	[a15]12,d15
+.L1297:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#5,#1
+.L1298:
+	st.b	[a15]13,d15
+.L1299:
+	ld.bu	d15,[a10]1
+	extr.u	d15,d15,#6,#1
+.L1300:
+	st.b	[a15]14,d15
+.L1301:
+	j	.L135
+.L135:
+.L134:
+	ret
+.L486:
+	
+__inv_imu_get_int_status_function_end:
+	.size	inv_imu_get_int_status,__inv_imu_get_int_status_function_end-inv_imu_get_int_status
+.L310:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_endianness',code,cluster('inv_imu_get_endianness')
+	.sect	'.text.inv_imu_driver.inv_imu_get_endianness'
+	.align	2
+	
+	.global	inv_imu_get_endianness
+; Function inv_imu_get_endianness
+.L187:
+inv_imu_get_endianness:	.type	func
+	sub.a	a10,#8
+.L725:
+	mov.aa	a15,a4
+.L727:
+	mov	d15,#0
+.L728:
+	mov.u	d4,#41575
+.L1306:
+	mov	d5,#1
+.L1307:
+	lea	a5,[a10]0
+.L1308:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L726:
+	or	d2,d15
+.L729:
+	jne	d2,#0,.L136
+.L1309:
+	ld.bu	d15,[a10]
+	extr.u	d15,d15,#1,#1
+.L1310:
+	st.b	[a15]17,d15
+.L136:
+	j	.L137
+.L137:
+	ret
+.L495:
+	
+__inv_imu_get_endianness_function_end:
+	.size	inv_imu_get_endianness,__inv_imu_get_endianness_function_end-inv_imu_get_endianness
+.L315:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_select_accel_lp_clk',code,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.text.inv_imu_driver.inv_imu_select_accel_lp_clk'
+	.align	2
+	
+	.global	inv_imu_select_accel_lp_clk
+; Function inv_imu_select_accel_lp_clk
+.L189:
+inv_imu_select_accel_lp_clk:	.type	func
+	sub.a	a10,#8
+.L730:
+	mov.aa	a15,a4
+.L733:
+	mov	d8,d4
+.L734:
+	mov	d15,#0
+.L735:
+	mov.u	d4,#41560
+.L731:
+	mov	d5,#1
+.L1315:
+	lea	a5,[a10]0
+.L1316:
+	mov.aa	a4,a15
+	call	inv_imu_read_reg
+.L732:
+	or	d15,d2
+.L1317:
+	ld.bu	d0,[a10]
+.L1318:
+	insert	d0,d0,d8,#4,#1
+	st.b	[a10],d0
+.L1319:
+	mov.u	d4,#41560
+.L1320:
+	mov	d5,#1
+.L1321:
+	lea	a5,[a10]0
+.L1322:
+	mov.aa	a4,a15
+.L737:
+	call	inv_imu_write_reg
+.L738:
+	or	d2,d15
+.L736:
+	j	.L138
+.L138:
+	ret
+.L500:
+	
+__inv_imu_select_accel_lp_clk_function_end:
+	.size	inv_imu_select_accel_lp_clk,__inv_imu_select_accel_lp_clk_function_end-inv_imu_select_accel_lp_clk
+.L320:
+	; End of function
+	
+	.sdecl	'.text.inv_imu_driver.inv_imu_get_version',code,cluster('inv_imu_get_version')
+	.sect	'.text.inv_imu_driver.inv_imu_get_version'
+	.align	2
+	
+	.global	inv_imu_get_version
+; Function inv_imu_get_version
+.L191:
+inv_imu_get_version:	.type	func
+	movh.a	a2,#@his(.2.str)
+	lea	a2,[a2]@los(.2.str)
+.L1327:
+	j	.L139
+.L139:
+	ret
+.L507:
+	
+__inv_imu_get_version_function_end:
+	.size	inv_imu_get_version,__inv_imu_get_version_function_end-inv_imu_get_version
+.L325:
+	; End of function
+	
+	.sdecl	'.rodata.inv_imu_driver..1.ini',data,rom
+	.sect	'.rodata.inv_imu_driver..1.ini'
+.1.ini:	.type	object
+	.size	.1.ini,1
+	.space	1
+	.sdecl	'.rodata.inv_imu_driver..2.str',data,rom
+	.sect	'.rodata.inv_imu_driver..2.str'
+.2.str:	.type	object
+	.size	.2.str,6
+	.byte	50,46,49,46
+	.byte	48
+	.space	1
+	.calls	'inv_imu_sleep_us','__INDIRECT__'
+	.calls	'inv_imu_soft_reset','inv_imu_read_reg'
+	.calls	'inv_imu_soft_reset','inv_imu_write_reg'
+	.calls	'inv_imu_soft_reset','inv_imu_sleep_us'
+	.calls	'inv_imu_get_who_am_i','inv_imu_read_reg'
+	.calls	'inv_imu_set_accel_mode','inv_imu_get_endianness'
+	.calls	'inv_imu_set_accel_mode','inv_imu_read_reg'
+	.calls	'inv_imu_set_accel_mode','inv_imu_write_reg'
+	.calls	'inv_imu_set_gyro_mode','inv_imu_get_endianness'
+	.calls	'inv_imu_set_gyro_mode','inv_imu_read_reg'
+	.calls	'inv_imu_set_gyro_mode','inv_imu_write_reg'
+	.calls	'inv_imu_set_accel_frequency','inv_imu_read_reg'
+	.calls	'inv_imu_set_accel_frequency','inv_imu_write_reg'
+	.calls	'inv_imu_set_gyro_frequency','inv_imu_read_reg'
+	.calls	'inv_imu_set_gyro_frequency','inv_imu_write_reg'
+	.calls	'inv_imu_set_accel_fsr','inv_imu_read_reg'
+	.calls	'inv_imu_set_accel_fsr','inv_imu_write_reg'
+	.calls	'inv_imu_set_gyro_fsr','inv_imu_read_reg'
+	.calls	'inv_imu_set_gyro_fsr','inv_imu_write_reg'
+	.calls	'inv_imu_set_gyro_ln_bw','inv_imu_read_reg'
+	.calls	'inv_imu_set_gyro_ln_bw','inv_imu_write_reg'
+	.calls	'inv_imu_set_gyro_lp_avg','inv_imu_read_reg'
+	.calls	'inv_imu_set_gyro_lp_avg','inv_imu_write_reg'
+	.calls	'inv_imu_set_accel_lp_avg','inv_imu_read_reg'
+	.calls	'inv_imu_set_accel_lp_avg','inv_imu_write_reg'
+	.calls	'inv_imu_set_accel_ln_bw','inv_imu_read_reg'
+	.calls	'inv_imu_set_accel_ln_bw','inv_imu_write_reg'
+	.calls	'inv_imu_get_register_data','inv_imu_read_reg'
+	.calls	'inv_imu_set_fifo_config','inv_imu_read_reg'
+	.calls	'inv_imu_set_fifo_config','inv_imu_write_reg'
+	.calls	'inv_imu_get_fifo_config','inv_imu_read_reg'
+	.calls	'inv_imu_flush_fifo','inv_imu_read_reg'
+	.calls	'inv_imu_flush_fifo','inv_imu_write_reg'
+	.calls	'inv_imu_flush_fifo','inv_imu_sleep_us'
+	.calls	'inv_imu_get_frame_count','inv_imu_read_reg'
+	.calls	'inv_imu_get_fifo_frame','inv_imu_read_reg'
+	.calls	'inv_imu_set_config_int','inv_imu_write_reg'
+	.calls	'inv_imu_get_config_int','inv_imu_read_reg'
+	.calls	'inv_imu_set_pin_config_int','inv_imu_read_reg'
+	.calls	'inv_imu_set_pin_config_int','inv_imu_write_reg'
+	.calls	'inv_imu_get_int_status','inv_imu_read_reg'
+	.calls	'inv_imu_get_endianness','inv_imu_read_reg'
+	.calls	'inv_imu_select_accel_lp_clk','inv_imu_read_reg'
+	.calls	'inv_imu_select_accel_lp_clk','inv_imu_write_reg'
+	.calls	'inv_imu_sleep_us','',0
+	.calls	'inv_imu_soft_reset','',8
+	.calls	'inv_imu_get_who_am_i','',0
+	.calls	'inv_imu_set_accel_mode','',8
+	.calls	'inv_imu_set_gyro_mode','',8
+	.calls	'inv_imu_set_accel_frequency','',8
+	.calls	'inv_imu_set_gyro_frequency','',8
+	.calls	'inv_imu_set_accel_fsr','',8
+	.calls	'inv_imu_set_gyro_fsr','',8
+	.calls	'inv_imu_set_gyro_ln_bw','',8
+	.calls	'inv_imu_set_gyro_lp_avg','',8
+	.calls	'inv_imu_set_accel_lp_avg','',8
+	.calls	'inv_imu_set_accel_ln_bw','',8
+	.calls	'inv_imu_get_register_data','',0
+	.calls	'inv_imu_set_fifo_config','',8
+	.calls	'inv_imu_get_fifo_config','',8
+	.calls	'inv_imu_flush_fifo','',8
+	.calls	'inv_imu_get_frame_count','',0
+	.calls	'inv_imu_get_fifo_frame','',24
+	.calls	'inv_imu_set_config_int','',8
+	.calls	'inv_imu_get_config_int','',8
+	.calls	'inv_imu_set_pin_config_int','',8
+	.calls	'inv_imu_get_int_status','',8
+	.calls	'inv_imu_get_endianness','',8
+	.calls	'inv_imu_select_accel_lp_clk','',8
+	.extern	inv_imu_read_reg
+	.extern	inv_imu_write_reg
+	.extern	__INDIRECT__
+	.calls	'inv_imu_get_version','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L193:
+	.word	9985
+	.half	3
+	.word	.L194
+	.byte	4
+.L192:
+	.byte	1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L195
+.L331:
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'void',0,4
+	.word	207
+.L329:
+	.byte	2
+	.byte	'unsigned int',0,4,7
+.L429:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L345:
+	.byte	4
+	.word	234
+	.byte	5
+	.byte	'inv_imu_read_reg',0,1,81,5
+	.word	200
+	.byte	1,1,1,1,6
+	.byte	't',0,1,81,28
+	.word	213
+	.byte	6
+	.byte	'reg',0,1,81,40
+	.word	218
+	.byte	6
+	.byte	'len',0,1,81,54
+	.word	218
+	.byte	6
+	.byte	'buf',0,1,81,68
+	.word	251
+	.byte	0,7
+	.word	234
+	.byte	4
+	.word	332
+	.byte	5
+	.byte	'inv_imu_write_reg',0,1,90,5
+	.word	200
+	.byte	1,1,1,1,6
+	.byte	't',0,1,90,29
+	.word	213
+	.byte	6
+	.byte	'reg',0,1,90,41
+	.word	218
+	.byte	6
+	.byte	'len',0,1,90,55
+	.word	218
+	.byte	6
+	.byte	'buf',0,1,90,75
+	.word	337
+	.byte	0,4
+	.word	234
+	.byte	8
+	.word	200
+	.byte	1,1,9
+	.word	234
+	.byte	9
+	.word	419
+	.byte	9
+	.word	218
+	.byte	0,4
+	.word	424
+	.byte	10
+	.byte	'inv_imu_read_reg_t',0,1,40,15
+	.word	447
+	.byte	7
+	.word	234
+	.byte	4
+	.word	479
+	.byte	8
+	.word	200
+	.byte	1,1,9
+	.word	234
+	.byte	9
+	.word	484
+	.byte	9
+	.word	218
+	.byte	0,4
+	.word	489
+	.byte	10
+	.byte	'inv_imu_write_reg_t',0,1,48,15
+	.word	512
+	.byte	11,1,1,9
+	.word	218
+	.byte	0,4
+	.word	545
+	.byte	12,1,62,9,16,13
+	.byte	'read_reg',0
+	.word	452
+	.byte	4,2,35,0,13
+	.byte	'write_reg',0
+	.word	517
+	.byte	4,2,35,4,13
+	.byte	'serif_type',0
+	.word	218
+	.byte	4,2,35,8,13
+	.byte	'sleep_us',0
+	.word	554
+	.byte	4,2,35,12,0,2
+	.byte	'unsigned long long int',0,8,7,14,48
+	.word	640
+	.byte	15,5,0,12,2,43,9,68,13
+	.byte	'transport',0
+	.word	559
+	.byte	16,2,35,0,13
+	.byte	'fifo_frame_size',0
+	.word	234
+	.byte	1,2,35,16,13
+	.byte	'endianness_data',0
+	.word	234
+	.byte	1,2,35,17,13
+	.byte	'adv_var',0
+	.word	666
+	.byte	48,2,35,20,0
+.L327:
+	.byte	4
+	.word	675
+	.byte	4
+	.word	424
+	.byte	4
+	.word	489
+.L335:
+	.byte	12,3,255,1,9,1,16
+	.byte	'ap_spi_mode_ovrd_val',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'ap_spi_mode_ovrd',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'ap_spi_34_mode_ovrd_val',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'ap_spi_34_mode_ovrd',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	4,0,2,35,0,0
+.L337:
+	.byte	12,3,171,2,9,1,16
+	.byte	'virtual_access_aux2_en',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'pads_spi_slew',0,1
+	.word	234
+	.byte	3,4,2,35,0,16
+	.byte	'pads_i2c_slew',0,1
+	.word	234
+	.byte	3,1,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,0,2,35,0,0
+.L339:
+	.byte	12,3,168,4,9,1,16
+	.byte	'ireg_done',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'soft_rst',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	6,0,2,35,0,0
+.L341:
+	.byte	12,3,94,9,1,16
+	.byte	'int1_status_fifo_full',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'int1_status_fifo_ths',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'int1_status_drdy',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'int1_status_aux1_drdy',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'int1_status_ap_fsync',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'int1_status_ap_agc_rdy',0,1
+	.word	234
+	.byte	1,2,2,35,0,16
+	.byte	'int1_status_aux1_agc_rdy',0,1
+	.word	234
+	.byte	1,1,2,35,0,16
+	.byte	'int1_status_reset_done',0,1
+	.word	234
+	.byte	1,0,2,35,0,0
+.L350:
+	.byte	17,4,206,1,9,1,18
+	.byte	'PWR_MGMT0_ACCEL_MODE_OFF',0,0,18
+	.byte	'PWR_MGMT0_ACCEL_MODE_LP',0,2,18
+	.byte	'PWR_MGMT0_ACCEL_MODE_LN',0,3,0
+.L353:
+	.byte	12,3,48,9,1,16
+	.byte	'accel_mode',0,1
+	.word	234
+	.byte	2,6,2,35,0,16
+	.byte	'gyro_mode',0,1
+	.word	234
+	.byte	2,4,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	4,0,2,35,0,0
+.L357:
+	.byte	17,4,198,1,9,1,18
+	.byte	'PWR_MGMT0_GYRO_MODE_OFF',0,0,18
+	.byte	'PWR_MGMT0_GYRO_MODE_STANDBY',0,1,18
+	.byte	'PWR_MGMT0_GYRO_MODE_LP',0,2,18
+	.byte	'PWR_MGMT0_GYRO_MODE_LN',0,3,0,17,4,131,2,9,1,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_6400_HZ',0,3,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_3200_HZ',0,4,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_1600_HZ',0,5,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_800_HZ',0,6,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_400_HZ',0,7,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_200_HZ',0,8,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_100_HZ',0,9,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_50_HZ',0,10,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_25_HZ',0,11,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_12_5_HZ',0,12,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_6_25_HZ',0,13,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_3_125_HZ',0,14,18
+	.byte	'ACCEL_CONFIG0_ACCEL_ODR_1_5625_HZ',0,15,0
+.L363:
+	.byte	7
+	.word	1642
+.L366:
+	.byte	12,3,118,9,1,16
+	.byte	'accel_odr',0,1
+	.word	234
+	.byte	4,4,2,35,0,16
+	.byte	'accel_ui_fs_sel',0,1
+	.word	234
+	.byte	3,1,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,0,2,35,0,0,17,4,167,2,9,1,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_6400_HZ',0,3,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_3200_HZ',0,4,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_1600_HZ',0,5,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_800_HZ',0,6,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_400_HZ',0,7,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_200_HZ',0,8,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_100_HZ',0,9,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_50_HZ',0,10,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_25_HZ',0,11,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_12_5_HZ',0,12,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_6_25_HZ',0,13,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_3_125_HZ',0,14,18
+	.byte	'GYRO_CONFIG0_GYRO_ODR_1_5625_HZ',0,15,0
+.L370:
+	.byte	7
+	.word	2163
+.L373:
+	.byte	12,3,125,9,1,16
+	.byte	'gyro_odr',0,1
+	.word	234
+	.byte	4,4,2,35,0,16
+	.byte	'gyro_ui_fs_sel',0,1
+	.word	234
+	.byte	4,0,2,35,0,0
+.L377:
+	.byte	17,4,248,1,9,1,18
+	.byte	'ACCEL_CONFIG0_ACCEL_UI_FS_SEL_32_G',0,0,18
+	.byte	'ACCEL_CONFIG0_ACCEL_UI_FS_SEL_16_G',0,1,18
+	.byte	'ACCEL_CONFIG0_ACCEL_UI_FS_SEL_8_G',0,2,18
+	.byte	'ACCEL_CONFIG0_ACCEL_UI_FS_SEL_4_G',0,3,18
+	.byte	'ACCEL_CONFIG0_ACCEL_UI_FS_SEL_2_G',0,4,0
+.L383:
+	.byte	17,4,152,2,9,1,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_4000_DPS',0,0,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_2000_DPS',0,1,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_1000_DPS',0,2,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_500_DPS',0,3,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_250_DPS',0,4,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_125_DPS',0,5,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_62_5_DPS',0,6,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_31_25_DPS',0,7,18
+	.byte	'GYRO_CONFIG0_GYRO_UI_FS_SEL_15_625_DPS',0,8,0
+.L389:
+	.byte	17,4,164,5,9,1,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_1',0,0,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_2',0,1,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_4',0,2,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_5',0,3,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_7',0,4,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_8',0,5,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_10',0,6,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_11',0,7,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_16',0,8,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_18',0,9,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_20',0,10,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_32',0,11,18
+	.byte	'IPREG_SYS2_REG_129_ACCEL_LP_AVG_64',0,12,0
+.L392:
+	.byte	12,3,138,8,9,1,16
+	.byte	'accel_lp_avg_sel',0,1
+	.word	234
+	.byte	4,4,2,35,0,16
+	.byte	'accel_ois_hpfbw_sel',0,1
+	.word	234
+	.byte	3,1,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,0,2,35,0,0
+.L396:
+	.byte	17,4,241,4,9,1,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_1',0,0,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_2',0,1,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_4',0,2,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_5',0,3,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_7',0,4,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_8',0,5,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_10',0,6,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_11',0,7,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_16',0,8,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_18',0,9,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_20',0,10,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_32',0,11,18
+	.byte	'IPREG_SYS1_REG_170_GYRO_LP_AVG_64',0,12,0
+.L399:
+	.byte	12,3,225,7,9,1,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'gyro_lp_avg_sel',0,1
+	.word	234
+	.byte	4,3,2,35,0,16
+	.byte	'gyro_ois_hpfbw_sel',0,1
+	.word	234
+	.byte	3,0,2,35,0,0
+.L403:
+	.byte	17,4,185,5,9,1,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_NO_FILTER',0,0,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_DIV_4',0,1,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_DIV_8',0,2,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_DIV_16',0,3,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_DIV_32',0,4,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_DIV_64',0,5,18
+	.byte	'IPREG_SYS2_REG_131_ACCEL_UI_LPFBW_DIV_128',0,6,0
+.L406:
+	.byte	12,3,152,8,9,1,16
+	.byte	'accel_ui_lpfbw_sel',0,1
+	.word	234
+	.byte	3,5,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	5,0,2,35,0,0
+.L410:
+	.byte	17,4,134,5,9,1,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_NO_FILTER',0,0,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_DIV_4',0,1,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_DIV_8',0,2,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_DIV_16',0,3,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_DIV_32',0,4,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_DIV_64',0,5,18
+	.byte	'IPREG_SYS1_REG_172_GYRO_UI_LPFBW_DIV_128',0,6,0
+.L413:
+	.byte	12,3,239,7,9,1,16
+	.byte	'gyro_ui_lpfbw_sel',0,1
+	.word	234
+	.byte	3,5,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	4,1,2,35,0,16
+	.byte	'gyro_ois_hpf1_byp',0,1
+	.word	234
+	.byte	1,0,2,35,0,0,2
+	.byte	'short int',0,2,5
+.L455:
+	.byte	14,6
+	.word	5053
+	.byte	15,2,0,12,4,95,9,16,13
+	.byte	'accel_data',0
+	.word	5066
+	.byte	6,2,35,0,13
+	.byte	'gyro_data',0
+	.word	5066
+	.byte	6,2,35,6,13
+	.byte	'temp_data',0
+	.word	5053
+	.byte	2,2,35,12,0
+.L417:
+	.byte	4
+	.word	5075
+	.byte	2
+	.byte	'unsigned short int',0,2,7,17,4,188,2,9,1,18
+	.byte	'FIFO_CONFIG0_FIFO_MODE_BYPASS',0,0,18
+	.byte	'FIFO_CONFIG0_FIFO_MODE_STREAM',0,1,18
+	.byte	'FIFO_CONFIG0_FIFO_MODE_SNAPSHOT',0,2,0,17,4,195,2,9,1,18
+	.byte	'FIFO_CONFIG0_FIFO_DEPTH_GAF',0,4,18
+	.byte	'FIFO_CONFIG0_FIFO_DEPTH_APEX',0,7,18
+	.byte	'FIFO_CONFIG0_FIFO_DEPTH_MAX',0,30,0,12,2,111,9,8,13
+	.byte	'gyro_en',0
+	.word	234
+	.byte	1,2,35,0,13
+	.byte	'accel_en',0
+	.word	234
+	.byte	1,2,35,1,13
+	.byte	'hires_en',0
+	.word	234
+	.byte	1,2,35,2,13
+	.byte	'fifo_wm_th',0
+	.word	5144
+	.byte	2,2,35,4,13
+	.byte	'fifo_mode',0
+	.word	5166
+	.byte	1,2,35,6,13
+	.byte	'fifo_depth',0
+	.word	5271
+	.byte	1,2,35,7,0,7
+	.word	5369
+.L422:
+	.byte	4
+	.word	5487
+	.byte	12,3,131,1,9,1,16
+	.byte	'fifo_depth',0,1
+	.word	234
+	.byte	6,2,2,35,0,16
+	.byte	'fifo_mode',0,1
+	.word	234
+	.byte	2,0,2,35,0,0
+.L440:
+	.byte	12,3,139,1,9,1,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	3,5,2,35,0,16
+	.byte	'fifo_wr_wm_gt_th',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'resv_2',0,1
+	.word	234
+	.byte	3,1,2,35,0,16
+	.byte	'fifo_flush',0,1
+	.word	234
+	.byte	1,0,2,35,0,0,12,3,147,1,9,1,16
+	.byte	'fifo_if_en',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'fifo_accel_en',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'fifo_gyro_en',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'fifo_hires_en',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'fifo_es0_en',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'fifo_es1_en',0,1
+	.word	234
+	.byte	1,2,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	2,0,2,35,0,0,12,3,158,1,9,1,16
+	.byte	'fifo_es0_6b_9b',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'fifo_tmst_fsync_en',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'fifo_comp_en',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'fifo_comp_nc_flow_cfg',0,1
+	.word	234
+	.byte	3,2,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	2,0,2,35,0,0
+.L425:
+	.byte	12,4,160,1,9,6,13
+	.byte	'fifo_config0',0
+	.word	5497
+	.byte	1,2,35,0,13
+	.byte	'fifo_config1_0',0
+	.word	234
+	.byte	1,2,35,1,13
+	.byte	'fifo_config1_1',0
+	.word	234
+	.byte	1,2,35,2,13
+	.byte	'fifo_config2',0
+	.word	5547
+	.byte	1,2,35,3,13
+	.byte	'fifo_config3',0
+	.word	5640
+	.byte	1,2,35,4,13
+	.byte	'fifo_config4',0
+	.word	5807
+	.byte	1,2,35,5,0
+.L427:
+	.byte	12,3,157,6,9,1,16
+	.byte	'tmst_en',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'tmst_fsync_en',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'tmst_force_aux_fine_en',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'temp_dis',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'accel_lp_clk_sel',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	3,0,2,35,0,0
+.L433:
+	.byte	4
+	.word	5369
+.L445:
+	.byte	4
+	.word	5144
+	.byte	12,4,110,2,1,16
+	.byte	'gyro_odr_different',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'accel_odr_different',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'fsync_bit',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'timestamp_bit',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'twentybits_bit',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'gyro_bit',0,1
+	.word	234
+	.byte	1,2,2,35,0,16
+	.byte	'accel_bit',0,1
+	.word	234
+	.byte	1,1,2,35,0,16
+	.byte	'ext_header',0,1
+	.word	234
+	.byte	1,0,2,35,0,0,19,4,108,9,1,13
+	.byte	'Byte',0
+	.word	234
+	.byte	1,2,35,0,13
+	.byte	'bits',0
+	.word	6249
+	.byte	1,2,35,0,0,2
+	.byte	'char',0,1,6,12,2,67,2,12,13
+	.byte	'header',0
+	.word	6451
+	.byte	1,2,35,0,13
+	.byte	'sensor_data',0
+	.word	5066
+	.byte	6,2,35,2,13
+	.byte	'temp_data',0
+	.word	6485
+	.byte	1,2,35,8,0,12,2,72,2,20,13
+	.byte	'header',0
+	.word	6451
+	.byte	1,2,35,0,13
+	.byte	'accel_data',0
+	.word	5066
+	.byte	6,2,35,2,13
+	.byte	'gyro_data',0
+	.word	5066
+	.byte	6,2,35,8,13
+	.byte	'temp_data',0
+	.word	6485
+	.byte	1,2,35,14,13
+	.byte	'timestamp',0
+	.word	5144
+	.byte	2,2,35,16,0,14,12
+	.word	200
+	.byte	15,2,0,12,2,79,2,32,13
+	.byte	'header',0
+	.word	6451
+	.byte	1,2,35,0,13
+	.byte	'accel_data',0
+	.word	6654
+	.byte	12,2,35,2,13
+	.byte	'gyro_data',0
+	.word	6654
+	.byte	12,2,35,14,13
+	.byte	'temp_data',0
+	.word	5053
+	.byte	2,2,35,26,13
+	.byte	'timestamp',0
+	.word	5144
+	.byte	2,2,35,28,0,19,2,65,9,32,13
+	.byte	'header',0
+	.word	6451
+	.byte	1,2,35,0,13
+	.byte	'byte_8',0
+	.word	6493
+	.byte	12,2,35,0,13
+	.byte	'byte_16',0
+	.word	6555
+	.byte	20,2,35,0,13
+	.byte	'byte_20',0
+	.word	6663
+	.byte	32,2,35,0,0
+.L450:
+	.byte	4
+	.word	6762
+.L453:
+	.byte	14,20
+	.word	234
+	.byte	15,19,0,17,4,102,9,1,18
+	.byte	'INV_IMU_INT1',0,0,18
+	.byte	'INV_IMU_INT2',0,1,0
+.L459:
+	.byte	7
+	.word	6848
+	.byte	12,2,89,9,16,13
+	.byte	'INV_FIFO_FULL',0
+	.word	234
+	.byte	1,2,35,0,13
+	.byte	'INV_FIFO_THS',0
+	.word	234
+	.byte	1,2,35,1,13
+	.byte	'INV_UI_DRDY',0
+	.word	234
+	.byte	1,2,35,2,13
+	.byte	'INV_OIS1',0
+	.word	234
+	.byte	1,2,35,3,13
+	.byte	'INV_UI_FSYNC',0
+	.word	234
+	.byte	1,2,35,4,13
+	.byte	'INV_AGC_RDY',0
+	.word	234
+	.byte	1,2,35,5,13
+	.byte	'INV_OIS1_AGC_RDY',0
+	.word	234
+	.byte	1,2,35,6,13
+	.byte	'INV_RESET_DONE',0
+	.word	234
+	.byte	1,2,35,7,13
+	.byte	'INV_PLL_RDY',0
+	.word	234
+	.byte	1,2,35,8,13
+	.byte	'INV_WOM_X',0
+	.word	234
+	.byte	1,2,35,9,13
+	.byte	'INV_WOM_Y',0
+	.word	234
+	.byte	1,2,35,10,13
+	.byte	'INV_WOM_Z',0
+	.word	234
+	.byte	1,2,35,11,13
+	.byte	'INV_I3C_PROT_ERR',0
+	.word	234
+	.byte	1,2,35,12,13
+	.byte	'INV_I2CM_DONE',0
+	.word	234
+	.byte	1,2,35,13,13
+	.byte	'INV_EDMP_EVENT',0
+	.word	234
+	.byte	1,2,35,14,0,7
+	.word	6889
+.L461:
+	.byte	4
+	.word	7223
+	.byte	12,3,62,9,1,16
+	.byte	'int1_status_en_fifo_full',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'int1_status_en_fifo_ths',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'int1_status_en_drdy',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'int1_status_en_aux1_drdy',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'int1_status_en_ap_fsync',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'int1_status_en_ap_agc_rdy',0,1
+	.word	234
+	.byte	1,2,2,35,0,16
+	.byte	'int1_status_en_aux1_agc_rdy',0,1
+	.word	234
+	.byte	1,1,2,35,0,16
+	.byte	'int1_status_en_reset_done',0,1
+	.word	234
+	.byte	1,0,2,35,0,0,12,3,74,9,1,16
+	.byte	'int1_status_en_pll_rdy',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'int1_status_en_wom_x',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'int1_status_en_wom_y',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'int1_status_en_wom_z',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'int1_status_en_i3c_protocol_err',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'int1_status_en_i2cm_done',0,1
+	.word	234
+	.byte	1,2,2,35,0,16
+	.byte	'int1_status_en_apex_event',0,1
+	.word	234
+	.byte	1,1,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,0,2,35,0,0
+.L464:
+	.byte	12,4,172,1,9,2,13
+	.byte	'int1_config0',0
+	.word	7233
+	.byte	1,2,35,0,13
+	.byte	'int1_config1',0
+	.word	7525
+	.byte	1,2,35,1,0
+.L469:
+	.byte	7
+	.word	6848
+.L471:
+	.byte	4
+	.word	6889
+.L478:
+	.byte	7
+	.word	6848
+	.byte	17,4,231,1,9,1,18
+	.byte	'INTX_CONFIG2_INTX_POLARITY_LOW',0,0,18
+	.byte	'INTX_CONFIG2_INTX_POLARITY_HIGH',0,1,0,17,4,225,1,9,1,18
+	.byte	'INTX_CONFIG2_INTX_MODE_PULSE',0,0,18
+	.byte	'INTX_CONFIG2_INTX_MODE_LATCH',0,1,0,17,4,219,1,9,1,18
+	.byte	'INTX_CONFIG2_INTX_DRIVE_PP',0,0,18
+	.byte	'INTX_CONFIG2_INTX_DRIVE_OD',0,1,0,12,4,237,1,9,4,13
+	.byte	'int_polarity',0
+	.word	7861
+	.byte	1,2,35,0,13
+	.byte	'int_mode',0
+	.word	7935
+	.byte	1,2,35,1,13
+	.byte	'int_drive',0
+	.word	8004
+	.byte	1,2,35,2,0,7
+	.word	8069
+.L480:
+	.byte	4
+	.word	8135
+.L483:
+	.byte	12,3,86,9,1,16
+	.byte	'int1_polarity',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'int1_mode',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'int1_drive',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	5,0,2,35,0,0
+.L488:
+	.byte	7
+	.word	6848
+	.byte	12,3,106,9,1,16
+	.byte	'int1_status_pll_rdy',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'int1_status_wom_x',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'int1_status_wom_y',0,1
+	.word	234
+	.byte	1,5,2,35,0,16
+	.byte	'int1_status_wom_z',0,1
+	.word	234
+	.byte	1,4,2,35,0,16
+	.byte	'int1_status_i3c_protocol_err',0,1
+	.word	234
+	.byte	1,3,2,35,0,16
+	.byte	'int1_status_i2cm_done',0,1
+	.word	234
+	.byte	1,2,2,35,0,16
+	.byte	'int1_status_apex_event',0,1
+	.word	234
+	.byte	1,1,2,35,0,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,0,2,35,0,0
+.L492:
+	.byte	12,4,180,1,9,2,13
+	.byte	'int1_status0',0
+	.word	1108
+	.byte	1,2,35,0,13
+	.byte	'int1_status1',0
+	.word	8242
+	.byte	1,2,35,1,0
+.L498:
+	.byte	12,3,181,6,9,1,16
+	.byte	'resv_1',0,1
+	.word	234
+	.byte	1,7,2,35,0,16
+	.byte	'sreg_data_endian_sel',0,1
+	.word	234
+	.byte	1,6,2,35,0,16
+	.byte	'resv_2',0,1
+	.word	234
+	.byte	6,0,2,35,0,0
+.L502:
+	.byte	17,4,194,4,9,1,18
+	.byte	'SMC_CONTROL_0_ACCEL_LP_CLK_WUOSC',0,0,18
+	.byte	'SMC_CONTROL_0_ACCEL_LP_CLK_RCOSC',0,1,0,2
+	.byte	'char',0,1,6,7
+	.word	8694
+.L506:
+	.byte	4
+	.word	8702
+	.byte	20
+	.byte	'__INDIRECT__',0,5,1,1,1,1,1,10
+	.byte	'__size_t',0,5,1,1
+	.word	218
+	.byte	21,1,4
+	.word	8749
+	.byte	10
+	.byte	'__codeptr',0,5,1,1
+	.word	8751
+	.byte	10
+	.byte	'__intptr_t',0,5,1,1
+	.word	200
+	.byte	10
+	.byte	'__uintptr_t',0,5,1,1
+	.word	218
+	.byte	10
+	.byte	'int8_t',0,6,241,1,41
+	.word	6485
+	.byte	10
+	.byte	'uint8_t',0,6,242,1,41
+	.word	234
+	.byte	10
+	.byte	'int16_t',0,6,245,1,41
+	.word	5053
+	.byte	10
+	.byte	'uint16_t',0,6,246,1,41
+	.word	5144
+	.byte	10
+	.byte	'int32_t',0,6,253,1,41
+	.word	200
+	.byte	10
+	.byte	'uint32_t',0,6,254,1,41
+	.word	218
+	.byte	10
+	.byte	'uint64_t',0,6,134,2,41
+	.word	640
+	.byte	10
+	.byte	'int1_config0_t',0,3,71,3
+	.word	7233
+	.byte	10
+	.byte	'int1_config1_t',0,3,83,3
+	.word	7525
+	.byte	10
+	.byte	'int1_status0_t',0,3,103,3
+	.word	1108
+	.byte	10
+	.byte	'int1_status1_t',0,3,115,3
+	.word	8242
+	.byte	10
+	.byte	'fifo_config0_t',0,3,134,1,3
+	.word	5497
+	.byte	10
+	.byte	'fifo_config2_t',0,3,144,1,3
+	.word	5547
+	.byte	10
+	.byte	'fifo_config3_t',0,3,155,1,3
+	.word	5640
+	.byte	10
+	.byte	'fifo_config4_t',0,3,164,1,3
+	.word	5807
+	.byte	10
+	.byte	'inv_imu_sensor_data_t',0,4,99,3
+	.word	5075
+	.byte	10
+	.byte	'inv_imu_int_num_t',0,4,105,3
+	.word	6848
+	.byte	10
+	.byte	'fifo_header_t',0,4,120,3
+	.word	6451
+	.byte	10
+	.byte	'pwr_mgmt0_gyro_mode_t',0,4,203,1,3
+	.word	1529
+	.byte	10
+	.byte	'pwr_mgmt0_accel_mode_t',0,4,210,1,3
+	.word	1376
+	.byte	10
+	.byte	'intx_config2_intx_drive_t',0,4,222,1,3
+	.word	8004
+	.byte	10
+	.byte	'intx_config2_intx_mode_t',0,4,228,1,3
+	.word	7935
+	.byte	10
+	.byte	'intx_config2_intx_polarity_t',0,4,234,1,3
+	.word	7861
+	.byte	10
+	.byte	'inv_imu_int_pin_config_t',0,4,241,1,3
+	.word	8069
+	.byte	10
+	.byte	'accel_config0_accel_ui_fs_sel_t',0,4,128,2,3
+	.word	2638
+	.byte	10
+	.byte	'accel_config0_accel_odr_t',0,4,145,2,3
+	.word	1642
+	.byte	10
+	.byte	'gyro_config0_gyro_ui_fs_sel_t',0,4,164,2,3
+	.word	2827
+	.byte	10
+	.byte	'gyro_config0_gyro_odr_t',0,4,181,2,3
+	.word	2163
+	.byte	10
+	.byte	'fifo_config0_fifo_mode_t',0,4,192,2,3
+	.word	5166
+	.byte	10
+	.byte	'fifo_config0_fifo_depth_t',0,4,203,2,3
+	.word	5271
+	.byte	10
+	.byte	'smc_control_0_accel_lp_clk_sel_t',0,4,197,4,3
+	.word	8617
+	.byte	10
+	.byte	'ipreg_sys1_reg_170_gyro_lp_avg_sel_t',0,4,255,4,3
+	.word	3751
+	.byte	10
+	.byte	'ipreg_sys1_reg_172_gyro_ui_lpfbw_sel_t',0,4,142,5,3
+	.word	4667
+	.byte	10
+	.byte	'ipreg_sys2_reg_129_accel_lp_avg_sel_t',0,4,178,5,3
+	.word	3185
+	.byte	10
+	.byte	'ipreg_sys2_reg_131_accel_ui_lpfbw_t',0,4,193,5,3
+	.word	4302
+	.byte	10
+	.byte	'inv_imu_transport_t',0,1,72,3
+	.word	559
+	.byte	10
+	.byte	'inv_imu_device_t',0,2,62,3
+	.word	675
+	.byte	10
+	.byte	'inv_imu_fifo_data_t',0,2,86,3
+	.word	6762
+	.byte	10
+	.byte	'inv_imu_int_state_t',0,2,108,3
+	.word	6889
+	.byte	10
+	.byte	'inv_imu_fifo_config_t',0,2,118,3
+	.word	5369
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L194:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,59,0,3,8,0,0,4,15,0,73,19,0
+	.byte	0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8,58,15,59,15,57,15,73,19,0,0
+	.byte	7,38,0,73,19,0,0,8,21,1,73,19,54,15,39,12,0,0,9,5,0,73,19,0,0,10,22,0,3,8,58,15,59,15,57,15,73,19,0,0
+	.byte	11,21,1,54,15,39,12,0,0,12,19,1,58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,1,1,11
+	.byte	15,73,19,0,0,15,33,0,47,15,0,0,16,13,0,3,8,11,15,73,19,13,15,12,15,56,9,0,0,17,4,1,58,15,59,15,57,15,11
+	.byte	15,0,0,18,40,0,3,8,28,13,0,0,19,23,1,58,15,59,15,57,15,11,15,0,0,20,46,0,3,8,58,15,59,15,57,15,54,15,63
+	.byte	12,60,12,0,0,21,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L195:
+	.word	.L740-.L739
+.L739:
+	.half	3
+	.word	.L742-.L741
+.L741:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\Program Files\\Developer Center Launcher\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	0
+	.byte	'..\\libraries\\zf_device\\lib_icm45686\\inv_imu_transport.h',0,0,0,0
+	.byte	'..\\libraries\\zf_device\\lib_icm45686\\inv_imu_driver.h',0,0,0,0
+	.byte	'..\\libraries\\zf_device\\lib_icm45686\\inv_imu_regmap_le.h',0,0,0,0
+	.byte	'..\\libraries\\zf_device\\lib_icm45686\\inv_imu_defs.h',0,0,0,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0
+	.byte	'stdint.h',0,1,0,0,0
+.L742:
+.L740:
+	.sdecl	'.debug_info',debug,cluster('inv_imu_sleep_us')
+	.sect	'.debug_info'
+.L196:
+	.word	281
+	.half	3
+	.word	.L197
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L199,.L198
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_sleep_us',0,1,21,6,1,1,1
+	.word	.L141,.L326,.L140
+	.byte	4
+	.byte	's',0,1,21,41
+	.word	.L327,.L328
+	.byte	4
+	.byte	'us',0,1,21,53
+	.word	.L329,.L330
+	.byte	5
+	.word	.L141,.L326
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_sleep_us')
+	.sect	'.debug_abbrev'
+.L197:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_sleep_us')
+	.sect	'.debug_line'
+.L198:
+	.word	.L744-.L743
+.L743:
+	.half	3
+	.word	.L746-.L745
+.L745:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L746:
+	.byte	5,18,7,0,5,2
+	.word	.L141
+	.byte	3,22,1,5,2,9
+	.half	.L747-.L141
+	.byte	1,5,15,7,9
+	.half	.L748-.L747
+	.byte	3,1,1,5,25,9
+	.half	.L749-.L748
+	.byte	1,5,1,9
+	.half	.L2-.L749
+	.byte	3,1,1,7,9
+	.half	.L200-.L2
+	.byte	0,1,1
+.L744:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_sleep_us')
+	.sect	'.debug_ranges'
+.L199:
+	.word	-1,.L141,0,.L200-.L141,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_soft_reset')
+	.sect	'.debug_info'
+.L201:
+	.word	395
+	.half	3
+	.word	.L202
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L204,.L203
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_soft_reset',0,1,27,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L143,.L332,.L142
+	.byte	4
+	.byte	's',0,1,27,42
+	.word	.L327,.L333
+	.byte	5
+	.word	.L143,.L332
+	.byte	6
+	.byte	'status',0,1,29,22
+	.word	.L331,.L334
+	.byte	6
+	.byte	'intf_config1_ovrd',0,1,30,22
+	.word	.L335,.L336
+	.byte	6
+	.byte	'drive_config0',0,1,31,22
+	.word	.L337,.L338
+	.byte	6
+	.byte	'reg_misc2',0,1,32,22
+	.word	.L339,.L340
+	.byte	6
+	.byte	'int1_status0',0,1,33,22
+	.word	.L341,.L342
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_soft_reset')
+	.sect	'.debug_abbrev'
+.L202:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_soft_reset')
+	.sect	'.debug_line'
+.L203:
+	.word	.L751-.L750
+.L750:
+	.half	3
+	.word	.L753-.L752
+.L752:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L753:
+	.byte	5,5,7,0,5,2
+	.word	.L143
+	.byte	3,26,1,5,29,9
+	.half	.L510-.L143
+	.byte	3,2,1,5,34,9
+	.half	.L511-.L510
+	.byte	3,3,1,5,32,9
+	.half	.L754-.L511
+	.byte	1,9
+	.half	.L755-.L754
+	.byte	3,4,1,5,51,9
+	.half	.L756-.L755
+	.byte	1,5,66,9
+	.half	.L757-.L756
+	.byte	1,5,54,9
+	.half	.L758-.L757
+	.byte	1,5,9,9
+	.half	.L509-.L758
+	.byte	1,5,32,9
+	.half	.L759-.L509
+	.byte	3,2,1,5,47,9
+	.half	.L760-.L759
+	.byte	1,5,62,9
+	.half	.L761-.L760
+	.byte	1,5,50,9
+	.half	.L762-.L761
+	.byte	1,5,9,9
+	.half	.L514-.L762
+	.byte	1,5,11,9
+	.half	.L763-.L514
+	.byte	3,3,1,5,21,9
+	.half	.L764-.L763
+	.byte	1,5,33,9
+	.half	.L765-.L764
+	.byte	3,1,1,5,44,9
+	.half	.L766-.L765
+	.byte	1,5,59,9
+	.half	.L767-.L766
+	.byte	1,5,47,9
+	.half	.L768-.L767
+	.byte	1,5,9,9
+	.half	.L516-.L768
+	.byte	1,5,22,9
+	.half	.L769-.L516
+	.byte	3,3,1,5,33,9
+	.half	.L518-.L769
+	.byte	3,3,1,5,48,9
+	.half	.L770-.L518
+	.byte	1,5,63,9
+	.half	.L771-.L770
+	.byte	1,5,51,9
+	.half	.L772-.L771
+	.byte	1,5,9,9
+	.half	.L520-.L772
+	.byte	1,5,33,9
+	.half	.L773-.L520
+	.byte	3,2,1,5,52,9
+	.half	.L774-.L773
+	.byte	1,5,67,9
+	.half	.L775-.L774
+	.byte	1,5,55,9
+	.half	.L776-.L775
+	.byte	1,5,9,9
+	.half	.L522-.L776
+	.byte	1,5,32,9
+	.half	.L777-.L522
+	.byte	3,3,1,5,46,9
+	.half	.L778-.L777
+	.byte	1,5,61,9
+	.half	.L779-.L778
+	.byte	1,5,49,9
+	.half	.L780-.L779
+	.byte	1,5,9,9
+	.half	.L524-.L780
+	.byte	1,5,18,9
+	.half	.L512-.L524
+	.byte	3,1,1,5,2,9
+	.half	.L781-.L512
+	.byte	1,5,10,7,9
+	.half	.L782-.L781
+	.byte	3,1,1,5,3,9
+	.half	.L525-.L782
+	.byte	1,5,2,9
+	.half	.L3-.L525
+	.byte	3,2,1,5,1,9
+	.half	.L4-.L3
+	.byte	3,1,1,7,9
+	.half	.L205-.L4
+	.byte	0,1,1
+.L751:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_soft_reset')
+	.sect	'.debug_ranges'
+.L204:
+	.word	-1,.L143,0,.L205-.L143,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_who_am_i')
+	.sect	'.debug_info'
+.L206:
+	.word	315
+	.half	3
+	.word	.L207
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L209,.L208
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_who_am_i',0,1,60,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L145,.L343,.L144
+	.byte	4
+	.byte	's',0,1,60,44
+	.word	.L327,.L344
+	.byte	4
+	.byte	'who_am_i',0,1,60,56
+	.word	.L345,.L346
+	.byte	5
+	.word	.L145,.L343
+	.byte	6
+	.byte	'status',0,1,62,6
+	.word	.L331,.L347
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_who_am_i')
+	.sect	'.debug_abbrev'
+.L207:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_who_am_i')
+	.sect	'.debug_line'
+.L208:
+	.word	.L784-.L783
+.L783:
+	.half	3
+	.word	.L786-.L785
+.L785:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L786:
+	.byte	5,5,7,0,5,2
+	.word	.L145
+	.byte	3,59,1,5,31,9
+	.half	.L528-.L145
+	.byte	3,4,1,5,41,9
+	.half	.L787-.L528
+	.byte	1,5,44,9
+	.half	.L788-.L787
+	.byte	1,5,18,9
+	.half	.L526-.L788
+	.byte	3,6,1,5,6,9
+	.half	.L789-.L526
+	.byte	1,5,43,7,9
+	.half	.L790-.L789
+	.byte	1,5,32,7,9
+	.half	.L791-.L790
+	.byte	3,1,1,5,42,9
+	.half	.L792-.L791
+	.byte	1,5,45,9
+	.half	.L793-.L792
+	.byte	1,5,2,9
+	.half	.L6-.L793
+	.byte	3,2,1,5,1,9
+	.half	.L8-.L6
+	.byte	3,1,1,7,9
+	.half	.L210-.L8
+	.byte	0,1,1
+.L784:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_who_am_i')
+	.sect	'.debug_ranges'
+.L209:
+	.word	-1,.L145,0,.L210-.L145,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_accel_mode')
+	.sect	'.debug_info'
+.L211:
+	.word	341
+	.half	3
+	.word	.L212
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L214,.L213
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_accel_mode',0,1,76,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L147,.L348,.L146
+	.byte	4
+	.byte	's',0,1,76,46
+	.word	.L327,.L349
+	.byte	4
+	.byte	'accel_mode',0,1,76,72
+	.word	.L350,.L351
+	.byte	5
+	.word	.L147,.L348
+	.byte	6
+	.byte	'status',0,1,78,14
+	.word	.L331,.L352
+	.byte	6
+	.byte	'pwr_mgmt0',0,1,79,14
+	.word	.L353,.L354
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_accel_mode')
+	.sect	'.debug_abbrev'
+.L212:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_accel_mode')
+	.sect	'.debug_line'
+.L213:
+	.word	.L795-.L794
+.L794:
+	.half	3
+	.word	.L797-.L796
+.L796:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L797:
+	.byte	5,5,7,0,5,2
+	.word	.L147
+	.byte	3,203,0,1,5,21,9
+	.half	.L534-.L147
+	.byte	3,2,1,5,35,9
+	.half	.L535-.L534
+	.byte	3,3,1,5,9,9
+	.half	.L532-.L535
+	.byte	1,5,32,9
+	.half	.L798-.L532
+	.byte	3,2,1,5,43,9
+	.half	.L799-.L798
+	.byte	1,5,58,9
+	.half	.L800-.L799
+	.byte	1,5,46,9
+	.half	.L801-.L800
+	.byte	1,5,9,9
+	.half	.L538-.L801
+	.byte	1,5,11,9
+	.half	.L802-.L538
+	.byte	3,1,1,5,23,9
+	.half	.L803-.L802
+	.byte	1,5,33,9
+	.half	.L804-.L803
+	.byte	3,1,1,5,44,9
+	.half	.L805-.L804
+	.byte	1,5,59,9
+	.half	.L806-.L805
+	.byte	1,5,47,9
+	.half	.L807-.L806
+	.byte	1,5,9,9
+	.half	.L540-.L807
+	.byte	1,5,2,9
+	.half	.L536-.L540
+	.byte	3,2,1,5,1,9
+	.half	.L9-.L536
+	.byte	3,1,1,7,9
+	.half	.L215-.L9
+	.byte	0,1,1
+.L795:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_accel_mode')
+	.sect	'.debug_ranges'
+.L214:
+	.word	-1,.L147,0,.L215-.L147,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_gyro_mode')
+	.sect	'.debug_info'
+.L216:
+	.word	339
+	.half	3
+	.word	.L217
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L219,.L218
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_gyro_mode',0,1,90,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L149,.L355,.L148
+	.byte	4
+	.byte	's',0,1,90,45
+	.word	.L327,.L356
+	.byte	4
+	.byte	'gyro_mode',0,1,90,70
+	.word	.L357,.L358
+	.byte	5
+	.word	.L149,.L355
+	.byte	6
+	.byte	'status',0,1,92,14
+	.word	.L331,.L359
+	.byte	6
+	.byte	'pwr_mgmt0',0,1,93,14
+	.word	.L353,.L360
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_gyro_mode')
+	.sect	'.debug_abbrev'
+.L217:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_gyro_mode')
+	.sect	'.debug_line'
+.L218:
+	.word	.L809-.L808
+.L808:
+	.half	3
+	.word	.L811-.L810
+.L810:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L811:
+	.byte	5,5,7,0,5,2
+	.word	.L149
+	.byte	3,217,0,1,5,21,9
+	.half	.L544-.L149
+	.byte	3,2,1,5,35,9
+	.half	.L545-.L544
+	.byte	3,3,1,5,9,9
+	.half	.L542-.L545
+	.byte	1,5,32,9
+	.half	.L812-.L542
+	.byte	3,2,1,5,43,9
+	.half	.L813-.L812
+	.byte	1,5,58,9
+	.half	.L814-.L813
+	.byte	1,5,46,9
+	.half	.L815-.L814
+	.byte	1,5,9,9
+	.half	.L548-.L815
+	.byte	1,5,11,9
+	.half	.L816-.L548
+	.byte	3,1,1,5,22,9
+	.half	.L817-.L816
+	.byte	1,5,33,9
+	.half	.L818-.L817
+	.byte	3,1,1,5,44,9
+	.half	.L819-.L818
+	.byte	1,5,59,9
+	.half	.L820-.L819
+	.byte	1,5,47,9
+	.half	.L821-.L820
+	.byte	1,5,9,9
+	.half	.L550-.L821
+	.byte	1,5,2,9
+	.half	.L546-.L550
+	.byte	3,2,1,5,1,9
+	.half	.L10-.L546
+	.byte	3,1,1,7,9
+	.half	.L220-.L10
+	.byte	0,1,1
+.L809:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_gyro_mode')
+	.sect	'.debug_ranges'
+.L219:
+	.word	-1,.L149,0,.L220-.L149,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_accel_frequency')
+	.sect	'.debug_info'
+.L221:
+	.word	349
+	.half	3
+	.word	.L222
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L224,.L223
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_accel_frequency',0,1,104,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L151,.L361,.L150
+	.byte	4
+	.byte	's',0,1,104,51
+	.word	.L327,.L362
+	.byte	4
+	.byte	'frequency',0,1,104,86
+	.word	.L363,.L364
+	.byte	5
+	.word	.L151,.L361
+	.byte	6
+	.byte	'status',0,1,106,18
+	.word	.L331,.L365
+	.byte	6
+	.byte	'accel_config0',0,1,107,18
+	.word	.L366,.L367
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_accel_frequency')
+	.sect	'.debug_abbrev'
+.L222:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_accel_frequency')
+	.sect	'.debug_line'
+.L223:
+	.word	.L823-.L822
+.L822:
+	.half	3
+	.word	.L825-.L824
+.L824:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L825:
+	.byte	5,5,7,0,5,2
+	.word	.L151
+	.byte	3,231,0,1,5,25,9
+	.half	.L555-.L151
+	.byte	3,2,1,5,32,9
+	.half	.L556-.L555
+	.byte	3,3,1,5,47,9
+	.half	.L552-.L556
+	.byte	1,5,62,9
+	.half	.L826-.L552
+	.byte	1,5,50,9
+	.half	.L827-.L826
+	.byte	1,5,9,9
+	.half	.L553-.L827
+	.byte	1,5,15,9
+	.half	.L828-.L553
+	.byte	3,1,1,5,26,9
+	.half	.L829-.L828
+	.byte	1,5,33,9
+	.half	.L830-.L829
+	.byte	3,1,1,5,48,9
+	.half	.L831-.L830
+	.byte	1,5,63,9
+	.half	.L832-.L831
+	.byte	1,5,51,9
+	.half	.L833-.L832
+	.byte	1,5,9,9
+	.half	.L559-.L833
+	.byte	1,5,2,9
+	.half	.L557-.L559
+	.byte	3,2,1,5,1,9
+	.half	.L11-.L557
+	.byte	3,1,1,7,9
+	.half	.L225-.L11
+	.byte	0,1,1
+.L823:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_accel_frequency')
+	.sect	'.debug_ranges'
+.L224:
+	.word	-1,.L151,0,.L225-.L151,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.debug_info'
+.L226:
+	.word	347
+	.half	3
+	.word	.L227
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L229,.L228
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_gyro_frequency',0,1,116,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L153,.L368,.L152
+	.byte	4
+	.byte	's',0,1,116,50
+	.word	.L327,.L369
+	.byte	4
+	.byte	'frequency',0,1,116,83
+	.word	.L370,.L371
+	.byte	5
+	.word	.L153,.L368
+	.byte	6
+	.byte	'status',0,1,118,17
+	.word	.L331,.L372
+	.byte	6
+	.byte	'gyro_config0',0,1,119,17
+	.word	.L373,.L374
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.debug_abbrev'
+.L227:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.debug_line'
+.L228:
+	.word	.L835-.L834
+.L834:
+	.half	3
+	.word	.L837-.L836
+.L836:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L837:
+	.byte	5,5,7,0,5,2
+	.word	.L153
+	.byte	3,243,0,1,5,24,9
+	.half	.L564-.L153
+	.byte	3,2,1,5,32,9
+	.half	.L565-.L564
+	.byte	3,3,1,5,46,9
+	.half	.L561-.L565
+	.byte	1,5,61,9
+	.half	.L838-.L561
+	.byte	1,5,49,9
+	.half	.L839-.L838
+	.byte	1,5,9,9
+	.half	.L562-.L839
+	.byte	1,5,14,9
+	.half	.L840-.L562
+	.byte	3,1,1,5,24,9
+	.half	.L841-.L840
+	.byte	1,5,33,9
+	.half	.L842-.L841
+	.byte	3,1,1,5,47,9
+	.half	.L843-.L842
+	.byte	1,5,62,9
+	.half	.L844-.L843
+	.byte	1,5,50,9
+	.half	.L845-.L844
+	.byte	1,5,9,9
+	.half	.L568-.L845
+	.byte	1,5,2,9
+	.half	.L566-.L568
+	.byte	3,2,1,5,1,9
+	.half	.L12-.L566
+	.byte	3,1,1,7,9
+	.half	.L230-.L12
+	.byte	0,1,1
+.L835:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.debug_ranges'
+.L229:
+	.word	-1,.L153,0,.L230-.L153,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_accel_fsr')
+	.sect	'.debug_info'
+.L231:
+	.word	348
+	.half	3
+	.word	.L232
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L234,.L233
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_accel_fsr',0,1,128,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L155,.L375,.L154
+	.byte	4
+	.byte	's',0,1,128,1,45
+	.word	.L327,.L376
+	.byte	4
+	.byte	'accel_fsr',0,1,128,1,80
+	.word	.L377,.L378
+	.byte	5
+	.word	.L155,.L375
+	.byte	6
+	.byte	'status',0,1,130,1,18
+	.word	.L331,.L379
+	.byte	6
+	.byte	'accel_config0',0,1,131,1,18
+	.word	.L366,.L380
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_accel_fsr')
+	.sect	'.debug_abbrev'
+.L232:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_accel_fsr')
+	.sect	'.debug_line'
+.L233:
+	.word	.L847-.L846
+.L846:
+	.half	3
+	.word	.L849-.L848
+.L848:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L849:
+	.byte	5,5,7,0,5,2
+	.word	.L155
+	.byte	3,255,0,1,5,25,9
+	.half	.L573-.L155
+	.byte	3,2,1,5,32,9
+	.half	.L574-.L573
+	.byte	3,3,1,5,47,9
+	.half	.L570-.L574
+	.byte	1,5,62,9
+	.half	.L850-.L570
+	.byte	1,5,50,9
+	.half	.L851-.L850
+	.byte	1,5,9,9
+	.half	.L571-.L851
+	.byte	1,5,15,9
+	.half	.L852-.L571
+	.byte	3,1,1,5,32,9
+	.half	.L853-.L852
+	.byte	1,5,33,9
+	.half	.L854-.L853
+	.byte	3,1,1,5,48,9
+	.half	.L855-.L854
+	.byte	1,5,63,9
+	.half	.L856-.L855
+	.byte	1,5,51,9
+	.half	.L857-.L856
+	.byte	1,5,9,9
+	.half	.L577-.L857
+	.byte	1,5,2,9
+	.half	.L575-.L577
+	.byte	3,2,1,5,1,9
+	.half	.L13-.L575
+	.byte	3,1,1,7,9
+	.half	.L235-.L13
+	.byte	0,1,1
+.L847:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_accel_fsr')
+	.sect	'.debug_ranges'
+.L234:
+	.word	-1,.L155,0,.L235-.L155,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.debug_info'
+.L236:
+	.word	345
+	.half	3
+	.word	.L237
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L239,.L238
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_gyro_fsr',0,1,140,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L157,.L381,.L156
+	.byte	4
+	.byte	's',0,1,140,1,44
+	.word	.L327,.L382
+	.byte	4
+	.byte	'gyro_fsr',0,1,140,1,77
+	.word	.L383,.L384
+	.byte	5
+	.word	.L157,.L381
+	.byte	6
+	.byte	'status',0,1,142,1,17
+	.word	.L331,.L385
+	.byte	6
+	.byte	'gyro_config0',0,1,143,1,17
+	.word	.L373,.L386
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.debug_abbrev'
+.L237:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.debug_line'
+.L238:
+	.word	.L859-.L858
+.L858:
+	.half	3
+	.word	.L861-.L860
+.L860:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L861:
+	.byte	5,5,7,0,5,2
+	.word	.L157
+	.byte	3,139,1,1,5,24,9
+	.half	.L582-.L157
+	.byte	3,2,1,5,32,9
+	.half	.L583-.L582
+	.byte	3,3,1,5,46,9
+	.half	.L579-.L583
+	.byte	1,5,61,9
+	.half	.L862-.L579
+	.byte	1,5,49,9
+	.half	.L863-.L862
+	.byte	1,5,9,9
+	.half	.L580-.L863
+	.byte	1,5,14,9
+	.half	.L864-.L580
+	.byte	3,1,1,5,30,9
+	.half	.L865-.L864
+	.byte	1,5,33,9
+	.half	.L866-.L865
+	.byte	3,1,1,5,47,9
+	.half	.L867-.L866
+	.byte	1,5,62,9
+	.half	.L868-.L867
+	.byte	1,5,50,9
+	.half	.L869-.L868
+	.byte	1,5,9,9
+	.half	.L586-.L869
+	.byte	1,5,2,9
+	.half	.L584-.L586
+	.byte	3,2,1,5,1,9
+	.half	.L14-.L584
+	.byte	3,1,1,7,9
+	.half	.L240-.L14
+	.byte	0,1,1
+.L859:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.debug_ranges'
+.L239:
+	.word	-1,.L157,0,.L240-.L157,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.debug_info'
+.L241:
+	.word	354
+	.half	3
+	.word	.L242
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L244,.L243
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_accel_lp_avg',0,1,175,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L163,.L387,.L162
+	.byte	4
+	.byte	's',0,1,175,1,48
+	.word	.L327,.L388
+	.byte	4
+	.byte	'acc_avg',0,1,175,1,89
+	.word	.L389,.L390
+	.byte	5
+	.word	.L163,.L387
+	.byte	6
+	.byte	'status',0,1,177,1,23
+	.word	.L331,.L391
+	.byte	6
+	.byte	'ipreg_sys2_reg_129',0,1,178,1,23
+	.word	.L392,.L393
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.debug_abbrev'
+.L242:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.debug_line'
+.L243:
+	.word	.L871-.L870
+.L870:
+	.half	3
+	.word	.L873-.L872
+.L872:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L873:
+	.byte	5,5,7,0,5,2
+	.word	.L163
+	.byte	3,174,1,1,5,30,9
+	.half	.L609-.L163
+	.byte	3,2,1,5,32,9
+	.half	.L610-.L609
+	.byte	3,3,1,5,52,9
+	.half	.L606-.L610
+	.byte	1,5,67,9
+	.half	.L874-.L606
+	.byte	1,5,55,9
+	.half	.L875-.L874
+	.byte	1,5,9,9
+	.half	.L607-.L875
+	.byte	1,5,20,9
+	.half	.L876-.L607
+	.byte	3,1,1,5,38,9
+	.half	.L877-.L876
+	.byte	1,5,33,9
+	.half	.L878-.L877
+	.byte	3,1,1,5,53,9
+	.half	.L879-.L878
+	.byte	1,5,68,9
+	.half	.L880-.L879
+	.byte	1,5,56,9
+	.half	.L881-.L880
+	.byte	1,5,9,9
+	.half	.L613-.L881
+	.byte	1,5,2,9
+	.half	.L611-.L613
+	.byte	3,2,1,5,1,9
+	.half	.L17-.L611
+	.byte	3,1,1,7,9
+	.half	.L245-.L17
+	.byte	0,1,1
+.L871:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.debug_ranges'
+.L244:
+	.word	-1,.L163,0,.L245-.L163,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.debug_info'
+.L246:
+	.word	353
+	.half	3
+	.word	.L247
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L249,.L248
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_gyro_lp_avg',0,1,164,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L161,.L394,.L160
+	.byte	4
+	.byte	's',0,1,164,1,47
+	.word	.L327,.L395
+	.byte	4
+	.byte	'gyr_avg',0,1,164,1,87
+	.word	.L396,.L397
+	.byte	5
+	.word	.L161,.L394
+	.byte	6
+	.byte	'status',0,1,166,1,23
+	.word	.L331,.L398
+	.byte	6
+	.byte	'ipreg_sys1_reg_170',0,1,167,1,23
+	.word	.L399,.L400
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.debug_abbrev'
+.L247:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.debug_line'
+.L248:
+	.word	.L883-.L882
+.L882:
+	.half	3
+	.word	.L885-.L884
+.L884:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L885:
+	.byte	5,5,7,0,5,2
+	.word	.L161
+	.byte	3,163,1,1,5,30,9
+	.half	.L600-.L161
+	.byte	3,2,1,5,32,9
+	.half	.L601-.L600
+	.byte	3,3,1,5,52,9
+	.half	.L597-.L601
+	.byte	1,5,67,9
+	.half	.L886-.L597
+	.byte	1,5,55,9
+	.half	.L887-.L886
+	.byte	1,5,9,9
+	.half	.L598-.L887
+	.byte	1,5,20,9
+	.half	.L888-.L598
+	.byte	3,1,1,5,37,9
+	.half	.L889-.L888
+	.byte	1,5,33,9
+	.half	.L890-.L889
+	.byte	3,1,1,5,53,9
+	.half	.L891-.L890
+	.byte	1,5,68,9
+	.half	.L892-.L891
+	.byte	1,5,56,9
+	.half	.L893-.L892
+	.byte	1,5,9,9
+	.half	.L604-.L893
+	.byte	1,5,2,9
+	.half	.L602-.L604
+	.byte	3,1,1,5,1,9
+	.half	.L16-.L602
+	.byte	3,1,1,7,9
+	.half	.L250-.L16
+	.byte	0,1,1
+.L883:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.debug_ranges'
+.L249:
+	.word	-1,.L161,0,.L250-.L161,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.debug_info'
+.L251:
+	.word	352
+	.half	3
+	.word	.L252
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L254,.L253
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_accel_ln_bw',0,1,187,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L165,.L401,.L164
+	.byte	4
+	.byte	's',0,1,187,1,47
+	.word	.L327,.L402
+	.byte	4
+	.byte	'acc_bw',0,1,187,1,86
+	.word	.L403,.L404
+	.byte	5
+	.word	.L165,.L401
+	.byte	6
+	.byte	'status',0,1,189,1,23
+	.word	.L331,.L405
+	.byte	6
+	.byte	'ipreg_sys2_reg_131',0,1,190,1,23
+	.word	.L406,.L407
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.debug_abbrev'
+.L252:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.debug_line'
+.L253:
+	.word	.L895-.L894
+.L894:
+	.half	3
+	.word	.L897-.L896
+.L896:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L897:
+	.byte	5,5,7,0,5,2
+	.word	.L165
+	.byte	3,186,1,1,5,30,9
+	.half	.L618-.L165
+	.byte	3,2,1,5,32,9
+	.half	.L619-.L618
+	.byte	3,3,1,5,52,9
+	.half	.L615-.L619
+	.byte	1,5,67,9
+	.half	.L898-.L615
+	.byte	1,5,55,9
+	.half	.L899-.L898
+	.byte	1,5,9,9
+	.half	.L616-.L899
+	.byte	1,5,20,9
+	.half	.L900-.L616
+	.byte	3,1,1,5,40,9
+	.half	.L901-.L900
+	.byte	1,5,33,9
+	.half	.L902-.L901
+	.byte	3,1,1,5,53,9
+	.half	.L903-.L902
+	.byte	1,5,68,9
+	.half	.L904-.L903
+	.byte	1,5,56,9
+	.half	.L905-.L904
+	.byte	1,5,9,9
+	.half	.L622-.L905
+	.byte	1,5,2,9
+	.half	.L620-.L622
+	.byte	3,2,1,5,1,9
+	.half	.L18-.L620
+	.byte	3,1,1,7,9
+	.half	.L255-.L18
+	.byte	0,1,1
+.L895:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.debug_ranges'
+.L254:
+	.word	-1,.L165,0,.L255-.L165,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.debug_info'
+.L256:
+	.word	351
+	.half	3
+	.word	.L257
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L259,.L258
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_gyro_ln_bw',0,1,152,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L159,.L408,.L158
+	.byte	4
+	.byte	's',0,1,152,1,46
+	.word	.L327,.L409
+	.byte	4
+	.byte	'gyr_bw',0,1,152,1,88
+	.word	.L410,.L411
+	.byte	5
+	.word	.L159,.L408
+	.byte	6
+	.byte	'status',0,1,154,1,23
+	.word	.L331,.L412
+	.byte	6
+	.byte	'ipreg_sys1_reg_172',0,1,155,1,23
+	.word	.L413,.L414
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.debug_abbrev'
+.L257:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.debug_line'
+.L258:
+	.word	.L907-.L906
+.L906:
+	.half	3
+	.word	.L909-.L908
+.L908:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L909:
+	.byte	5,5,7,0,5,2
+	.word	.L159
+	.byte	3,151,1,1,5,30,9
+	.half	.L591-.L159
+	.byte	3,2,1,5,32,9
+	.half	.L592-.L591
+	.byte	3,3,1,5,52,9
+	.half	.L588-.L592
+	.byte	1,5,67,9
+	.half	.L910-.L588
+	.byte	1,5,55,9
+	.half	.L911-.L910
+	.byte	1,5,9,9
+	.half	.L589-.L911
+	.byte	1,5,20,9
+	.half	.L912-.L589
+	.byte	3,1,1,5,39,9
+	.half	.L913-.L912
+	.byte	1,5,33,9
+	.half	.L914-.L913
+	.byte	3,1,1,5,53,9
+	.half	.L915-.L914
+	.byte	1,5,68,9
+	.half	.L916-.L915
+	.byte	1,5,56,9
+	.half	.L917-.L916
+	.byte	1,5,9,9
+	.half	.L595-.L917
+	.byte	1,5,2,9
+	.half	.L593-.L595
+	.byte	3,2,1,5,1,9
+	.half	.L15-.L593
+	.byte	3,1,1,7,9
+	.half	.L260-.L15
+	.byte	0,1,1
+.L907:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.debug_ranges'
+.L259:
+	.word	-1,.L159,0,.L260-.L159,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_register_data')
+	.sect	'.debug_info'
+.L261:
+	.word	320
+	.half	3
+	.word	.L262
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L264,.L263
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_register_data',0,1,199,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L167,.L415,.L166
+	.byte	4
+	.byte	's',0,1,199,1,49
+	.word	.L327,.L416
+	.byte	4
+	.byte	'data',0,1,199,1,75
+	.word	.L417,.L418
+	.byte	5
+	.word	.L167,.L415
+	.byte	6
+	.byte	'status',0,1,201,1,6
+	.word	.L331,.L419
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_register_data')
+	.sect	'.debug_abbrev'
+.L262:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_register_data')
+	.sect	'.debug_line'
+.L263:
+	.word	.L919-.L918
+.L918:
+	.half	3
+	.word	.L921-.L920
+.L920:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L921:
+	.byte	5,5,7,0,5,2
+	.word	.L167
+	.byte	3,198,1,1,5,13,9
+	.half	.L625-.L167
+	.byte	3,2,1,5,32,9
+	.half	.L626-.L625
+	.byte	3,2,1,5,50,9
+	.half	.L922-.L626
+	.byte	1,5,81,9
+	.half	.L923-.L922
+	.byte	1,5,9,9
+	.half	.L623-.L923
+	.byte	1,5,2,9
+	.half	.L627-.L623
+	.byte	3,3,1,9
+	.half	.L924-.L627
+	.byte	3,2,1,9
+	.half	.L925-.L924
+	.byte	3,2,1,9
+	.half	.L926-.L925
+	.byte	3,3,1,9
+	.half	.L927-.L926
+	.byte	3,2,1,9
+	.half	.L928-.L927
+	.byte	3,2,1,9
+	.half	.L929-.L928
+	.byte	3,3,1,9
+	.half	.L930-.L929
+	.byte	3,3,1,5,1,9
+	.half	.L33-.L930
+	.byte	3,1,1,7,9
+	.half	.L265-.L33
+	.byte	0,1,1
+.L919:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_register_data')
+	.sect	'.debug_ranges'
+.L264:
+	.word	-1,.L167,0,.L265-.L167,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_fifo_config')
+	.sect	'.debug_info'
+.L266:
+	.word	398
+	.half	3
+	.word	.L267
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L269,.L268
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_fifo_config',0,1,226,1,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L169,.L420,.L168
+	.byte	4
+	.byte	's',0,1,226,1,47
+	.word	.L327,.L421
+	.byte	4
+	.byte	'fifo_config',0,1,226,1,79
+	.word	.L422,.L423
+	.byte	5
+	.word	.L169,.L420
+	.byte	6
+	.byte	'status',0,1,228,1,18
+	.word	.L331,.L424
+	.byte	6
+	.byte	'cfg',0,1,229,1,18
+	.word	.L425,.L426
+	.byte	6
+	.byte	'smc_control_0',0,1,230,1,18
+	.word	.L427,.L428
+	.byte	6
+	.byte	'fifo_frame_size',0,1,231,1,18
+	.word	.L429,.L430
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_fifo_config')
+	.sect	'.debug_abbrev'
+.L267:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_fifo_config')
+	.sect	'.debug_line'
+.L268:
+	.word	.L932-.L931
+.L931:
+	.half	3
+	.word	.L934-.L933
+.L933:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L934:
+	.byte	5,5,7,0,5,2
+	.word	.L169
+	.byte	3,225,1,1,5,25,9
+	.half	.L632-.L169
+	.byte	3,2,1,5,34,9
+	.half	.L633-.L632
+	.byte	3,3,1,5,17,9
+	.half	.L635-.L633
+	.byte	3,3,1,5,33,9
+	.half	.L935-.L635
+	.byte	1,5,6,9
+	.half	.L936-.L935
+	.byte	1,5,17,7,9
+	.half	.L937-.L936
+	.byte	3,1,1,5,30,9
+	.half	.L938-.L937
+	.byte	1,5,10,7,9
+	.half	.L939-.L938
+	.byte	3,1,1,5,3,9
+	.half	.L940-.L939
+	.byte	1,5,32,9
+	.half	.L34-.L940
+	.byte	3,2,1,5,46,9
+	.half	.L941-.L34
+	.byte	1,5,61,9
+	.half	.L942-.L941
+	.byte	1,5,49,9
+	.half	.L629-.L942
+	.byte	1,5,9,9
+	.half	.L630-.L629
+	.byte	1,5,18,9
+	.half	.L943-.L630
+	.byte	3,3,1,5,30,9
+	.half	.L944-.L943
+	.byte	1,5,33,9
+	.half	.L945-.L944
+	.byte	3,1,1,5,47,9
+	.half	.L946-.L945
+	.byte	1,5,65,9
+	.half	.L947-.L946
+	.byte	1,5,50,9
+	.half	.L948-.L947
+	.byte	1,5,9,9
+	.half	.L637-.L948
+	.byte	1,5,18,9
+	.half	.L949-.L637
+	.byte	3,1,1,5,29,9
+	.half	.L950-.L949
+	.byte	1,5,33,9
+	.half	.L951-.L950
+	.byte	3,1,1,5,47,9
+	.half	.L952-.L951
+	.byte	1,5,62,9
+	.half	.L953-.L952
+	.byte	1,5,50,9
+	.half	.L954-.L953
+	.byte	1,5,9,9
+	.half	.L639-.L954
+	.byte	1,5,18,9
+	.half	.L955-.L639
+	.byte	3,3,1,5,43,9
+	.half	.L956-.L955
+	.byte	1,5,30,9
+	.half	.L957-.L956
+	.byte	1,5,43,9
+	.half	.L958-.L957
+	.byte	3,3,1,5,21,9
+	.half	.L959-.L958
+	.byte	1,5,44,9
+	.half	.L960-.L959
+	.byte	3,1,1,5,57,9
+	.half	.L961-.L960
+	.byte	1,5,21,9
+	.half	.L962-.L961
+	.byte	1,5,18,9
+	.half	.L963-.L962
+	.byte	3,3,1,5,36,9
+	.half	.L964-.L963
+	.byte	1,5,18,9
+	.half	.L965-.L964
+	.byte	3,3,1,5,46,9
+	.half	.L966-.L965
+	.byte	1,5,33,9
+	.half	.L967-.L966
+	.byte	1,5,18,9
+	.half	.L968-.L967
+	.byte	3,1,1,5,46,9
+	.half	.L969-.L968
+	.byte	1,5,33,9
+	.half	.L970-.L969
+	.byte	1,5,18,9
+	.half	.L971-.L970
+	.byte	3,1,1,5,46,9
+	.half	.L972-.L971
+	.byte	1,5,33,9
+	.half	.L973-.L972
+	.byte	1,5,32,9
+	.half	.L974-.L973
+	.byte	3,3,1,5,47,9
+	.half	.L975-.L974
+	.byte	1,5,62,9
+	.half	.L976-.L975
+	.byte	1,5,50,9
+	.half	.L977-.L976
+	.byte	1,5,9,9
+	.half	.L641-.L977
+	.byte	1,5,18,9
+	.half	.L978-.L641
+	.byte	3,1,1,5,6,9
+	.half	.L979-.L978
+	.byte	1,5,19,7,9
+	.half	.L980-.L979
+	.byte	3,1,1,5,8,9
+	.half	.L981-.L980
+	.byte	1,5,44,7,9
+	.half	.L982-.L981
+	.byte	1,5,69,9
+	.half	.L38-.L982
+	.byte	1,5,19,9
+	.half	.L39-.L38
+	.byte	3,2,1,5,39,9
+	.half	.L983-.L39
+	.byte	1,5,16,9
+	.half	.L984-.L983
+	.byte	3,1,1,5,39,9
+	.half	.L985-.L984
+	.byte	1,5,55,9
+	.half	.L986-.L985
+	.byte	3,127,1,5,19,9
+	.half	.L37-.L986
+	.byte	3,4,1,5,39,9
+	.half	.L987-.L37
+	.byte	1,5,16,9
+	.half	.L988-.L987
+	.byte	3,1,1,5,39,9
+	.half	.L989-.L988
+	.byte	1,5,33,9
+	.half	.L41-.L989
+	.byte	3,2,1,5,48,9
+	.half	.L990-.L41
+	.byte	1,5,63,9
+	.half	.L991-.L990
+	.byte	1,5,51,9
+	.half	.L992-.L991
+	.byte	1,5,9,9
+	.half	.L643-.L992
+	.byte	1,5,33,9
+	.half	.L993-.L643
+	.byte	3,3,1,5,47,9
+	.half	.L994-.L993
+	.byte	1,5,62,9
+	.half	.L995-.L994
+	.byte	1,5,50,9
+	.half	.L996-.L995
+	.byte	1,5,9,9
+	.half	.L645-.L996
+	.byte	1,5,18,9
+	.half	.L997-.L645
+	.byte	3,3,1,5,42,9
+	.half	.L998-.L997
+	.byte	1,5,29,9
+	.half	.L999-.L998
+	.byte	1,5,17,9
+	.half	.L1000-.L999
+	.byte	3,2,1,5,2,9
+	.half	.L1001-.L1000
+	.byte	1,5,19,7,9
+	.half	.L1002-.L1001
+	.byte	3,7,1,5,31,9
+	.half	.L1003-.L1002
+	.byte	1,5,34,9
+	.half	.L1004-.L1003
+	.byte	3,1,1,5,48,9
+	.half	.L1005-.L1004
+	.byte	1,5,66,9
+	.half	.L1006-.L1005
+	.byte	1,5,51,9
+	.half	.L1007-.L1006
+	.byte	1,5,10,9
+	.half	.L647-.L1007
+	.byte	1,5,34,9
+	.half	.L1008-.L647
+	.byte	3,2,1,5,48,9
+	.half	.L1009-.L1008
+	.byte	1,5,63,9
+	.half	.L1010-.L1009
+	.byte	1,5,51,9
+	.half	.L1011-.L1010
+	.byte	1,5,10,9
+	.half	.L649-.L1011
+	.byte	1,5,48,9
+	.half	.L634-.L649
+	.byte	3,125,1,5,34,9
+	.half	.L42-.L634
+	.byte	3,11,1,5,48,9
+	.half	.L1012-.L42
+	.byte	1,5,63,9
+	.half	.L1013-.L1012
+	.byte	1,5,51,9
+	.half	.L1014-.L1013
+	.byte	1,5,10,9
+	.half	.L651-.L1014
+	.byte	1,5,19,9
+	.half	.L1015-.L651
+	.byte	3,2,1,5,31,9
+	.half	.L1016-.L1015
+	.byte	1,5,34,9
+	.half	.L1017-.L1016
+	.byte	3,1,1,5,48,9
+	.half	.L1018-.L1017
+	.byte	1,5,66,9
+	.half	.L1019-.L1018
+	.byte	1,5,51,9
+	.half	.L1020-.L1019
+	.byte	1,5,10,9
+	.half	.L653-.L1020
+	.byte	1,5,17,9
+	.half	.L43-.L653
+	.byte	3,4,1,5,2,9
+	.half	.L1021-.L43
+	.byte	1,5,19,7,9
+	.half	.L1022-.L1021
+	.byte	3,1,1,5,23,9
+	.half	.L1023-.L1022
+	.byte	1,5,18,9
+	.half	.L44-.L1023
+	.byte	3,2,1,5,3,9
+	.half	.L1024-.L44
+	.byte	1,5,20,7,9
+	.half	.L1025-.L1024
+	.byte	3,1,1,5,18,9
+	.half	.L46-.L1025
+	.byte	3,1,1,5,3,9
+	.half	.L1026-.L46
+	.byte	1,5,20,7,9
+	.half	.L1027-.L1026
+	.byte	3,1,1,5,21,9
+	.half	.L45-.L1027
+	.byte	3,3,1,5,2,9
+	.half	.L1028-.L45
+	.byte	3,2,1,5,1,9
+	.half	.L36-.L1028
+	.byte	3,1,1,7,9
+	.half	.L270-.L36
+	.byte	0,1,1
+.L932:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_fifo_config')
+	.sect	'.debug_ranges'
+.L269:
+	.word	-1,.L169,0,.L270-.L169,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_fifo_config')
+	.sect	'.debug_info'
+.L271:
+	.word	342
+	.half	3
+	.word	.L272
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L274,.L273
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_fifo_config',0,1,192,2,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L171,.L431,.L170
+	.byte	4
+	.byte	's',0,1,192,2,47
+	.word	.L327,.L432
+	.byte	4
+	.byte	'fifo_config',0,1,192,2,73
+	.word	.L433,.L434
+	.byte	5
+	.word	.L171,.L431
+	.byte	6
+	.byte	'status',0,1,194,2,17
+	.word	.L331,.L435
+	.byte	6
+	.byte	'cfg',0,1,195,2,17
+	.word	.L425,.L436
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_fifo_config')
+	.sect	'.debug_abbrev'
+.L272:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_fifo_config')
+	.sect	'.debug_line'
+.L273:
+	.word	.L1030-.L1029
+.L1029:
+	.half	3
+	.word	.L1032-.L1031
+.L1031:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1032:
+	.byte	5,5,7,0,5,2
+	.word	.L171
+	.byte	3,191,2,1,5,24,9
+	.half	.L657-.L171
+	.byte	3,2,1,5,32,9
+	.half	.L658-.L657
+	.byte	3,3,1,5,46,9
+	.half	.L1033-.L658
+	.byte	1,5,61,9
+	.half	.L1034-.L1033
+	.byte	1,5,49,9
+	.half	.L655-.L1034
+	.byte	1,5,9,9
+	.half	.L656-.L655
+	.byte	1,5,69,9
+	.half	.L659-.L656
+	.byte	3,3,1,5,25,9
+	.half	.L1035-.L659
+	.byte	1,5,22,9
+	.half	.L1036-.L1035
+	.byte	3,1,1,5,37,9
+	.half	.L1037-.L1036
+	.byte	1,5,6,9
+	.half	.L1038-.L1037
+	.byte	1,5,22,7,9
+	.half	.L1039-.L1038
+	.byte	3,1,1,5,34,9
+	.half	.L1040-.L1039
+	.byte	1,5,72,7,9
+	.half	.L49-.L1040
+	.byte	3,2,1,5,27,9
+	.half	.L1041-.L49
+	.byte	1,5,83,9
+	.half	.L1042-.L1041
+	.byte	1,5,29,9
+	.half	.L50-.L1042
+	.byte	3,6,1,5,27,9
+	.half	.L1043-.L50
+	.byte	1,5,52,9
+	.half	.L51-.L1043
+	.byte	3,4,1,5,68,9
+	.half	.L1044-.L51
+	.byte	1,5,79,9
+	.half	.L1045-.L1044
+	.byte	1,5,74,9
+	.half	.L1046-.L1045
+	.byte	1,5,26,9
+	.half	.L1047-.L1046
+	.byte	1,5,42,9
+	.half	.L1048-.L1047
+	.byte	3,3,1,5,24,9
+	.half	.L1049-.L1048
+	.byte	1,5,42,9
+	.half	.L1050-.L1049
+	.byte	3,1,1,5,24,9
+	.half	.L1051-.L1050
+	.byte	1,5,42,9
+	.half	.L1052-.L1051
+	.byte	3,1,1,5,24,9
+	.half	.L1053-.L1052
+	.byte	1,5,2,9
+	.half	.L1054-.L1053
+	.byte	3,2,1,5,1,9
+	.half	.L52-.L1054
+	.byte	3,1,1,7,9
+	.half	.L275-.L52
+	.byte	0,1,1
+.L1030:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_fifo_config')
+	.sect	'.debug_ranges'
+.L274:
+	.word	-1,.L171,0,.L275-.L171,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_flush_fifo')
+	.sect	'.debug_info'
+.L276:
+	.word	345
+	.half	3
+	.word	.L277
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L279,.L278
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_flush_fifo',0,1,224,2,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L173,.L437,.L172
+	.byte	4
+	.byte	's',0,1,224,2,42
+	.word	.L327,.L438
+	.byte	5
+	.word	.L173,.L437
+	.byte	6
+	.byte	'status',0,1,226,2,17
+	.word	.L331,.L439
+	.byte	6
+	.byte	'fifo_config2',0,1,227,2,17
+	.word	.L440,.L441
+	.byte	6
+	.byte	'timeout_us',0,1,228,2,17
+	.word	.L331,.L442
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_flush_fifo')
+	.sect	'.debug_abbrev'
+.L277:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_flush_fifo')
+	.sect	'.debug_line'
+.L278:
+	.word	.L1056-.L1055
+.L1055:
+	.half	3
+	.word	.L1058-.L1057
+.L1057:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1058:
+	.byte	5,5,7,0,5,2
+	.word	.L173
+	.byte	3,223,2,1,5,24,9
+	.half	.L662-.L173
+	.byte	3,2,1,5,30,9
+	.half	.L663-.L662
+	.byte	3,2,1,5,32,9
+	.half	.L1059-.L663
+	.byte	3,2,1,5,46,9
+	.half	.L1060-.L1059
+	.byte	1,5,61,9
+	.half	.L1061-.L1060
+	.byte	1,5,49,9
+	.half	.L1062-.L1061
+	.byte	1,5,9,9
+	.half	.L661-.L1062
+	.byte	1,5,14,9
+	.half	.L1063-.L661
+	.byte	3,1,1,5,26,9
+	.half	.L1064-.L1063
+	.byte	1,5,33,9
+	.half	.L1065-.L1064
+	.byte	3,1,1,5,47,9
+	.half	.L1066-.L1065
+	.byte	1,5,62,9
+	.half	.L1067-.L1066
+	.byte	1,5,50,9
+	.half	.L1068-.L1067
+	.byte	1,5,9,9
+	.half	.L666-.L1068
+	.byte	1,5,22,9
+	.half	.L1069-.L666
+	.byte	3,1,1,5,29,9
+	.half	.L668-.L1069
+	.byte	3,3,1,5,33,9
+	.half	.L54-.L668
+	.byte	3,1,1,5,47,9
+	.half	.L1070-.L54
+	.byte	1,5,62,9
+	.half	.L1071-.L1070
+	.byte	1,5,50,9
+	.half	.L1072-.L1071
+	.byte	1,5,10,9
+	.half	.L670-.L1072
+	.byte	1,5,19,9
+	.half	.L1073-.L670
+	.byte	3,1,1,5,3,9
+	.half	.L1074-.L1073
+	.byte	1,5,4,7,9
+	.half	.L1075-.L1074
+	.byte	3,1,1,5,23,9
+	.half	.L55-.L1075
+	.byte	3,2,1,5,14,9
+	.half	.L672-.L55
+	.byte	3,1,1,5,3,9
+	.half	.L1076-.L672
+	.byte	3,2,1,5,11,7,9
+	.half	.L1077-.L1076
+	.byte	3,1,1,5,4,9
+	.half	.L1078-.L1077
+	.byte	1,5,29,9
+	.half	.L53-.L1078
+	.byte	3,119,1,5,2,7,9
+	.half	.L56-.L53
+	.byte	3,12,1,5,1,9
+	.half	.L58-.L56
+	.byte	3,1,1,7,9
+	.half	.L280-.L58
+	.byte	0,1,1
+.L1056:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_flush_fifo')
+	.sect	'.debug_ranges'
+.L279:
+	.word	-1,.L173,0,.L280-.L173,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_frame_count')
+	.sect	'.debug_info'
+.L281:
+	.word	325
+	.half	3
+	.word	.L282
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L284,.L283
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_frame_count',0,1,251,2,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L175,.L443,.L174
+	.byte	4
+	.byte	's',0,1,251,2,47
+	.word	.L327,.L444
+	.byte	4
+	.byte	'frame_count',0,1,251,2,60
+	.word	.L445,.L446
+	.byte	5
+	.word	.L175,.L443
+	.byte	6
+	.byte	'status',0,1,253,2,6
+	.word	.L331,.L447
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_frame_count')
+	.sect	'.debug_abbrev'
+.L282:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_frame_count')
+	.sect	'.debug_line'
+.L283:
+	.word	.L1080-.L1079
+.L1079:
+	.half	3
+	.word	.L1082-.L1081
+.L1081:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1082:
+	.byte	5,5,7,0,5,2
+	.word	.L175
+	.byte	3,250,2,1,5,13,9
+	.half	.L676-.L175
+	.byte	3,2,1,5,32,9
+	.half	.L677-.L676
+	.byte	3,2,1,5,46,9
+	.half	.L1083-.L677
+	.byte	1,5,49,9
+	.half	.L1084-.L1083
+	.byte	1,5,9,9
+	.half	.L674-.L1084
+	.byte	1,5,32,9
+	.half	.L1085-.L674
+	.byte	3,6,1,5,46,9
+	.half	.L1086-.L1085
+	.byte	1,5,49,9
+	.half	.L1087-.L1086
+	.byte	1,5,9,9
+	.half	.L680-.L1087
+	.byte	1,5,2,9
+	.half	.L678-.L680
+	.byte	3,2,1,9
+	.half	.L1088-.L678
+	.byte	3,2,1,5,1,9
+	.half	.L62-.L1088
+	.byte	3,1,1,7,9
+	.half	.L285-.L62
+	.byte	0,1,1
+.L1080:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_frame_count')
+	.sect	'.debug_ranges'
+.L284:
+	.word	-1,.L175,0,.L285-.L175,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_fifo_frame')
+	.sect	'.debug_info'
+.L286:
+	.word	355
+	.half	3
+	.word	.L287
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L289,.L288
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_fifo_frame',0,1,140,3,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L177,.L448,.L176
+	.byte	4
+	.byte	's',0,1,140,3,46
+	.word	.L327,.L449
+	.byte	4
+	.byte	'data',0,1,140,3,70
+	.word	.L450,.L451
+	.byte	5
+	.word	.L177,.L448
+	.byte	6
+	.byte	'status',0,1,142,3,10
+	.word	.L331,.L452
+	.byte	6
+	.byte	'frame',0,1,143,3,10
+	.word	.L453,.L454
+	.byte	6
+	.byte	'reg16',0,1,144,3,10
+	.word	.L455,.L456
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_fifo_frame')
+	.sect	'.debug_abbrev'
+.L287:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_fifo_frame')
+	.sect	'.debug_line'
+.L288:
+	.word	.L1090-.L1089
+.L1089:
+	.half	3
+	.word	.L1092-.L1091
+.L1091:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1092:
+	.byte	5,5,7,0,5,2
+	.word	.L177
+	.byte	3,139,3,1,5,17,9
+	.half	.L686-.L177
+	.byte	3,2,1,5,32,9
+	.half	.L687-.L686
+	.byte	3,4,1,5,44,9
+	.half	.L1093-.L687
+	.byte	1,5,63,9
+	.half	.L1094-.L1093
+	.byte	1,5,9,9
+	.half	.L684-.L1094
+	.byte	1,5,27,9
+	.half	.L1095-.L684
+	.byte	3,2,1,5,20,9
+	.half	.L1096-.L1095
+	.byte	1,5,11,9
+	.half	.L1097-.L1096
+	.byte	3,2,1,5,7,9
+	.half	.L1098-.L1097
+	.byte	3,1,1,9
+	.half	.L1099-.L1098
+	.byte	3,6,1,9
+	.half	.L1100-.L1099
+	.byte	3,10,1,5,3,9
+	.half	.L63-.L1100
+	.byte	3,113,1,9
+	.half	.L1101-.L63
+	.byte	3,1,1,9
+	.half	.L1102-.L1101
+	.byte	3,1,1,5,33,9
+	.half	.L1103-.L1102
+	.byte	3,1,1,5,26,9
+	.half	.L1104-.L1103
+	.byte	1,5,3,9
+	.half	.L1105-.L1104
+	.byte	3,1,1,9
+	.half	.L64-.L1105
+	.byte	3,2,1,9
+	.half	.L1106-.L64
+	.byte	3,1,1,9
+	.half	.L1107-.L1106
+	.byte	3,1,1,9
+	.half	.L1108-.L1107
+	.byte	3,1,1,9
+	.half	.L1109-.L1108
+	.byte	3,1,1,9
+	.half	.L1110-.L1109
+	.byte	3,1,1,5,34,9
+	.half	.L1111-.L1110
+	.byte	3,1,1,5,27,9
+	.half	.L1112-.L1111
+	.byte	1,5,3,9
+	.half	.L1113-.L1112
+	.byte	3,1,1,9
+	.half	.L1114-.L1113
+	.byte	3,1,1,9
+	.half	.L65-.L1114
+	.byte	3,2,1,9
+	.half	.L1115-.L65
+	.byte	3,1,1,9
+	.half	.L1116-.L1115
+	.byte	3,1,1,5,39,9
+	.half	.L1117-.L1116
+	.byte	3,1,1,5,43,9
+	.half	.L1118-.L1117
+	.byte	1,5,57,9
+	.half	.L1119-.L1118
+	.byte	1,5,62,9
+	.half	.L1120-.L1119
+	.byte	1,5,49,9
+	.half	.L1121-.L1120
+	.byte	1,5,31,9
+	.half	.L1122-.L1121
+	.byte	1,5,39,9
+	.half	.L1123-.L1122
+	.byte	3,1,1,5,43,9
+	.half	.L1124-.L1123
+	.byte	1,5,57,9
+	.half	.L1125-.L1124
+	.byte	1,5,62,9
+	.half	.L1126-.L1125
+	.byte	1,5,49,9
+	.half	.L1127-.L1126
+	.byte	1,5,31,9
+	.half	.L1128-.L1127
+	.byte	1,5,39,9
+	.half	.L1129-.L1128
+	.byte	3,1,1,5,43,9
+	.half	.L1130-.L1129
+	.byte	1,5,57,9
+	.half	.L1131-.L1130
+	.byte	1,5,62,9
+	.half	.L1132-.L1131
+	.byte	1,5,49,9
+	.half	.L1133-.L1132
+	.byte	1,5,31,9
+	.half	.L1134-.L1133
+	.byte	1,5,3,9
+	.half	.L1135-.L1134
+	.byte	3,1,1,9
+	.half	.L1136-.L1135
+	.byte	3,1,1,9
+	.half	.L1137-.L1136
+	.byte	3,1,1,5,38,9
+	.half	.L1138-.L1137
+	.byte	3,1,1,5,42,9
+	.half	.L1139-.L1138
+	.byte	1,5,56,9
+	.half	.L1140-.L1139
+	.byte	1,5,61,9
+	.half	.L1141-.L1140
+	.byte	1,5,48,9
+	.half	.L1142-.L1141
+	.byte	1,5,30,9
+	.half	.L1143-.L1142
+	.byte	1,5,38,9
+	.half	.L1144-.L1143
+	.byte	3,1,1,5,42,9
+	.half	.L1145-.L1144
+	.byte	1,5,56,9
+	.half	.L1146-.L1145
+	.byte	1,5,61,9
+	.half	.L1147-.L1146
+	.byte	1,5,48,9
+	.half	.L1148-.L1147
+	.byte	1,5,30,9
+	.half	.L1149-.L1148
+	.byte	1,5,38,9
+	.half	.L1150-.L1149
+	.byte	3,1,1,5,42,9
+	.half	.L1151-.L1150
+	.byte	1,5,56,9
+	.half	.L1152-.L1151
+	.byte	1,5,61,9
+	.half	.L1153-.L1152
+	.byte	1,5,48,9
+	.half	.L1154-.L1153
+	.byte	1,5,30,9
+	.half	.L1155-.L1154
+	.byte	1,5,3,9
+	.half	.L1156-.L1155
+	.byte	3,1,1,9
+	.half	.L1157-.L1156
+	.byte	3,1,1,9
+	.half	.L1158-.L1157
+	.byte	3,1,1,5,23,9
+	.half	.L66-.L1158
+	.byte	3,2,1,5,21,9
+	.half	.L1159-.L66
+	.byte	1,5,10,9
+	.half	.L1160-.L1159
+	.byte	3,1,1,5,3,9
+	.half	.L1161-.L1160
+	.byte	1,5,2,9
+	.half	.L73-.L1161
+	.byte	3,3,1,5,1,9
+	.half	.L106-.L73
+	.byte	3,1,1,7,9
+	.half	.L290-.L106
+	.byte	0,1,1
+.L1090:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_fifo_frame')
+	.sect	'.debug_ranges'
+.L289:
+	.word	-1,.L177,0,.L290-.L177,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_config_int')
+	.sect	'.debug_info'
+.L291:
+	.word	375
+	.half	3
+	.word	.L292
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L294,.L293
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_config_int',0,1,191,3,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L179,.L457,.L178
+	.byte	4
+	.byte	's',0,1,191,3,46
+	.word	.L327,.L458
+	.byte	4
+	.byte	'num',0,1,191,3,73
+	.word	.L459,.L460
+	.byte	4
+	.byte	'it',0,1,192,3,55
+	.word	.L461,.L462
+	.byte	5
+	.word	.L179,.L457
+	.byte	6
+	.byte	'status',0,1,194,3,17
+	.word	.L331,.L463
+	.byte	6
+	.byte	'intx_configx',0,1,195,3,17
+	.word	.L464,.L465
+	.byte	6
+	.byte	'reg',0,1,196,3,17
+	.word	.L329,.L466
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_config_int')
+	.sect	'.debug_abbrev'
+.L292:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_config_int')
+	.sect	'.debug_line'
+.L293:
+	.word	.L1163-.L1162
+.L1162:
+	.half	3
+	.word	.L1165-.L1164
+.L1164:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1165:
+	.byte	5,5,7,0,5,2
+	.word	.L179
+	.byte	3,190,3,1,5,24,9
+	.half	.L689-.L179
+	.byte	3,3,1,5,7,9
+	.half	.L693-.L689
+	.byte	3,5,1,9
+	.half	.L1166-.L693
+	.byte	3,3,1,9
+	.half	.L108-.L1166
+	.byte	3,126,1,5,3,9
+	.half	.L691-.L108
+	.byte	3,1,1,5,7,9
+	.half	.L109-.L691
+	.byte	3,2,1,5,3,9
+	.half	.L695-.L109
+	.byte	3,1,1,5,10,9
+	.half	.L110-.L695
+	.byte	3,2,1,5,3,9
+	.half	.L1167-.L110
+	.byte	1,5,27,9
+	.half	.L111-.L1167
+	.byte	3,5,1,5,60,9
+	.half	.L1168-.L111
+	.byte	1,5,56,9
+	.half	.L1169-.L1168
+	.byte	1,5,27,9
+	.half	.L1170-.L1169
+	.byte	3,1,1,5,60,9
+	.half	.L1171-.L1170
+	.byte	1,5,56,9
+	.half	.L1172-.L1171
+	.byte	1,5,27,9
+	.half	.L1173-.L1172
+	.byte	3,1,1,5,60,9
+	.half	.L1174-.L1173
+	.byte	1,5,56,9
+	.half	.L1175-.L1174
+	.byte	1,5,27,9
+	.half	.L1176-.L1175
+	.byte	3,1,1,5,60,9
+	.half	.L1177-.L1176
+	.byte	1,5,56,9
+	.half	.L1178-.L1177
+	.byte	1,5,27,9
+	.half	.L1179-.L1178
+	.byte	3,1,1,5,60,9
+	.half	.L1180-.L1179
+	.byte	1,5,56,9
+	.half	.L1181-.L1180
+	.byte	1,5,27,9
+	.half	.L1182-.L1181
+	.byte	3,1,1,5,60,9
+	.half	.L1183-.L1182
+	.byte	1,5,56,9
+	.half	.L1184-.L1183
+	.byte	1,5,27,9
+	.half	.L1185-.L1184
+	.byte	3,1,1,5,60,9
+	.half	.L1186-.L1185
+	.byte	1,5,56,9
+	.half	.L1187-.L1186
+	.byte	1,5,27,9
+	.half	.L1188-.L1187
+	.byte	3,3,1,5,64,9
+	.half	.L1189-.L1188
+	.byte	1,5,60,9
+	.half	.L1190-.L1189
+	.byte	1,5,27,9
+	.half	.L1191-.L1190
+	.byte	3,1,1,5,64,9
+	.half	.L1192-.L1191
+	.byte	1,5,60,9
+	.half	.L1193-.L1192
+	.byte	1,5,27,9
+	.half	.L1194-.L1193
+	.byte	3,1,1,5,64,9
+	.half	.L1195-.L1194
+	.byte	1,5,60,9
+	.half	.L1196-.L1195
+	.byte	1,5,27,9
+	.half	.L1197-.L1196
+	.byte	3,1,1,5,64,9
+	.half	.L1198-.L1197
+	.byte	1,5,60,9
+	.half	.L1199-.L1198
+	.byte	1,5,27,9
+	.half	.L1200-.L1199
+	.byte	3,1,1,5,64,9
+	.half	.L1201-.L1200
+	.byte	1,5,60,9
+	.half	.L1202-.L1201
+	.byte	1,5,27,9
+	.half	.L1203-.L1202
+	.byte	3,1,1,5,64,9
+	.half	.L1204-.L1203
+	.byte	1,5,60,9
+	.half	.L1205-.L1204
+	.byte	1,5,27,9
+	.half	.L1206-.L1205
+	.byte	3,1,1,5,64,9
+	.half	.L1207-.L1206
+	.byte	1,5,60,9
+	.half	.L1208-.L1207
+	.byte	1,5,38,9
+	.half	.L1209-.L1208
+	.byte	3,2,1,5,53,9
+	.half	.L1210-.L1209
+	.byte	1,5,41,9
+	.half	.L690-.L1210
+	.byte	1,5,9,9
+	.half	.L692-.L690
+	.byte	1,5,2,9
+	.half	.L694-.L692
+	.byte	3,2,1,5,1,9
+	.half	.L113-.L694
+	.byte	3,1,1,7,9
+	.half	.L295-.L113
+	.byte	0,1,1
+.L1163:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_config_int')
+	.sect	'.debug_ranges'
+.L294:
+	.word	-1,.L179,0,.L295-.L179,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_config_int')
+	.sect	'.debug_info'
+.L296:
+	.word	375
+	.half	3
+	.word	.L297
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L299,.L298
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_config_int',0,1,233,3,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L181,.L467,.L180
+	.byte	4
+	.byte	's',0,1,233,3,46
+	.word	.L327,.L468
+	.byte	4
+	.byte	'num',0,1,233,3,73
+	.word	.L469,.L470
+	.byte	4
+	.byte	'it',0,1,234,3,49
+	.word	.L471,.L472
+	.byte	5
+	.word	.L181,.L467
+	.byte	6
+	.byte	'status',0,1,236,3,17
+	.word	.L331,.L473
+	.byte	6
+	.byte	'intx_configx',0,1,237,3,17
+	.word	.L464,.L474
+	.byte	6
+	.byte	'reg',0,1,238,3,17
+	.word	.L329,.L475
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_config_int')
+	.sect	'.debug_abbrev'
+.L297:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_config_int')
+	.sect	'.debug_line'
+.L298:
+	.word	.L1212-.L1211
+.L1211:
+	.half	3
+	.word	.L1214-.L1213
+.L1213:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1214:
+	.byte	5,5,7,0,5,2
+	.word	.L181
+	.byte	3,232,3,1,5,24,9
+	.half	.L700-.L181
+	.byte	3,3,1,5,7,9
+	.half	.L701-.L700
+	.byte	3,5,1,9
+	.half	.L1215-.L701
+	.byte	3,3,1,9
+	.half	.L115-.L1215
+	.byte	3,126,1,5,3,9
+	.half	.L698-.L115
+	.byte	3,1,1,5,7,9
+	.half	.L116-.L698
+	.byte	3,2,1,5,3,9
+	.half	.L703-.L116
+	.byte	3,1,1,5,10,9
+	.half	.L117-.L703
+	.byte	3,2,1,5,3,9
+	.half	.L1216-.L117
+	.byte	1,5,37,9
+	.half	.L118-.L1216
+	.byte	3,3,1,5,52,9
+	.half	.L1217-.L118
+	.byte	1,5,40,9
+	.half	.L697-.L1217
+	.byte	1,5,9,9
+	.half	.L699-.L697
+	.byte	1,5,50,9
+	.half	.L702-.L699
+	.byte	3,4,1,5,23,9
+	.half	.L1218-.L702
+	.byte	1,5,50,9
+	.half	.L1219-.L1218
+	.byte	3,1,1,5,23,9
+	.half	.L1220-.L1219
+	.byte	1,5,50,9
+	.half	.L1221-.L1220
+	.byte	3,1,1,5,23,9
+	.half	.L1222-.L1221
+	.byte	1,5,50,9
+	.half	.L1223-.L1222
+	.byte	3,1,1,5,23,9
+	.half	.L1224-.L1223
+	.byte	1,5,50,9
+	.half	.L1225-.L1224
+	.byte	3,1,1,5,23,9
+	.half	.L1226-.L1225
+	.byte	1,5,50,9
+	.half	.L1227-.L1226
+	.byte	3,1,1,5,23,9
+	.half	.L1228-.L1227
+	.byte	1,5,50,9
+	.half	.L1229-.L1228
+	.byte	3,1,1,5,23,9
+	.half	.L1230-.L1229
+	.byte	1,5,50,9
+	.half	.L1231-.L1230
+	.byte	3,3,1,5,23,9
+	.half	.L1232-.L1231
+	.byte	1,5,50,9
+	.half	.L1233-.L1232
+	.byte	3,1,1,5,23,9
+	.half	.L1234-.L1233
+	.byte	1,5,50,9
+	.half	.L1235-.L1234
+	.byte	3,1,1,5,23,9
+	.half	.L1236-.L1235
+	.byte	1,5,50,9
+	.half	.L1237-.L1236
+	.byte	3,1,1,5,23,9
+	.half	.L1238-.L1237
+	.byte	1,5,50,9
+	.half	.L1239-.L1238
+	.byte	3,1,1,5,23,9
+	.half	.L1240-.L1239
+	.byte	1,5,50,9
+	.half	.L1241-.L1240
+	.byte	3,1,1,5,23,9
+	.half	.L1242-.L1241
+	.byte	1,5,50,9
+	.half	.L1243-.L1242
+	.byte	3,1,1,5,23,9
+	.half	.L1244-.L1243
+	.byte	1,5,2,9
+	.half	.L1245-.L1244
+	.byte	3,2,1,5,1,9
+	.half	.L120-.L1245
+	.byte	3,1,1,7,9
+	.half	.L300-.L120
+	.byte	0,1,1
+.L1212:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_config_int')
+	.sect	'.debug_ranges'
+.L299:
+	.word	-1,.L181,0,.L300-.L181,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_set_pin_config_int')
+	.sect	'.debug_info'
+.L301:
+	.word	381
+	.half	3
+	.word	.L302
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L304,.L303
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_set_pin_config_int',0,1,147,4,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L183,.L476,.L182
+	.byte	4
+	.byte	's',0,1,147,4,50
+	.word	.L327,.L477
+	.byte	4
+	.byte	'num',0,1,147,4,77
+	.word	.L478,.L479
+	.byte	4
+	.byte	'conf',0,1,148,4,64
+	.word	.L480,.L481
+	.byte	5
+	.word	.L183,.L476
+	.byte	6
+	.byte	'status',0,1,150,4,17
+	.word	.L331,.L482
+	.byte	6
+	.byte	'int1_config2',0,1,151,4,17
+	.word	.L483,.L484
+	.byte	6
+	.byte	'reg',0,1,152,4,17
+	.word	.L329,.L485
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_set_pin_config_int')
+	.sect	'.debug_abbrev'
+.L302:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_set_pin_config_int')
+	.sect	'.debug_line'
+.L303:
+	.word	.L1247-.L1246
+.L1246:
+	.half	3
+	.word	.L1249-.L1248
+.L1248:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1249:
+	.byte	5,5,7,0,5,2
+	.word	.L183
+	.byte	3,146,4,1,5,24,9
+	.half	.L709-.L183
+	.byte	3,3,1,5,7,9
+	.half	.L710-.L709
+	.byte	3,5,1,9
+	.half	.L1250-.L710
+	.byte	3,3,1,9
+	.half	.L122-.L1250
+	.byte	3,126,1,5,3,9
+	.half	.L712-.L122
+	.byte	3,1,1,5,7,9
+	.half	.L123-.L712
+	.byte	3,2,1,5,3,9
+	.half	.L713-.L123
+	.byte	3,1,1,5,10,9
+	.half	.L124-.L713
+	.byte	3,2,1,5,3,9
+	.half	.L1251-.L124
+	.byte	1,5,37,9
+	.half	.L125-.L1251
+	.byte	3,3,1,5,52,9
+	.half	.L1252-.L125
+	.byte	1,5,40,9
+	.half	.L705-.L1252
+	.byte	1,5,9,9
+	.half	.L707-.L705
+	.byte	1,5,14,9
+	.half	.L1253-.L707
+	.byte	3,3,1,5,35,9
+	.half	.L1254-.L1253
+	.byte	1,5,29,9
+	.half	.L1255-.L1254
+	.byte	1,5,14,9
+	.half	.L1256-.L1255
+	.byte	3,1,1,5,35,9
+	.half	.L1257-.L1256
+	.byte	1,5,29,9
+	.half	.L1258-.L1257
+	.byte	1,5,14,9
+	.half	.L1259-.L1258
+	.byte	3,1,1,5,35,9
+	.half	.L1260-.L1259
+	.byte	1,5,29,9
+	.half	.L1261-.L1260
+	.byte	1,5,38,9
+	.half	.L1262-.L1261
+	.byte	3,2,1,5,53,9
+	.half	.L1263-.L1262
+	.byte	1,5,41,9
+	.half	.L1264-.L1263
+	.byte	1,5,9,9
+	.half	.L715-.L1264
+	.byte	1,5,2,9
+	.half	.L711-.L715
+	.byte	3,2,1,5,1,9
+	.half	.L127-.L711
+	.byte	3,1,1,7,9
+	.half	.L305-.L127
+	.byte	0,1,1
+.L1247:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_set_pin_config_int')
+	.sect	'.debug_ranges'
+.L304:
+	.word	-1,.L183,0,.L305-.L183,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_int_status')
+	.sect	'.debug_info'
+.L306:
+	.word	373
+	.half	3
+	.word	.L307
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L309,.L308
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_int_status',0,1,177,4,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L185,.L486,.L184
+	.byte	4
+	.byte	's',0,1,177,4,46
+	.word	.L327,.L487
+	.byte	4
+	.byte	'num',0,1,177,4,73
+	.word	.L488,.L489
+	.byte	4
+	.byte	'it',0,1,178,4,49
+	.word	.L471,.L490
+	.byte	5
+	.word	.L185,.L486
+	.byte	6
+	.byte	'status',0,1,180,4,17
+	.word	.L331,.L491
+	.byte	6
+	.byte	'int_status',0,1,181,4,17
+	.word	.L492,.L493
+	.byte	6
+	.byte	'reg',0,1,182,4,17
+	.word	.L329,.L494
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_int_status')
+	.sect	'.debug_abbrev'
+.L307:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_int_status')
+	.sect	'.debug_line'
+.L308:
+	.word	.L1266-.L1265
+.L1265:
+	.half	3
+	.word	.L1268-.L1267
+.L1267:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1268:
+	.byte	5,5,7,0,5,2
+	.word	.L185
+	.byte	3,176,4,1,5,24,9
+	.half	.L721-.L185
+	.byte	3,3,1,5,7,9
+	.half	.L722-.L721
+	.byte	3,5,1,9
+	.half	.L1269-.L722
+	.byte	3,3,1,9
+	.half	.L129-.L1269
+	.byte	3,126,1,5,3,9
+	.half	.L719-.L129
+	.byte	3,1,1,5,7,9
+	.half	.L130-.L719
+	.byte	3,2,1,5,3,9
+	.half	.L724-.L130
+	.byte	3,1,1,5,10,9
+	.half	.L131-.L724
+	.byte	3,2,1,5,3,9
+	.half	.L1270-.L131
+	.byte	1,5,37,9
+	.half	.L132-.L1270
+	.byte	3,4,1,5,52,9
+	.half	.L1271-.L132
+	.byte	1,5,40,9
+	.half	.L718-.L1271
+	.byte	1,5,9,9
+	.half	.L720-.L718
+	.byte	1,5,48,9
+	.half	.L723-.L720
+	.byte	3,2,1,5,23,9
+	.half	.L1272-.L723
+	.byte	1,5,48,9
+	.half	.L1273-.L1272
+	.byte	3,1,1,5,23,9
+	.half	.L1274-.L1273
+	.byte	1,5,48,9
+	.half	.L1275-.L1274
+	.byte	3,1,1,5,23,9
+	.half	.L1276-.L1275
+	.byte	1,5,48,9
+	.half	.L1277-.L1276
+	.byte	3,1,1,5,23,9
+	.half	.L1278-.L1277
+	.byte	1,5,48,9
+	.half	.L1279-.L1278
+	.byte	3,1,1,5,23,9
+	.half	.L1280-.L1279
+	.byte	1,5,48,9
+	.half	.L1281-.L1280
+	.byte	3,1,1,5,23,9
+	.half	.L1282-.L1281
+	.byte	1,5,48,9
+	.half	.L1283-.L1282
+	.byte	3,1,1,5,23,9
+	.half	.L1284-.L1283
+	.byte	1,5,48,9
+	.half	.L1285-.L1284
+	.byte	3,1,1,5,23,9
+	.half	.L1286-.L1285
+	.byte	1,5,48,9
+	.half	.L1287-.L1286
+	.byte	3,2,1,5,23,9
+	.half	.L1288-.L1287
+	.byte	1,5,48,9
+	.half	.L1289-.L1288
+	.byte	3,1,1,5,23,9
+	.half	.L1290-.L1289
+	.byte	1,5,48,9
+	.half	.L1291-.L1290
+	.byte	3,1,1,5,23,9
+	.half	.L1292-.L1291
+	.byte	1,5,48,9
+	.half	.L1293-.L1292
+	.byte	3,1,1,5,23,9
+	.half	.L1294-.L1293
+	.byte	1,5,48,9
+	.half	.L1295-.L1294
+	.byte	3,1,1,5,23,9
+	.half	.L1296-.L1295
+	.byte	1,5,48,9
+	.half	.L1297-.L1296
+	.byte	3,1,1,5,23,9
+	.half	.L1298-.L1297
+	.byte	1,5,48,9
+	.half	.L1299-.L1298
+	.byte	3,1,1,5,23,9
+	.half	.L1300-.L1299
+	.byte	1,5,2,9
+	.half	.L1301-.L1300
+	.byte	3,2,1,5,1,9
+	.half	.L134-.L1301
+	.byte	3,1,1,7,9
+	.half	.L310-.L134
+	.byte	0,1,1
+.L1266:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_int_status')
+	.sect	'.debug_ranges'
+.L309:
+	.word	-1,.L185,0,.L310-.L185,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_endianness')
+	.sect	'.debug_info'
+.L311:
+	.word	322
+	.half	3
+	.word	.L312
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L314,.L313
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_endianness',0,1,218,4,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L187,.L495,.L186
+	.byte	4
+	.byte	's',0,1,218,4,46
+	.word	.L327,.L496
+	.byte	5
+	.word	.L187,.L495
+	.byte	6
+	.byte	'status',0,1,220,4,14
+	.word	.L331,.L497
+	.byte	6
+	.byte	'sreg_ctrl',0,1,221,4,14
+	.word	.L498,.L499
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_endianness')
+	.sect	'.debug_abbrev'
+.L312:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_endianness')
+	.sect	'.debug_line'
+.L313:
+	.word	.L1303-.L1302
+.L1302:
+	.half	3
+	.word	.L1305-.L1304
+.L1304:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1305:
+	.byte	5,5,7,0,5,2
+	.word	.L187
+	.byte	3,217,4,1,5,21,9
+	.half	.L727-.L187
+	.byte	3,2,1,5,32,9
+	.half	.L728-.L727
+	.byte	3,3,1,5,43,9
+	.half	.L1306-.L728
+	.byte	1,5,58,9
+	.half	.L1307-.L1306
+	.byte	1,5,46,9
+	.half	.L1308-.L1307
+	.byte	1,5,9,9
+	.half	.L726-.L1308
+	.byte	1,5,7,9
+	.half	.L729-.L726
+	.byte	3,1,1,5,33,7,9
+	.half	.L1309-.L729
+	.byte	3,1,1,5,22,9
+	.half	.L1310-.L1309
+	.byte	1,5,2,9
+	.half	.L136-.L1310
+	.byte	3,2,1,5,1,9
+	.half	.L137-.L136
+	.byte	3,1,1,7,9
+	.half	.L315-.L137
+	.byte	0,1,1
+.L1303:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_endianness')
+	.sect	'.debug_ranges'
+.L314:
+	.word	-1,.L187,0,.L315-.L187,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.debug_info'
+.L316:
+	.word	352
+	.half	3
+	.word	.L317
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L319,.L318
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_select_accel_lp_clk',0,1,230,4,5
+	.word	.L331
+	.byte	1,1,1
+	.word	.L189,.L500,.L188
+	.byte	4
+	.byte	's',0,1,230,4,51
+	.word	.L327,.L501
+	.byte	4
+	.byte	'clk_sel',0,1,230,4,87
+	.word	.L502,.L503
+	.byte	5
+	.word	.L189,.L500
+	.byte	6
+	.byte	'status',0,1,232,4,18
+	.word	.L331,.L504
+	.byte	6
+	.byte	'smc_control_0',0,1,233,4,18
+	.word	.L427,.L505
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.debug_abbrev'
+.L317:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.debug_line'
+.L318:
+	.word	.L1312-.L1311
+.L1311:
+	.half	3
+	.word	.L1314-.L1313
+.L1313:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1314:
+	.byte	5,5,7,0,5,2
+	.word	.L189
+	.byte	3,229,4,1,5,25,9
+	.half	.L734-.L189
+	.byte	3,2,1,5,32,9
+	.half	.L735-.L734
+	.byte	3,3,1,5,47,9
+	.half	.L731-.L735
+	.byte	1,5,62,9
+	.half	.L1315-.L731
+	.byte	1,5,50,9
+	.half	.L1316-.L1315
+	.byte	1,5,9,9
+	.half	.L732-.L1316
+	.byte	1,5,15,9
+	.half	.L1317-.L732
+	.byte	3,1,1,5,33,9
+	.half	.L1318-.L1317
+	.byte	1,9
+	.half	.L1319-.L1318
+	.byte	3,1,1,5,48,9
+	.half	.L1320-.L1319
+	.byte	1,5,63,9
+	.half	.L1321-.L1320
+	.byte	1,5,51,9
+	.half	.L1322-.L1321
+	.byte	1,5,9,9
+	.half	.L738-.L1322
+	.byte	1,5,2,9
+	.half	.L736-.L738
+	.byte	3,2,1,5,1,9
+	.half	.L138-.L736
+	.byte	3,1,1,7,9
+	.half	.L320-.L138
+	.byte	0,1,1
+.L1312:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.debug_ranges'
+.L319:
+	.word	-1,.L189,0,.L320-.L189,0,0
+	.sdecl	'.debug_info',debug,cluster('inv_imu_get_version')
+	.sect	'.debug_info'
+.L321:
+	.word	260
+	.half	3
+	.word	.L322
+	.byte	4,1
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L324,.L323
+	.byte	2
+	.word	.L192
+	.byte	3
+	.byte	'inv_imu_get_version',0,1,242,4,13
+	.word	.L506
+	.byte	1,1,1
+	.word	.L191,.L507,.L190
+	.byte	4
+	.word	.L191,.L507
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('inv_imu_get_version')
+	.sect	'.debug_abbrev'
+.L322:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('inv_imu_get_version')
+	.sect	'.debug_line'
+.L323:
+	.word	.L1324-.L1323
+.L1323:
+	.half	3
+	.word	.L1326-.L1325
+.L1325:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/zf_device/lib_icm45686/inv_imu_driver.c',0,0,0,0,0
+.L1326:
+	.byte	5,9,7,0,5,2
+	.word	.L191
+	.byte	3,243,4,1,5,2,9
+	.half	.L1327-.L191
+	.byte	1,5,1,9
+	.half	.L139-.L1327
+	.byte	3,1,1,7,9
+	.half	.L325-.L139
+	.byte	0,1,1
+.L1324:
+	.sdecl	'.debug_ranges',debug,cluster('inv_imu_get_version')
+	.sect	'.debug_ranges'
+.L324:
+	.word	-1,.L191,0,.L325-.L191,0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_flush_fifo')
+	.sect	'.debug_loc'
+.L441:
+	.word	-1,.L173,0,.L437-.L173
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L172:
+	.word	-1,.L173,0,.L660-.L173
+	.half	2
+	.byte	138,0
+	.word	.L660-.L173,.L437-.L173
+	.half	2
+	.byte	138,8
+	.word	.L437-.L173,.L437-.L173
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L438:
+	.word	-1,.L173,0,.L661-.L173
+	.half	1
+	.byte	100
+	.word	.L662-.L173,.L437-.L173
+	.half	1
+	.byte	111
+	.word	.L665-.L173,.L666-.L173
+	.half	1
+	.byte	100
+	.word	.L667-.L173,.L668-.L173
+	.half	1
+	.byte	100
+	.word	.L669-.L173,.L670-.L173
+	.half	1
+	.byte	100
+	.word	.L671-.L173,.L672-.L173
+	.half	1
+	.byte	100
+	.word	0,0
+.L439:
+	.word	-1,.L173,.L663-.L173,.L437-.L173
+	.half	1
+	.byte	88
+	.word	.L673-.L173,.L58-.L173
+	.half	1
+	.byte	82
+	.word	0,0
+.L442:
+	.word	-1,.L173,.L664-.L173,.L437-.L173
+	.half	1
+	.byte	89
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_config_int')
+	.sect	'.debug_loc'
+.L474:
+	.word	-1,.L181,0,.L467-.L181
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L180:
+	.word	-1,.L181,0,.L696-.L181
+	.half	2
+	.byte	138,0
+	.word	.L696-.L181,.L467-.L181
+	.half	2
+	.byte	138,8
+	.word	.L467-.L181,.L467-.L181
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L472:
+	.word	-1,.L181,0,.L697-.L181
+	.half	1
+	.byte	101
+	.word	.L700-.L181,.L467-.L181
+	.half	1
+	.byte	111
+	.word	0,0
+.L470:
+	.word	-1,.L181,0,.L698-.L181
+	.half	1
+	.byte	84
+	.word	.L116-.L181,.L703-.L181
+	.half	1
+	.byte	84
+	.word	.L117-.L181,.L118-.L181
+	.half	1
+	.byte	84
+	.word	0,0
+.L475:
+	.word	-1,.L181,.L698-.L181,.L116-.L181
+	.half	1
+	.byte	84
+	.word	.L703-.L181,.L117-.L181
+	.half	1
+	.byte	84
+	.word	.L118-.L181,.L699-.L181
+	.half	1
+	.byte	84
+	.word	0,0
+.L468:
+	.word	-1,.L181,0,.L699-.L181
+	.half	1
+	.byte	100
+	.word	0,0
+.L473:
+	.word	-1,.L181,.L701-.L181,.L702-.L181
+	.half	1
+	.byte	88
+	.word	.L699-.L181,.L120-.L181
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_endianness')
+	.sect	'.debug_loc'
+.L186:
+	.word	-1,.L187,0,.L725-.L187
+	.half	2
+	.byte	138,0
+	.word	.L725-.L187,.L495-.L187
+	.half	2
+	.byte	138,8
+	.word	.L495-.L187,.L495-.L187
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L496:
+	.word	-1,.L187,0,.L726-.L187
+	.half	1
+	.byte	100
+	.word	.L727-.L187,.L495-.L187
+	.half	1
+	.byte	111
+	.word	0,0
+.L499:
+	.word	-1,.L187,0,.L495-.L187
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L497:
+	.word	-1,.L187,.L728-.L187,.L729-.L187
+	.half	1
+	.byte	95
+	.word	.L726-.L187,.L495-.L187
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_fifo_config')
+	.sect	'.debug_loc'
+.L436:
+	.word	-1,.L171,0,.L431-.L171
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L434:
+	.word	-1,.L171,0,.L655-.L171
+	.half	1
+	.byte	101
+	.word	.L657-.L171,.L431-.L171
+	.half	1
+	.byte	111
+	.word	0,0
+.L170:
+	.word	-1,.L171,0,.L654-.L171
+	.half	2
+	.byte	138,0
+	.word	.L654-.L171,.L431-.L171
+	.half	2
+	.byte	138,8
+	.word	.L431-.L171,.L431-.L171
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L432:
+	.word	-1,.L171,0,.L656-.L171
+	.half	1
+	.byte	100
+	.word	0,0
+.L435:
+	.word	-1,.L171,.L658-.L171,.L659-.L171
+	.half	1
+	.byte	95
+	.word	.L656-.L171,.L431-.L171
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_fifo_frame')
+	.sect	'.debug_loc'
+.L451:
+	.word	-1,.L177,0,.L683-.L177
+	.half	1
+	.byte	101
+	.word	.L686-.L177,.L448-.L177
+	.half	1
+	.byte	111
+	.word	0,0
+.L454:
+	.word	-1,.L177,0,.L448-.L177
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L176:
+	.word	-1,.L177,0,.L682-.L177
+	.half	2
+	.byte	138,0
+	.word	.L682-.L177,.L448-.L177
+	.half	2
+	.byte	138,24
+	.word	.L448-.L177,.L448-.L177
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L456:
+	.word	0,0
+.L449:
+	.word	-1,.L177,0,.L684-.L177
+	.half	1
+	.byte	100
+	.word	.L685-.L177,.L448-.L177
+	.half	1
+	.byte	108
+	.word	0,0
+.L452:
+	.word	-1,.L177,.L687-.L177,.L448-.L177
+	.half	1
+	.byte	88
+	.word	.L688-.L177,.L106-.L177
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_frame_count')
+	.sect	'.debug_loc'
+.L446:
+	.word	-1,.L175,0,.L674-.L175
+	.half	1
+	.byte	101
+	.word	.L676-.L175,.L443-.L175
+	.half	1
+	.byte	111
+	.word	.L681-.L175,.L680-.L175
+	.half	1
+	.byte	101
+	.word	0,0
+.L174:
+	.word	-1,.L175,0,.L443-.L175
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L444:
+	.word	-1,.L175,0,.L674-.L175
+	.half	1
+	.byte	100
+	.word	.L675-.L175,.L443-.L175
+	.half	1
+	.byte	108
+	.word	.L679-.L175,.L680-.L175
+	.half	1
+	.byte	100
+	.word	0,0
+.L447:
+	.word	-1,.L175,.L677-.L175,.L678-.L175
+	.half	1
+	.byte	95
+	.word	.L680-.L175,.L443-.L175
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_int_status')
+	.sect	'.debug_loc'
+.L493:
+	.word	-1,.L185,0,.L486-.L185
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L184:
+	.word	-1,.L185,0,.L717-.L185
+	.half	2
+	.byte	138,0
+	.word	.L717-.L185,.L486-.L185
+	.half	2
+	.byte	138,8
+	.word	.L486-.L185,.L486-.L185
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L490:
+	.word	-1,.L185,0,.L718-.L185
+	.half	1
+	.byte	101
+	.word	.L721-.L185,.L486-.L185
+	.half	1
+	.byte	111
+	.word	0,0
+.L489:
+	.word	-1,.L185,0,.L719-.L185
+	.half	1
+	.byte	84
+	.word	.L130-.L185,.L724-.L185
+	.half	1
+	.byte	84
+	.word	.L131-.L185,.L132-.L185
+	.half	1
+	.byte	84
+	.word	0,0
+.L494:
+	.word	-1,.L185,.L719-.L185,.L130-.L185
+	.half	1
+	.byte	84
+	.word	.L724-.L185,.L131-.L185
+	.half	1
+	.byte	84
+	.word	.L132-.L185,.L720-.L185
+	.half	1
+	.byte	84
+	.word	0,0
+.L487:
+	.word	-1,.L185,0,.L720-.L185
+	.half	1
+	.byte	100
+	.word	0,0
+.L491:
+	.word	-1,.L185,.L722-.L185,.L723-.L185
+	.half	1
+	.byte	88
+	.word	.L720-.L185,.L134-.L185
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_register_data')
+	.sect	'.debug_loc'
+.L418:
+	.word	-1,.L167,0,.L623-.L167
+	.half	1
+	.byte	101
+	.word	.L625-.L167,.L415-.L167
+	.half	1
+	.byte	111
+	.word	0,0
+.L166:
+	.word	-1,.L167,0,.L415-.L167
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L416:
+	.word	-1,.L167,0,.L623-.L167
+	.half	1
+	.byte	100
+	.word	.L624-.L167,.L415-.L167
+	.half	1
+	.byte	108
+	.word	0,0
+.L419:
+	.word	-1,.L167,.L626-.L167,.L627-.L167
+	.half	1
+	.byte	95
+	.word	.L623-.L167,.L415-.L167
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_version')
+	.sect	'.debug_loc'
+.L190:
+	.word	-1,.L191,0,.L507-.L191
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_get_who_am_i')
+	.sect	'.debug_loc'
+.L144:
+	.word	-1,.L145,0,.L343-.L145
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L344:
+	.word	-1,.L145,0,.L526-.L145
+	.half	1
+	.byte	100
+	.word	.L527-.L145,.L343-.L145
+	.half	1
+	.byte	111
+	.word	.L529-.L145,.L6-.L145
+	.half	1
+	.byte	100
+	.word	0,0
+.L347:
+	.word	-1,.L145,.L526-.L145,.L343-.L145
+	.half	1
+	.byte	82
+	.word	0,0
+.L346:
+	.word	-1,.L145,0,.L526-.L145
+	.half	1
+	.byte	101
+	.word	.L528-.L145,.L343-.L145
+	.half	1
+	.byte	108
+	.word	.L530-.L145,.L6-.L145
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.debug_loc'
+.L503:
+	.word	-1,.L189,0,.L731-.L189
+	.half	1
+	.byte	84
+	.word	.L734-.L189,.L500-.L189
+	.half	1
+	.byte	88
+	.word	0,0
+.L188:
+	.word	-1,.L189,0,.L730-.L189
+	.half	2
+	.byte	138,0
+	.word	.L730-.L189,.L500-.L189
+	.half	2
+	.byte	138,8
+	.word	.L500-.L189,.L500-.L189
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L501:
+	.word	-1,.L189,0,.L732-.L189
+	.half	1
+	.byte	100
+	.word	.L733-.L189,.L500-.L189
+	.half	1
+	.byte	111
+	.word	.L737-.L189,.L738-.L189
+	.half	1
+	.byte	100
+	.word	0,0
+.L505:
+	.word	-1,.L189,0,.L500-.L189
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L504:
+	.word	-1,.L189,.L735-.L189,.L736-.L189
+	.half	1
+	.byte	95
+	.word	.L738-.L189,.L500-.L189
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_accel_frequency')
+	.sect	'.debug_loc'
+.L367:
+	.word	-1,.L151,0,.L361-.L151
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L364:
+	.word	-1,.L151,0,.L552-.L151
+	.half	1
+	.byte	84
+	.word	.L555-.L151,.L361-.L151
+	.half	1
+	.byte	88
+	.word	0,0
+.L150:
+	.word	-1,.L151,0,.L551-.L151
+	.half	2
+	.byte	138,0
+	.word	.L551-.L151,.L361-.L151
+	.half	2
+	.byte	138,8
+	.word	.L361-.L151,.L361-.L151
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L362:
+	.word	-1,.L151,0,.L553-.L151
+	.half	1
+	.byte	100
+	.word	.L554-.L151,.L361-.L151
+	.half	1
+	.byte	111
+	.word	.L558-.L151,.L559-.L151
+	.half	1
+	.byte	100
+	.word	0,0
+.L365:
+	.word	-1,.L151,.L556-.L151,.L557-.L151
+	.half	1
+	.byte	95
+	.word	.L559-.L151,.L361-.L151
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_accel_fsr')
+	.sect	'.debug_loc'
+.L380:
+	.word	-1,.L155,0,.L375-.L155
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L378:
+	.word	-1,.L155,0,.L570-.L155
+	.half	1
+	.byte	84
+	.word	.L573-.L155,.L375-.L155
+	.half	1
+	.byte	88
+	.word	0,0
+.L154:
+	.word	-1,.L155,0,.L569-.L155
+	.half	2
+	.byte	138,0
+	.word	.L569-.L155,.L375-.L155
+	.half	2
+	.byte	138,8
+	.word	.L375-.L155,.L375-.L155
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L376:
+	.word	-1,.L155,0,.L571-.L155
+	.half	1
+	.byte	100
+	.word	.L572-.L155,.L375-.L155
+	.half	1
+	.byte	111
+	.word	.L576-.L155,.L577-.L155
+	.half	1
+	.byte	100
+	.word	0,0
+.L379:
+	.word	-1,.L155,.L574-.L155,.L575-.L155
+	.half	1
+	.byte	95
+	.word	.L577-.L155,.L375-.L155
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.debug_loc'
+.L404:
+	.word	-1,.L165,0,.L615-.L165
+	.half	1
+	.byte	84
+	.word	.L618-.L165,.L401-.L165
+	.half	1
+	.byte	88
+	.word	0,0
+.L164:
+	.word	-1,.L165,0,.L614-.L165
+	.half	2
+	.byte	138,0
+	.word	.L614-.L165,.L401-.L165
+	.half	2
+	.byte	138,8
+	.word	.L401-.L165,.L401-.L165
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L407:
+	.word	-1,.L165,0,.L401-.L165
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L402:
+	.word	-1,.L165,0,.L616-.L165
+	.half	1
+	.byte	100
+	.word	.L617-.L165,.L401-.L165
+	.half	1
+	.byte	111
+	.word	.L621-.L165,.L622-.L165
+	.half	1
+	.byte	100
+	.word	0,0
+.L405:
+	.word	-1,.L165,.L619-.L165,.L620-.L165
+	.half	1
+	.byte	95
+	.word	.L622-.L165,.L401-.L165
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.debug_loc'
+.L390:
+	.word	-1,.L163,0,.L606-.L163
+	.half	1
+	.byte	84
+	.word	.L609-.L163,.L387-.L163
+	.half	1
+	.byte	88
+	.word	0,0
+.L162:
+	.word	-1,.L163,0,.L605-.L163
+	.half	2
+	.byte	138,0
+	.word	.L605-.L163,.L387-.L163
+	.half	2
+	.byte	138,8
+	.word	.L387-.L163,.L387-.L163
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L393:
+	.word	-1,.L163,0,.L387-.L163
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L388:
+	.word	-1,.L163,0,.L607-.L163
+	.half	1
+	.byte	100
+	.word	.L608-.L163,.L387-.L163
+	.half	1
+	.byte	111
+	.word	.L612-.L163,.L613-.L163
+	.half	1
+	.byte	100
+	.word	0,0
+.L391:
+	.word	-1,.L163,.L610-.L163,.L611-.L163
+	.half	1
+	.byte	95
+	.word	.L613-.L163,.L387-.L163
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_accel_mode')
+	.sect	'.debug_loc'
+.L351:
+	.word	-1,.L147,0,.L532-.L147
+	.half	1
+	.byte	84
+	.word	.L534-.L147,.L348-.L147
+	.half	1
+	.byte	88
+	.word	0,0
+.L146:
+	.word	-1,.L147,0,.L531-.L147
+	.half	2
+	.byte	138,0
+	.word	.L531-.L147,.L348-.L147
+	.half	2
+	.byte	138,8
+	.word	.L348-.L147,.L348-.L147
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L354:
+	.word	-1,.L147,0,.L348-.L147
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L349:
+	.word	-1,.L147,0,.L532-.L147
+	.half	1
+	.byte	100
+	.word	.L533-.L147,.L348-.L147
+	.half	1
+	.byte	111
+	.word	.L537-.L147,.L538-.L147
+	.half	1
+	.byte	100
+	.word	.L539-.L147,.L540-.L147
+	.half	1
+	.byte	100
+	.word	0,0
+.L352:
+	.word	-1,.L147,.L535-.L147,.L536-.L147
+	.half	1
+	.byte	95
+	.word	.L540-.L147,.L348-.L147
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_config_int')
+	.sect	'.debug_loc'
+.L465:
+	.word	-1,.L179,0,.L457-.L179
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L178:
+	.word	-1,.L179,0,.L689-.L179
+	.half	2
+	.byte	138,0
+	.word	.L689-.L179,.L457-.L179
+	.half	2
+	.byte	138,8
+	.word	.L457-.L179,.L457-.L179
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L462:
+	.word	-1,.L179,0,.L690-.L179
+	.half	1
+	.byte	101
+	.word	0,0
+.L460:
+	.word	-1,.L179,0,.L691-.L179
+	.half	1
+	.byte	84
+	.word	.L109-.L179,.L695-.L179
+	.half	1
+	.byte	84
+	.word	.L110-.L179,.L111-.L179
+	.half	1
+	.byte	84
+	.word	0,0
+.L466:
+	.word	-1,.L179,.L691-.L179,.L109-.L179
+	.half	1
+	.byte	84
+	.word	.L695-.L179,.L110-.L179
+	.half	1
+	.byte	84
+	.word	.L111-.L179,.L692-.L179
+	.half	1
+	.byte	84
+	.word	0,0
+.L458:
+	.word	-1,.L179,0,.L692-.L179
+	.half	1
+	.byte	100
+	.word	0,0
+.L463:
+	.word	-1,.L179,.L693-.L179,.L694-.L179
+	.half	1
+	.byte	88
+	.word	.L692-.L179,.L113-.L179
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_fifo_config')
+	.sect	'.debug_loc'
+.L426:
+	.word	-1,.L169,0,.L420-.L169
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L423:
+	.word	-1,.L169,0,.L629-.L169
+	.half	1
+	.byte	101
+	.word	.L632-.L169,.L420-.L169
+	.half	1
+	.byte	111
+	.word	0,0
+.L430:
+	.word	-1,.L169,.L635-.L169,.L420-.L169
+	.half	1
+	.byte	89
+	.word	0,0
+.L168:
+	.word	-1,.L169,0,.L628-.L169
+	.half	2
+	.byte	138,0
+	.word	.L628-.L169,.L420-.L169
+	.half	2
+	.byte	138,8
+	.word	.L420-.L169,.L420-.L169
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L421:
+	.word	-1,.L169,0,.L630-.L169
+	.half	1
+	.byte	100
+	.word	.L631-.L169,.L420-.L169
+	.half	1
+	.byte	108
+	.word	.L636-.L169,.L637-.L169
+	.half	1
+	.byte	100
+	.word	.L638-.L169,.L639-.L169
+	.half	1
+	.byte	100
+	.word	.L640-.L169,.L641-.L169
+	.half	1
+	.byte	100
+	.word	.L642-.L169,.L643-.L169
+	.half	1
+	.byte	100
+	.word	.L644-.L169,.L645-.L169
+	.half	1
+	.byte	100
+	.word	.L646-.L169,.L647-.L169
+	.half	1
+	.byte	100
+	.word	.L648-.L169,.L649-.L169
+	.half	1
+	.byte	100
+	.word	.L650-.L169,.L651-.L169
+	.half	1
+	.byte	100
+	.word	.L652-.L169,.L653-.L169
+	.half	1
+	.byte	100
+	.word	0,0
+.L428:
+	.word	-1,.L169,0,.L420-.L169
+	.half	2
+	.byte	145,126
+	.word	0,0
+.L424:
+	.word	-1,.L169,.L633-.L169,.L634-.L169
+	.half	1
+	.byte	88
+	.word	.L649-.L169,.L42-.L169
+	.half	1
+	.byte	82
+	.word	.L42-.L169,.L43-.L169
+	.half	1
+	.byte	88
+	.word	.L653-.L169,.L36-.L169
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.debug_loc'
+.L371:
+	.word	-1,.L153,0,.L561-.L153
+	.half	1
+	.byte	84
+	.word	.L564-.L153,.L368-.L153
+	.half	1
+	.byte	88
+	.word	0,0
+.L374:
+	.word	-1,.L153,0,.L368-.L153
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L152:
+	.word	-1,.L153,0,.L560-.L153
+	.half	2
+	.byte	138,0
+	.word	.L560-.L153,.L368-.L153
+	.half	2
+	.byte	138,8
+	.word	.L368-.L153,.L368-.L153
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L369:
+	.word	-1,.L153,0,.L562-.L153
+	.half	1
+	.byte	100
+	.word	.L563-.L153,.L368-.L153
+	.half	1
+	.byte	111
+	.word	.L567-.L153,.L568-.L153
+	.half	1
+	.byte	100
+	.word	0,0
+.L372:
+	.word	-1,.L153,.L565-.L153,.L566-.L153
+	.half	1
+	.byte	95
+	.word	.L568-.L153,.L368-.L153
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.debug_loc'
+.L386:
+	.word	-1,.L157,0,.L381-.L157
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L384:
+	.word	-1,.L157,0,.L579-.L157
+	.half	1
+	.byte	84
+	.word	.L582-.L157,.L381-.L157
+	.half	1
+	.byte	88
+	.word	0,0
+.L156:
+	.word	-1,.L157,0,.L578-.L157
+	.half	2
+	.byte	138,0
+	.word	.L578-.L157,.L381-.L157
+	.half	2
+	.byte	138,8
+	.word	.L381-.L157,.L381-.L157
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L382:
+	.word	-1,.L157,0,.L580-.L157
+	.half	1
+	.byte	100
+	.word	.L581-.L157,.L381-.L157
+	.half	1
+	.byte	111
+	.word	.L585-.L157,.L586-.L157
+	.half	1
+	.byte	100
+	.word	0,0
+.L385:
+	.word	-1,.L157,.L583-.L157,.L584-.L157
+	.half	1
+	.byte	95
+	.word	.L586-.L157,.L381-.L157
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.debug_loc'
+.L411:
+	.word	-1,.L159,0,.L588-.L159
+	.half	1
+	.byte	84
+	.word	.L591-.L159,.L408-.L159
+	.half	1
+	.byte	88
+	.word	0,0
+.L158:
+	.word	-1,.L159,0,.L587-.L159
+	.half	2
+	.byte	138,0
+	.word	.L587-.L159,.L408-.L159
+	.half	2
+	.byte	138,8
+	.word	.L408-.L159,.L408-.L159
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L414:
+	.word	-1,.L159,0,.L408-.L159
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L409:
+	.word	-1,.L159,0,.L589-.L159
+	.half	1
+	.byte	100
+	.word	.L590-.L159,.L408-.L159
+	.half	1
+	.byte	111
+	.word	.L594-.L159,.L595-.L159
+	.half	1
+	.byte	100
+	.word	0,0
+.L412:
+	.word	-1,.L159,.L592-.L159,.L593-.L159
+	.half	1
+	.byte	95
+	.word	.L595-.L159,.L408-.L159
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.debug_loc'
+.L397:
+	.word	-1,.L161,0,.L597-.L161
+	.half	1
+	.byte	84
+	.word	.L600-.L161,.L394-.L161
+	.half	1
+	.byte	88
+	.word	0,0
+.L160:
+	.word	-1,.L161,0,.L596-.L161
+	.half	2
+	.byte	138,0
+	.word	.L596-.L161,.L394-.L161
+	.half	2
+	.byte	138,8
+	.word	.L394-.L161,.L394-.L161
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L400:
+	.word	-1,.L161,0,.L394-.L161
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L395:
+	.word	-1,.L161,0,.L598-.L161
+	.half	1
+	.byte	100
+	.word	.L599-.L161,.L394-.L161
+	.half	1
+	.byte	111
+	.word	.L603-.L161,.L604-.L161
+	.half	1
+	.byte	100
+	.word	0,0
+.L398:
+	.word	-1,.L161,.L601-.L161,.L602-.L161
+	.half	1
+	.byte	95
+	.word	.L604-.L161,.L394-.L161
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_gyro_mode')
+	.sect	'.debug_loc'
+.L358:
+	.word	-1,.L149,0,.L542-.L149
+	.half	1
+	.byte	84
+	.word	.L544-.L149,.L355-.L149
+	.half	1
+	.byte	88
+	.word	0,0
+.L148:
+	.word	-1,.L149,0,.L541-.L149
+	.half	2
+	.byte	138,0
+	.word	.L541-.L149,.L355-.L149
+	.half	2
+	.byte	138,8
+	.word	.L355-.L149,.L355-.L149
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L360:
+	.word	-1,.L149,0,.L355-.L149
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L356:
+	.word	-1,.L149,0,.L542-.L149
+	.half	1
+	.byte	100
+	.word	.L543-.L149,.L355-.L149
+	.half	1
+	.byte	111
+	.word	.L547-.L149,.L548-.L149
+	.half	1
+	.byte	100
+	.word	.L549-.L149,.L550-.L149
+	.half	1
+	.byte	100
+	.word	0,0
+.L359:
+	.word	-1,.L149,.L545-.L149,.L546-.L149
+	.half	1
+	.byte	95
+	.word	.L550-.L149,.L355-.L149
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_set_pin_config_int')
+	.sect	'.debug_loc'
+.L481:
+	.word	-1,.L183,0,.L705-.L183
+	.half	1
+	.byte	101
+	.word	.L709-.L183,.L476-.L183
+	.half	1
+	.byte	111
+	.word	0,0
+.L484:
+	.word	-1,.L183,0,.L476-.L183
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L182:
+	.word	-1,.L183,0,.L704-.L183
+	.half	2
+	.byte	138,0
+	.word	.L704-.L183,.L476-.L183
+	.half	2
+	.byte	138,8
+	.word	.L476-.L183,.L476-.L183
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L479:
+	.word	-1,.L183,0,.L706-.L183
+	.half	1
+	.byte	84
+	.word	0,0
+.L485:
+	.word	-1,.L183,.L712-.L183,.L123-.L183
+	.half	1
+	.byte	89
+	.word	.L713-.L183,.L124-.L183
+	.half	1
+	.byte	89
+	.word	.L125-.L183,.L127-.L183
+	.half	1
+	.byte	89
+	.word	.L706-.L183,.L707-.L183
+	.half	1
+	.byte	84
+	.word	.L716-.L183,.L715-.L183
+	.half	1
+	.byte	84
+	.word	0,0
+.L477:
+	.word	-1,.L183,0,.L707-.L183
+	.half	1
+	.byte	100
+	.word	.L708-.L183,.L476-.L183
+	.half	1
+	.byte	108
+	.word	.L714-.L183,.L715-.L183
+	.half	1
+	.byte	100
+	.word	0,0
+.L482:
+	.word	-1,.L183,.L710-.L183,.L711-.L183
+	.half	1
+	.byte	88
+	.word	.L715-.L183,.L127-.L183
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_sleep_us')
+	.sect	'.debug_loc'
+.L140:
+	.word	-1,.L141,0,.L326-.L141
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L328:
+	.word	-1,.L141,0,.L2-.L141
+	.half	1
+	.byte	100
+	.word	0,0
+.L330:
+	.word	-1,.L141,0,.L2-.L141
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('inv_imu_soft_reset')
+	.sect	'.debug_loc'
+.L338:
+	.word	-1,.L143,0,.L332-.L143
+	.half	2
+	.byte	145,121
+	.word	0,0
+.L342:
+	.word	-1,.L143,0,.L332-.L143
+	.half	2
+	.byte	145,123
+	.word	0,0
+.L336:
+	.word	-1,.L143,0,.L332-.L143
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L142:
+	.word	-1,.L143,0,.L508-.L143
+	.half	2
+	.byte	138,0
+	.word	.L508-.L143,.L332-.L143
+	.half	2
+	.byte	138,8
+	.word	.L332-.L143,.L332-.L143
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L340:
+	.word	-1,.L143,0,.L332-.L143
+	.half	2
+	.byte	145,122
+	.word	0,0
+.L333:
+	.word	-1,.L143,0,.L509-.L143
+	.half	1
+	.byte	100
+	.word	.L510-.L143,.L332-.L143
+	.half	1
+	.byte	111
+	.word	.L513-.L143,.L514-.L143
+	.half	1
+	.byte	100
+	.word	.L515-.L143,.L516-.L143
+	.half	1
+	.byte	100
+	.word	.L517-.L143,.L518-.L143
+	.half	1
+	.byte	100
+	.word	.L519-.L143,.L520-.L143
+	.half	1
+	.byte	100
+	.word	.L521-.L143,.L522-.L143
+	.half	1
+	.byte	100
+	.word	.L523-.L143,.L524-.L143
+	.half	1
+	.byte	100
+	.word	0,0
+.L334:
+	.word	-1,.L143,.L511-.L143,.L512-.L143
+	.half	1
+	.byte	88
+	.word	.L524-.L143,.L525-.L143
+	.half	1
+	.byte	82
+	.word	.L3-.L143,.L4-.L143
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L1328:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_sleep_us')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1328,.L141,.L326-.L141
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_soft_reset')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L143,.L332-.L143
+	.byte	4
+	.word	(.L508-.L143)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L332-.L508)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_who_am_i')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1328,.L145,.L343-.L145
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_accel_mode')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L147,.L348-.L147
+	.byte	4
+	.word	(.L531-.L147)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L348-.L531)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_gyro_mode')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L149,.L355-.L149
+	.byte	4
+	.word	(.L541-.L149)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L355-.L541)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_accel_frequency')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L151,.L361-.L151
+	.byte	4
+	.word	(.L551-.L151)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L361-.L551)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_gyro_frequency')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L153,.L368-.L153
+	.byte	4
+	.word	(.L560-.L153)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L368-.L560)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_accel_fsr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L155,.L375-.L155
+	.byte	4
+	.word	(.L569-.L155)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L375-.L569)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_gyro_fsr')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L157,.L381-.L157
+	.byte	4
+	.word	(.L578-.L157)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L381-.L578)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_gyro_ln_bw')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L159,.L408-.L159
+	.byte	4
+	.word	(.L587-.L159)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L408-.L587)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_gyro_lp_avg')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L161,.L394-.L161
+	.byte	4
+	.word	(.L596-.L161)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L394-.L596)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_accel_lp_avg')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L163,.L387-.L163
+	.byte	4
+	.word	(.L605-.L163)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L387-.L605)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_accel_ln_bw')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L165,.L401-.L165
+	.byte	4
+	.word	(.L614-.L165)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L401-.L614)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_register_data')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1328,.L167,.L415-.L167
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_fifo_config')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L169,.L420-.L169
+	.byte	4
+	.word	(.L628-.L169)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L420-.L628)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_fifo_config')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L171,.L431-.L171
+	.byte	4
+	.word	(.L654-.L171)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L431-.L654)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_flush_fifo')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L173,.L437-.L173
+	.byte	4
+	.word	(.L660-.L173)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L437-.L660)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_frame_count')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L1328,.L175,.L443-.L175
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_fifo_frame')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L177,.L448-.L177
+	.byte	4
+	.word	(.L682-.L177)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L448-.L682)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_config_int')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L179,.L457-.L179
+	.byte	4
+	.word	(.L689-.L179)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L457-.L689)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_config_int')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L181,.L467-.L181
+	.byte	4
+	.word	(.L696-.L181)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L467-.L696)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_set_pin_config_int')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L183,.L476-.L183
+	.byte	4
+	.word	(.L704-.L183)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L476-.L704)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_int_status')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L185,.L486-.L185
+	.byte	4
+	.word	(.L717-.L185)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L486-.L717)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_endianness')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L187,.L495-.L187
+	.byte	4
+	.word	(.L725-.L187)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L495-.L725)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_select_accel_lp_clk')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L1328,.L189,.L500-.L189
+	.byte	4
+	.word	(.L730-.L189)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L500-.L730)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('inv_imu_get_version')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L1328,.L191,.L507-.L191
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	; Module end
