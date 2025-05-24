@@ -1,7 +1,7 @@
 /**
  * *****************************************************************************
  * @file        navigation.c
- * @brief       导航系统实现，简化版本，主要用于智能车科目导航
+ * @brief       简化导航系统实现，使用GPS点位和IMU方向角
  * @author      cita (juricek.chen@gmail.com)
  * @date        2025-04-04
  * @copyright   cita
@@ -12,11 +12,6 @@
 #include "zf_common_headfile.h"
 
 /*----------------------------------宏定义-----------------------------------*/
-// 导航模式定义
-#define NAV_MODE_GPS_ONLY 0   // 仅使用GPS模式
-#define NAV_MODE_IMU_ONLY 1   // 仅使用IMU模式
-#define NAV_MODE_MANUAL 2     // 手动模式
-
 // 地球半径（米）
 #define EARTH_RADIUS 6378137.0
 // 弧度角度转换
@@ -26,11 +21,6 @@
 // 坐标系参数
 #define MAX_WAYPOINTS 4       // 最大路径点数量
 #define WAYPOINT_RADIUS 2.0   // 航点切换半径(米)
-
-// 科目状态定义
-#define COURSE_STATE_IDLE 0        // 未运行
-#define COURSE_STATE_RUNNING 1     // 正在运行
-#define COURSE_STATE_COMPLETED 2   // 已完成
 
 // 科目一阶段定义
 #define COURSE1_STAGE_START 0      // 起点到掉头起点
@@ -50,7 +40,6 @@
 // 导航系统结构体
 typedef struct
 {
-    uint8_t mode;                          // 导航模式
     uint8_t current_waypoint;              // 当前航点索引
     double  waypoints[MAX_WAYPOINTS][2];   // 航点数组 [纬度, 经度]
 
@@ -74,8 +63,8 @@ static NavSystem nav_sys;   // 导航系统实例
 
 /*----------------------------------私有函数----------------------------------*/
 // 辅助导航函数
-static double calculate_distance(double lat1, double lon1, double lat2, double lon2);
-static double calculate_azimuth(double lat1, double lon1, double lat2, double lon2);
+// static double calculate_distance(double lat1, double lon1, double lat2, double lon2);
+// static double calculate_azimuth(double lat1, double lon1, double lat2, double lon2);
 static double normalize_angle(double angle);
 
 /*--------------------------------公共接口函数--------------------------------*/
@@ -85,7 +74,6 @@ static double normalize_angle(double angle);
 void navigation_init(void)
 {
     // 初始化系统参数
-    nav_sys.mode             = NAV_MODE_GPS_ONLY;
     nav_sys.current_waypoint = 0;
     nav_sys.target_steer     = 0.0;
     nav_sys.target_speed     = 0;
@@ -96,7 +84,6 @@ void navigation_init(void)
     nav_sys.initial_yaw   = 0.0f;
 
     // 初始化默认科目点位(可通过后续采集更新)
-    // 默认航点 - 将在采集时更新
     nav_sys.waypoints[0][0] = 31.2304;    // 起点纬度
     nav_sys.waypoints[0][1] = 121.4737;   // 起点经度
     nav_sys.waypoints[1][0] = 31.2314;    // 掉头起点纬度
@@ -106,11 +93,11 @@ void navigation_init(void)
     nav_sys.waypoints[3][0] = 31.2304;    // 终点纬度
     nav_sys.waypoints[3][1] = 121.4737;   // 终点经度
 
-    printf("Navigation system initialized.\r\n");
+    printf("导航系统已初始化.\r\n");
 }
 
 /**
- * @brief 简化导航更新函数
+ * @brief 导航更新函数
  * @param gps_lat 当前GPS纬度
  * @param gps_lon 当前GPS经度
  * @param gps_valid GPS数据是否有效
@@ -152,7 +139,7 @@ void navigation_update(double gps_lat, double gps_lon, uint8_t gps_valid, float 
         target_lat = nav_sys.waypoints[1][0];
         target_lon = nav_sys.waypoints[1][1];
 
-        dist_to_target = calculate_distance(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
+        dist_to_target = get_two_points_distance(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
 
         // 如果到达掉头起点
         if (dist_to_target < WAYPOINT_RADIUS)
@@ -185,7 +172,7 @@ void navigation_update(double gps_lat, double gps_lon, uint8_t gps_valid, float 
         target_lat = nav_sys.waypoints[3][0];
         target_lon = nav_sys.waypoints[3][1];
 
-        dist_to_target = calculate_distance(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
+        dist_to_target = get_two_points_distance(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
 
         // 如果到达终点
         if (dist_to_target < WAYPOINT_RADIUS)
@@ -210,7 +197,7 @@ void navigation_update(double gps_lat, double gps_lon, uint8_t gps_valid, float 
     }
 
     // 计算到目标点的方位角
-    double target_azimuth = calculate_azimuth(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
+    double target_azimuth = get_two_points_azimuth(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
 
     // 计算航向误差
     double heading_error = normalize_angle(target_azimuth - nav_sys.current_yaw);
@@ -218,7 +205,7 @@ void navigation_update(double gps_lat, double gps_lon, uint8_t gps_valid, float 
     // 计算距离(仅在非掉头阶段使用)
     if (nav_sys.course1_stage != COURSE1_STAGE_TURN)
     {
-        dist_to_target = calculate_distance(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
+        dist_to_target = get_two_points_distance(nav_sys.current_lat, nav_sys.current_lon, target_lat, target_lon);
     }
 
     // 计算转向控制量
@@ -251,24 +238,8 @@ void navigation_update(double gps_lat, double gps_lon, uint8_t gps_valid, float 
     }
 
     // 输出控制命令
-    if (nav_sys.mode != NAV_MODE_MANUAL)
-    {
-        servo_set(SERVO_MOTOR_MID + (int16_t)nav_sys.target_steer);
-        drv8701_motor_set(nav_sys.target_speed);
-    }
-}
-
-/**
- * @brief 切换导航模式
- * @param mode 目标模式
- */
-void navigation_set_mode(uint8_t mode)
-{
-    if (mode <= NAV_MODE_MANUAL)
-    {
-        nav_sys.mode = mode;
-        printf("导航模式切换为: %d\r\n", mode);
-    }
+    servo_set(SERVO_MOTOR_MID + (int16_t)nav_sys.target_steer);
+    drv8701_motor_set(nav_sys.target_speed);
 }
 
 /**
@@ -291,7 +262,6 @@ void navigation_start_course1(void)
 {
     nav_sys.course_state     = COURSE_STATE_RUNNING;
     nav_sys.course1_stage    = COURSE1_STAGE_START;
-    nav_sys.mode             = NAV_MODE_GPS_ONLY;
     nav_sys.current_waypoint = 0;
 
     printf("科目一开始运行\r\n");
@@ -351,52 +321,51 @@ void navigation_send_data(void)
     seekfree_assistant_oscilloscope_data.data[4]     = nav_sys.target_speed;
     seekfree_assistant_oscilloscope_data.data[5]     = nav_sys.course1_stage;
     seekfree_assistant_oscilloscope_data.data[6]     = nav_sys.course_state;
-    seekfree_assistant_oscilloscope_data.data[7]     = nav_sys.mode;
-    seekfree_assistant_oscilloscope_data.channel_num = 8;
+    seekfree_assistant_oscilloscope_data.channel_num = 7;
     seekfree_assistant_oscilloscope_send(&seekfree_assistant_oscilloscope_data);
 }
 
 /*--------------------------------私有函数实现--------------------------------*/
-/**
- * @brief 计算两点间距离
- */
-static double calculate_distance(double lat1, double lon1, double lat2, double lon2)
-{
-    // 将经纬度转换为弧度
-    double lat1_rad = lat1 * DEG_TO_RAD;
-    double lon1_rad = lon1 * DEG_TO_RAD;
-    double lat2_rad = lat2 * DEG_TO_RAD;
-    double lon2_rad = lon2 * DEG_TO_RAD;
+// /**
+//  * @brief 计算两点间距离
+//  */
+// static double calculate_distance(double lat1, double lon1, double lat2, double lon2)
+// {
+//     // 将经纬度转换为弧度
+//     double lat1_rad = lat1 * DEG_TO_RAD;
+//     double lon1_rad = lon1 * DEG_TO_RAD;
+//     double lat2_rad = lat2 * DEG_TO_RAD;
+//     double lon2_rad = lon2 * DEG_TO_RAD;
 
-    // 半正矢公式计算距离
-    double dlat = lat2_rad - lat1_rad;
-    double dlon = lon2_rad - lon1_rad;
-    double a    = sin(dlat / 2) * sin(dlat / 2) + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2) * sin(dlon / 2);
-    double c    = 2 * atan2(sqrt(a), sqrt(1 - a));
+//     // 半正矢公式计算距离
+//     double dlat = lat2_rad - lat1_rad;
+//     double dlon = lon2_rad - lon1_rad;
+//     double a    = sin(dlat / 2) * sin(dlat / 2) + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2) * sin(dlon / 2);
+//     double c    = 2 * atan2(sqrt(a), sqrt(1 - a));
 
-    return EARTH_RADIUS * c;
-}
+//     return EARTH_RADIUS * c;
+// }
 
-/**
- * @brief 计算从点1到点2的方位角
- */
-static double calculate_azimuth(double lat1, double lon1, double lat2, double lon2)
-{
-    // 将经纬度转换为弧度
-    double lat1_rad = lat1 * DEG_TO_RAD;
-    double lon1_rad = lon1 * DEG_TO_RAD;
-    double lat2_rad = lat2 * DEG_TO_RAD;
-    double lon2_rad = lon2 * DEG_TO_RAD;
+// /**
+//  * @brief 计算从点1到点2的方位角
+//  */
+// static double calculate_azimuth(double lat1, double lon1, double lat2, double lon2)
+// {
+//     // 将经纬度转换为弧度
+//     double lat1_rad = lat1 * DEG_TO_RAD;
+//     double lon1_rad = lon1 * DEG_TO_RAD;
+//     double lat2_rad = lat2 * DEG_TO_RAD;
+//     double lon2_rad = lon2 * DEG_TO_RAD;
 
-    // 计算方位角
-    double y           = sin(lon2_rad - lon1_rad) * cos(lat2_rad);
-    double x           = cos(lat1_rad) * sin(lat2_rad) - sin(lat1_rad) * cos(lat2_rad) * cos(lon2_rad - lon1_rad);
-    double azimuth_rad = atan2(y, x);
+//     // 计算方位角
+//     double y           = sin(lon2_rad - lon1_rad) * cos(lat2_rad);
+//     double x           = cos(lat1_rad) * sin(lat2_rad) - sin(lat1_rad) * cos(lat2_rad) * cos(lon2_rad - lon1_rad);
+//     double azimuth_rad = atan2(y, x);
 
-    // 转换为度数，并确保在[0,360)范围内
-    double azimuth_deg = azimuth_rad * RAD_TO_DEG;
-    return (azimuth_deg < 0) ? (azimuth_deg + 360.0) : azimuth_deg;
-}
+//     // 转换为度数，并确保在[0,360)范围内
+//     double azimuth_deg = azimuth_rad * RAD_TO_DEG;
+//     return (azimuth_deg < 0) ? (azimuth_deg + 360.0) : azimuth_deg;
+// }
 
 /**
  * @brief 标准化角度到[-180, 180]范围
@@ -407,3 +376,84 @@ static double normalize_angle(double angle)
     while (angle <= -180.0) angle += 360.0;
     return angle;
 }
+// // GPS数学函数测试
+// void test_gps_math_functions(void)
+// {
+//     // 测试坐标点
+//     double lat1 = 30.90660;    // 起点纬度
+//     double lon1 = 118.71615;   // 起点经度
+//     double lat2 = 30.90568;    // 终点纬度
+//     double lon2 = 118.71615;   // 终点经度
+
+//     double distance, azimuth;
+//     int    test_iterations = 10000;   // 测试迭代次数
+
+//     printf("\n===== GPS数学函数性能测试 =====\n");
+
+//     // 测试calculate_distance函数
+//     printf("\n----- 测试距离计算函数 -----\n");
+//     printf("坐标1: 纬度 %.6f, 经度 %.6f\n", lat1, lon1);
+//     printf("坐标2: 纬度 %.6f, 经度 %.6f\n", lat2, lon2);
+
+//     // 单次计算，显示结果
+//     distance = calculate_distance(lat1, lon1, lat2, lon2);
+//     printf("两点距离: %.6f 米\n", distance);
+
+//     // 多次计算，测试性能
+//     printf("性能测试中，执行 %d 次计算...\n", test_iterations);
+//     timer_enable();
+//     for (int i = 0; i < test_iterations; i++)
+//     {
+//         distance = calculate_distance(lat1, lon1, lat2, lon2);
+//     }
+//     timer_disable();
+
+//     // 测试calculate_azimuth函数
+//     printf("\n----- 测试方位角计算函数 -----\n");
+
+//     // 单次计算，显示结果
+//     azimuth = calculate_azimuth(lat1, lon1, lat2, lon2);
+//     printf("方位角: %.6f 度\n", azimuth);
+
+//     // 多次计算，测试性能
+//     printf("性能测试中，执行 %d 次计算...\n", test_iterations);
+//     timer_enable();
+//     for (int i = 0; i < test_iterations; i++)
+//     {
+//         azimuth = calculate_azimuth(lat1, lon1, lat2, lon2);
+//     }
+//     timer_disable();
+
+// // 与参考库函数比较结果(如果可用)
+// #if defined(GL_GPS_MATH_FLAG)
+//     printf("\n----- 与参考库函数比较 -----\n");
+//     double ref_distance = get_two_points_distance(lat1, lon1, lat2, lon2);
+//     double ref_azimuth  = get_two_points_azimuth(lat1, lon1, lat2, lon2);
+
+//     printf("自定义距离计算: %.6f 米  |  参考库计算: %.6f 米\n", distance, ref_distance);
+//     printf("自定义方位角计算: %.6f 度  |  参考库计算: %.6f 度\n", azimuth, ref_azimuth);
+//     printf("差异: 距离 %.6f 米 (%.6f%%), 方位角 %.6f 度\n",
+//            fabs(distance - ref_distance),
+//            100.0 * fabs(distance - ref_distance) / ref_distance,
+//            fabs(azimuth - ref_azimuth));
+
+//     // 测试参考库函数性能
+//     printf("\n----- 测试参考库距离计算函数性能 -----\n");
+//     timer_enable();
+//     for (int i = 0; i < test_iterations; i++)
+//     {
+//         ref_distance = get_two_points_distance(lat1, lon1, lat2, lon2);
+//     }
+//     timer_disable();
+
+//     printf("\n----- 测试参考库方位角计算函数性能 -----\n");
+//     timer_enable();
+//     for (int i = 0; i < test_iterations; i++)
+//     {
+//         ref_azimuth = get_two_points_azimuth(lat1, lon1, lat2, lon2);
+//     }
+//     timer_disable();
+// #endif
+
+//     printf("\n===== 测试完成 =====\n");
+// }

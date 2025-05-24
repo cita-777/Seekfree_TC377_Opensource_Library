@@ -1,7 +1,7 @@
 /**
  * *****************************************************************************
  * @file        navigation.h
- * @brief       导航系统头文件，简化版本用于智能车科目导航
+ * @brief       简化导航系统头文件，使用GPS点位和IMU方向角
  * @author      cita (juricek.chen@gmail.com)
  * @date        2025-04-04
  * @copyright   cita
@@ -14,18 +14,10 @@
 #include "zf_common_headfile.h"
 
 /*----------------------------------宏定义-----------------------------------*/
-// 导航模式定义
-#define NAV_MODE_GPS_ONLY 0   // 仅使用GPS模式
-#define NAV_MODE_IMU_ONLY 1   // 仅使用IMU模式
-#define NAV_MODE_MANUAL 2     // 手动模式
-
 // 科目状态定义
 #define COURSE_STATE_IDLE 0        // 未运行
 #define COURSE_STATE_RUNNING 1     // 正在运行
 #define COURSE_STATE_COMPLETED 2   // 已完成
-
-/*----------------------------------类型定义----------------------------------*/
-// 导航系统结构体定义在.c文件中
 
 /*--------------------------------公共接口函数--------------------------------*/
 /**
@@ -34,19 +26,13 @@
 void navigation_init(void);
 
 /**
- * @brief 简化导航更新函数
+ * @brief 导航更新函数
  * @param gps_lat 当前GPS纬度
  * @param gps_lon 当前GPS经度
  * @param gps_valid GPS数据是否有效
  * @param imu_yaw IMU航向角 (度)
  */
 void navigation_update(double gps_lat, double gps_lon, uint8_t gps_valid, float imu_yaw);
-
-/**
- * @brief 切换导航模式
- * @param mode 目标模式
- */
-void navigation_set_mode(uint8_t mode);
 
 /**
  * @brief 获取当前导航状态
@@ -84,5 +70,5 @@ void navigation_collect_point(uint8_t point_index, double lat, double lon);
  * @brief 发送导航数据到上位机
  */
 void navigation_send_data(void);
-
+void test_gps_math_functions(void);
 #endif   // _NAVIGATION_H_

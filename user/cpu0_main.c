@@ -96,7 +96,7 @@ int core0_main(void)
     // end_time      = system_getval_ms();
     // cpu_time_used = (float)(end_time - start_time);
     // printf("func_sin time: %f us, result: %f\n", cpu_time_used, result);
-
+    // test_gps_math_functions();
     while (TRUE)
     {
         // 此处编写需要循环执行的代码

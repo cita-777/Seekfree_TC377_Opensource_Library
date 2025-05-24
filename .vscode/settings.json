@@ -2,6 +2,8 @@
     "files.associations": {
         "zf_common_headfile.h": "c",
         "zf_device_dl1b.h": "c",
-        "zf_device_uart_receiver.h": "c"
+        "zf_device_uart_receiver.h": "c",
+        "zf_device_bluetooth_ch9141.h": "c",
+        "zf_device_gnss.h": "c"
     }
 }
