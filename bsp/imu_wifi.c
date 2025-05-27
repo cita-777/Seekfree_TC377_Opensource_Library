@@ -266,6 +266,34 @@ void imu_proc(void)
     g_imu_angle.yaw   = imu_private.pose.data.yaw;
     g_imu_angle.pitch = imu_private.pose.data.pit;
     g_imu_angle.roll  = imu_private.pose.data.rol;
+    // static uint32_t display_counter = 0;
+    // if (++display_counter >= 1)   // 每50ms显示一次(约20Hz)
+    // {
+    //     display_counter = 0;
+
+    //     // IPS显示更新
+    //     ips_show_string(0, 0, "Pose:");
+    //     ips_show_float(90, 0, imu_private.pose.data.yaw, 2, 6);
+
+    //     ips_show_string(0, 16, "IMU:");
+    //     ips_show_float(90, 16, imu_private.yaw, 2, 6);
+
+    //     ips_show_string(0, 32, "Angle:");
+    //     ips_show_float(90, 32, g_imu_angle.yaw, 2, 6);
+
+    //     // // 使用sprintf组合字符串,一次性输出
+    //     // char debug_str[100];
+    //     // sprintf(debug_str,
+    //     //         "\r\nDebug - [%u] Pose:%.2f IMU:%.2f Angle:%.2f",
+    //     //         display_counter,
+    //     //         imu_private.pose.data.yaw,
+    //     //         imu_private.yaw,
+    //     //         g_imu_angle.yaw);
+    //     // printf("%s", debug_str);
+    // }
+
+    // // 添加调试输出以验证数值
+    // printf("\r\nDebug - Pose:%.2f IMU:%.2f Angle:%.2f", imu_private.pose.data.yaw, imu_private.yaw, g_imu_angle.yaw);
 #if IMU_WIFI_SEND_FLAG
     wifi_spi_send();
 #endif

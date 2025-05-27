@@ -376,5 +376,3 @@ board_resources.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_c
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core.h" :
 board_resources.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h" :
-board_resources.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :

@@ -101,10 +101,9 @@ void nav_start_course1(void)
     // 启动科目一
     navigation_start_course1();
 
-    ips_show_string(10, 0, "科目一开始运行!");
 
     // 显示实时状态
-    nav_show_status();
+    // nav_show_status();
 }
 
 /**
@@ -145,45 +144,44 @@ void nav_stop_course(void)
  */
 void nav_show_status(void)
 {
-    // 清屏
+    // timer_enable();
+    //  Clear screen
     ips_clear();
 
-    // 获取当前导航状态
-    double lat, lon;
-    float  yaw;
+    // Get current navigation status
+    double lat = 0.0, lon = 0.0;
+    float  yaw = 0.0;
+
     navigation_get_status(&lat, &lon, &yaw);
 
-    // 获取当前科目状态
+    // Get current course state
     uint8_t course_state = navigation_get_course_state();
 
-    // 显示状态信息
-    ips_show_string(0, 0, "导航状态:");
+    // Display all status info together
+    ips_show_string(0, 0, "Nav Status:");
 
-    // 显示坐标信息
-    ips_show_string(0, 16, "纬度:");
-    ips_show_float(90, 16, lat, 6, 9);
+    // Display coordinate info
+    ips_show_string(0, 16, "Lat:");
+    ips_show_float(90, 16, lat, 4, 6);
 
-    ips_show_string(0, 32, "经度:");
-    ips_show_float(90, 32, lon, 6, 9);
+    ips_show_string(0, 32, "Lon:");
+    ips_show_float(90, 32, lon, 4, 6);
 
-    ips_show_string(0, 48, "航向角:");
-    ips_show_float(90, 48, yaw, 2, 6);
-
-    // 显示科目状态
-    ips_show_string(0, 64, "科目状态:");
-
-    char* state_str = "";
+    ips_show_string(0, 48, "Yaw:");
+    ips_show_float(90, 48, yaw, 3, 6);
+    // printf("Show yaw angle: %.2f\n", yaw);
+    //  Select state string and display immediately
     switch (course_state)
     {
-    case COURSE_STATE_IDLE: state_str = "未运行"; break;
-    case COURSE_STATE_RUNNING: state_str = "运行中"; break;
-    case COURSE_STATE_COMPLETED: state_str = "已完成"; break;
-    default: state_str = "未知"; break;
+    case COURSE_STATE_IDLE: ips_show_string(0, 64, "State:      Idle"); break;
+    case COURSE_STATE_RUNNING: ips_show_string(0, 64, "State:      Running"); break;
+    case COURSE_STATE_COMPLETED: ips_show_string(0, 64, "State:      Complete"); break;
+    default: ips_show_string(0, 64, "State:      Unknown"); break;
     }
-    ips_show_string(90, 64, state_str);
 
-    // 显示返回提示
-    ips_show_string(10, 90, "按返回键回到菜单");
+    // Display return hint
+    ips_show_string(10, 80, "Press BACK to return");
+    // timer_disable();
 }
 void gps_get_point_mode_open(void)
 {
@@ -218,7 +216,7 @@ void draw_adaptive_curve(void)
     const double epsilon       = 1e-6;
 
     // 测试模式数据 - 设置为1启用测试模式，否则使用全局变量
-    int    test_mode          = 1;   // 设置为1启用测试模式，0则使用全局变量
+    int    test_mode          = 0;   // 设置为1启用测试模式，0则使用全局变量
     int    test_points_num    = 4;   // 测试点数量
     double test_points[2][20] = {
         // 最多支持20个测试点

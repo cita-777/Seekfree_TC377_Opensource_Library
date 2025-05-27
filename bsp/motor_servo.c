@@ -161,7 +161,48 @@ void servo_set(double angle)   // 舵机驱动
     pwm_set_duty(SERVO_MOTOR_PWM, (uint32)SERVO_MOTOR_DUTY(2 * SERVO_MOTOR_MID - servo_value));
     // printf("servo_value: %f\r\n", servo_value);
 }
+/**
+ * @brief 舵机角度PD闭环控制函数
+ * @param target_angle 目标角度(度)
+ * @details 通过IMU角度反馈，使用PD控制器来控制车辆转向到指定角度
+ *          当车辆偏离目标角度时，PD控制器会计算修正值
+ *          使舵机转向，将车辆调整到正确角度
+ */
+void servo_set_pd(float target_angle)
+{
+    // 获取当前IMU偏航角
+    float current_angle = g_imu_angle.yaw;
 
+    // 计算误差：目标角度 - 当前角度
+    float error = target_angle - current_angle;
+
+    // 使用PD控制器计算输出值
+    double pd_output = PidLocCtrl(&PID_IMU, error);
+    if (pd_output > SERVO_MOTOR_R_MAX - SERVO_MOTOR_MID)
+    {
+        pd_output = SERVO_MOTOR_R_MAX - SERVO_MOTOR_MID;   // 限制最大修正值
+    }
+    else if (pd_output < SERVO_MOTOR_L_MAX - SERVO_MOTOR_MID)
+    {
+        pd_output = SERVO_MOTOR_L_MAX - SERVO_MOTOR_MID;   // 限制最小修正值
+    }
+    // 设置舵机值为中间值加上PD修正值
+    servo_set(SERVO_MOTOR_MID - pd_output);
+
+    // 可选：发送数据到上位机示波器显示
+#if PD_WIFI_SEND_FLAG
+    // 打包数据到示波器格式
+    seekfree_assistant_oscilloscope_data.data[0]     = target_angle;    // 通道1：目标角度
+    seekfree_assistant_oscilloscope_data.data[1]     = current_angle;   // 通道2：当前IMU角度
+    seekfree_assistant_oscilloscope_data.data[2]     = error;           // 通道3：角度误差
+    seekfree_assistant_oscilloscope_data.data[3]     = pd_output;       // 通道4：PD输出
+    seekfree_assistant_oscilloscope_data.data[4]     = servo_value;     // 通道5：舵机最终设置值
+    seekfree_assistant_oscilloscope_data.channel_num = 5;               // 使用5个通道
+
+    // 发送数据到上位机并处理可能的返回数据
+    seekfree_assistant_oscilloscope_send(&seekfree_assistant_oscilloscope_data);
+#endif
+}
 /*------------------------------------test------------------------------------*/
 void drv8701_motor_test()   // 电机测试
 {

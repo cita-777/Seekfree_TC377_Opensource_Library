@@ -115,7 +115,8 @@ void gps_show()   // GPS–≈œ¢œ‘ æ
     ips_show_string(0, 16 * 4, "speed:");
     ips_show_float(90, 16 * 4, gnss.speed, 4, 6);
     ips_show_string(0, 16 * 5, "yaw:");
-    ips_show_float(90, 16 * 5, g_imu_angle.yaw, 4, 6);
+    // ips_show_float(90, 16 * 5, g_imu_angle.yaw, 4, 6);
+    //  printf("Show yaw angle: %.6f\n", g_imu_angle.yaw);
 }
 
 void gps_proc()

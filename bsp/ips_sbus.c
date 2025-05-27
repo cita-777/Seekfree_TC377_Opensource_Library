@@ -120,9 +120,10 @@ void sbus_proc()
         // Í¨µÀ1£¬2£¬3¿ØÖÆÂß¼­
         if (uart_receiver.channel[3] == 992)
         {
-            servo_set(uart_receiver.channel[0] * 0.025 + 64);
-            // drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            // bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            // servo_set(uart_receiver.channel[0] * 0.025 + 64);
+            servo_set_pd(0.0);
+            //  drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            //  bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
             bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
         }
         else

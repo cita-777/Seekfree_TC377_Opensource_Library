@@ -87,6 +87,7 @@ float PidLocCtrl(pid_param_t* pid, float error)
     PID_GPS.kd = 5;
 
     PID_IMU.kp = 1;   // 1.15
+    // PID_IMU.ki = 0.01;   // 0.01
     PID_IMU.kd = 7;
 
     /* ÀÛ»ýÎó²î */

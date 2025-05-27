@@ -58,7 +58,7 @@ int core0_main(void)
 
 // IMU频率提高到1000Hz
 #if IMU_PIT_START_FLAG
-    pit_us_init(IMU_PIT, 1000);   // 1000Hz (1ms)
+    pit_us_init(IMU_PIT, 1000);   // 100Hz (10ms)
 #endif
 #if ENCODER_PIT_START_FLAG
     // 编码器频率修改为50Hz
@@ -110,7 +110,9 @@ int core0_main(void)
             // printf("Handler %d: name=%s, enabled=%d\r\n", i, handlers[i].name, handlers[i].is_enabled);
             if (handlers[i].is_enabled)
             {
+                // timer_enable();
                 handlers[i].proc();
+                // timer_disable();
             }
         }
         // GPS_INIT_FLAG

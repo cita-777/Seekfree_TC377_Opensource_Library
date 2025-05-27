@@ -376,5 +376,3 @@ gps.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core.h" :
 gps.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h" :
-gps.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :

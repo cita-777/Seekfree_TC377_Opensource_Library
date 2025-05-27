@@ -73,7 +73,8 @@ void bldc_motor_speed_ctrl(double speed);
 
 void servo_init();              // 舵机初始化
 void servo_set(double angle);   // 舵机驱动
-void servo_test(void);          // 舵机测试
+void servo_set_pd(float target_angle);
+void servo_test(void);   // 舵机测试
 /*------------------------------------test------------------------------------*/
 
 #ifdef __cplusplus

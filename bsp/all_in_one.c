@@ -21,8 +21,8 @@ ProcHandler handlers[] = {
     {sbus_proc, 1, "sbus"},   // uart接受完成标识位执行
 #endif                        // SBUS_INIT_FLAG
 #if MENU_INIT_FLAG
-    {MenuTask, 0, "menu"},   // 10hz中断执行
-#endif                       // MENU_INIT_FLAG
+//{MenuTask, 0, "menu"},   // 10hz中断执行
+#endif   // MENU_INIT_FLAG
 #if IMU_INIT_FLAG
     {imu_proc, 0, "imu"},   // 100hz中断执行
                             // {imu_oscilloscope_isr, 0, "imu_oscilloscope"},   // 100hz中断执行
@@ -31,9 +31,9 @@ ProcHandler handlers[] = {
     {motor_encoder_proc, 0, "motor_encoder"},   // 100hz中断执行
 #endif                                          // MOTOR_INIT_FLAG
 #if GPS_INIT_FLAG
-    {gps_proc, 0, "gps"},   // 10hz中断执行
-#endif                      // GPS_INIT_FLAG
-
+    {gps_proc, 0, "gps"},                                  // 10hz中断执行
+#endif                                                     // GPS_INIT_FLAG
+    {navigation_proc, 0, "navigation"},                    // 导航更新函数
     {collect_and_store_points, 0, "gps_get_point_mode"},   // 采点模式
 };
 
@@ -50,9 +50,10 @@ void all_init()
     flash_init();
 
 
-#if IMU_WIFI_SEND_FLAG || MOTOR_ENCODER_WIFI_SEND_FLAG || GPS_WIFI_SEND_FLAG || PID_WIFI_SEND_FLAG
+#if IMU_WIFI_SEND_FLAG || MOTOR_ENCODER_WIFI_SEND_FLAG || GPS_WIFI_SEND_FLAG || PID_WIFI_SEND_FLAG || PD_WIFI_SEND_FLAG
     wifi_init();
-#endif   // IMU_WIFI_SEND_FLAG || MOTOR_ENCODER_WIFI_SEND_FLAG || GPS_WIFI_SEND_FLAG || PID_WIFI_SEND_FLAG
+#endif   // IMU_WIFI_SEND_FLAG || MOTOR_ENCODER_WIFI_SEND_FLAG || GPS_WIFI_SEND_FLAG || PID_WIFI_SEND_FLAG ||
+         // PD_WIFI_SEND_FLAG
 #if GPS_INIT_FLAG
     gps_init();
 #endif   // GPS_INIT_FLAG
@@ -78,6 +79,7 @@ void all_init()
 #endif   // MENU_INIT_FLAG
     // 蜂鸣器响三声代表初始化过程完成
     Buzzer_init();
+    navigation_init();
     Buzzer_check(100, 70);
     Buzzer_check(100, 50);
     Buzzer_check(50, 10);

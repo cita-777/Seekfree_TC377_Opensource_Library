@@ -2,30 +2,24 @@ navigation.o :	../code/navigation.c
 ../code/navigation.c :
 navigation.o :	..\code\navigation.h
 ..\code\navigation.h :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :
-navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
-"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
-navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
-"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_typedef.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_typedef.h" :
+navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\math.h"
+"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\math.h" :
 navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h"
 "D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\typeinfo.h" :
 navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h"
 "D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdio.h" :
 navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h"
 "D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdarg.h" :
+navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h"
+"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdint.h" :
 navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\string.h"
 "D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\string.h" :
-navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\math.h"
-"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\math.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Ccu6\\Timer\IfxCcu6_Timer.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Ccu6\\Timer\IfxCcu6_Timer.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Ccu6\Std\IfxCcu6.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Ccu6\Std\IfxCcu6.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxCcu6_cfg.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxCcu6_cfg.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h" :
+navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h"
+"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\ifx_types.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\ifx_types.h" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\Compilers.h" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Configurations\Ifx_Cfg.h"
@@ -34,20 +28,28 @@ navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_co
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_clock.h" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_typedef.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_typedef.h" :
-navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h"
-"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdlib.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\ifx_types.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\ifx_types.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Platform\Tricore\Compilers\CompilerTasking.h" :
 navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h"
 "D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stddef.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Platform_Types.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_TypesTasking.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\Platform_Types.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\Platform_Types.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\Ifx_TypesTasking.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\Ifx_TypesTasking.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Cpu\\Std\PLATFORM_TYPES.H" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :
+navigation.o :	"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h"
+"D:\Program Files\Developer Center Launcher\AURIX-Studio-1.10.6\tools\Compilers\Tasking_1.1r8\ctc\include\stdbool.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Ccu6\\Timer\IfxCcu6_Timer.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\\Ccu6\\Timer\IfxCcu6_Timer.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Ccu6\Std\IfxCcu6.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Ccu6\Std\IfxCcu6.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxCcu6_cfg.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\_Impl\IfxCcu6_cfg.h" :
+navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h"
+"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\iLLD\\TC37A\\Tricore\Cpu\Std\Ifx_Types.h" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_reg.h" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\infineon_libraries\\Infra\\Sfr\\TC37A\\_Reg\IfxCcu6_regdef.h"
@@ -376,7 +378,3 @@ navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\pose.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\pose.h" :
 navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h" :
-navigation.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :

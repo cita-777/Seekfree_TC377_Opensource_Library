@@ -376,5 +376,3 @@ menu_display.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\menu_core.h" :
 menu_display.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h"
 "D:\\Desktop\\Seekfree_TC377_Opensource_Library\\code\navigation.h" :
-menu_display.o :	"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h"
-"D:\\Desktop\\Seekfree_TC377_Opensource_Library\\libraries\\zf_common\zf_common_headfile.h" :
