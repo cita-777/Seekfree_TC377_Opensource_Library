@@ -67,7 +67,7 @@ IFX_INTERRUPT(cc61_pit_ch0_isr, CCU6_1_CH0_INT_VECTAB_NUM, CCU6_1_CH0_ISR_PRIORI
     interrupt_global_enable(0);   // ¿ªÆôÖÐ¶ÏÇ¶Ì×
     pit_clear_flag(CCU61_CH0);
     enable_handler("motor_encoder");
-    enable_handler("menu");
+    // enable_handler("menu");
     enable_handler("navigation");
     // if (gnss_flag)
     // {

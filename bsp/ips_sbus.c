@@ -123,8 +123,10 @@ void sbus_proc()
             // servo_set(uart_receiver.channel[0] * 0.025 + 64);
             servo_set_pd(0.0);
             //  drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            //  bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+            bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            // timer_enable();
+            // bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+            // timer_disable();
         }
         else
         {

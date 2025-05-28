@@ -125,9 +125,9 @@ float PidLocCtrl(pid_param_t* pid, float error)
  *************************************************************************/
 float PidIncCtrl(pid_param_t* pid, float error)
 {
-    PID_MOTOR.kp = 0.3;   // 地上跑要改成2.5
-    PID_MOTOR.ki = 0.02;
-    PID_MOTOR.kd = 0.15;
+    PID_MOTOR.kp = 0.5;   // 地上跑要改成2.5
+    PID_MOTOR.ki = 0.01;
+    PID_MOTOR.kd = 0.2;
 
 
 

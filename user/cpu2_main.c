@@ -55,7 +55,7 @@ void core2_main(void)
     while (TRUE)
     {
         // 此处编写需要循环执行的代码
-        if (++i0 >= 30000)
+        if (++i0 >= 500000)
         {
             i0 = 0;
             nav_show_status();

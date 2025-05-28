@@ -20,7 +20,8 @@ bool   dir                       = true;
 int16  encoder_data_1            = 0;
 uint32 cumulative_encoder_data_1 = 0;
 // uint8 motor_encoder_pit_state = 0;
-double servo_value = SERVO_MOTOR_MID;
+volatile uint8_t encoder_updated = 0;
+double           servo_value     = SERVO_MOTOR_MID;
 /*-------------------------------------os-------------------------------------*/
 
 /*----------------------------------function----------------------------------*/
@@ -31,6 +32,7 @@ void motor_encoder_proc()
     encoder_data_1 = encoder_get_count(ENCODER1_TIM) / 5;
     cumulative_encoder_data_1 += encoder_data_1;
     encoder_clear_count(ENCODER1_TIM);   // 清空编码器计数
+    encoder_updated = 1;                 // 设置标志，表示编码器已更新
                                          // drv8701_motor_test();
     // printf("encoder_data_1: %d\r\n", encoder_data_1);
     //  printf("cumulative_encoder_data_1: %d\r\n", cumulative_encoder_data_1);
@@ -103,17 +105,73 @@ void bldc_motor_set(double duty)   // 电机驱动
 
 void bldc_motor_speed_ctrl(double speed)
 {
-    double target_speed  = speed;                          // 目标速度
-    double current_speed = encoder_data_1;                 // 当前速度(编码器数据)
-    double speed_gap     = target_speed - current_speed;   // 速度差距
+    // 记录上一次的目标速度，用于检测速度变化
+    static double last_target_speed = 0;
+
+    // 如果编码器没有更新，直接返回
+    if (!encoder_updated)
+    {
+        return;
+    }
+
+    double target_speed  = speed;
+    double current_speed = encoder_data_1;
+    double speed_gap     = target_speed - current_speed;
+
+    // 快速停车处理：如果从非零速度变为零速度
+    if (fabs(last_target_speed) > 0.5 && fabs(target_speed) < 0.1)
+    {
+        // 重置PID状态
+        PID_MOTOR.out             = 0;
+        PID_MOTOR.last_error      = 0;
+        PID_MOTOR.last_derivative = 0;
+
+        // 短时反向制动（通过反向占空比快速减速）
+        double brake_duty = (last_target_speed > 0) ? -8.0 : 8.0;
+        bldc_motor_set(brake_duty);
+        // systick_delay_ms(50);   // 短时间反向制动
+
+        // 完全停止
+        bldc_motor_set(0);
+        encoder_updated   = 0;
+        last_target_speed = target_speed;
+        return;
+    }
+
+    // 普通零速度处理
+    if (fabs(target_speed) < 0.1)
+    {
+        // 如果速度已经很低，直接停止
+        if (fabs(current_speed) < 2.0)
+        {
+            bldc_motor_set(0);
+            PID_MOTOR.out     = 0;   // 重置PID输出
+            encoder_updated   = 0;
+            last_target_speed = target_speed;
+            return;
+        }
+        // 否则使用增强制动参数
+        PID_MOTOR.kp = 1.5;   // 增大比例系数
+        PID_MOTOR.ki = 0;     // 禁用积分项
+        PID_MOTOR.kd = 0.3;   // 增大微分系数
+    }
+    else
+    {
+        // 提高响应速度的参数
+        PID_MOTOR.kp = 2.5;    // 大幅提高比例系数
+        PID_MOTOR.ki = 0.02;   // 略微提高积分系数
+        PID_MOTOR.kd = 0.2;    // 保持微分系数
+    }
 
     // 使用PID控制器计算输出
     double out = PidIncCtrl(&PID_MOTOR, speed_gap);
 
-    // 控制台输出调试信息
-    // printf("%.2f,%.2f,%.2f,%.2f\n", target_speed, current_speed, speed_gap, out);
-
-
+    // 简化的静摩擦补偿（启动助力）
+    double static_friction = 8.0;   // 提高静摩擦补偿值
+    if (fabs(out) < static_friction && fabs(speed_gap) > 2.0)
+    {
+        out = (out >= 0) ? static_friction : -static_friction;
+    }
 
     // 限制输出范围
     if (out > MAX_DUTY)
@@ -124,7 +182,7 @@ void bldc_motor_speed_ctrl(double speed)
     {
         out = -MAX_DUTY;
     }
-    // 发送数据到上位机示波器
+
 #if PID_WIFI_SEND_FLAG
     // 打包数据到示波器格式
     seekfree_assistant_oscilloscope_data.data[0]     = target_speed;    // 通道1：目标速度
@@ -137,8 +195,10 @@ void bldc_motor_speed_ctrl(double speed)
     seekfree_assistant_oscilloscope_send(&seekfree_assistant_oscilloscope_data);
     seekfree_assistant_data_analysis();
 #endif
-    // 调用现有函数设置电机输出
+
+    encoder_updated = 0;
     bldc_motor_set(out);
+    last_target_speed = target_speed;
 }
 void servo_init()   // 舵机初始化
 {
