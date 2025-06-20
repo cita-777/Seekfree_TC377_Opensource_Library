@@ -64,8 +64,8 @@ void all_init()
     servo_init();
 #endif   // SERVO_INIT_FLAG
 #if MOTOR_INIT_FLAG
-    // drv8701_motor_init();
-    bldc_motor_init();
+    drv8701_motor_init();
+    // bldc_motor_init();
 #endif   // MOTOR_INIT_FLAG
     // 初始化imu和spi通讯
 #if IMU_INIT_FLAG

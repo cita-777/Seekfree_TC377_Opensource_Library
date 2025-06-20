@@ -32,7 +32,7 @@ extern "C" {
 #define IMU_WIFI_SEND_FLAG (0)             // IMU使用WIFI发送标志位
 #define MOTOR_ENCODER_WIFI_SEND_FLAG (0)   // 编码器使用WIFI发送标志位
 #define GPS_WIFI_SEND_FLAG (0)             // GPS使用WIFI发送标志位
-#define PID_WIFI_SEND_FLAG (1)             // PID使用WIFI发送标志位
+#define PID_WIFI_SEND_FLAG (0)             // PID使用WIFI发送标志位
 #define PD_WIFI_SEND_FLAG (0)              // PD使用WIFI发送标志位
 
 

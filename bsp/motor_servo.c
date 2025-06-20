@@ -29,13 +29,13 @@ double           servo_value     = SERVO_MOTOR_MID;
 void motor_encoder_proc()
 {
     // motor_encoder_pit_state = 0;
-    encoder_data_1 = encoder_get_count(ENCODER1_TIM) / 5;
+    encoder_data_1 = -encoder_get_count(ENCODER_1);
     cumulative_encoder_data_1 += encoder_data_1;
-    encoder_clear_count(ENCODER1_TIM);   // 清空编码器计数
-    encoder_updated = 1;                 // 设置标志，表示编码器已更新
-                                         // drv8701_motor_test();
+    encoder_clear_count(ENCODER_1);   // 清空编码器计数
+    encoder_updated = 1;              // 设置标志，表示编码器已更新
+                                      // drv8701_motor_test();
     // printf("encoder_data_1: %d\r\n", encoder_data_1);
-    //  printf("cumulative_encoder_data_1: %d\r\n", cumulative_encoder_data_1);
+    // printf("cumulative_encoder_data_1: %d\r\n", cumulative_encoder_data_1);
 #if MOTOR_ENCODER_WIFI_SEND_FLAG
     // wifi_spi_send();
 #endif
@@ -60,15 +60,21 @@ void drv8701_motor_set(double duty)   // 电机驱动
     {
         motor_duty = -MAX_DUTY;
     }
-    if (motor_duty >= 0)
+
+    // 添加调试输出
+    // printf("Motor control: duty=%.2f, limited_duty=%.2f\n", duty, motor_duty);
+
+    if (motor_duty >= 0)   // 正转
     {
-        gpio_set_level(DIR1, GPIO_LOW);                            // DIR输出高电平
+        gpio_set_level(DIR1, GPIO_LOW);                            // 尝试改为HIGH
         pwm_set_duty(PWM1, (motor_duty) * (PWM_DUTY_MAX / 100));   // 计算占空比
+        // printf("Forward: DIR=HIGH, PWM=%.0f\n", (motor_duty) * (PWM_DUTY_MAX / 100));
     }
-    else
+    else   // 反转
     {
-        gpio_set_level(DIR1, GPIO_HIGH);                            // DIR输出低电平
+        gpio_set_level(DIR1, GPIO_HIGH);                            // 尝试改为LOW
         pwm_set_duty(PWM1, (-motor_duty) * (PWM_DUTY_MAX / 100));   // 计算占空比
+        // printf("Reverse: DIR=LOW, PWM=%.0f\n", (-motor_duty) * (PWM_DUTY_MAX / 100));
     }
 }
 void bldc_motor_init()   // 电机和编码器初始化

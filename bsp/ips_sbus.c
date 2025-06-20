@@ -90,9 +90,9 @@ void sbus_proc()
     // Ò£¿ØÆ÷Ê§¿Ø´¦Àí
     if (uart_receiver.state != 1)
     {
-        // drv8701_motor_set(0);
+        drv8701_motor_set(0);
         // bldc_motor_set(0);
-        emergency_brake();
+        // emergency_brake();
         servo_set(90);
         // zf_log(0,"Remote control lost control.");
         // zf_assert(0);
@@ -122,20 +122,21 @@ void sbus_proc()
         {
             // servo_set(uart_receiver.channel[0] * 0.025 + 64);
             servo_set_pd(0.0);
-            //  drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            // timer_enable();
-            // bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
-            // timer_disable();
+            // printf("drv8701_motor_set input: %.2f\n", 123 - uart_receiver.channel[1] * 0.125);
+            drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            // bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            //  timer_enable();
+            //  bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+            //  timer_disable();
         }
         else
         {
             // ·äÃùÆ÷
             Buzzer_check(200, 50);
             zf_log(0, "channel 3 stop.");
-            // drv8701_motor_set(0);
-            bldc_motor_set(0);
-            // emergency_brake();
+            drv8701_motor_set(0);
+            // bldc_motor_set(0);
+            //  emergency_brake();
             servo_set(90);
             // printf("channel 3 stop.\r\n");
         }
