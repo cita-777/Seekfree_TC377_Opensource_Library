@@ -121,13 +121,28 @@ void sbus_proc()
         if (uart_receiver.channel[3] == 992)
         {
             // servo_set(uart_receiver.channel[0] * 0.025 + 64);
-            servo_set_pd(0.0);
-            // printf("drv8701_motor_set input: %.2f\n", 123 - uart_receiver.channel[1] * 0.125);
-            drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            // bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            //  timer_enable();
-            //  bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
-            //  timer_disable();
+
+            // 科目1，51000编码器值是3m
+            if (cumulative_encoder_data_1 >= 120000)
+            {
+                servo_set_pd(0.0);
+            }
+            else if (cumulative_encoder_data_1 > 30000 && cumulative_encoder_data_1 < 120000)
+            {
+                servo_set_pd(180.0);
+            }
+            else
+            {
+                servo_set_pd(0.0);
+            }
+            // servo_set(90.0);
+            //  printf("drv8701_motor_set input: %.2f\n", 123 - uart_receiver.channel[1] * 0.125);
+            //   drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            drv8701_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+            //   bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
+            //    timer_enable();
+            //    bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+            //    timer_disable();
         }
         else
         {

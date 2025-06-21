@@ -35,7 +35,7 @@ void motor_encoder_proc()
     encoder_updated = 1;              // 设置标志，表示编码器已更新
                                       // drv8701_motor_test();
     // printf("encoder_data_1: %d\r\n", encoder_data_1);
-    // printf("cumulative_encoder_data_1: %d\r\n", cumulative_encoder_data_1);
+    //  printf("cumulative_encoder_data_1: %d\r\n", cumulative_encoder_data_1);
 #if MOTOR_ENCODER_WIFI_SEND_FLAG
     // wifi_spi_send();
 #endif
@@ -76,6 +76,61 @@ void drv8701_motor_set(double duty)   // 电机驱动
         pwm_set_duty(PWM1, (-motor_duty) * (PWM_DUTY_MAX / 100));   // 计算占空比
         // printf("Reverse: DIR=LOW, PWM=%.0f\n", (-motor_duty) * (PWM_DUTY_MAX / 100));
     }
+}
+void drv8701_motor_speed_ctrl(double speed)
+{
+    // 如果编码器没有更新，直接返回
+    if (!encoder_updated)
+    {
+        return;
+    }
+
+    double target_speed  = speed;
+    double current_speed = encoder_data_1 / 31.85;   // 假设编码器数据是整数，转换为浮点数表示速度
+    double speed_gap     = target_speed - current_speed;
+
+    // 零速度处理
+    if (fabs(target_speed) < 0.1)
+    {
+        drv8701_motor_set(0);
+        PID_MOTOR.out   = 0;   // 重置PID输出
+        encoder_updated = 0;
+        return;
+    }
+
+    // 设置PID参数
+    PID_MOTOR.kp = 2.8;    // 比例系数
+    PID_MOTOR.ki = 0.02;   // 积分系数
+    PID_MOTOR.kd = 0.3;    // 微分系数
+
+    // 使用PID控制器计算输出
+    double out = PidIncCtrl(&PID_MOTOR, speed_gap);
+
+    // 限制输出范围
+    if (out > MAX_DUTY)
+    {
+        out = MAX_DUTY;
+    }
+    if (out < -MAX_DUTY)
+    {
+        out = -MAX_DUTY;
+    }
+
+#if PID_WIFI_SEND_FLAG
+    // 打包数据到示波器格式
+    seekfree_assistant_oscilloscope_data.data[0]     = target_speed;    // 通道1：目标速度
+    seekfree_assistant_oscilloscope_data.data[1]     = current_speed;   // 通道2：当前速度
+    seekfree_assistant_oscilloscope_data.data[2]     = speed_gap;       // 通道3：速度差
+    seekfree_assistant_oscilloscope_data.data[3]     = out;             // 通道4：PID输出
+    seekfree_assistant_oscilloscope_data.channel_num = 4;               // 使用4个通道
+
+    // 发送数据到上位机并处理可能的返回数据
+    seekfree_assistant_oscilloscope_send(&seekfree_assistant_oscilloscope_data);
+    seekfree_assistant_data_analysis();
+#endif
+
+    encoder_updated = 0;
+    drv8701_motor_set(out);
 }
 void bldc_motor_init()   // 电机和编码器初始化
 {
@@ -241,7 +296,15 @@ void servo_set_pd(float target_angle)
 
     // 计算误差：目标角度 - 当前角度
     float error = target_angle - current_angle;
-
+    // 角度差归一化处理，解决180度跳变问题
+    while (error > 180.0f)
+    {
+        error -= 360.0f;
+    }
+    while (error < -180.0f)
+    {
+        error += 360.0f;
+    }
     // 使用PD控制器计算输出值
     double pd_output = PidLocCtrl(&PID_IMU, error);
     if (pd_output > SERVO_MOTOR_R_MAX - SERVO_MOTOR_MID)

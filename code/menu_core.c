@@ -169,6 +169,9 @@ void nav_show_status(void)
 
     ips_show_string(0, 48, "Yaw:");
     ips_show_float(90, 48, yaw, 3, 6);
+
+    ips_show_string(0, 96, "encoder:");
+    ips_show_uint(90, 96, cumulative_encoder_data_1, 10);
     // printf("Show yaw angle: %.2f\n", yaw);
     //  Select state string and display immediately
     switch (course_state)
