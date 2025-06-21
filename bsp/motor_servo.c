@@ -283,28 +283,57 @@ void servo_set(double angle)   // 舵机驱动
     // printf("servo_value: %f\r\n", servo_value);
 }
 /**
- * @brief 舵机角度PD闭环控制函数
- * @param target_angle 目标角度(度)
+ * @brief 舵机角度PD闭环控制函数（传统模式，保持向后兼容）
+ * @param target_angle 目标角度(度) - 限制在-180~180度范围内
  * @details 通过IMU角度反馈，使用PD控制器来控制车辆转向到指定角度
  *          当车辆偏离目标角度时，PD控制器会计算修正值
  *          使舵机转向，将车辆调整到正确角度
+ *          注意：此函数使用传统的-180~180度模式，如需多圈控制请使用servo_set_pd_extended
  */
 void servo_set_pd(float target_angle)
 {
-    // 获取当前IMU偏航角
-    float current_angle = g_imu_angle.yaw;
+    // 调用扩展函数，使用传统模式（false参数）
+    servo_set_pd_extended(target_angle, false);
+}
 
-    // 计算误差：目标角度 - 当前角度
-    float error = target_angle - current_angle;
-    // 角度差归一化处理，解决180度跳变问题
-    while (error > 180.0f)
+/**
+ * @brief 舵机角度PD闭环控制函数（支持扩展角度）
+ * @param target_angle 目标角度(度) - 支持超出±180°的角度
+ * @param use_extended_angle 是否使用扩展角度模式（true: 支持多圈，false: 传统-180~180模式）
+ * @details 通过IMU角度反馈，使用PD控制器来控制车辆转向到指定角度
+ *          当use_extended_angle为true时，可以精确控制向左还是向右调头
+ *          例如：target_angle=270°表示从0°顺时针转270°，target_angle=-90°表示逆时针转90°
+ */
+void servo_set_pd_extended(float target_angle, bool use_extended_angle)
+{
+    float current_angle, error;
+
+    if (use_extended_angle)
     {
-        error -= 360.0f;
+        // 使用扩展角度，支持超出±180°的控制
+        current_angle = g_imu_angle.yaw_extended;
+        error         = target_angle - current_angle;
+
+        // 对于扩展角度，不需要180度归一化，直接计算误差
+        // 这样可以精确区分向左转270°和向右转90°的差别
     }
-    while (error < -180.0f)
+    else
     {
-        error += 360.0f;
+        // 传统模式，使用-180~180度范围
+        current_angle = g_imu_angle.yaw;
+        error         = target_angle - current_angle;
+
+        // 角度差归一化处理，解决180度跳变问题
+        while (error > 180.0f)
+        {
+            error -= 360.0f;
+        }
+        while (error < -180.0f)
+        {
+            error += 360.0f;
+        }
     }
+
     // 使用PD控制器计算输出值
     double pd_output = PidLocCtrl(&PID_IMU, error);
     if (pd_output > SERVO_MOTOR_R_MAX - SERVO_MOTOR_MID)
@@ -315,6 +344,7 @@ void servo_set_pd(float target_angle)
     {
         pd_output = SERVO_MOTOR_L_MAX - SERVO_MOTOR_MID;   // 限制最小修正值
     }
+
     // 设置舵机值为中间值加上PD修正值
     servo_set(SERVO_MOTOR_MID - pd_output);
 
@@ -322,7 +352,7 @@ void servo_set_pd(float target_angle)
 #if PD_WIFI_SEND_FLAG
     // 打包数据到示波器格式
     seekfree_assistant_oscilloscope_data.data[0]     = target_angle;    // 通道1：目标角度
-    seekfree_assistant_oscilloscope_data.data[1]     = current_angle;   // 通道2：当前IMU角度
+    seekfree_assistant_oscilloscope_data.data[1]     = current_angle;   // 通道2：当前角度（扩展或标准）
     seekfree_assistant_oscilloscope_data.data[2]     = error;           // 通道3：角度误差
     seekfree_assistant_oscilloscope_data.data[3]     = pd_output;       // 通道4：PD输出
     seekfree_assistant_oscilloscope_data.data[4]     = servo_value;     // 通道5：舵机最终设置值

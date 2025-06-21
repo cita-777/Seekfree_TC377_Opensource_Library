@@ -39,6 +39,9 @@ extern uint8 point_flag;
 /*----------------------------------function----------------------------------*/
 void ips_sbus_init(void);
 void sbus_proc(void);
+void emergency_brake(void);
+
+void precise_turn_control(float target_degrees);
 
 void ips_show_string(uint16 x, uint16 y, const char* str);
 /*------------------------------------test------------------------------------*/

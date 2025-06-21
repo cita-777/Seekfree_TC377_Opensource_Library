@@ -103,8 +103,7 @@ void sbus_proc()
         // for (int i = 0; i < 6; i++)
         // {
         //     printf("%d ", uart_receiver.channel[i]);   // 串口输出6个通道数据
-        // }
-        printf("\r\n");
+        // }        printf("\r\n");
         // 通道5、6上升沿检测
         bool current_active = (uart_receiver.channel[4] == 1792 && uart_receiver.channel[5] == 1792);
         if (current_active && !prev_channels_4_5_active)
@@ -123,18 +122,66 @@ void sbus_proc()
             // servo_set(uart_receiver.channel[0] * 0.025 + 64);
 
             // 科目1，51000编码器值是3m
-            if (cumulative_encoder_data_1 >= 120000)
+            // if (cumulative_encoder_data_1 >= 400000)
+            // {
+            //     // 使用扩展角度进行精确调头控制
+            //     // 0.0度表示保持当前角度，180.0度表示调头180度，-180.0度表示反方向调头
+            //     servo_set_pd_extended(360.0, true);   // 使用扩展角度模式
+            // }
+            // else if (cumulative_encoder_data_1 > 230000 && cumulative_encoder_data_1 < 400000)
+            // {
+            //     // 进行180度调头，使用扩展角度可以精确控制是向左还是向右调头
+            //     // 如果当前扩展角度是30度，目标210度表示顺时针转180度
+            //     // 如果当前扩展角度是30度，目标-150度表示逆时针转180度
+            //     servo_set_pd_extended(180.0, true);   // 使用扩展角度模式
+            // }
+            // else
+            // {
+            //     servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
+            // }
+
+            // 科目2，八字s弯
+            if (cumulative_encoder_data_1 >= 0 && cumulative_encoder_data_1 < 20000)
             {
-                servo_set_pd(0.0);
+                servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
             }
-            else if (cumulative_encoder_data_1 > 30000 && cumulative_encoder_data_1 < 120000)
+            else if (cumulative_encoder_data_1 >= 20000 && cumulative_encoder_data_1 < 50000)
             {
-                servo_set_pd(180.0);
+                servo_set_pd_extended(50.0, true);   // 使用扩展角度模式
             }
-            else
+            else if (cumulative_encoder_data_1 >= 50000 && cumulative_encoder_data_1 < 90000)
             {
-                servo_set_pd(0.0);
+                servo_set_pd_extended(-50.0, true);   // 使用扩展角度模式
             }
+            else if (cumulative_encoder_data_1 >= 90000 && cumulative_encoder_data_1 < 130000)
+            {
+                servo_set_pd_extended(50.0, true);   // 使用扩展角度模式
+            }
+            else if (cumulative_encoder_data_1 >= 130000 && cumulative_encoder_data_1 < 170000)
+            {
+                servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
+            }
+            else if (cumulative_encoder_data_1 >= 170000 && cumulative_encoder_data_1 < 240000)
+            {
+                servo_set_pd_extended(-180.0, true);   // 使用扩展角度模式
+            }
+            else if (cumulative_encoder_data_1 >= 240000 && cumulative_encoder_data_1 < 280000)
+            {
+                servo_set_pd_extended(-230.0, true);   // 使用扩展角度模式
+            }
+            else if (cumulative_encoder_data_1 >= 280000 && cumulative_encoder_data_1 < 320000)
+            {
+                servo_set_pd_extended(-130.0, true);   // 使用扩展角度模式
+            }
+            else if (cumulative_encoder_data_1 >= 320000 && cumulative_encoder_data_1 < 360000)
+            {
+                servo_set_pd_extended(-230.0, true);   // 使用扩展角度模式
+            }
+            else if (cumulative_encoder_data_1 >= 360000 && cumulative_encoder_data_1 < 400000)
+            {
+                servo_set_pd_extended(-180.0, true);   // 使用扩展角度模式
+            }
+
             // servo_set(90.0);
             //  printf("drv8701_motor_set input: %.2f\n", 123 - uart_receiver.channel[1] * 0.125);
             //   drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
@@ -166,4 +213,31 @@ void ips_show_string(uint16 x, uint16 y, const char* str)
     ips200_show_string(0, y, "                             ");   // 29*8=237
     ips200_show_string(x, y, str);
 }
+
+
+/*
+ * 扩展角度系统使用示例：
+ *
+ * 1. 传统模式（向后兼容）：
+
+ *    servo_set_pd(90.0);  // 转到90度，但受限于-180~180范围
+ *
+ * 2. 扩展角度模式：
+ *    servo_set_pd_extended(270.0, true);   // 从0度顺时针转270度
+ *    servo_set_pd_extended(-90.0, true);   // 从0度逆时针转90度
+ *    servo_set_pd_extended(450.0, true);   // 从0度顺时针转450度（1圈+90度）
+ *
+ * 3. 精确调头控制：
+ *    float current = IMU_GetExtendedYaw();
+ *    servo_set_pd_extended(current + 180.0, true);  // 顺时针调头180度
+ *    servo_set_pd_extended(current - 180.0, true);  // 逆时针调头180度
+ *
+ * 4. 角度重置：
+ *    IMU_ResetExtendedAngles();  // 重置累积角度
+ *
+ * 5. 设置初始角度：
+ *    IMU_SetExtendedYaw(100.0);  // 设置当前扩展角度为100度
+ */
+
+
 /*------------------------------------test------------------------------------*/

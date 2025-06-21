@@ -44,6 +44,15 @@ IMU_Angle g_imu_angle = {0};
 /* 内部IMU数据，仅在当前文件中使用 */
 IMU_Private_Data imu_private;
 
+/* 扩展角度跟踪变量 */
+static float   prev_yaw     = 0.0f;   // 上一次的yaw值，用于检测跳变
+static float   yaw_turns    = 0.0f;   // 累积的整圈数（每360度为1圈）
+static float   prev_pitch   = 0.0f;
+static float   pitch_turns  = 0.0f;
+static float   prev_roll    = 0.0f;
+static float   roll_turns   = 0.0f;
+static uint8_t first_update = 1;   // 首次更新标志
+
 /* 用于巴特沃夫低通滤波的缓存和参数 */
 static Butter_BufferData accel_filter_buf[3];
 static Butter_BufferData gyro_filter_buf[3];
@@ -263,9 +272,109 @@ void imu_proc(void)
     imu_private.pitch = imu_private.pose.data.pit;
     imu_private.roll  = imu_private.pose.data.rol;
 
+    // 角度跳变检测与修正
+    if (first_update)
+    {
+        // 首次更新，直接赋值
+        prev_yaw     = imu_private.yaw;
+        prev_pitch   = imu_private.pitch;
+        prev_roll    = imu_private.roll;
+        first_update = 0;
+    }
+    else
+    {
+        // yaw 方向：检测跳变并累积整圈数
+        if (fabs(imu_private.yaw - prev_yaw) > 300.0f)
+        {
+            if (imu_private.yaw > prev_yaw)
+            {
+                yaw_turns -= 1.0f;   // 跳变向后，整圈数减1
+            }
+            else
+            {
+                yaw_turns += 1.0f;   // 跳变向前，整圈数加1
+            }
+        }
+        // pitch 和 roll 方向：简单累加
+        pitch_turns += (imu_private.pitch - prev_pitch) / 360.0f;
+        roll_turns += (imu_private.roll - prev_roll) / 360.0f;
+
+        // 更新历史值
+        prev_yaw   = imu_private.yaw;
+        prev_pitch = imu_private.pitch;
+        prev_roll  = imu_private.roll;
+    }
+
+    // 根据累积的整圈数修正yaw值
+    imu_private.yaw = imu_private.pose.data.yaw + yaw_turns * 360.0f;
+    // pitch 和 roll 方向修正（可选）
+    imu_private.pitch = imu_private.pose.data.pit + pitch_turns * 360.0f;
+    imu_private.roll  = imu_private.pose.data.rol + roll_turns * 360.0f;
+
     g_imu_angle.yaw   = imu_private.pose.data.yaw;
     g_imu_angle.pitch = imu_private.pose.data.pit;
     g_imu_angle.roll  = imu_private.pose.data.rol;
+
+    // 扩展角度跟踪逻辑
+    if (first_update)
+    {
+        // 首次更新，初始化扩展角度
+        prev_yaw                   = g_imu_angle.yaw;
+        prev_pitch                 = g_imu_angle.pitch;
+        prev_roll                  = g_imu_angle.roll;
+        g_imu_angle.yaw_extended   = g_imu_angle.yaw;
+        g_imu_angle.pitch_extended = g_imu_angle.pitch;
+        g_imu_angle.roll_extended  = g_imu_angle.roll;
+        first_update               = 0;
+    }
+    else
+    {
+        // 检测yaw角度跳变（-180到180或180到-180）
+        float yaw_diff = g_imu_angle.yaw - prev_yaw;
+        if (yaw_diff > 180.0f)
+        {
+            // 从180跳到-180，说明逆时针转动跨越了边界
+            yaw_turns -= 1.0f;
+        }
+        else if (yaw_diff < -180.0f)
+        {
+            // 从-180跳到180，说明顺时针转动跨越了边界
+            yaw_turns += 1.0f;
+        }
+
+        // 检测pitch角度跳变
+        float pitch_diff = g_imu_angle.pitch - prev_pitch;
+        if (pitch_diff > 180.0f)
+        {
+            pitch_turns -= 1.0f;
+        }
+        else if (pitch_diff < -180.0f)
+        {
+            pitch_turns += 1.0f;
+        }
+
+        // 检测roll角度跳变
+        float roll_diff = g_imu_angle.roll - prev_roll;
+        if (roll_diff > 180.0f)
+        {
+            roll_turns -= 1.0f;
+        }
+        else if (roll_diff < -180.0f)
+        {
+            roll_turns += 1.0f;
+        }
+
+        // 计算扩展角度
+        g_imu_angle.yaw_extended   = g_imu_angle.yaw + yaw_turns * 360.0f;
+        g_imu_angle.pitch_extended = g_imu_angle.pitch + pitch_turns * 360.0f;
+        g_imu_angle.roll_extended  = g_imu_angle.roll + roll_turns * 360.0f;
+
+        // 更新前一次的角度值
+        prev_yaw   = g_imu_angle.yaw;
+        prev_pitch = g_imu_angle.pitch;
+        prev_roll  = g_imu_angle.roll;
+    }
+
     // static uint32_t display_counter = 0;
     // if (++display_counter >= 1)   // 每50ms显示一次(约20Hz)
     // {
@@ -440,4 +549,39 @@ void icm45686_oscilloscope_isr(void)
     seekfree_assistant_data_analysis();
 
     disable_handler("imu_oscilloscope");
+}
+
+/**
+ * @brief 获取扩展yaw角度值（无限制范围）
+ * @return 扩展的yaw角度值，可以超出±180°范围
+ */
+float IMU_GetExtendedYaw(void)
+{
+    return g_imu_angle.yaw_extended;
+}
+
+/**
+ * @brief 重置扩展角度累积值
+ */
+void IMU_ResetExtendedAngles(void)
+{
+    yaw_turns                  = 0.0f;
+    pitch_turns                = 0.0f;
+    roll_turns                 = 0.0f;
+    first_update               = 1;
+    g_imu_angle.yaw_extended   = g_imu_angle.yaw;
+    g_imu_angle.pitch_extended = g_imu_angle.pitch;
+    g_imu_angle.roll_extended  = g_imu_angle.roll;
+}
+
+/**
+ * @brief 设置扩展yaw角度的初始值
+ * @param yaw 要设置的yaw角度值
+ */
+void IMU_SetExtendedYaw(float yaw)
+{
+    // 计算需要多少个完整圆周
+    yaw_turns                = floorf((yaw + 180.0f) / 360.0f);
+    g_imu_angle.yaw_extended = yaw;
+    prev_yaw                 = g_imu_angle.yaw;
 }

@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc47056a --dep-file=code/navigation.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/navigation.src ../code/navigation.c"
+	.compiler_invocation	"ctc -f cc52524a --dep-file=code/navigation.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/navigation.src ../code/navigation.c"
 	.compiler_name		"ctc"
 	;source	'../code/navigation.c'
 
@@ -3344,7 +3344,7 @@ nav_sys:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L167:
-	.word	157828
+	.word	157897
 	.half	3
 	.word	.L168
 	.byte	4
@@ -23912,7 +23912,7 @@ nav_sys:	.type	object
 	.byte	39
 	.byte	'seekfree_assistant_oscilloscope_data',0,22,152,1,65
 	.word	33460
-	.byte	1,1,20,55,59,9,12,13
+	.byte	1,1,20,55,59,9,24,13
 	.byte	'yaw',0
 	.word	228
 	.byte	4,2,35,0,13
@@ -23921,11 +23921,20 @@ nav_sys:	.type	object
 	.byte	4,2,35,4,13
 	.byte	'roll',0
 	.word	228
-	.byte	4,2,35,8,0,34
-	.byte	'IMU_Angle',0,55,64,3
+	.byte	4,2,35,8,13
+	.byte	'yaw_extended',0
+	.word	228
+	.byte	4,2,35,12,13
+	.byte	'pitch_extended',0
+	.word	228
+	.byte	4,2,35,16,13
+	.byte	'roll_extended',0
+	.word	228
+	.byte	4,2,35,20,0,34
+	.byte	'IMU_Angle',0,55,69,3
 	.word	156163
 	.byte	39
-	.byte	'g_imu_angle',0,55,66,18
+	.byte	'g_imu_angle',0,55,71,18
 	.word	156163
 	.byte	1,1,10
 	.byte	'XYZ_Data_f',0,56,35,16,12,13
@@ -23939,7 +23948,7 @@ nav_sys:	.type	object
 	.word	228
 	.byte	4,2,35,8,0,34
 	.byte	'XYZ_Data_f',0,56,40,3
-	.word	156251
+	.word	156320
 	.byte	10
 	.byte	'Pose_Flag',0,56,69,16,4,13
 	.byte	'run',0
@@ -23952,7 +23961,7 @@ nav_sys:	.type	object
 	.word	455
 	.byte	1,2,35,2,0,34
 	.byte	'Pose_Flag',0,56,74,3
-	.word	156320
+	.word	156389
 	.byte	10
 	.byte	'Pose_DInterface',0,56,80,16,36,13
 	.byte	'a_x',0
@@ -23983,18 +23992,18 @@ nav_sys:	.type	object
 	.word	32296
 	.byte	4,2,35,32,0,34
 	.byte	'Pose_DInterface',0,56,93,3
-	.word	156403
+	.word	156472
 	.byte	10
 	.byte	'Pose_Interface',0,56,99,16,36,13
 	.byte	'data',0
-	.word	156403
+	.word	156472
 	.byte	36,2,35,0,0,34
 	.byte	'Pose_Interface',0,56,102,3
-	.word	156566
+	.word	156635
 	.byte	18,12
 	.word	228
 	.byte	19,2,0,18,36
-	.word	156624
+	.word	156693
 	.byte	19,2,0,10
 	.byte	'Pose_Data',0,56,108,16,108,13
 	.byte	'yaw',0
@@ -24007,25 +24016,25 @@ nav_sys:	.type	object
 	.word	228
 	.byte	4,2,35,8,13
 	.byte	'rotate_matrix',0
-	.word	156633
+	.word	156702
 	.byte	36,2,35,12,13
 	.byte	'acc_world',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,48,13
 	.byte	'mag_world',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,60,13
 	.byte	'acc_correct',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,72,13
 	.byte	'mag_correct',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,84,13
 	.byte	'gyro_correct',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,96,0,34
 	.byte	'Pose_Data',0,56,122,3
-	.word	156642
+	.word	156711
 	.byte	18,16
 	.word	228
 	.byte	19,3,0,10
@@ -24037,16 +24046,16 @@ nav_sys:	.type	object
 	.word	228
 	.byte	4,2,35,4,13
 	.byte	'quaternion',0
-	.word	156840
+	.word	156909
 	.byte	16,2,35,8,13
 	.byte	'error',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,24,13
 	.byte	'error_integral',0
-	.word	156251
+	.word	156320
 	.byte	12,2,35,36,0,34
 	.byte	'Pose_Process',0,56,135,1,3
-	.word	156849
+	.word	156918
 	.byte	10
 	.byte	'Pose_Parameter',0,56,141,1,16,16,13
 	.byte	'correct_kp',0
@@ -24062,7 +24071,7 @@ nav_sys:	.type	object
 	.word	228
 	.byte	4,2,35,12,0,34
 	.byte	'Pose_Parameter',0,56,148,1,3
-	.word	156989
+	.word	157058
 	.byte	34
 	.byte	'tMenuFunc',0,57,24,16
 	.word	171
@@ -24077,41 +24086,41 @@ nav_sys:	.type	object
 	.byte	'nItems',0
 	.word	455
 	.byte	1,2,35,8,0,3
-	.word	157123
+	.word	157192
 	.byte	34
 	.byte	'tMenu',0,57,26,27
-	.word	157186
+	.word	157255
 	.byte	10
 	.byte	'sMenuItem',0,57,28,8,16,13
 	.byte	'pszTitle',0
 	.word	32246
 	.byte	4,2,35,0,13
 	.byte	'pfMenuFunc',0
-	.word	157105
+	.word	157174
 	.byte	4,2,35,4,13
 	.byte	'pfUpDownMenuFunc',0
-	.word	157105
+	.word	157174
 	.byte	4,2,35,8,13
 	.byte	'psSubMenu',0
-	.word	157191
+	.word	157260
 	.byte	4,2,35,12,0,3
-	.word	157205
+	.word	157274
 .L445:
 	.byte	34
 	.byte	'tMenuItem',0,57,25,27
-	.word	157304
+	.word	157373
 	.byte	3
 	.word	168
 	.byte	3
-	.word	157123
+	.word	157192
 	.byte	3
-	.word	157205
+	.word	157274
 	.byte	18,16
 	.word	32199
 	.byte	19,1,0,18,192,2
-	.word	157342
+	.word	157411
 	.byte	19,19,0,18,160,1
-	.word	157342
+	.word	157411
 	.byte	19,9,0
 .L319:
 	.byte	20,25,69,9,148,4,13
@@ -24119,7 +24128,7 @@ nav_sys:	.type	object
 	.word	455
 	.byte	1,2,35,0,13
 	.byte	'waypoints',0
-	.word	157351
+	.word	157420
 	.byte	192,2,2,35,4,13
 	.byte	'total_waypoints',0
 	.word	455
@@ -24158,7 +24167,7 @@ nav_sys:	.type	object
 	.word	455
 	.byte	1,3,35,235,2,13
 	.byte	'cones',0
-	.word	157361
+	.word	157430
 	.byte	160,1,3,35,236,2,13
 	.byte	'total_cones',0
 	.word	455
@@ -24173,7 +24182,7 @@ nav_sys:	.type	object
 	.word	228
 	.byte	4,3,35,144,4,0,34
 	.byte	'NavSystem',0,25,99,3
-	.word	157371
+	.word	157440
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'

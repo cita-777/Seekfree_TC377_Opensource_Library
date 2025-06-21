@@ -58,9 +58,14 @@ extern "C" {
  */
 typedef struct
 {
-    float yaw;     // 航向角，单位°（经过滤波和修正）
+    float yaw;     // 航向角，单位°（经过滤波和修正）[-180, 180]
     float pitch;   // 俯仰角，单位°
     float roll;    // 横滚角，单位°
+
+    // 扩展角度变量，支持-无穷到+无穷范围
+    float yaw_extended;     // 扩展航向角，可以超出±180°范围
+    float pitch_extended;   // 扩展俯仰角
+    float roll_extended;    // 扩展横滚角
 } IMU_Angle;
 // 声明外部可访问的角度数据
 extern IMU_Angle g_imu_angle;
@@ -100,6 +105,20 @@ void wifi_spi_send(void);
 void imu_oscilloscope_isr(void);
 void icm45686_oscilloscope_isr(void);
 /*------------------------------------test------------------------------------*/
+/**
+ * @brief 获取扩展角度值（无限制范围）
+ */
+float IMU_GetExtendedYaw(void);
+
+/**
+ * @brief 重置扩展角度累积值
+ */
+void IMU_ResetExtendedAngles(void);
+
+/**
+ * @brief 设置扩展角度的初始值
+ */
+void IMU_SetExtendedYaw(float yaw);
 
 #ifdef __cplusplus
 }
