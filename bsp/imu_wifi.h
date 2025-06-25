@@ -29,7 +29,7 @@ extern "C" {
 #define IMU_USE_ICM45686 (1)   // 定义使用 ICM45686 IMU
 
 // 选择WiFi配置
-#define WIFI_CONFIG 3   // 1: CMCC-nAHP, 2: cita, 3: NEWX
+#define WIFI_CONFIG 4   // 1: CMCC-nAHP, 2: cita, 3: NEWX
 
 #if WIFI_CONFIG == 1
 #    define MY_WIFI_SSID "CMCC-nAHP"
@@ -43,6 +43,10 @@ extern "C" {
 #    define MY_WIFI_SSID "NEWX"
 #    define MY_WIFI_PASSWORD "dxswlwhgzs"
 #    define MY_TCP_TARGET_IP "192.168.5.5"   // 连接目标的 IP
+#elif WIFI_CONFIG == 4
+#    define MY_WIFI_SSID "xingyao14"
+#    define MY_WIFI_PASSWORD "cjk20158"
+#    define MY_TCP_TARGET_IP "192.168.137.1"   // 连接目标的 IP
 #else
 #    error "Invalid WIFI_CONFIG value. Must be 1, 2, or 3."
 #endif
