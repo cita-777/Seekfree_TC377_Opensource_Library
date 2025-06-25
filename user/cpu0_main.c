@@ -61,8 +61,8 @@ int core0_main(void)
     pit_us_init(IMU_PIT, 1000);   // 100Hz (10ms)
 #endif
 #if ENCODER_PIT_START_FLAG
-    // 编码器频率修改为50Hz
-    pit_ms_init(ENCODER_PIT, 20);   // 50Hz (20ms)
+    // 编码器频率修改为100Hz
+    pit_ms_init(ENCODER_PIT, 10);   // 100Hz (10ms)
 #endif
     // 舵机频率提高到300Hz
 #if SERVO_PIT_START_FLAG

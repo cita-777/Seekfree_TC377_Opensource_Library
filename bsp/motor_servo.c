@@ -99,9 +99,9 @@ void drv8701_motor_speed_ctrl(double speed)
     }
 
     // 设置PID参数
-    PID_MOTOR.kp = 2.8;    // 比例系数
-    PID_MOTOR.ki = 0.02;   // 积分系数
-    PID_MOTOR.kd = 0.3;    // 微分系数
+    PID_MOTOR.kp = 2.5;    // 比例系数
+    PID_MOTOR.ki = 0.06;   // 积分系数
+    PID_MOTOR.kd = 0.05;   // 微分系数
 
     // 使用PID控制器计算输出
     double out = PidIncCtrl(&PID_MOTOR, speed_gap);
@@ -115,6 +115,12 @@ void drv8701_motor_speed_ctrl(double speed)
     {
         out = -MAX_DUTY;
     }
+    // printf("encoder=%d, current=%.2f, target=%.2f, gap=%.2f, out=%.2f\n",
+    //        encoder_data_1,
+    //        current_speed,
+    //        target_speed,
+    //        speed_gap,
+    //        out);
 
 #if PID_WIFI_SEND_FLAG
     // 打包数据到示波器格式
@@ -278,9 +284,13 @@ void servo_set(double angle)   // 舵机驱动
     {
         servo_value = SERVO_MOTOR_R_MAX;
     }
+
+    // 计算实际给舵机的角度值和PWM占空比
+    double actual_angle = 2 * SERVO_MOTOR_MID - servo_value;
+    uint32 pwm_duty     = (uint32)SERVO_MOTOR_DUTY(actual_angle);
+
     // 为了反转舵机角度方向，需要2 * SERVO_MOTOR_MID - angle才是真实angle
-    pwm_set_duty(SERVO_MOTOR_PWM, (uint32)SERVO_MOTOR_DUTY(2 * SERVO_MOTOR_MID - servo_value));
-    // printf("servo_value: %f\r\n", servo_value);
+    pwm_set_duty(SERVO_MOTOR_PWM, pwm_duty);
 }
 /**
  * @brief 舵机角度PD闭环控制函数（传统模式，保持向后兼容）

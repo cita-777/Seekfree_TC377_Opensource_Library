@@ -58,7 +58,7 @@ void core2_main(void)
         if (++i0 >= 500000)
         {
             i0 = 0;
-            // nav_show_status();
+            nav_show_status();
         }
 
 

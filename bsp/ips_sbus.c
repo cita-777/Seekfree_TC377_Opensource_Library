@@ -128,7 +128,7 @@ void sbus_proc()
             //     // 0.0度表示保持当前角度，180.0度表示调头180度，-180.0度表示反方向调头
             //     servo_set_pd_extended(360.0, true);   // 使用扩展角度模式
             // }
-            // else if (cumulative_encoder_data_1 > 230000 && cumulative_encoder_data_1 < 400000)
+            // else if (cumulative_encoder_data_1 > 200000 && cumulative_encoder_data_1 < 400000)
             // {
             //     // 进行180度调头，使用扩展角度可以精确控制是向左还是向右调头
             //     // 如果当前扩展角度是30度，目标210度表示顺时针转180度

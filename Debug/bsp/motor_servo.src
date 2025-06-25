@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc52100a --dep-file=bsp/motor_servo.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o bsp/motor_servo.src ../bsp/motor_servo.c"
+	.compiler_invocation	"ctc -f cc69616a --dep-file=bsp/motor_servo.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o bsp/motor_servo.src ../bsp/motor_servo.c"
 	.compiler_name		"ctc"
 	;source	'../bsp/motor_servo.c'
 
@@ -29,41 +29,41 @@ $TC162
 motor_encoder_proc:	.type	func
 	movh.a	a15,#@his(encoder_data_1)
 	lea	a15,[a15]@los(encoder_data_1)
-.L287:
+.L294:
 	mov	d4,#0
 	call	encoder_get_count
-.L288:
+.L295:
 	rsub	d2,#0
-.L289:
+.L296:
 	st.h	[a15],d2
-.L290:
+.L297:
 	movh.a	a15,#@his(cumulative_encoder_data_1)
 	lea	a15,[a15]@los(cumulative_encoder_data_1)
 	movh.a	a2,#@his(cumulative_encoder_data_1)
 	lea	a2,[a2]@los(cumulative_encoder_data_1)
 	ld.w	d15,[a2]
-.L291:
+.L298:
 	movh.a	a2,#@his(encoder_data_1)
 	lea	a2,[a2]@los(encoder_data_1)
 	ld.h	d0,[a2]
-.L292:
+.L299:
 	add	d15,d0
 	st.w	[a15],d15
-.L293:
+.L300:
 	mov	d4,#0
 	call	encoder_clear_count
-.L294:
+.L301:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
-.L295:
+.L302:
 	mov	d15,#1
-.L296:
+.L303:
 	st.b	[a15],d15
-.L297:
+.L304:
 	movh.a	a4,#@his(.2.str)
 	lea	a4,[a4]@los(.2.str)
 	call	disable_handler
-.L298:
+.L305:
 	ret
 .L161:
 	
@@ -82,35 +82,35 @@ __motor_encoder_proc_function_end:
 drv8701_motor_init:	.type	func
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L303:
+.L310:
 	mov	d0,#0
 	mov	d1,#0
-.L304:
-	st.d	[a15]0,e0
-.L305:
-	mov	d4,#676
-.L306:
-	mov	d5,#1
-.L307:
-	mov	d6,#1
-.L308:
-	mov	d7,#3
-	call	gpio_init
-.L309:
-	mov	d4,#21
-.L310:
-	mov	d5,#17000
 .L311:
-	mov	d6,#0
-	call	pwm_init
+	st.d	[a15]0,e0
 .L312:
-	mov	d4,#0
+	mov	d4,#676
 .L313:
 	mov	d5,#1
 .L314:
 	mov	d6,#1
-	call	encoder_quad_init
 .L315:
+	mov	d7,#3
+	call	gpio_init
+.L316:
+	mov	d4,#21
+.L317:
+	mov	d5,#17000
+.L318:
+	mov	d6,#0
+	call	pwm_init
+.L319:
+	mov	d4,#0
+.L320:
+	mov	d5,#1
+.L321:
+	mov	d6,#1
+	call	encoder_quad_init
+.L322:
 	ret
 .L162:
 	
@@ -128,105 +128,105 @@ __drv8701_motor_init_function_end:
 .L59:
 drv8701_motor_set:	.type	func
 	mov	e8,d5,d4
-.L320:
+.L327:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L204:
+.L206:
 	st.d	[a15]0,e8
-.L205:
+.L207:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16457
-.L206:
+	addih	d7,d7,#16462
+.L208:
 	mov	e4,d9,d8
-.L203:
+.L205:
 	call	__d_fgt
-.L321:
+.L328:
 	jeq	d2,#0,.L2
-.L322:
+.L329:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L323:
+.L330:
 	mov	d0,#0
 	mov	d1,#0
-	addih	d1,d1,#16457
-.L324:
+	addih	d1,d1,#16462
+.L331:
 	st.d	[a15]0,e0
-.L325:
+.L332:
 	j	.L3
 .L2:
 	mov	d4,#0
 	mov	d5,#0
-	addih	d5,d5,#49225
-.L207:
+	addih	d5,d5,#49230
+.L209:
 	mov	e6,d9,d8
-.L208:
+.L210:
 	call	__d_fgt
-.L326:
+.L333:
 	jeq	d2,#0,.L4
-.L327:
+.L334:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L328:
+.L335:
 	mov	d0,#0
 	mov	d1,#0
-	addih	d1,d1,#49225
-.L329:
+	addih	d1,d1,#49230
+.L336:
 	st.d	[a15]0,e0
 .L4:
 .L3:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
 	ld.d	e4,[a15]0
-.L330:
-	mov	d6,#0
-	mov	d7,#0
-.L331:
-	call	__d_fge
-.L332:
-	jne	d2,#0,.L5
-.L333:
-	mov	d4,#676
-.L334:
-	mov	d5,#1
-	call	gpio_set_level
-.L335:
-	mov	d15,#21
-.L336:
-	movh.a	a15,#@his(motor_duty)
-	lea	a15,[a15]@los(motor_duty)
-	ld.d	e0,[a15]0
 .L337:
-	insn.t	d5,d1:31,d1:31
-	mov	d4,d0
-.L338:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16473
+.L338:
+	call	__d_fge
 .L339:
-	call	__d_mul
-	mov	e4,d3,d2
-	call	__d_dtoui
-	mov	e4,d2,d15
-	call	pwm_set_duty
+	jne	d2,#0,.L5
 .L340:
-	j	.L6
-.L5:
 	mov	d4,#676
 .L341:
-	mov	d5,#0
+	mov	d5,#1
 	call	gpio_set_level
 .L342:
 	mov	d15,#21
 .L343:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-	ld.d	e4,[a15]0
+	ld.d	e0,[a15]0
 .L344:
+	insn.t	d5,d1:31,d1:31
+	mov	d4,d0
+.L345:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16473
-.L345:
+.L346:
+	call	__d_mul
+	mov	e4,d3,d2
+	call	__d_dtoui
+	mov	e4,d2,d15
+	call	pwm_set_duty
+.L347:
+	j	.L6
+.L5:
+	mov	d4,#676
+.L348:
+	mov	d5,#0
+	call	gpio_set_level
+.L349:
+	mov	d15,#21
+.L350:
+	movh.a	a15,#@his(motor_duty)
+	lea	a15,[a15]@los(motor_duty)
+	ld.d	e4,[a15]0
+.L351:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16473
+.L352:
 	call	__d_mul
 	mov	e4,d3,d2
 	call	__d_dtoui
@@ -250,150 +250,149 @@ __drv8701_motor_set_function_end:
 .L61:
 drv8701_motor_speed_ctrl:	.type	func
 	mov	e8,d5,d4
-.L632:
+.L640:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
 	ld.bu	d15,[a15]
 	jne	d15,#0,.L7
-.L633:
+.L641:
 	j	.L8
 .L7:
 	movh.a	a15,#@his(encoder_data_1)
 	lea	a15,[a15]@los(encoder_data_1)
 	ld.h	d4,[a15]
-.L209:
+.L211:
 	call	__d_itod
-.L634:
+.L642:
 	movh.a	a15,#@his(.3.cnt)
 	lea	a15,[a15]@los(.3.cnt)
 	ld.d	e6,[a15]0
-.L635:
+.L643:
 	mov	e4,d3,d2
 	call	__d_div
-.L210:
-	mov	e4,d9,d8
-.L211:
-	mov	e6,d3,d2
 .L212:
+	mov	e4,d9,d8
+.L213:
+	mov	e6,d3,d2
+.L214:
 	call	__d_sub
-.L636:
+.L644:
 	mov	e10,d3,d2
-.L637:
+.L645:
 	mov	d6,d8
 	insert	d7,d9,#0,#31,#1
-.L638:
+.L646:
 	movh.a	a15,#@his(.4.cnt)
 	lea	a15,[a15]@los(.4.cnt)
 	ld.d	e4,[a15]0
-.L639:
+.L647:
 	call	__d_fgt
 	mov	d15,d2
-.L640:
+.L648:
 	jeq	d15,#0,.L9
-.L641:
+.L649:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_set
-.L642:
+.L650:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L643:
+.L651:
 	mov	d15,#0
-.L644:
+.L652:
 	st.w	[a15]28,d15
-.L645:
+.L653:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
-.L646:
+.L654:
 	mov	d15,#0
-.L647:
+.L655:
 	st.b	[a15],d15
-.L648:
+.L656:
 	j	.L10
 .L9:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L649:
-	mov	d15,#13107
-	addih	d15,d15,#16435
-.L650:
+.L657:
+	movh	d15,#16416
+.L658:
 	st.w	[a15],d15
-.L651:
+.L659:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L652:
-	mov.u	d15,#55050
-	addih	d15,d15,#15523
-.L653:
+.L660:
+	mov.u	d15,#49807
+	addih	d15,d15,#15733
+.L661:
 	st.w	[a15]4,d15
-.L654:
+.L662:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L655:
-	mov.u	d15,#39322
-	addih	d15,d15,#16025
-.L656:
+.L663:
+	mov.u	d15,#52429
+	addih	d15,d15,#15692
+.L664:
 	st.w	[a15]8,d15
-.L198:
+.L201:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L213:
+.L215:
 	mov	e4,d11,d10
-.L214:
+.L216:
 	call	__d_dtof
 	mov.aa	a4,a15
 	mov	d4,d2
 	call	PidIncCtrl
-.L657:
+.L665:
 	mov	d4,d2
 	call	__f_ftod
-.L658:
+.L666:
 	mov	e8,d3,d2
-.L659:
+.L667:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16457
-.L215:
+	addih	d7,d7,#16462
+.L217:
 	mov	e4,d9,d8
-.L216:
+.L218:
 	call	__d_fgt
-.L660:
+.L668:
 	jeq	d2,#0,.L11
-.L661:
+.L669:
 	mov	d8,#0
 	mov	d9,#0
-.L217:
-	addih	d9,d9,#16457
+.L219:
+	addih	d9,d9,#16462
 .L11:
 	mov	d4,#0
 	mov	d5,#0
-	addih	d5,d5,#49225
-.L218:
+	addih	d5,d5,#49230
+.L220:
 	mov	e6,d9,d8
-.L219:
+.L221:
 	call	__d_fgt
-.L662:
+.L670:
 	jeq	d2,#0,.L12
-.L663:
+.L671:
 	mov	d8,#0
 	mov	d9,#0
-.L220:
-	addih	d9,d9,#49225
+.L222:
+	addih	d9,d9,#49230
 .L12:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
-.L664:
+.L672:
 	mov	d15,#0
-.L665:
+.L673:
 	st.b	[a15],d15
-.L221:
+.L223:
 	mov	e4,d9,d8
-.L222:
+.L224:
 	call	drv8701_motor_set
 .L10:
 .L8:
 	ret
-.L193:
+.L196:
 	
 __drv8701_motor_speed_ctrl_function_end:
 	.size	drv8701_motor_speed_ctrl,__drv8701_motor_speed_ctrl_function_end-drv8701_motor_speed_ctrl
@@ -410,39 +409,39 @@ __drv8701_motor_speed_ctrl_function_end:
 bldc_motor_init:	.type	func
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L396:
+.L403:
 	mov	d0,#0
 	mov	d1,#0
-.L397:
+.L404:
 	st.d	[a15]0,e0
-.L398:
+.L405:
 	mov	d4,#38
-.L399:
+.L406:
 	mov	d5,#1000
-.L400:
+.L407:
 	mov	d6,#0
 	call	pwm_init
-.L401:
+.L408:
 	mov	d4,#70
-.L402:
+.L409:
 	mov	d5,#1
-.L403:
+.L410:
 	mov	d6,#1
-.L404:
+.L411:
 	mov	d7,#3
 	call	gpio_init
-.L405:
+.L412:
 	mov	d4,#3
-.L406:
+.L413:
 	mov	d5,#5
-.L407:
+.L414:
 	mov	d6,#6
 	call	encoder_dir_init
-.L408:
+.L415:
 	movh.a	a4,#@his(PID_Init)
 	lea	a4,[a4]@los(PID_Init)
 	call	PidInit
-.L409:
+.L416:
 	ret
 .L167:
 	
@@ -460,105 +459,105 @@ __bldc_motor_init_function_end:
 .L65:
 bldc_motor_set:	.type	func
 	mov	e8,d5,d4
-.L414:
+.L421:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L224:
+.L226:
 	st.d	[a15]0,e8
-.L225:
+.L227:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16457
-.L226:
+	addih	d7,d7,#16462
+.L228:
 	mov	e4,d9,d8
-.L223:
+.L225:
 	call	__d_fgt
-.L415:
+.L422:
 	jeq	d2,#0,.L13
-.L416:
+.L423:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L417:
+.L424:
 	mov	d0,#0
 	mov	d1,#0
-	addih	d1,d1,#16457
-.L418:
+	addih	d1,d1,#16462
+.L425:
 	st.d	[a15]0,e0
-.L419:
+.L426:
 	j	.L14
 .L13:
 	mov	d4,#0
 	mov	d5,#0
-	addih	d5,d5,#49225
-.L227:
+	addih	d5,d5,#49230
+.L229:
 	mov	e6,d9,d8
-.L228:
+.L230:
 	call	__d_fgt
-.L420:
+.L427:
 	jeq	d2,#0,.L15
-.L421:
+.L428:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-.L422:
+.L429:
 	mov	d0,#0
 	mov	d1,#0
-	addih	d1,d1,#49225
-.L423:
+	addih	d1,d1,#49230
+.L430:
 	st.d	[a15]0,e0
 .L15:
 .L14:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
 	ld.d	e4,[a15]0
-.L424:
-	mov	d6,#0
-	mov	d7,#0
-.L425:
-	call	__d_fge
-.L426:
-	jne	d2,#0,.L16
-.L427:
-	mov	d4,#70
-.L428:
-	mov	d5,#0
-	call	gpio_set_level
-.L429:
-	mov	d15,#38
-.L430:
-	movh.a	a15,#@his(motor_duty)
-	lea	a15,[a15]@los(motor_duty)
-	ld.d	e0,[a15]0
 .L431:
-	insn.t	d5,d1:31,d1:31
-	mov	d4,d0
-.L432:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16473
+.L432:
+	call	__d_fge
 .L433:
-	call	__d_mul
-	mov	e4,d3,d2
-	call	__d_dtoui
-	mov	e4,d2,d15
-	call	pwm_set_duty
+	jne	d2,#0,.L16
 .L434:
-	j	.L17
-.L16:
 	mov	d4,#70
 .L435:
-	mov	d5,#1
+	mov	d5,#0
 	call	gpio_set_level
 .L436:
 	mov	d15,#38
 .L437:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
-	ld.d	e4,[a15]0
+	ld.d	e0,[a15]0
 .L438:
+	insn.t	d5,d1:31,d1:31
+	mov	d4,d0
+.L439:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16473
-.L439:
+.L440:
+	call	__d_mul
+	mov	e4,d3,d2
+	call	__d_dtoui
+	mov	e4,d2,d15
+	call	pwm_set_duty
+.L441:
+	j	.L17
+.L16:
+	mov	d4,#70
+.L442:
+	mov	d5,#1
+	call	gpio_set_level
+.L443:
+	mov	d15,#38
+.L444:
+	movh.a	a15,#@his(motor_duty)
+	lea	a15,[a15]@los(motor_duty)
+	ld.d	e4,[a15]0
+.L445:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16473
+.L446:
 	call	__d_mul
 	mov	e4,d3,d2
 	call	__d_dtoui
@@ -582,95 +581,95 @@ __bldc_motor_set_function_end:
 .L67:
 bldc_motor_speed_ctrl:	.type	func
 	sub.a	a10,#8
-.L229:
+.L231:
 	mov	e10,d5,d4
-.L444:
+.L451:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
 	ld.bu	d15,[a15]
 	jne	d15,#0,.L18
-.L445:
+.L452:
 	j	.L19
 .L18:
 	movh.a	a15,#@his(encoder_data_1)
 	lea	a15,[a15]@los(encoder_data_1)
 	ld.h	d4,[a15]
-.L230:
-	call	__d_itod
-.L446:
-	mov	e8,d3,d2
-.L231:
-	mov	e4,d11,d10
 .L232:
-	mov	e6,d9,d8
+	call	__d_itod
+.L453:
+	mov	e8,d3,d2
 .L233:
+	mov	e4,d11,d10
+.L234:
+	mov	e6,d9,d8
+.L235:
 	call	__d_sub
-.L447:
+.L454:
 	mov	e12,d3,d2
-.L448:
+.L455:
 	movh.a	a15,#@his(_999001_last_target_speed)
 	lea	a15,[a15]@los(_999001_last_target_speed)
 	ld.d	e0,[a15]0
 	mov	d4,d0
 	insert	d5,d1,#0,#31,#1
-.L449:
+.L456:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16352
-.L450:
+.L457:
 	call	__d_fgt
 	mov	d15,d2
-.L451:
+.L458:
 	jeq	d15,#0,.L20
-.L452:
+.L459:
 	mov	d6,d10
 	insert	d7,d11,#0,#31,#1
-.L453:
+.L460:
 	movh.a	a15,#@his(.4.cnt)
 	lea	a15,[a15]@los(.4.cnt)
 	ld.d	e4,[a15]0
-.L454:
+.L461:
 	call	__d_fgt
 	mov	d15,d2
 	jeq	d15,#0,.L21
-.L455:
-	movh.a	a15,#@his(PID_MOTOR)
-	lea	a15,[a15]@los(PID_MOTOR)
-.L456:
-	mov	d15,#0
-.L457:
-	st.w	[a15]28,d15
-.L458:
-	movh.a	a15,#@his(PID_MOTOR)
-	lea	a15,[a15]@los(PID_MOTOR)
-.L459:
-	mov	d15,#0
-.L460:
-	st.w	[a15]36,d15
-.L461:
-	movh.a	a15,#@his(PID_MOTOR)
-	lea	a15,[a15]@los(PID_MOTOR)
 .L462:
-	mov	d15,#0
+	movh.a	a15,#@his(PID_MOTOR)
+	lea	a15,[a15]@los(PID_MOTOR)
 .L463:
+	mov	d15,#0
+.L464:
+	st.w	[a15]28,d15
+.L465:
+	movh.a	a15,#@his(PID_MOTOR)
+	lea	a15,[a15]@los(PID_MOTOR)
+.L466:
+	mov	d15,#0
+.L467:
+	st.w	[a15]36,d15
+.L468:
+	movh.a	a15,#@his(PID_MOTOR)
+	lea	a15,[a15]@los(PID_MOTOR)
+.L469:
+	mov	d15,#0
+.L470:
 	st.w	[a15]40,d15
 .L175:
 	movh.a	a15,#@his(_999001_last_target_speed)
 	lea	a15,[a15]@los(_999001_last_target_speed)
 	ld.d	e4,[a15]0
-.L464:
+.L471:
 	mov	d6,#0
 	mov	d7,#0
-.L465:
+.L472:
 	call	__d_fgt
 	mov	d15,d2
-.L466:
+.L473:
 	jne	d15,#0,.L22
-.L467:
+.L474:
 	mov	d4,#0
 	mov	d5,#0
 	addih	d5,d5,#16416
-.L468:
+.L475:
 	j	.L23
 .L22:
 	mov	d4,#0
@@ -678,180 +677,180 @@ bldc_motor_speed_ctrl:	.type	func
 	addih	d5,d5,#49184
 .L23:
 	call	bldc_motor_set
-.L469:
-	mov	d4,#0
-	mov	d5,#0
-	call	bldc_motor_set
-.L470:
-	movh.a	a15,#@his(encoder_updated)
-	lea	a15,[a15]@los(encoder_updated)
-.L471:
-	mov	d15,#0
-.L472:
-	st.b	[a15],d15
-.L473:
-	movh.a	a15,#@his(_999001_last_target_speed)
-	lea	a15,[a15]@los(_999001_last_target_speed)
-.L234:
-	st.d	[a15]0,e10
-.L235:
-	j	.L24
-.L21:
-.L20:
-	mov	d6,d10
-	insert	d7,d11,#0,#31,#1
-.L474:
-	movh.a	a15,#@his(.4.cnt)
-	lea	a15,[a15]@los(.4.cnt)
-	ld.d	e4,[a15]0
-.L475:
-	call	__d_fgt
-	mov	d15,d2
 .L476:
-	jeq	d15,#0,.L25
-.L477:
-	mov	d6,d8
-	insert	d7,d9,#0,#31,#1
-.L478:
-	mov	d4,#0
-	mov	d5,#0
-	addih	d5,d5,#16384
-.L479:
-	call	__d_fgt
-	mov	d15,d2
-.L480:
-	jeq	d15,#0,.L26
-.L481:
 	mov	d4,#0
 	mov	d5,#0
 	call	bldc_motor_set
-.L482:
-	movh.a	a15,#@his(PID_MOTOR)
-	lea	a15,[a15]@los(PID_MOTOR)
-.L483:
-	mov	d15,#0
-.L484:
-	st.w	[a15]28,d15
-.L485:
+.L477:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
-.L486:
+.L478:
 	mov	d15,#0
-.L487:
+.L479:
 	st.b	[a15],d15
-.L488:
+.L480:
 	movh.a	a15,#@his(_999001_last_target_speed)
 	lea	a15,[a15]@los(_999001_last_target_speed)
 .L236:
 	st.d	[a15]0,e10
 .L237:
+	j	.L24
+.L21:
+.L20:
+	mov	d6,d10
+	insert	d7,d11,#0,#31,#1
+.L481:
+	movh.a	a15,#@his(.4.cnt)
+	lea	a15,[a15]@los(.4.cnt)
+	ld.d	e4,[a15]0
+.L482:
+	call	__d_fgt
+	mov	d15,d2
+.L483:
+	jeq	d15,#0,.L25
+.L484:
+	mov	d6,d8
+	insert	d7,d9,#0,#31,#1
+.L485:
+	mov	d4,#0
+	mov	d5,#0
+	addih	d5,d5,#16384
+.L486:
+	call	__d_fgt
+	mov	d15,d2
+.L487:
+	jeq	d15,#0,.L26
+.L488:
+	mov	d4,#0
+	mov	d5,#0
+	call	bldc_motor_set
+.L489:
+	movh.a	a15,#@his(PID_MOTOR)
+	lea	a15,[a15]@los(PID_MOTOR)
+.L490:
+	mov	d15,#0
+.L491:
+	st.w	[a15]28,d15
+.L492:
+	movh.a	a15,#@his(encoder_updated)
+	lea	a15,[a15]@los(encoder_updated)
+.L493:
+	mov	d15,#0
+.L494:
+	st.b	[a15],d15
+.L495:
+	movh.a	a15,#@his(_999001_last_target_speed)
+	lea	a15,[a15]@los(_999001_last_target_speed)
+.L238:
+	st.d	[a15]0,e10
+.L239:
 	j	.L27
 .L26:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L489:
+.L496:
 	movh	d15,#16320
-.L490:
+.L497:
 	st.w	[a15],d15
-.L491:
+.L498:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L492:
+.L499:
 	mov	d15,#0
-.L493:
+.L500:
 	st.w	[a15]4,d15
-.L494:
+.L501:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L495:
+.L502:
 	mov.u	d15,#39322
 	addih	d15,d15,#16025
-.L496:
+.L503:
 	st.w	[a15]8,d15
-.L497:
+.L504:
 	j	.L28
 .L25:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L498:
+.L505:
 	movh	d15,#16416
-.L499:
+.L506:
 	st.w	[a15],d15
-.L500:
+.L507:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L501:
+.L508:
 	mov.u	d15,#55050
 	addih	d15,d15,#15523
-.L502:
+.L509:
 	st.w	[a15]4,d15
-.L503:
+.L510:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L504:
+.L511:
 	mov.u	d15,#52429
 	addih	d15,d15,#15948
-.L505:
+.L512:
 	st.w	[a15]8,d15
 .L28:
 	movh.a	a15,#@his(PID_MOTOR)
 	lea	a15,[a15]@los(PID_MOTOR)
-.L238:
+.L240:
 	mov	e4,d13,d12
-.L239:
+.L241:
 	call	__d_dtof
 	mov	d4,d2
 	mov.aa	a4,a15
 	call	PidIncCtrl
 	mov	d4,d2
-.L506:
+.L513:
 	call	__f_ftod
-.L507:
+.L514:
 	mov	e8,d3,d2
-.L508:
+.L515:
 	mov	d4,#0
 	mov	d5,#0
-.L240:
+.L242:
 	addih	d5,d5,#16416
 	st.d	[a10]0,e4
-.L242:
+.L244:
 	mov	d6,d8
 	insert	d7,d9,#0,#31,#1
-.L509:
+.L516:
 	call	__d_fgt
-.L241:
+.L243:
 	mov	d15,d2
-.L510:
+.L517:
 	jeq	d15,#0,.L29
-.L511:
+.L518:
 	mov	d4,d12
 	insert	d5,d13,#0,#31,#1
-.L512:
+.L519:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16384
-.L513:
+.L520:
 	call	__d_fgt
 	mov	d15,d2
 	jeq	d15,#0,.L30
-.L514:
+.L521:
 	mov	d6,#0
 	mov	d7,#0
-.L244:
+.L246:
 	mov	e4,d9,d8
-.L245:
+.L247:
 	call	__d_fge
 	mov	d15,d2
-.L515:
+.L522:
 	jne	d15,#0,.L31
-.L516:
+.L523:
 	ld.w	d15,[a10]4
-.L243:
+.L245:
 	insn.t	d9,d15:31,d15:31
 	ld.w	d15,[a10]
-.L246:
+.L248:
 	mov	d8,d15
-.L247:
+.L249:
 	j	.L32
 .L31:
 	ld.d	e8,[a10]0
@@ -860,50 +859,50 @@ bldc_motor_speed_ctrl:	.type	func
 .L29:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16457
-.L248:
+	addih	d7,d7,#16462
+.L250:
 	mov	e4,d9,d8
-.L249:
+.L251:
 	call	__d_fgt
 	mov	d15,d2
-.L517:
+.L524:
 	jeq	d15,#0,.L33
-.L518:
+.L525:
 	mov	d8,#0
 	mov	d9,#0
-.L250:
-	addih	d9,d9,#16457
+.L252:
+	addih	d9,d9,#16462
 .L33:
 	mov	d4,#0
 	mov	d5,#0
-	addih	d5,d5,#49225
-.L251:
+	addih	d5,d5,#49230
+.L253:
 	mov	e6,d9,d8
-.L252:
+.L254:
 	call	__d_fgt
 	mov	d15,d2
-.L519:
+.L526:
 	jeq	d15,#0,.L34
-.L520:
+.L527:
 	mov	d8,#0
 	mov	d9,#0
-.L253:
-	addih	d9,d9,#49225
+.L255:
+	addih	d9,d9,#49230
 .L34:
 	movh.a	a15,#@his(encoder_updated)
 	lea	a15,[a15]@los(encoder_updated)
-.L521:
+.L528:
 	mov	d15,#0
-.L522:
+.L529:
 	st.b	[a15],d15
-.L254:
+.L256:
 	mov	e4,d9,d8
-.L255:
+.L257:
 	call	bldc_motor_set
-.L523:
+.L530:
 	movh.a	a15,#@his(_999001_last_target_speed)
 	lea	a15,[a15]@los(_999001_last_target_speed)
-.L256:
+.L258:
 	st.d	[a15]0,e10
 .L27:
 .L24:
@@ -925,16 +924,16 @@ __bldc_motor_speed_ctrl_function_end:
 .L69:
 servo_init:	.type	func
 	mov	d4,#54
-.L528:
+.L535:
 	mov	d5,#50
-.L529:
+.L536:
 	mov	d6,#750
 	call	pwm_init
-.L530:
+.L537:
 	movh.a	a4,#@his(PID_Init)
 	lea	a4,[a4]@los(PID_Init)
 	call	PidInit
-.L531:
+.L538:
 	ret
 .L179:
 	
@@ -952,85 +951,91 @@ __servo_init_function_end:
 .L71:
 servo_set:	.type	func
 	mov	e6,d5,d4
-.L536:
+.L543:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
-.L258:
+.L260:
 	st.d	[a15]0,e6
-.L259:
+.L261:
 	mov	d4,#0
-.L257:
+.L259:
 	mov.u	d5,#32768
 	addih	d5,d5,#16465
-.L537:
+.L544:
 	call	__d_fgt
-.L538:
+.L545:
 	jeq	d2,#0,.L35
-.L539:
+.L546:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
-.L540:
+.L547:
 	mov	d0,#0
 	mov.u	d1,#32768
 	addih	d1,d1,#16465
-.L541:
+.L548:
 	st.d	[a15]0,e0
 .L35:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	ld.d	e4,[a15]0
-.L542:
+.L549:
 	mov	d6,#0
 	mov.u	d7,#32768
 	addih	d7,d7,#16475
-.L543:
+.L550:
 	call	__d_fgt
-.L544:
+.L551:
 	jeq	d2,#0,.L36
-.L545:
+.L552:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
-.L546:
+.L553:
 	mov	d0,#0
 	mov.u	d1,#32768
 	addih	d1,d1,#16475
-.L547:
+.L554:
 	st.d	[a15]0,e0
 .L36:
-	mov	d15,#54
-.L548:
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16486
+.L555:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	ld.d	e6,[a15]0
+.L556:
 	call	__d_sub
+.L262:
 	mov	e4,d3,d2
+.L263:
 	call	__d_dtof
 	mov	d4,d2
 	call	__f_ftod
-	mov	e4,d3,d2
 	mov	d6,#0
 	mov.u	d7,#32768
 	addih	d7,d7,#16470
-	call	__d_div
 	mov	e4,d3,d2
+	call	__d_div
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16352
-	call	__d_add
 	mov	e4,d3,d2
+	call	__d_add
 	mov	d6,#0
 	mov.u	d7,#16384
 	addih	d7,d7,#16511
-	call	__d_mul
 	mov	e4,d3,d2
-.L549:
+	call	__d_mul
+.L557:
+	mov	e4,d3,d2
 	call	__d_dtoui
-	mov	e4,d2,d15
+.L558:
+	mov	d4,#54
+.L264:
+	mov	d5,d2
+.L265:
 	call	pwm_set_duty
-.L550:
+.L266:
 	ret
 .L180:
 	
@@ -1049,9 +1054,9 @@ __servo_set_function_end:
 servo_set_pd:	.type	func
 	mov	d5,#0
 	call	servo_set_pd_extended
-.L260:
+.L267:
 	ret
-.L182:
+.L185:
 	
 __servo_set_pd_function_end:
 	.size	servo_set_pd,__servo_set_pd_function_end-servo_set_pd
@@ -1067,150 +1072,150 @@ __servo_set_pd_function_end:
 .L75:
 servo_set_pd_extended:	.type	func
 	mov	d8,d4
-.L263:
+.L270:
 	jeq	d5,#0,.L37
-.L559:
+.L567:
 	movh.a	a15,#@his(g_imu_angle)
 	lea	a15,[a15]@los(g_imu_angle)
-.L560:
+.L568:
 	ld.w	d9,[a15]12
-.L264:
+.L271:
 	sub.f	d10,d8,d9
-.L265:
+.L272:
 	j	.L38
 .L37:
 	movh.a	a15,#@his(g_imu_angle)
 	lea	a15,[a15]@los(g_imu_angle)
-.L561:
+.L569:
 	ld.w	d9,[a15]
-.L266:
+.L273:
 	sub.f	d10,d8,d9
-.L267:
+.L274:
 	j	.L39
 .L40:
 	movh	d0,#17332
-.L562:
+.L570:
 	sub.f	d10,d10,d0
 .L39:
 	movh	d15,#17204
-.L563:
+.L571:
 	cmp.f	d15,d10,d15
 	jnz.t	d15:2,.L40
-.L564:
+.L572:
 	j	.L41
 .L42:
 	movh	d15,#17332
-.L565:
+.L573:
 	add.f	d10,d10,d15
 .L41:
 	movh	d15,#49972
-.L566:
+.L574:
 	cmp.f	d15,d10,d15
 	jnz.t	d15:0,.L42
 .L38:
 	movh.a	a4,#@his(PID_IMU)
 	lea	a4,[a4]@los(PID_IMU)
-.L567:
+.L575:
 	mov	d4,d10
-.L261:
+.L268:
 	call	PidLocCtrl
-.L262:
+.L269:
 	mov	d4,d2
 	call	__f_ftod
 	mov	e12,d3,d2
-.L568:
+.L576:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16436
-.L268:
+.L275:
 	mov	e4,d13,d12
-.L269:
+.L276:
 	call	__d_fgt
 	mov	d15,d2
-.L569:
+.L577:
 	jeq	d15,#0,.L43
-.L570:
+.L578:
 	mov	d12,#0
 	mov	d13,#0
-.L270:
+.L277:
 	addih	d13,d13,#16436
-.L571:
+.L579:
 	j	.L44
 .L43:
 	mov	d4,#0
 	mov	d5,#0
 	addih	d5,d5,#49204
-.L271:
+.L278:
 	mov	e6,d13,d12
-.L272:
+.L279:
 	call	__d_fgt
 	mov	d15,d2
-.L572:
+.L580:
 	jeq	d15,#0,.L45
-.L573:
+.L581:
 	mov	d12,#0
 	mov	d13,#0
-.L273:
+.L280:
 	addih	d13,d13,#49204
 .L45:
 .L44:
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
-.L274:
+.L281:
 	mov	e6,d13,d12
-.L275:
+.L282:
 	call	__d_sub
 	mov	e4,d3,d2
 	call	servo_set
-.L574:
-	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
-	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L575:
-	st.w	[a15]4,d8
-.L576:
-	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
-	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L577:
-	st.w	[a15]8,d9
-.L578:
-	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
-	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L579:
-	st.w	[a15]12,d10
-.L580:
-	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
-	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L276:
-	mov	e4,d13,d12
-.L277:
-	call	__d_dtof
-.L581:
-	st.w	[a15]16,d2
 .L582:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
 .L583:
+	st.w	[a15]4,d8
+.L584:
+	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
+	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
+.L585:
+	st.w	[a15]8,d9
+.L586:
+	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
+	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
+.L587:
+	st.w	[a15]12,d10
+.L588:
+	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
+	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
+.L283:
+	mov	e4,d13,d12
+.L284:
+	call	__d_dtof
+.L589:
+	st.w	[a15]16,d2
+.L590:
+	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
+	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
+.L591:
 	movh.a	a2,#@his(servo_value)
 	lea	a2,[a2]@los(servo_value)
 	ld.d	e4,[a2]0
 	call	__d_dtof
-.L584:
+.L592:
 	st.w	[a15]20,d2
-.L585:
+.L593:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L586:
+.L594:
 	mov	d15,#5
-.L587:
+.L595:
 	st.b	[a15]1,d15
-.L588:
+.L596:
 	movh.a	a4,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a4,[a4]@los(seekfree_assistant_oscilloscope_data)
 	call	seekfree_assistant_oscilloscope_send
-.L589:
+.L597:
 	ret
-.L185:
+.L188:
 	
 __servo_set_pd_extended_function_end:
 	.size	servo_set_pd_extended,__servo_set_pd_extended_function_end-servo_set_pd_extended
@@ -1226,41 +1231,15 @@ __servo_set_pd_extended_function_end:
 .L77:
 drv8701_motor_test:	.type	func
 	call	key_scan
-.L350:
-	movh.a	a15,#@his(key1_flag)
-	lea	a15,[a15]@los(key1_flag)
-	ld.bu	d15,[a15]
-.L351:
-	jeq	d15,#0,.L46
-.L352:
-	movh.a	a15,#@his(key1_flag)
-	lea	a15,[a15]@los(key1_flag)
-.L353:
-	mov	d15,#0
-.L354:
-	st.b	[a15],d15
-.L355:
-	movh.a	a15,#@his(motor_duty)
-	lea	a15,[a15]@los(motor_duty)
-	movh.a	a2,#@his(motor_duty)
-	lea	a2,[a2]@los(motor_duty)
-	ld.d	e4,[a2]0
-.L356:
-	mov	d6,#0
-	mov	d7,#0
-	addih	d7,d7,#16420
 .L357:
-	call	__d_add
-	st.d	[a15]0,e2
-.L46:
-	movh.a	a15,#@his(key2_flag)
-	lea	a15,[a15]@los(key2_flag)
+	movh.a	a15,#@his(key1_flag)
+	lea	a15,[a15]@los(key1_flag)
 	ld.bu	d15,[a15]
 .L358:
-	jeq	d15,#0,.L47
+	jeq	d15,#0,.L46
 .L359:
-	movh.a	a15,#@his(key2_flag)
-	lea	a15,[a15]@los(key2_flag)
+	movh.a	a15,#@his(key1_flag)
+	lea	a15,[a15]@los(key1_flag)
 .L360:
 	mov	d15,#0
 .L361:
@@ -1276,17 +1255,17 @@ drv8701_motor_test:	.type	func
 	mov	d7,#0
 	addih	d7,d7,#16420
 .L364:
-	call	__d_sub
+	call	__d_add
 	st.d	[a15]0,e2
-.L47:
-	movh.a	a15,#@his(key3_flag)
-	lea	a15,[a15]@los(key3_flag)
+.L46:
+	movh.a	a15,#@his(key2_flag)
+	lea	a15,[a15]@los(key2_flag)
 	ld.bu	d15,[a15]
 .L365:
-	jeq	d15,#0,.L48
+	jeq	d15,#0,.L47
 .L366:
-	movh.a	a15,#@his(key3_flag)
-	lea	a15,[a15]@los(key3_flag)
+	movh.a	a15,#@his(key2_flag)
+	lea	a15,[a15]@los(key2_flag)
 .L367:
 	mov	d15,#0
 .L368:
@@ -1300,19 +1279,19 @@ drv8701_motor_test:	.type	func
 .L370:
 	mov	d6,#0
 	mov	d7,#0
-	addih	d7,d7,#16368
+	addih	d7,d7,#16420
 .L371:
-	call	__d_add
+	call	__d_sub
 	st.d	[a15]0,e2
-.L48:
-	movh.a	a15,#@his(key4_flag)
-	lea	a15,[a15]@los(key4_flag)
+.L47:
+	movh.a	a15,#@his(key3_flag)
+	lea	a15,[a15]@los(key3_flag)
 	ld.bu	d15,[a15]
 .L372:
-	jeq	d15,#0,.L49
+	jeq	d15,#0,.L48
 .L373:
-	movh.a	a15,#@his(key4_flag)
-	lea	a15,[a15]@los(key4_flag)
+	movh.a	a15,#@his(key3_flag)
+	lea	a15,[a15]@los(key3_flag)
 .L374:
 	mov	d15,#0
 .L375:
@@ -1328,6 +1307,32 @@ drv8701_motor_test:	.type	func
 	mov	d7,#0
 	addih	d7,d7,#16368
 .L378:
+	call	__d_add
+	st.d	[a15]0,e2
+.L48:
+	movh.a	a15,#@his(key4_flag)
+	lea	a15,[a15]@los(key4_flag)
+	ld.bu	d15,[a15]
+.L379:
+	jeq	d15,#0,.L49
+.L380:
+	movh.a	a15,#@his(key4_flag)
+	lea	a15,[a15]@los(key4_flag)
+.L381:
+	mov	d15,#0
+.L382:
+	st.b	[a15],d15
+.L383:
+	movh.a	a15,#@his(motor_duty)
+	lea	a15,[a15]@los(motor_duty)
+	movh.a	a2,#@his(motor_duty)
+	lea	a2,[a2]@los(motor_duty)
+	ld.d	e4,[a2]0
+.L384:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16368
+.L385:
 	call	__d_sub
 	st.d	[a15]0,e2
 .L49:
@@ -1335,43 +1340,43 @@ drv8701_motor_test:	.type	func
 	lea	a15,[a15]@los(motor_duty)
 	ld.d	e4,[a15]0
 	call	drv8701_motor_set
-.L379:
+.L386:
 	mov	d15,#100
-.L380:
+.L387:
 	mov	d8,#48
-.L381:
+.L388:
 	movh.a	a15,#@his(motor_duty)
 	lea	a15,[a15]@los(motor_duty)
 	ld.d	e4,[a15]0
 	call	__d_dtoi
-.L382:
+.L389:
 	mov	d7,#5
 	mov	e4,d8,d15
 	mov	d6,d2
 	call	ips200_show_int
-.L383:
+.L390:
 	mov	d4,#100
-.L384:
+.L391:
 	mov	d5,#64
-.L385:
+.L392:
 	movh.a	a15,#@his(encoder_data_1)
 	lea	a15,[a15]@los(encoder_data_1)
 	ld.h	d6,[a15]
-.L386:
+.L393:
 	mov	d7,#9
 	call	ips200_show_int
-.L387:
+.L394:
 	mov	d4,#100
-.L388:
+.L395:
 	mov	d5,#80
-.L389:
+.L396:
 	movh.a	a15,#@his(cumulative_encoder_data_1)
 	lea	a15,[a15]@los(cumulative_encoder_data_1)
 	ld.w	d6,[a15]
-.L390:
+.L397:
 	mov	d7,#9
 	call	ips200_show_int
-.L391:
+.L398:
 	ret
 .L166:
 	
@@ -1389,108 +1394,108 @@ __drv8701_motor_test_function_end:
 .L79:
 servo_test:	.type	func
 	call	key_scan
-.L594:
+.L602:
 	movh.a	a15,#@his(key1_flag)
 	lea	a15,[a15]@los(key1_flag)
 	ld.bu	d15,[a15]
-.L595:
+.L603:
 	jeq	d15,#0,.L50
-.L596:
+.L604:
 	movh.a	a15,#@his(key1_flag)
 	lea	a15,[a15]@los(key1_flag)
-.L597:
+.L605:
 	mov	d15,#0
-.L598:
+.L606:
 	st.b	[a15],d15
-.L599:
+.L607:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	movh.a	a2,#@his(servo_value)
 	lea	a2,[a2]@los(servo_value)
 	ld.d	e4,[a2]0
-.L600:
+.L608:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16420
-.L601:
+.L609:
 	call	__d_add
 	st.d	[a15]0,e2
 .L50:
 	movh.a	a15,#@his(key2_flag)
 	lea	a15,[a15]@los(key2_flag)
 	ld.bu	d15,[a15]
-.L602:
+.L610:
 	jeq	d15,#0,.L51
-.L603:
+.L611:
 	movh.a	a15,#@his(key2_flag)
 	lea	a15,[a15]@los(key2_flag)
-.L604:
+.L612:
 	mov	d15,#0
-.L605:
+.L613:
 	st.b	[a15],d15
-.L606:
+.L614:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	movh.a	a2,#@his(servo_value)
 	lea	a2,[a2]@los(servo_value)
 	ld.d	e4,[a2]0
-.L607:
+.L615:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16420
-.L608:
+.L616:
 	call	__d_sub
 	st.d	[a15]0,e2
 .L51:
 	movh.a	a15,#@his(key3_flag)
 	lea	a15,[a15]@los(key3_flag)
 	ld.bu	d15,[a15]
-.L609:
+.L617:
 	jeq	d15,#0,.L52
-.L610:
+.L618:
 	movh.a	a15,#@his(key3_flag)
 	lea	a15,[a15]@los(key3_flag)
-.L611:
+.L619:
 	mov	d15,#0
-.L612:
+.L620:
 	st.b	[a15],d15
-.L613:
+.L621:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	movh.a	a2,#@his(servo_value)
 	lea	a2,[a2]@los(servo_value)
 	ld.d	e4,[a2]0
-.L614:
+.L622:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16368
-.L615:
+.L623:
 	call	__d_add
 	st.d	[a15]0,e2
 .L52:
 	movh.a	a15,#@his(key4_flag)
 	lea	a15,[a15]@los(key4_flag)
 	ld.bu	d15,[a15]
-.L616:
+.L624:
 	jeq	d15,#0,.L53
-.L617:
+.L625:
 	movh.a	a15,#@his(key4_flag)
 	lea	a15,[a15]@los(key4_flag)
-.L618:
+.L626:
 	mov	d15,#0
-.L619:
+.L627:
 	st.b	[a15],d15
-.L620:
+.L628:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	movh.a	a2,#@his(servo_value)
 	lea	a2,[a2]@los(servo_value)
 	ld.d	e4,[a2]0
-.L621:
+.L629:
 	mov	d6,#0
 	mov	d7,#0
 	addih	d7,d7,#16368
-.L622:
+.L630:
 	call	__d_sub
 	st.d	[a15]0,e2
 .L53:
@@ -1498,23 +1503,23 @@ servo_test:	.type	func
 	lea	a15,[a15]@los(servo_value)
 	ld.d	e4,[a15]0
 	call	servo_set
-.L623:
+.L631:
 	mov	d15,#100
-.L624:
+.L632:
 	mov	d8,#48
-.L625:
+.L633:
 	movh.a	a15,#@his(servo_value)
 	lea	a15,[a15]@los(servo_value)
 	ld.d	e4,[a15]0
 	call	__d_dtoi
-.L626:
+.L634:
 	mov	d7,#5
 	mov	e4,d8,d15
 	mov	d6,d2
 	call	ips200_show_int
-.L627:
+.L635:
 	ret
-.L192:
+.L195:
 	
 __servo_test_function_end:
 	.size	servo_test,__servo_test_function_end-servo_test
@@ -1713,7 +1718,7 @@ _999001_last_target_speed:	.type	object
 	.word	171
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L183:
+.L186:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,152,2,18
@@ -1980,7 +1985,7 @@ _999001_last_target_speed:	.type	object
 	.byte	'enabled',0,7,131,8,50
 	.word	455
 	.byte	6,0
-.L201:
+.L183:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,7,252,6,19
@@ -6649,7 +6654,7 @@ _999001_last_target_speed:	.type	object
 	.byte	'alti',0,17,218,18,82
 	.word	31580
 	.byte	6,0
-.L200:
+.L203:
 	.byte	7
 	.byte	'short int',0,2,5,7
 	.byte	'long int',0,4,5,20,19,60,9,12,13
@@ -7588,7 +7593,7 @@ _999001_last_target_speed:	.type	object
 	.byte	'error',0,27,83,42
 	.word	228
 	.byte	0
-.L187:
+.L190:
 	.byte	7
 	.byte	'_Bool',0,1,2,32
 	.byte	'__wchar_t',0,28,1,1
@@ -22674,7 +22679,7 @@ _999001_last_target_speed:	.type	object
 	.word	39039
 	.byte	4,2,35,0,13
 	.byte	'psItems',0
-	.word	.L278-.L81
+	.word	.L285-.L81
 	.byte	4,2,35,4,13
 	.byte	'nItems',0
 	.word	455
@@ -22698,7 +22703,7 @@ _999001_last_target_speed:	.type	object
 	.word	160886
 	.byte	4,2,35,12,0,3
 	.word	160900
-.L278:
+.L285:
 	.byte	32
 	.byte	'tMenuItem',0,61,25,27
 	.word	160999
@@ -22708,7 +22713,7 @@ _999001_last_target_speed:	.type	object
 	.word	160818
 	.byte	3
 	.word	160900
-.L202:
+.L204:
 	.byte	14
 	.word	455
 	.byte	0
@@ -22730,11 +22735,11 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L83:
-	.word	.L280-.L279
-.L279:
+	.word	.L287-.L286
+.L286:
 	.half	3
-	.word	.L282-.L281
-.L281:
+	.word	.L289-.L288
+.L288:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'D:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver',0
@@ -22834,8 +22839,8 @@ _999001_last_target_speed:	.type	object
 	.byte	'imu_wifi.h',0,5,0,0
 	.byte	'pose.h',0,6,0,0
 	.byte	'menu_core.h',0,6,0,0,0
-.L282:
-.L280:
+.L289:
+.L287:
 	.sdecl	'.debug_info',debug,cluster('motor_encoder_proc')
 	.sect	'.debug_info'
 .L84:
@@ -22863,44 +22868,44 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('motor_encoder_proc')
 	.sect	'.debug_line'
 .L86:
-	.word	.L284-.L283
-.L283:
+	.word	.L291-.L290
+.L290:
 	.half	3
-	.word	.L286-.L285
-.L285:
+	.word	.L293-.L292
+.L292:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L286:
+.L293:
 	.byte	5,5,7,0,5,2
 	.word	.L55
 	.byte	3,31,1,5,41,9
-	.half	.L287-.L55
+	.half	.L294-.L55
 	.byte	1,5,22,9
-	.half	.L288-.L287
-	.byte	1,5,20,9
-	.half	.L289-.L288
-	.byte	1,5,5,9
-	.half	.L290-.L289
-	.byte	3,1,1,5,34,9
-	.half	.L291-.L290
-	.byte	1,5,31,9
-	.half	.L292-.L291
-	.byte	1,5,25,9
-	.half	.L293-.L292
-	.byte	3,1,1,5,5,9
-	.half	.L294-.L293
-	.byte	3,1,1,5,23,9
 	.half	.L295-.L294
-	.byte	1,5,21,9
+	.byte	1,5,20,9
 	.half	.L296-.L295
-	.byte	1,9
+	.byte	1,5,5,9
 	.half	.L297-.L296
-	.byte	3,7,1,5,1,9
+	.byte	3,1,1,5,34,9
 	.half	.L298-.L297
+	.byte	1,5,31,9
+	.half	.L299-.L298
+	.byte	1,5,25,9
+	.half	.L300-.L299
+	.byte	3,1,1,5,5,9
+	.half	.L301-.L300
+	.byte	3,1,1,5,23,9
+	.half	.L302-.L301
+	.byte	1,5,21,9
+	.half	.L303-.L302
+	.byte	1,9
+	.half	.L304-.L303
+	.byte	3,7,1,5,1,9
+	.half	.L305-.L304
 	.byte	3,1,1,7,9
-	.half	.L88-.L298
+	.half	.L88-.L305
 	.byte	0,1,1
-.L284:
+.L291:
 	.sdecl	'.debug_ranges',debug,cluster('motor_encoder_proc')
 	.sect	'.debug_ranges'
 .L87:
@@ -22932,46 +22937,46 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('drv8701_motor_init')
 	.sect	'.debug_line'
 .L91:
-	.word	.L300-.L299
-.L299:
+	.word	.L307-.L306
+.L306:
 	.half	3
-	.word	.L302-.L301
-.L301:
+	.word	.L309-.L308
+.L308:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L302:
+.L309:
 	.byte	5,5,7,0,5,2
 	.word	.L57
 	.byte	3,45,1,5,18,9
-	.half	.L303-.L57
+	.half	.L310-.L57
 	.byte	1,5,16,9
-	.half	.L304-.L303
-	.byte	1,5,15,9
-	.half	.L305-.L304
-	.byte	3,1,1,5,21,9
-	.half	.L306-.L305
-	.byte	1,5,26,9
-	.half	.L307-.L306
-	.byte	1,5,37,9
-	.half	.L308-.L307
-	.byte	1,5,14,9
-	.half	.L309-.L308
-	.byte	3,1,1,5,20,9
-	.half	.L310-.L309
-	.byte	1,5,27,9
 	.half	.L311-.L310
-	.byte	1,5,23,9
+	.byte	1,5,15,9
 	.half	.L312-.L311
-	.byte	3,1,1,5,34,9
+	.byte	3,1,1,5,21,9
 	.half	.L313-.L312
-	.byte	1,5,47,9
+	.byte	1,5,26,9
 	.half	.L314-.L313
-	.byte	1,5,1,9
+	.byte	1,5,37,9
 	.half	.L315-.L314
+	.byte	1,5,14,9
+	.half	.L316-.L315
+	.byte	3,1,1,5,20,9
+	.half	.L317-.L316
+	.byte	1,5,27,9
+	.half	.L318-.L317
+	.byte	1,5,23,9
+	.half	.L319-.L318
+	.byte	3,1,1,5,34,9
+	.half	.L320-.L319
+	.byte	1,5,47,9
+	.half	.L321-.L320
+	.byte	1,5,1,9
+	.half	.L322-.L321
 	.byte	3,1,1,7,9
-	.half	.L93-.L315
+	.half	.L93-.L322
 	.byte	0,1,1
-.L300:
+.L307:
 	.sdecl	'.debug_ranges',debug,cluster('drv8701_motor_init')
 	.sect	'.debug_ranges'
 .L92:
@@ -23006,88 +23011,88 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('drv8701_motor_set')
 	.sect	'.debug_line'
 .L96:
-	.word	.L317-.L316
-.L316:
+	.word	.L324-.L323
+.L323:
 	.half	3
-	.word	.L319-.L318
-.L318:
+	.word	.L326-.L325
+.L325:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L319:
+.L326:
 	.byte	5,6,7,0,5,2
 	.word	.L59
 	.byte	3,51,1,5,5,9
-	.half	.L320-.L59
+	.half	.L327-.L59
 	.byte	3,2,1,5,16,9
-	.half	.L204-.L320
+	.half	.L206-.L327
 	.byte	1,5,22,9
-	.half	.L205-.L204
+	.half	.L207-.L206
 	.byte	3,1,1,5,20,9
-	.half	.L206-.L205
+	.half	.L208-.L207
 	.byte	1,5,5,9
-	.half	.L321-.L206
+	.half	.L328-.L208
 	.byte	1,5,9,7,9
-	.half	.L322-.L321
-	.byte	3,2,1,5,22,9
-	.half	.L323-.L322
-	.byte	1,5,20,9
-	.half	.L324-.L323
-	.byte	1,5,30,9
-	.half	.L325-.L324
-	.byte	1,5,27,9
-	.half	.L2-.L325
-	.byte	3,2,1,5,25,9
-	.half	.L207-.L2
-	.byte	1,5,10,9
-	.half	.L326-.L207
-	.byte	1,5,9,7,9
-	.half	.L327-.L326
-	.byte	3,2,1,5,22,9
-	.half	.L328-.L327
-	.byte	1,5,20,9
 	.half	.L329-.L328
-	.byte	1,5,9,9
-	.half	.L3-.L329
-	.byte	3,6,1,5,23,9
-	.half	.L330-.L3
+	.byte	3,2,1,5,22,9
+	.half	.L330-.L329
 	.byte	1,5,20,9
 	.half	.L331-.L330
-	.byte	1,5,5,9
-	.half	.L332-.L331
-	.byte	1,5,24,7,9
-	.half	.L333-.L332
-	.byte	3,8,1,5,30,9
-	.half	.L334-.L333
-	.byte	1,5,22,9
-	.half	.L335-.L334
-	.byte	3,1,1,5,30,9
-	.half	.L336-.L335
-	.byte	1,5,29,9
-	.half	.L337-.L336
-	.byte	1,5,58,9
-	.half	.L338-.L337
-	.byte	1,5,42,9
-	.half	.L339-.L338
-	.byte	1,5,39,9
-	.half	.L340-.L339
-	.byte	3,121,1,5,24,9
-	.half	.L5-.L340
 	.byte	1,5,30,9
-	.half	.L341-.L5
+	.half	.L332-.L331
+	.byte	1,5,27,9
+	.half	.L2-.L332
+	.byte	3,2,1,5,25,9
+	.half	.L209-.L2
+	.byte	1,5,10,9
+	.half	.L333-.L209
+	.byte	1,5,9,7,9
+	.half	.L334-.L333
+	.byte	3,2,1,5,22,9
+	.half	.L335-.L334
+	.byte	1,5,20,9
+	.half	.L336-.L335
+	.byte	1,5,9,9
+	.half	.L3-.L336
+	.byte	3,6,1,5,23,9
+	.half	.L337-.L3
+	.byte	1,5,20,9
+	.half	.L338-.L337
+	.byte	1,5,5,9
+	.half	.L339-.L338
+	.byte	1,5,24,7,9
+	.half	.L340-.L339
+	.byte	3,8,1,5,30,9
+	.half	.L341-.L340
 	.byte	1,5,22,9
 	.half	.L342-.L341
-	.byte	3,1,1,5,29,9
+	.byte	3,1,1,5,30,9
 	.half	.L343-.L342
-	.byte	1,5,57,9
+	.byte	1,5,29,9
 	.half	.L344-.L343
-	.byte	1,5,41,9
+	.byte	1,5,58,9
 	.half	.L345-.L344
+	.byte	1,5,42,9
+	.half	.L346-.L345
+	.byte	1,5,39,9
+	.half	.L347-.L346
+	.byte	3,121,1,5,24,9
+	.half	.L5-.L347
+	.byte	1,5,30,9
+	.half	.L348-.L5
+	.byte	1,5,22,9
+	.half	.L349-.L348
+	.byte	3,1,1,5,29,9
+	.half	.L350-.L349
+	.byte	1,5,57,9
+	.half	.L351-.L350
+	.byte	1,5,41,9
+	.half	.L352-.L351
 	.byte	1,5,1,9
-	.half	.L6-.L345
+	.half	.L6-.L352
 	.byte	3,9,1,7,9
 	.half	.L98-.L6
 	.byte	0,1,1
-.L317:
+.L324:
 	.sdecl	'.debug_ranges',debug,cluster('drv8701_motor_set')
 	.sect	'.debug_ranges'
 .L97:
@@ -23106,7 +23111,7 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'drv8701_motor_test',0,1,238,2,6,1,1,1
+	.byte	'drv8701_motor_test',0,1,248,2,6,1,1,1
 	.word	.L77,.L166,.L76
 	.byte	4
 	.word	.L77,.L166
@@ -23119,36 +23124,20 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('drv8701_motor_test')
 	.sect	'.debug_line'
 .L101:
-	.word	.L347-.L346
-.L346:
+	.word	.L354-.L353
+.L353:
 	.half	3
-	.word	.L349-.L348
-.L348:
+	.word	.L356-.L355
+.L355:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L349:
+.L356:
 	.byte	5,13,7,0,5,2
 	.word	.L77
-	.byte	3,239,2,1,5,9,9
-	.half	.L350-.L77
+	.byte	3,249,2,1,5,9,9
+	.half	.L357-.L77
 	.byte	3,1,1,5,5,9
-	.half	.L351-.L350
-	.byte	1,5,9,7,9
-	.half	.L352-.L351
-	.byte	3,2,1,5,21,9
-	.half	.L353-.L352
-	.byte	1,5,19,9
-	.half	.L354-.L353
-	.byte	1,5,9,9
-	.half	.L355-.L354
-	.byte	3,1,1,5,23,9
-	.half	.L356-.L355
-	.byte	1,5,20,9
-	.half	.L357-.L356
-	.byte	1,5,9,9
-	.half	.L46-.L357
-	.byte	3,2,1,5,5,9
-	.half	.L358-.L46
+	.half	.L358-.L357
 	.byte	1,5,9,7,9
 	.half	.L359-.L358
 	.byte	3,2,1,5,21,9
@@ -23162,9 +23151,9 @@ _999001_last_target_speed:	.type	object
 	.byte	1,5,20,9
 	.half	.L364-.L363
 	.byte	1,5,9,9
-	.half	.L47-.L364
+	.half	.L46-.L364
 	.byte	3,2,1,5,5,9
-	.half	.L365-.L47
+	.half	.L365-.L46
 	.byte	1,5,9,7,9
 	.half	.L366-.L365
 	.byte	3,2,1,5,21,9
@@ -23178,9 +23167,9 @@ _999001_last_target_speed:	.type	object
 	.byte	1,5,20,9
 	.half	.L371-.L370
 	.byte	1,5,9,9
-	.half	.L48-.L371
+	.half	.L47-.L371
 	.byte	3,2,1,5,5,9
-	.half	.L372-.L48
+	.half	.L372-.L47
 	.byte	1,5,9,7,9
 	.half	.L373-.L372
 	.byte	3,2,1,5,21,9
@@ -23193,38 +23182,54 @@ _999001_last_target_speed:	.type	object
 	.half	.L377-.L376
 	.byte	1,5,20,9
 	.half	.L378-.L377
-	.byte	1,5,23,9
-	.half	.L49-.L378
-	.byte	3,4,1,5,18,9
-	.half	.L379-.L49
-	.byte	3,1,1,5,26,9
+	.byte	1,5,9,9
+	.half	.L48-.L378
+	.byte	3,2,1,5,5,9
+	.half	.L379-.L48
+	.byte	1,5,9,7,9
 	.half	.L380-.L379
-	.byte	1,5,31,9
+	.byte	3,2,1,5,21,9
 	.half	.L381-.L380
-	.byte	1,5,43,9
+	.byte	1,5,19,9
 	.half	.L382-.L381
-	.byte	1,5,18,9
+	.byte	1,5,9,9
 	.half	.L383-.L382
-	.byte	3,1,1,5,26,9
+	.byte	3,1,1,5,23,9
 	.half	.L384-.L383
-	.byte	1,5,31,9
+	.byte	1,5,20,9
 	.half	.L385-.L384
-	.byte	1,5,47,9
-	.half	.L386-.L385
-	.byte	1,5,18,9
-	.half	.L387-.L386
+	.byte	1,5,23,9
+	.half	.L49-.L385
+	.byte	3,4,1,5,18,9
+	.half	.L386-.L49
 	.byte	3,1,1,5,26,9
-	.half	.L388-.L387
+	.half	.L387-.L386
 	.byte	1,5,31,9
+	.half	.L388-.L387
+	.byte	1,5,43,9
 	.half	.L389-.L388
-	.byte	1,5,58,9
+	.byte	1,5,18,9
 	.half	.L390-.L389
-	.byte	1,5,1,9
+	.byte	3,1,1,5,26,9
 	.half	.L391-.L390
+	.byte	1,5,31,9
+	.half	.L392-.L391
+	.byte	1,5,47,9
+	.half	.L393-.L392
+	.byte	1,5,18,9
+	.half	.L394-.L393
+	.byte	3,1,1,5,26,9
+	.half	.L395-.L394
+	.byte	1,5,31,9
+	.half	.L396-.L395
+	.byte	1,5,58,9
+	.half	.L397-.L396
+	.byte	1,5,1,9
+	.half	.L398-.L397
 	.byte	3,1,1,7,9
-	.half	.L103-.L391
+	.half	.L103-.L398
 	.byte	0,1,1
-.L347:
+.L354:
 	.sdecl	'.debug_ranges',debug,cluster('drv8701_motor_test')
 	.sect	'.debug_ranges'
 .L102:
@@ -23243,7 +23248,7 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'bldc_motor_init',0,1,135,1,6,1,1,1
+	.byte	'bldc_motor_init',0,1,141,1,6,1,1,1
 	.word	.L63,.L167,.L62
 	.byte	4
 	.word	.L63,.L167
@@ -23256,48 +23261,48 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('bldc_motor_init')
 	.sect	'.debug_line'
 .L106:
-	.word	.L393-.L392
-.L392:
+	.word	.L400-.L399
+.L399:
 	.half	3
-	.word	.L395-.L394
-.L394:
+	.word	.L402-.L401
+.L401:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L395:
+.L402:
 	.byte	5,5,7,0,5,2
 	.word	.L63
-	.byte	3,136,1,1,5,18,9
-	.half	.L396-.L63
+	.byte	3,142,1,1,5,18,9
+	.half	.L403-.L63
 	.byte	1,5,16,9
-	.half	.L397-.L396
-	.byte	1,5,14,9
-	.half	.L398-.L397
-	.byte	3,1,1,5,23,9
-	.half	.L399-.L398
-	.byte	1,5,29,9
-	.half	.L400-.L399
-	.byte	1,5,15,9
-	.half	.L401-.L400
-	.byte	3,1,1,5,24,9
-	.half	.L402-.L401
-	.byte	1,5,29,9
-	.half	.L403-.L402
-	.byte	1,5,40,9
 	.half	.L404-.L403
-	.byte	1,5,22,9
-	.half	.L405-.L404
-	.byte	3,1,1,5,36,9
-	.half	.L406-.L405
-	.byte	1,5,51,9
-	.half	.L407-.L406
 	.byte	1,5,14,9
+	.half	.L405-.L404
+	.byte	3,1,1,5,23,9
+	.half	.L406-.L405
+	.byte	1,5,29,9
+	.half	.L407-.L406
+	.byte	1,5,15,9
 	.half	.L408-.L407
-	.byte	3,1,1,5,1,9
+	.byte	3,1,1,5,24,9
 	.half	.L409-.L408
+	.byte	1,5,29,9
+	.half	.L410-.L409
+	.byte	1,5,40,9
+	.half	.L411-.L410
+	.byte	1,5,22,9
+	.half	.L412-.L411
+	.byte	3,1,1,5,36,9
+	.half	.L413-.L412
+	.byte	1,5,51,9
+	.half	.L414-.L413
+	.byte	1,5,14,9
+	.half	.L415-.L414
+	.byte	3,1,1,5,1,9
+	.half	.L416-.L415
 	.byte	3,1,1,7,9
-	.half	.L108-.L409
+	.half	.L108-.L416
 	.byte	0,1,1
-.L393:
+.L400:
 	.sdecl	'.debug_ranges',debug,cluster('bldc_motor_init')
 	.sect	'.debug_ranges'
 .L107:
@@ -23316,10 +23321,10 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'bldc_motor_set',0,1,144,1,6,1,1,1
+	.byte	'bldc_motor_set',0,1,150,1,6,1,1,1
 	.word	.L65,.L168,.L64
 	.byte	4
-	.byte	'duty',0,1,144,1,28
+	.byte	'duty',0,1,150,1,28
 	.word	.L164,.L169
 	.byte	5
 	.word	.L65,.L168
@@ -23332,88 +23337,88 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('bldc_motor_set')
 	.sect	'.debug_line'
 .L111:
-	.word	.L411-.L410
-.L410:
+	.word	.L418-.L417
+.L417:
 	.half	3
-	.word	.L413-.L412
-.L412:
+	.word	.L420-.L419
+.L419:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L413:
+.L420:
 	.byte	5,6,7,0,5,2
 	.word	.L65
-	.byte	3,143,1,1,5,5,9
-	.half	.L414-.L65
+	.byte	3,149,1,1,5,5,9
+	.half	.L421-.L65
 	.byte	3,2,1,5,16,9
-	.half	.L224-.L414
+	.half	.L226-.L421
 	.byte	1,5,22,9
-	.half	.L225-.L224
+	.half	.L227-.L226
 	.byte	3,1,1,5,20,9
-	.half	.L226-.L225
+	.half	.L228-.L227
 	.byte	1,5,5,9
-	.half	.L415-.L226
+	.half	.L422-.L228
 	.byte	1,5,9,7,9
-	.half	.L416-.L415
-	.byte	3,2,1,5,22,9
-	.half	.L417-.L416
-	.byte	1,5,20,9
-	.half	.L418-.L417
-	.byte	1,5,30,9
-	.half	.L419-.L418
-	.byte	1,5,27,9
-	.half	.L13-.L419
-	.byte	3,2,1,5,25,9
-	.half	.L227-.L13
-	.byte	1,5,10,9
-	.half	.L420-.L227
-	.byte	1,5,9,7,9
-	.half	.L421-.L420
-	.byte	3,2,1,5,22,9
-	.half	.L422-.L421
-	.byte	1,5,20,9
 	.half	.L423-.L422
-	.byte	1,5,9,9
-	.half	.L14-.L423
-	.byte	3,2,1,5,23,9
-	.half	.L424-.L14
+	.byte	3,2,1,5,22,9
+	.half	.L424-.L423
 	.byte	1,5,20,9
 	.half	.L425-.L424
-	.byte	1,5,5,9
+	.byte	1,5,30,9
 	.half	.L426-.L425
-	.byte	1,5,24,7,9
-	.half	.L427-.L426
-	.byte	3,7,1,5,33,9
+	.byte	1,5,27,9
+	.half	.L13-.L426
+	.byte	3,2,1,5,25,9
+	.half	.L229-.L13
+	.byte	1,5,10,9
+	.half	.L427-.L229
+	.byte	1,5,9,7,9
 	.half	.L428-.L427
-	.byte	1,5,22,9
+	.byte	3,2,1,5,22,9
 	.half	.L429-.L428
-	.byte	3,1,1,5,33,9
+	.byte	1,5,20,9
 	.half	.L430-.L429
-	.byte	1,5,32,9
-	.half	.L431-.L430
-	.byte	1,5,61,9
+	.byte	1,5,9,9
+	.half	.L14-.L430
+	.byte	3,2,1,5,23,9
+	.half	.L431-.L14
+	.byte	1,5,20,9
 	.half	.L432-.L431
-	.byte	1,5,45,9
+	.byte	1,5,5,9
 	.half	.L433-.L432
-	.byte	1,5,43,9
+	.byte	1,5,24,7,9
 	.half	.L434-.L433
-	.byte	3,122,1,5,24,9
-	.half	.L16-.L434
-	.byte	1,5,33,9
-	.half	.L435-.L16
+	.byte	3,7,1,5,33,9
+	.half	.L435-.L434
 	.byte	1,5,22,9
 	.half	.L436-.L435
-	.byte	3,1,1,5,32,9
+	.byte	3,1,1,5,33,9
 	.half	.L437-.L436
-	.byte	1,5,60,9
+	.byte	1,5,32,9
 	.half	.L438-.L437
-	.byte	1,5,44,9
+	.byte	1,5,61,9
 	.half	.L439-.L438
+	.byte	1,5,45,9
+	.half	.L440-.L439
+	.byte	1,5,43,9
+	.half	.L441-.L440
+	.byte	3,122,1,5,24,9
+	.half	.L16-.L441
+	.byte	1,5,33,9
+	.half	.L442-.L16
+	.byte	1,5,22,9
+	.half	.L443-.L442
+	.byte	3,1,1,5,32,9
+	.half	.L444-.L443
+	.byte	1,5,60,9
+	.half	.L445-.L444
+	.byte	1,5,44,9
+	.half	.L446-.L445
 	.byte	1,5,1,9
-	.half	.L17-.L439
+	.half	.L17-.L446
 	.byte	3,7,1,7,9
 	.half	.L113-.L17
 	.byte	0,1,1
-.L411:
+.L418:
 	.sdecl	'.debug_ranges',debug,cluster('bldc_motor_set')
 	.sect	'.debug_ranges'
 .L112:
@@ -23432,41 +23437,41 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'bldc_motor_speed_ctrl',0,1,167,1,6,1,1,1
+	.byte	'bldc_motor_speed_ctrl',0,1,173,1,6,1,1,1
 	.word	.L67,.L170,.L66
 	.byte	4
-	.byte	'speed',0,1,167,1,35
+	.byte	'speed',0,1,173,1,35
 	.word	.L164,.L171
 	.byte	5
 	.word	.L67,.L170
 	.byte	6
-	.byte	'last_target_speed',0,1,170,1,19
+	.byte	'last_target_speed',0,1,176,1,19
 	.word	.L164
 	.byte	5,3
 	.word	_999001_last_target_speed
 	.byte	5
 	.word	.L18,.L170
 	.byte	7
-	.byte	'target_speed',0,1,178,1,12
+	.byte	'target_speed',0,1,184,1,12
 	.word	.L164,.L172
 	.byte	7
-	.byte	'current_speed',0,1,179,1,12
+	.byte	'current_speed',0,1,185,1,12
 	.word	.L164,.L173
 	.byte	7
-	.byte	'speed_gap',0,1,180,1,12
+	.byte	'speed_gap',0,1,186,1,12
 	.word	.L164,.L174
 	.byte	5
 	.word	.L175,.L20
 	.byte	7
-	.byte	'brake_duty',0,1,191,1,16
+	.byte	'brake_duty',0,1,197,1,16
 	.word	.L164,.L176
 	.byte	0,5
 	.word	.L28,.L170
 	.byte	7
-	.byte	'out',0,1,228,1,12
+	.byte	'out',0,1,234,1,12
 	.word	.L164,.L177
 	.byte	7
-	.byte	'static_friction',0,1,231,1,12
+	.byte	'static_friction',0,1,237,1,12
 	.word	.L164,.L178
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('bldc_motor_speed_ctrl')
@@ -23478,232 +23483,232 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('bldc_motor_speed_ctrl')
 	.sect	'.debug_line'
 .L116:
-	.word	.L441-.L440
-.L440:
+	.word	.L448-.L447
+.L447:
 	.half	3
-	.word	.L443-.L442
-.L442:
+	.word	.L450-.L449
+.L449:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L443:
+.L450:
 	.byte	5,6,7,0,5,2
 	.word	.L67
-	.byte	3,166,1,1,5,10,9
-	.half	.L444-.L67
+	.byte	3,172,1,1,5,10,9
+	.half	.L451-.L67
 	.byte	3,6,1,5,9,9
-	.half	.L445-.L444
-	.byte	3,2,1,5,28,9
-	.half	.L18-.L445
-	.byte	3,4,1,5,26,9
-	.half	.L446-.L18
-	.byte	1,5,41,9
-	.half	.L231-.L446
-	.byte	3,1,1,5,26,9
-	.half	.L447-.L231
-	.byte	1,5,9,9
-	.half	.L448-.L447
-	.byte	3,3,1,5,35,9
-	.half	.L449-.L448
-	.byte	1,5,33,9
-	.half	.L450-.L449
-	.byte	1,5,9,9
-	.half	.L451-.L450
-	.byte	1,5,42,7,9
 	.half	.L452-.L451
-	.byte	1,5,63,9
-	.half	.L453-.L452
-	.byte	1,5,61,9
-	.half	.L454-.L453
+	.byte	3,2,1,5,28,9
+	.half	.L18-.L452
+	.byte	3,4,1,5,26,9
+	.half	.L453-.L18
+	.byte	1,5,41,9
+	.half	.L233-.L453
+	.byte	3,1,1,5,26,9
+	.half	.L454-.L233
 	.byte	1,5,9,9
 	.half	.L455-.L454
-	.byte	3,3,1,5,37,9
+	.byte	3,3,1,5,35,9
 	.half	.L456-.L455
-	.byte	1,5,35,9
+	.byte	1,5,33,9
 	.half	.L457-.L456
 	.byte	1,5,9,9
 	.half	.L458-.L457
-	.byte	3,1,1,5,37,9
+	.byte	1,5,42,7,9
 	.half	.L459-.L458
-	.byte	1,5,35,9
+	.byte	1,5,63,9
 	.half	.L460-.L459
-	.byte	1,5,9,9
+	.byte	1,5,61,9
 	.half	.L461-.L460
-	.byte	3,1,1,5,37,9
+	.byte	1,5,9,9
 	.half	.L462-.L461
-	.byte	1,5,35,9
+	.byte	3,3,1,5,37,9
 	.half	.L463-.L462
-	.byte	1,5,30,9
-	.half	.L175-.L463
-	.byte	3,3,1,5,50,9
-	.half	.L464-.L175
-	.byte	1,5,48,9
+	.byte	1,5,35,9
+	.half	.L464-.L463
+	.byte	1,5,9,9
 	.half	.L465-.L464
-	.byte	1,5,29,9
+	.byte	3,1,1,5,37,9
 	.half	.L466-.L465
-	.byte	1,5,62,7,9
+	.byte	1,5,35,9
 	.half	.L467-.L466
-	.byte	1,5,60,9
+	.byte	1,5,9,9
 	.half	.L468-.L467
+	.byte	3,1,1,5,37,9
+	.half	.L469-.L468
+	.byte	1,5,35,9
+	.half	.L470-.L469
+	.byte	1,5,30,9
+	.half	.L175-.L470
+	.byte	3,3,1,5,50,9
+	.half	.L471-.L175
+	.byte	1,5,48,9
+	.half	.L472-.L471
+	.byte	1,5,29,9
+	.half	.L473-.L472
+	.byte	1,5,62,7,9
+	.half	.L474-.L473
+	.byte	1,5,60,9
+	.half	.L475-.L474
 	.byte	1,5,55,9
-	.half	.L22-.L468
+	.half	.L22-.L475
 	.byte	1,5,24,9
 	.half	.L23-.L22
 	.byte	3,1,1,9
-	.half	.L469-.L23
+	.half	.L476-.L23
 	.byte	3,4,1,5,9,9
-	.half	.L470-.L469
-	.byte	3,1,1,5,29,9
-	.half	.L471-.L470
-	.byte	1,5,27,9
-	.half	.L472-.L471
-	.byte	1,5,9,9
-	.half	.L473-.L472
-	.byte	3,1,1,5,27,9
-	.half	.L234-.L473
-	.byte	1,5,9,9
-	.half	.L235-.L234
-	.byte	3,1,1,9
-	.half	.L20-.L235
-	.byte	3,4,1,5,30,9
-	.half	.L474-.L20
-	.byte	1,5,28,9
-	.half	.L475-.L474
-	.byte	1,5,5,9
-	.half	.L476-.L475
-	.byte	1,5,13,7,9
 	.half	.L477-.L476
-	.byte	3,3,1,5,35,9
+	.byte	3,1,1,5,29,9
 	.half	.L478-.L477
-	.byte	1,5,33,9
+	.byte	1,5,27,9
 	.half	.L479-.L478
 	.byte	1,5,9,9
 	.half	.L480-.L479
-	.byte	1,5,28,7,9
-	.half	.L481-.L480
-	.byte	3,2,1,5,13,9
-	.half	.L482-.L481
-	.byte	3,1,1,5,33,9
-	.half	.L483-.L482
-	.byte	1,5,31,9
-	.half	.L484-.L483
-	.byte	1,5,13,9
-	.half	.L485-.L484
-	.byte	3,1,1,5,33,9
-	.half	.L486-.L485
-	.byte	1,5,31,9
-	.half	.L487-.L486
-	.byte	1,5,13,9
-	.half	.L488-.L487
-	.byte	3,1,1,5,31,9
-	.half	.L236-.L488
-	.byte	1,5,13,9
+	.byte	3,1,1,5,27,9
+	.half	.L236-.L480
+	.byte	1,5,9,9
 	.half	.L237-.L236
-	.byte	3,1,1,5,9,9
-	.half	.L26-.L237
-	.byte	3,3,1,5,24,9
-	.half	.L489-.L26
-	.byte	1,5,22,9
-	.half	.L490-.L489
-	.byte	1,5,9,9
-	.half	.L491-.L490
-	.byte	3,1,1,5,24,9
-	.half	.L492-.L491
-	.byte	1,5,22,9
-	.half	.L493-.L492
-	.byte	1,5,9,9
-	.half	.L494-.L493
-	.byte	3,1,1,5,24,9
-	.half	.L495-.L494
-	.byte	1,5,22,9
-	.half	.L496-.L495
-	.byte	1,5,27,9
-	.half	.L497-.L496
-	.byte	3,126,1,5,9,9
-	.half	.L25-.L497
-	.byte	3,7,1,5,24,9
-	.half	.L498-.L25
-	.byte	1,5,22,9
-	.half	.L499-.L498
-	.byte	1,5,9,9
-	.half	.L500-.L499
-	.byte	3,1,1,5,24,9
-	.half	.L501-.L500
-	.byte	1,5,22,9
-	.half	.L502-.L501
-	.byte	1,5,9,9
-	.half	.L503-.L502
-	.byte	3,1,1,5,24,9
-	.half	.L504-.L503
-	.byte	1,5,22,9
-	.half	.L505-.L504
-	.byte	1,5,30,9
-	.half	.L28-.L505
-	.byte	3,4,1,5,41,9
-	.half	.L238-.L28
+	.byte	3,1,1,9
+	.half	.L20-.L237
+	.byte	3,4,1,5,30,9
+	.half	.L481-.L20
 	.byte	1,5,28,9
-	.half	.L506-.L238
-	.byte	1,5,16,9
+	.half	.L482-.L481
+	.byte	1,5,5,9
+	.half	.L483-.L482
+	.byte	1,5,13,7,9
+	.half	.L484-.L483
+	.byte	3,3,1,5,35,9
+	.half	.L485-.L484
+	.byte	1,5,33,9
+	.half	.L486-.L485
+	.byte	1,5,9,9
+	.half	.L487-.L486
+	.byte	1,5,28,7,9
+	.half	.L488-.L487
+	.byte	3,2,1,5,13,9
+	.half	.L489-.L488
+	.byte	3,1,1,5,33,9
+	.half	.L490-.L489
+	.byte	1,5,31,9
+	.half	.L491-.L490
+	.byte	1,5,13,9
+	.half	.L492-.L491
+	.byte	3,1,1,5,33,9
+	.half	.L493-.L492
+	.byte	1,5,31,9
+	.half	.L494-.L493
+	.byte	1,5,13,9
+	.half	.L495-.L494
+	.byte	3,1,1,5,31,9
+	.half	.L238-.L495
+	.byte	1,5,13,9
+	.half	.L239-.L238
+	.byte	3,1,1,5,9,9
+	.half	.L26-.L239
+	.byte	3,3,1,5,24,9
+	.half	.L496-.L26
+	.byte	1,5,22,9
+	.half	.L497-.L496
+	.byte	1,5,9,9
+	.half	.L498-.L497
+	.byte	3,1,1,5,24,9
+	.half	.L499-.L498
+	.byte	1,5,22,9
+	.half	.L500-.L499
+	.byte	1,5,9,9
+	.half	.L501-.L500
+	.byte	3,1,1,5,24,9
+	.half	.L502-.L501
+	.byte	1,5,22,9
+	.half	.L503-.L502
+	.byte	1,5,27,9
+	.half	.L504-.L503
+	.byte	3,126,1,5,9,9
+	.half	.L25-.L504
+	.byte	3,7,1,5,24,9
+	.half	.L505-.L25
+	.byte	1,5,22,9
+	.half	.L506-.L505
+	.byte	1,5,9,9
 	.half	.L507-.L506
-	.byte	1,5,30,9
+	.byte	3,1,1,5,24,9
 	.half	.L508-.L507
-	.byte	3,3,1,5,9,9
-	.half	.L242-.L508
-	.byte	3,1,1,5,19,9
-	.half	.L509-.L242
+	.byte	1,5,22,9
+	.half	.L509-.L508
 	.byte	1,5,9,9
 	.half	.L510-.L509
-	.byte	1,5,40,7,9
+	.byte	3,1,1,5,24,9
 	.half	.L511-.L510
-	.byte	1,5,58,9
+	.byte	1,5,22,9
 	.half	.L512-.L511
-	.byte	1,5,56,9
-	.half	.L513-.L512
-	.byte	1,5,23,9
+	.byte	1,5,30,9
+	.half	.L28-.L512
+	.byte	3,4,1,5,41,9
+	.half	.L240-.L28
+	.byte	1,5,28,9
+	.half	.L513-.L240
+	.byte	1,5,16,9
 	.half	.L514-.L513
+	.byte	1,5,30,9
+	.half	.L515-.L514
+	.byte	3,3,1,5,9,9
+	.half	.L244-.L515
+	.byte	3,1,1,5,19,9
+	.half	.L516-.L244
+	.byte	1,5,9,9
+	.half	.L517-.L516
+	.byte	1,5,40,7,9
+	.half	.L518-.L517
+	.byte	1,5,58,9
+	.half	.L519-.L518
+	.byte	1,5,56,9
+	.half	.L520-.L519
+	.byte	1,5,23,9
+	.half	.L521-.L520
 	.byte	3,2,1,5,20,9
-	.half	.L244-.L514
+	.half	.L246-.L521
 	.byte	1,5,15,9
-	.half	.L515-.L244
+	.half	.L522-.L246
 	.byte	1,5,46,7,9
-	.half	.L516-.L515
+	.half	.L523-.L522
 	.byte	1,5,44,9
-	.half	.L247-.L516
+	.half	.L249-.L523
 	.byte	1,5,26,9
-	.half	.L31-.L247
+	.half	.L31-.L249
 	.byte	1,5,15,9
 	.half	.L29-.L31
 	.byte	3,4,1,5,13,9
-	.half	.L248-.L29
+	.half	.L250-.L29
 	.byte	1,5,5,9
-	.half	.L517-.L248
+	.half	.L524-.L250
 	.byte	1,5,15,7,9
-	.half	.L518-.L517
+	.half	.L525-.L524
 	.byte	3,2,1,9
-	.half	.L33-.L518
+	.half	.L33-.L525
 	.byte	3,2,1,5,13,9
-	.half	.L251-.L33
+	.half	.L253-.L33
 	.byte	1,5,5,9
-	.half	.L519-.L251
+	.half	.L526-.L253
 	.byte	1,5,15,7,9
-	.half	.L520-.L519
+	.half	.L527-.L526
 	.byte	3,2,1,5,5,9
-	.half	.L34-.L520
+	.half	.L34-.L527
 	.byte	3,16,1,5,23,9
-	.half	.L521-.L34
+	.half	.L528-.L34
 	.byte	1,5,21,9
-	.half	.L522-.L521
+	.half	.L529-.L528
 	.byte	1,5,20,9
-	.half	.L254-.L522
+	.half	.L256-.L529
 	.byte	3,1,1,5,5,9
-	.half	.L523-.L254
+	.half	.L530-.L256
 	.byte	3,1,1,5,23,9
-	.half	.L256-.L523
+	.half	.L258-.L530
 	.byte	1,5,1,9
-	.half	.L19-.L256
+	.half	.L19-.L258
 	.byte	3,1,1,7,9
 	.half	.L118-.L19
 	.byte	0,1,1
-.L441:
+.L448:
 	.sdecl	'.debug_ranges',debug,cluster('bldc_motor_speed_ctrl')
 	.sect	'.debug_ranges'
 .L117:
@@ -23722,7 +23727,7 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'servo_init',0,1,136,2,6,1,1
+	.byte	'servo_init',0,1,142,2,6,1,1
 	.word	.L69,.L179,.L68
 	.byte	4
 	.word	.L69,.L179
@@ -23735,28 +23740,28 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('servo_init')
 	.sect	'.debug_line'
 .L121:
-	.word	.L525-.L524
-.L524:
+	.word	.L532-.L531
+.L531:
 	.half	3
-	.word	.L527-.L526
-.L526:
+	.word	.L534-.L533
+.L533:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L527:
+.L534:
 	.byte	5,14,7,0,5,2
 	.word	.L69
-	.byte	3,137,2,1,5,31,9
-	.half	.L528-.L69
+	.byte	3,143,2,1,5,31,9
+	.half	.L535-.L69
 	.byte	1,5,49,9
-	.half	.L529-.L528
+	.half	.L536-.L535
 	.byte	1,5,14,9
-	.half	.L530-.L529
+	.half	.L537-.L536
 	.byte	3,1,1,5,1,9
-	.half	.L531-.L530
+	.half	.L538-.L537
 	.byte	3,1,1,7,9
-	.half	.L123-.L531
+	.half	.L123-.L538
 	.byte	0,1,1
-.L525:
+.L532:
 	.sdecl	'.debug_ranges',debug,cluster('servo_init')
 	.sect	'.debug_ranges'
 .L122:
@@ -23764,7 +23769,7 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_info',debug,cluster('servo_set')
 	.sect	'.debug_info'
 .L124:
-	.word	233
+	.word	292
 	.half	3
 	.word	.L125
 	.byte	4,1
@@ -23775,74 +23780,91 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'servo_set',0,1,142,2,6,1,1,1
+	.byte	'servo_set',0,1,148,2,6,1,1,1
 	.word	.L71,.L180,.L70
 	.byte	4
-	.byte	'angle',0,1,142,2,23
+	.byte	'angle',0,1,148,2,23
 	.word	.L164,.L181
 	.byte	5
 	.word	.L71,.L180
-	.byte	0,0
+	.byte	5
+	.word	.L36,.L180
+	.byte	6
+	.byte	'actual_angle',0,1,161,2,12
+	.word	.L164,.L182
+	.byte	6
+	.byte	'pwm_duty',0,1,162,2,12
+	.word	.L183,.L184
+	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('servo_set')
 	.sect	'.debug_abbrev'
 .L125:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('servo_set')
 	.sect	'.debug_line'
 .L126:
-	.word	.L533-.L532
-.L532:
+	.word	.L540-.L539
+.L539:
 	.half	3
-	.word	.L535-.L534
-.L534:
+	.word	.L542-.L541
+.L541:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L535:
+.L542:
 	.byte	5,6,7,0,5,2
 	.word	.L71
-	.byte	3,141,2,1,5,5,9
-	.half	.L536-.L71
+	.byte	3,147,2,1,5,5,9
+	.half	.L543-.L71
 	.byte	3,2,1,5,17,9
-	.half	.L258-.L536
+	.half	.L260-.L543
 	.byte	1,5,23,9
-	.half	.L259-.L258
+	.half	.L261-.L260
 	.byte	3,1,1,5,21,9
-	.half	.L537-.L259
+	.half	.L544-.L261
 	.byte	1,5,5,9
-	.half	.L538-.L537
-	.byte	1,5,9,7,9
-	.half	.L539-.L538
-	.byte	3,2,1,5,23,9
-	.half	.L540-.L539
-	.byte	1,5,21,9
-	.half	.L541-.L540
-	.byte	1,5,9,9
-	.half	.L35-.L541
-	.byte	3,2,1,5,23,9
-	.half	.L542-.L35
-	.byte	1,5,21,9
-	.half	.L543-.L542
-	.byte	1,5,5,9
-	.half	.L544-.L543
-	.byte	1,5,9,7,9
 	.half	.L545-.L544
-	.byte	3,2,1,5,23,9
+	.byte	1,5,9,7,9
 	.half	.L546-.L545
-	.byte	1,5,21,9
+	.byte	3,2,1,5,23,9
 	.half	.L547-.L546
-	.byte	1,5,18,9
-	.half	.L36-.L547
-	.byte	3,3,1,5,43,9
-	.half	.L548-.L36
-	.byte	1,5,35,9
-	.half	.L549-.L548
-	.byte	1,5,1,9
+	.byte	1,5,21,9
+	.half	.L548-.L547
+	.byte	1,5,9,9
+	.half	.L35-.L548
+	.byte	3,2,1,5,23,9
+	.half	.L549-.L35
+	.byte	1,5,21,9
 	.half	.L550-.L549
-	.byte	3,2,1,7,9
-	.half	.L128-.L550
+	.byte	1,5,5,9
+	.half	.L551-.L550
+	.byte	1,5,9,7,9
+	.half	.L552-.L551
+	.byte	3,2,1,5,23,9
+	.half	.L553-.L552
+	.byte	1,5,21,9
+	.half	.L554-.L553
+	.byte	1,5,29,9
+	.half	.L36-.L554
+	.byte	3,4,1,5,49,9
+	.half	.L555-.L36
+	.byte	1,5,47,9
+	.half	.L556-.L555
+	.byte	1,5,35,9
+	.half	.L262-.L556
+	.byte	3,1,1,5,27,9
+	.half	.L557-.L262
+	.byte	1,5,18,9
+	.half	.L558-.L557
+	.byte	3,3,1,5,35,9
+	.half	.L264-.L558
+	.byte	1,5,1,9
+	.half	.L266-.L264
+	.byte	3,1,1,7,9
+	.half	.L128-.L266
 	.byte	0,1,1
-.L533:
+.L540:
 	.sdecl	'.debug_ranges',debug,cluster('servo_set')
 	.sect	'.debug_ranges'
 .L127:
@@ -23861,13 +23883,13 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'servo_set_pd',0,1,165,2,6,1,1,1
-	.word	.L73,.L182,.L72
+	.byte	'servo_set_pd',0,1,175,2,6,1,1,1
+	.word	.L73,.L185,.L72
 	.byte	4
-	.byte	'target_angle',0,1,165,2,25
-	.word	.L183,.L184
+	.byte	'target_angle',0,1,175,2,25
+	.word	.L186,.L187
 	.byte	5
-	.word	.L73,.L182
+	.word	.L73,.L185
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('servo_set_pd')
 	.sect	'.debug_abbrev'
@@ -23877,22 +23899,22 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('servo_set_pd')
 	.sect	'.debug_line'
 .L131:
-	.word	.L552-.L551
-.L551:
+	.word	.L560-.L559
+.L559:
 	.half	3
-	.word	.L554-.L553
-.L553:
+	.word	.L562-.L561
+.L561:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L554:
+.L562:
 	.byte	5,41,7,0,5,2
 	.word	.L73
-	.byte	3,167,2,1,5,1,9
-	.half	.L260-.L73
+	.byte	3,177,2,1,5,1,9
+	.half	.L267-.L73
 	.byte	3,1,1,7,9
-	.half	.L133-.L260
+	.half	.L133-.L267
 	.byte	0,1,1
-.L552:
+.L560:
 	.sdecl	'.debug_ranges',debug,cluster('servo_set_pd')
 	.sect	'.debug_ranges'
 .L132:
@@ -23911,27 +23933,27 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'servo_set_pd_extended',0,1,179,2,6,1,1,1
-	.word	.L75,.L185,.L74
+	.byte	'servo_set_pd_extended',0,1,189,2,6,1,1,1
+	.word	.L75,.L188,.L74
 	.byte	4
-	.byte	'target_angle',0,1,179,2,34
-	.word	.L183,.L186
+	.byte	'target_angle',0,1,189,2,34
+	.word	.L186,.L189
 	.byte	4
-	.byte	'use_extended_angle',0,1,179,2,53
-	.word	.L187,.L188
+	.byte	'use_extended_angle',0,1,189,2,53
+	.word	.L190,.L191
 	.byte	5
-	.word	.L75,.L185
+	.word	.L75,.L188
 	.byte	6
-	.byte	'current_angle',0,1,181,2,11
-	.word	.L183,.L189
+	.byte	'current_angle',0,1,191,2,11
+	.word	.L186,.L192
 	.byte	6
-	.byte	'error',0,1,181,2,26
-	.word	.L183,.L190
+	.byte	'error',0,1,191,2,26
+	.word	.L186,.L193
 	.byte	5
-	.word	.L38,.L185
+	.word	.L38,.L188
 	.byte	6
-	.byte	'pd_output',0,1,210,2,12
-	.word	.L164,.L191
+	.byte	'pd_output',0,1,220,2,12
+	.word	.L164,.L194
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('servo_set_pd_extended')
 	.sect	'.debug_abbrev'
@@ -23942,118 +23964,118 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('servo_set_pd_extended')
 	.sect	'.debug_line'
 .L136:
-	.word	.L556-.L555
-.L555:
+	.word	.L564-.L563
+.L563:
 	.half	3
-	.word	.L558-.L557
-.L557:
+	.word	.L566-.L565
+.L565:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L558:
+.L566:
 	.byte	5,6,7,0,5,2
 	.word	.L75
-	.byte	3,178,2,1,5,5,9
-	.half	.L263-.L75
+	.byte	3,188,2,1,5,5,9
+	.half	.L270-.L75
 	.byte	3,4,1,5,25,7,9
-	.half	.L559-.L263
+	.half	.L567-.L270
 	.byte	3,3,1,5,36,9
-	.half	.L560-.L559
+	.half	.L568-.L567
 	.byte	1,5,38,9
-	.half	.L264-.L560
+	.half	.L271-.L568
 	.byte	3,1,1,5,49,9
-	.half	.L265-.L264
+	.half	.L272-.L271
 	.byte	3,127,1,5,25,9
-	.half	.L37-.L265
+	.half	.L37-.L272
 	.byte	3,9,1,5,36,9
-	.half	.L561-.L37
+	.half	.L569-.L37
 	.byte	1,5,38,9
-	.half	.L266-.L561
+	.half	.L273-.L569
 	.byte	3,1,1,5,30,9
-	.half	.L267-.L266
+	.half	.L274-.L273
 	.byte	3,3,1,5,22,9
-	.half	.L40-.L267
+	.half	.L40-.L274
 	.byte	3,2,1,5,19,9
-	.half	.L562-.L40
+	.half	.L570-.L40
 	.byte	1,5,24,9
-	.half	.L39-.L562
+	.half	.L39-.L570
 	.byte	3,126,1,5,30,9
-	.half	.L563-.L39
+	.half	.L571-.L39
 	.byte	1,5,31,9
-	.half	.L564-.L563
+	.half	.L572-.L571
 	.byte	3,4,1,5,22,9
-	.half	.L42-.L564
+	.half	.L42-.L572
 	.byte	3,2,1,5,19,9
-	.half	.L565-.L42
+	.half	.L573-.L42
 	.byte	1,5,24,9
-	.half	.L41-.L565
+	.half	.L41-.L573
 	.byte	3,126,1,5,31,9
-	.half	.L566-.L41
+	.half	.L574-.L41
 	.byte	1,5,36,9
-	.half	.L38-.L566
+	.half	.L38-.L574
 	.byte	3,7,1,5,45,9
-	.half	.L567-.L38
+	.half	.L575-.L38
 	.byte	1,5,34,9
-	.half	.L262-.L567
+	.half	.L269-.L575
 	.byte	1,5,39,9
-	.half	.L568-.L262
+	.half	.L576-.L269
 	.byte	3,1,1,5,19,9
-	.half	.L268-.L568
+	.half	.L275-.L576
 	.byte	1,5,5,9
-	.half	.L569-.L268
+	.half	.L577-.L275
 	.byte	1,5,39,7,9
-	.half	.L570-.L569
-	.byte	3,2,1,5,56,9
-	.half	.L571-.L570
-	.byte	1,5,44,9
-	.half	.L43-.L571
-	.byte	3,2,1,5,24,9
-	.half	.L271-.L43
-	.byte	1,5,10,9
-	.half	.L572-.L271
-	.byte	1,5,39,7,9
-	.half	.L573-.L572
-	.byte	3,2,1,5,15,9
-	.half	.L44-.L573
-	.byte	3,4,1,5,31,9
-	.half	.L274-.L44
-	.byte	1,5,5,9
-	.half	.L574-.L274
-	.byte	3,5,1,5,54,9
-	.half	.L575-.L574
-	.byte	1,5,5,9
-	.half	.L576-.L575
-	.byte	3,1,1,5,54,9
-	.half	.L577-.L576
-	.byte	1,5,5,9
 	.half	.L578-.L577
-	.byte	3,1,1,5,54,9
+	.byte	3,2,1,5,56,9
 	.half	.L579-.L578
+	.byte	1,5,44,9
+	.half	.L43-.L579
+	.byte	3,2,1,5,24,9
+	.half	.L278-.L43
+	.byte	1,5,10,9
+	.half	.L580-.L278
+	.byte	1,5,39,7,9
+	.half	.L581-.L580
+	.byte	3,2,1,5,15,9
+	.half	.L44-.L581
+	.byte	3,4,1,5,31,9
+	.half	.L281-.L44
 	.byte	1,5,5,9
-	.half	.L580-.L579
-	.byte	3,1,1,5,56,9
-	.half	.L276-.L580
-	.byte	1,5,54,9
-	.half	.L581-.L276
-	.byte	1,5,5,9
-	.half	.L582-.L581
-	.byte	3,1,1,5,56,9
+	.half	.L582-.L281
+	.byte	3,5,1,5,54,9
 	.half	.L583-.L582
-	.byte	1,5,54,9
-	.half	.L584-.L583
 	.byte	1,5,5,9
+	.half	.L584-.L583
+	.byte	3,1,1,5,54,9
 	.half	.L585-.L584
-	.byte	3,1,1,5,56,9
+	.byte	1,5,5,9
 	.half	.L586-.L585
-	.byte	1,5,54,9
+	.byte	3,1,1,5,54,9
 	.half	.L587-.L586
-	.byte	1,5,43,9
+	.byte	1,5,5,9
 	.half	.L588-.L587
+	.byte	3,1,1,5,56,9
+	.half	.L283-.L588
+	.byte	1,5,54,9
+	.half	.L589-.L283
+	.byte	1,5,5,9
+	.half	.L590-.L589
+	.byte	3,1,1,5,56,9
+	.half	.L591-.L590
+	.byte	1,5,54,9
+	.half	.L592-.L591
+	.byte	1,5,5,9
+	.half	.L593-.L592
+	.byte	3,1,1,5,56,9
+	.half	.L594-.L593
+	.byte	1,5,54,9
+	.half	.L595-.L594
+	.byte	1,5,43,9
+	.half	.L596-.L595
 	.byte	3,3,1,5,1,9
-	.half	.L589-.L588
+	.half	.L597-.L596
 	.byte	3,2,1,7,9
-	.half	.L138-.L589
+	.half	.L138-.L597
 	.byte	0,1,1
-.L556:
+.L564:
 	.sdecl	'.debug_ranges',debug,cluster('servo_set_pd_extended')
 	.sect	'.debug_ranges'
 .L137:
@@ -24072,10 +24094,10 @@ _999001_last_target_speed:	.type	object
 	.byte	2
 	.word	.L80
 	.byte	3
-	.byte	'servo_test',0,1,141,3,6,1,1,1
-	.word	.L79,.L192,.L78
+	.byte	'servo_test',0,1,151,3,6,1,1,1
+	.word	.L79,.L195,.L78
 	.byte	4
-	.word	.L79,.L192
+	.word	.L79,.L195
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('servo_test')
 	.sect	'.debug_abbrev'
@@ -24085,96 +24107,96 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('servo_test')
 	.sect	'.debug_line'
 .L141:
-	.word	.L591-.L590
-.L590:
+	.word	.L599-.L598
+.L598:
 	.half	3
-	.word	.L593-.L592
-.L592:
+	.word	.L601-.L600
+.L600:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L593:
+.L601:
 	.byte	5,13,7,0,5,2
 	.word	.L79
-	.byte	3,143,3,1,5,9,9
-	.half	.L594-.L79
+	.byte	3,153,3,1,5,9,9
+	.half	.L602-.L79
 	.byte	3,1,1,5,5,9
-	.half	.L595-.L594
-	.byte	1,5,9,7,9
-	.half	.L596-.L595
-	.byte	3,2,1,5,21,9
-	.half	.L597-.L596
-	.byte	1,5,19,9
-	.half	.L598-.L597
-	.byte	1,5,9,9
-	.half	.L599-.L598
-	.byte	3,1,1,5,24,9
-	.half	.L600-.L599
-	.byte	1,5,21,9
-	.half	.L601-.L600
-	.byte	1,5,9,9
-	.half	.L50-.L601
-	.byte	3,2,1,5,5,9
-	.half	.L602-.L50
-	.byte	1,5,9,7,9
 	.half	.L603-.L602
-	.byte	3,2,1,5,21,9
+	.byte	1,5,9,7,9
 	.half	.L604-.L603
-	.byte	1,5,19,9
+	.byte	3,2,1,5,21,9
 	.half	.L605-.L604
-	.byte	1,5,9,9
+	.byte	1,5,19,9
 	.half	.L606-.L605
-	.byte	3,1,1,5,24,9
+	.byte	1,5,9,9
 	.half	.L607-.L606
-	.byte	1,5,21,9
+	.byte	3,1,1,5,24,9
 	.half	.L608-.L607
+	.byte	1,5,21,9
+	.half	.L609-.L608
 	.byte	1,5,9,9
-	.half	.L51-.L608
+	.half	.L50-.L609
 	.byte	3,2,1,5,5,9
-	.half	.L609-.L51
+	.half	.L610-.L50
 	.byte	1,5,9,7,9
-	.half	.L610-.L609
-	.byte	3,2,1,5,21,9
 	.half	.L611-.L610
-	.byte	1,5,19,9
-	.half	.L612-.L611
-	.byte	1,5,9,9
-	.half	.L613-.L612
-	.byte	3,1,1,5,24,9
-	.half	.L614-.L613
-	.byte	1,5,21,9
-	.half	.L615-.L614
-	.byte	1,5,9,9
-	.half	.L52-.L615
-	.byte	3,3,1,5,5,9
-	.half	.L616-.L52
-	.byte	1,5,9,7,9
-	.half	.L617-.L616
 	.byte	3,2,1,5,21,9
-	.half	.L618-.L617
+	.half	.L612-.L611
 	.byte	1,5,19,9
-	.half	.L619-.L618
+	.half	.L613-.L612
 	.byte	1,5,9,9
-	.half	.L620-.L619
+	.half	.L614-.L613
 	.byte	3,1,1,5,24,9
-	.half	.L621-.L620
+	.half	.L615-.L614
 	.byte	1,5,21,9
+	.half	.L616-.L615
+	.byte	1,5,9,9
+	.half	.L51-.L616
+	.byte	3,2,1,5,5,9
+	.half	.L617-.L51
+	.byte	1,5,9,7,9
+	.half	.L618-.L617
+	.byte	3,2,1,5,21,9
+	.half	.L619-.L618
+	.byte	1,5,19,9
+	.half	.L620-.L619
+	.byte	1,5,9,9
+	.half	.L621-.L620
+	.byte	3,1,1,5,24,9
 	.half	.L622-.L621
-	.byte	1,5,15,9
-	.half	.L53-.L622
-	.byte	3,3,1,5,18,9
-	.half	.L623-.L53
-	.byte	3,1,1,5,26,9
-	.half	.L624-.L623
-	.byte	1,5,31,9
+	.byte	1,5,21,9
+	.half	.L623-.L622
+	.byte	1,5,9,9
+	.half	.L52-.L623
+	.byte	3,3,1,5,5,9
+	.half	.L624-.L52
+	.byte	1,5,9,7,9
 	.half	.L625-.L624
-	.byte	1,5,44,9
+	.byte	3,2,1,5,21,9
 	.half	.L626-.L625
-	.byte	1,5,1,9
+	.byte	1,5,19,9
 	.half	.L627-.L626
+	.byte	1,5,9,9
+	.half	.L628-.L627
+	.byte	3,1,1,5,24,9
+	.half	.L629-.L628
+	.byte	1,5,21,9
+	.half	.L630-.L629
+	.byte	1,5,15,9
+	.half	.L53-.L630
+	.byte	3,3,1,5,18,9
+	.half	.L631-.L53
+	.byte	3,1,1,5,26,9
+	.half	.L632-.L631
+	.byte	1,5,31,9
+	.half	.L633-.L632
+	.byte	1,5,44,9
+	.half	.L634-.L633
+	.byte	1,5,1,9
+	.half	.L635-.L634
 	.byte	3,1,1,7,9
-	.half	.L143-.L627
+	.half	.L143-.L635
 	.byte	0,1,1
-.L591:
+.L599:
 	.sdecl	'.debug_ranges',debug,cluster('servo_test')
 	.sect	'.debug_ranges'
 .L142:
@@ -24194,28 +24216,28 @@ _999001_last_target_speed:	.type	object
 	.word	.L80
 	.byte	3
 	.byte	'drv8701_motor_speed_ctrl',0,1,80,6,1,1,1
-	.word	.L61,.L193,.L60
+	.word	.L61,.L196,.L60
 	.byte	4
 	.byte	'speed',0,1,80,38
-	.word	.L164,.L194
-	.byte	5
-	.word	.L61,.L193
-	.byte	5
-	.word	.L7,.L193
-	.byte	6
-	.byte	'target_speed',0,1,88,12
-	.word	.L164,.L195
-	.byte	6
-	.byte	'current_speed',0,1,89,12
-	.word	.L164,.L196
-	.byte	6
-	.byte	'speed_gap',0,1,90,12
 	.word	.L164,.L197
 	.byte	5
-	.word	.L198,.L193
+	.word	.L61,.L196
+	.byte	5
+	.word	.L7,.L196
+	.byte	6
+	.byte	'target_speed',0,1,88,12
+	.word	.L164,.L198
+	.byte	6
+	.byte	'current_speed',0,1,89,12
+	.word	.L164,.L199
+	.byte	6
+	.byte	'speed_gap',0,1,90,12
+	.word	.L164,.L200
+	.byte	5
+	.word	.L201,.L196
 	.byte	6
 	.byte	'out',0,1,107,12
-	.word	.L164,.L199
+	.word	.L164,.L202
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('drv8701_motor_speed_ctrl')
 	.sect	'.debug_abbrev'
@@ -24226,110 +24248,110 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_line',debug,cluster('drv8701_motor_speed_ctrl')
 	.sect	'.debug_line'
 .L146:
-	.word	.L629-.L628
-.L628:
+	.word	.L637-.L636
+.L636:
 	.half	3
-	.word	.L631-.L630
-.L630:
+	.word	.L639-.L638
+.L638:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../bsp/motor_servo.c',0,0,0,0,0
-.L631:
+.L639:
 	.byte	5,6,7,0,5,2
 	.word	.L61
 	.byte	3,207,0,1,5,10,9
-	.half	.L632-.L61
+	.half	.L640-.L61
 	.byte	3,3,1,5,9,9
-	.half	.L633-.L632
-	.byte	3,2,1,5,28,9
-	.half	.L7-.L633
-	.byte	3,4,1,5,45,9
-	.half	.L634-.L7
-	.byte	1,5,43,9
-	.half	.L635-.L634
-	.byte	1,5,41,9
-	.half	.L210-.L635
-	.byte	3,1,1,5,26,9
-	.half	.L636-.L210
-	.byte	1,5,9,9
-	.half	.L637-.L636
-	.byte	3,3,1,5,30,9
-	.half	.L638-.L637
-	.byte	1,5,28,9
-	.half	.L639-.L638
-	.byte	1,5,5,9
-	.half	.L640-.L639
-	.byte	1,5,27,7,9
 	.half	.L641-.L640
-	.byte	3,2,1,5,9,9
-	.half	.L642-.L641
-	.byte	3,1,1,5,27,9
+	.byte	3,2,1,5,28,9
+	.half	.L7-.L641
+	.byte	3,4,1,5,45,9
+	.half	.L642-.L7
+	.byte	1,5,43,9
 	.half	.L643-.L642
-	.byte	1,5,25,9
-	.half	.L644-.L643
+	.byte	1,5,41,9
+	.half	.L212-.L643
+	.byte	3,1,1,5,26,9
+	.half	.L644-.L212
 	.byte	1,5,9,9
 	.half	.L645-.L644
-	.byte	3,1,1,5,27,9
+	.byte	3,3,1,5,30,9
 	.half	.L646-.L645
-	.byte	1,5,25,9
-	.half	.L647-.L646
-	.byte	1,5,9,9
-	.half	.L648-.L647
-	.byte	3,1,1,5,5,9
-	.half	.L9-.L648
-	.byte	3,4,1,5,20,9
-	.half	.L649-.L9
-	.byte	1,5,18,9
-	.half	.L650-.L649
-	.byte	1,5,5,9
-	.half	.L651-.L650
-	.byte	3,1,1,5,20,9
-	.half	.L652-.L651
-	.byte	1,5,18,9
-	.half	.L653-.L652
-	.byte	1,5,5,9
-	.half	.L654-.L653
-	.byte	3,1,1,5,20,9
-	.half	.L655-.L654
-	.byte	1,5,18,9
-	.half	.L656-.L655
-	.byte	1,5,30,9
-	.half	.L198-.L656
-	.byte	3,3,1,5,41,9
-	.half	.L213-.L198
 	.byte	1,5,28,9
-	.half	.L657-.L213
-	.byte	1,5,16,9
+	.half	.L647-.L646
+	.byte	1,5,5,9
+	.half	.L648-.L647
+	.byte	1,5,27,7,9
+	.half	.L649-.L648
+	.byte	3,2,1,5,9,9
+	.half	.L650-.L649
+	.byte	3,1,1,5,27,9
+	.half	.L651-.L650
+	.byte	1,5,25,9
+	.half	.L652-.L651
+	.byte	1,5,9,9
+	.half	.L653-.L652
+	.byte	3,1,1,5,27,9
+	.half	.L654-.L653
+	.byte	1,5,25,9
+	.half	.L655-.L654
+	.byte	1,5,9,9
+	.half	.L656-.L655
+	.byte	3,1,1,5,5,9
+	.half	.L9-.L656
+	.byte	3,4,1,5,20,9
+	.half	.L657-.L9
+	.byte	1,5,18,9
 	.half	.L658-.L657
-	.byte	1,5,15,9
+	.byte	1,5,5,9
 	.half	.L659-.L658
-	.byte	3,3,1,5,13,9
-	.half	.L215-.L659
-	.byte	1,5,5,9
-	.half	.L660-.L215
-	.byte	1,5,15,7,9
+	.byte	3,1,1,5,20,9
+	.half	.L660-.L659
+	.byte	1,5,18,9
 	.half	.L661-.L660
-	.byte	3,2,1,9
-	.half	.L11-.L661
-	.byte	3,2,1,5,13,9
-	.half	.L218-.L11
 	.byte	1,5,5,9
-	.half	.L662-.L218
-	.byte	1,5,15,7,9
+	.half	.L662-.L661
+	.byte	3,1,1,5,20,9
 	.half	.L663-.L662
+	.byte	1,5,18,9
+	.half	.L664-.L663
+	.byte	1,5,30,9
+	.half	.L201-.L664
+	.byte	3,3,1,5,41,9
+	.half	.L215-.L201
+	.byte	1,5,28,9
+	.half	.L665-.L215
+	.byte	1,5,16,9
+	.half	.L666-.L665
+	.byte	1,5,15,9
+	.half	.L667-.L666
+	.byte	3,3,1,5,13,9
+	.half	.L217-.L667
+	.byte	1,5,5,9
+	.half	.L668-.L217
+	.byte	1,5,15,7,9
+	.half	.L669-.L668
+	.byte	3,2,1,9
+	.half	.L11-.L669
+	.byte	3,2,1,5,13,9
+	.half	.L220-.L11
+	.byte	1,5,5,9
+	.half	.L670-.L220
+	.byte	1,5,15,7,9
+	.half	.L671-.L670
 	.byte	3,2,1,5,5,9
-	.half	.L12-.L663
-	.byte	3,16,1,5,23,9
-	.half	.L664-.L12
+	.half	.L12-.L671
+	.byte	3,22,1,5,23,9
+	.half	.L672-.L12
 	.byte	1,5,21,9
-	.half	.L665-.L664
+	.half	.L673-.L672
 	.byte	1,5,23,9
-	.half	.L221-.L665
+	.half	.L223-.L673
 	.byte	3,1,1,5,1,9
-	.half	.L8-.L221
+	.half	.L8-.L223
 	.byte	3,1,1,7,9
 	.half	.L148-.L8
 	.byte	0,1,1
-.L629:
+.L637:
 	.sdecl	'.debug_ranges',debug,cluster('drv8701_motor_speed_ctrl')
 	.sect	'.debug_ranges'
 .L147:
@@ -24369,7 +24391,7 @@ _999001_last_target_speed:	.type	object
 	.word	.L80
 	.byte	3
 	.byte	'dir',0,28,19,8
-	.word	.L187
+	.word	.L190
 	.byte	1,5,3
 	.word	dir
 	.byte	0
@@ -24391,7 +24413,7 @@ _999001_last_target_speed:	.type	object
 	.word	.L80
 	.byte	3
 	.byte	'encoder_data_1',0,28,20,8
-	.word	.L200
+	.word	.L203
 	.byte	1,5,3
 	.word	encoder_data_1
 	.byte	0
@@ -24413,7 +24435,7 @@ _999001_last_target_speed:	.type	object
 	.word	.L80
 	.byte	3
 	.byte	'cumulative_encoder_data_1',0,28,21,8
-	.word	.L201
+	.word	.L183
 	.byte	1,5,3
 	.word	cumulative_encoder_data_1
 	.byte	0
@@ -24457,7 +24479,7 @@ _999001_last_target_speed:	.type	object
 	.word	.L80
 	.byte	3
 	.byte	'encoder_updated',0,28,23,18
-	.word	.L202
+	.word	.L204
 	.byte	1,5,3
 	.word	encoder_updated
 	.byte	0
@@ -24481,26 +24503,26 @@ _999001_last_target_speed:	.type	object
 	.byte	138,0
 	.word	0,0
 .L169:
-	.word	-1,.L65,0,.L223-.L65
+	.word	-1,.L65,0,.L225-.L65
 	.half	2
 	.byte	144,34
-	.word	.L224-.L65,.L225-.L65
+	.word	.L226-.L65,.L227-.L65
 	.half	2
 	.byte	144,36
-	.word	.L226-.L65,.L223-.L65
+	.word	.L228-.L65,.L225-.L65
 	.half	2
 	.byte	144,36
-	.word	.L227-.L65,.L228-.L65
+	.word	.L229-.L65,.L230-.L65
 	.half	2
 	.byte	144,36
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('bldc_motor_speed_ctrl')
 	.sect	'.debug_loc'
 .L66:
-	.word	-1,.L67,0,.L229-.L67
+	.word	-1,.L67,0,.L231-.L67
 	.half	2
 	.byte	138,0
-	.word	.L229-.L67,.L170-.L67
+	.word	.L231-.L67,.L170-.L67
 	.half	2
 	.byte	138,8
 	.word	.L170-.L67,.L170-.L67
@@ -24510,66 +24532,66 @@ _999001_last_target_speed:	.type	object
 .L176:
 	.word	0,0
 .L173:
-	.word	-1,.L67,.L232-.L67,.L233-.L67
+	.word	-1,.L67,.L234-.L67,.L235-.L67
 	.half	2
 	.byte	144,36
 	.word	0,0
 .L177:
-	.word	-1,.L67,.L244-.L67,.L245-.L67
+	.word	-1,.L67,.L246-.L67,.L247-.L67
 	.half	2
 	.byte	144,36
-	.word	.L247-.L67,.L31-.L67
+	.word	.L249-.L67,.L31-.L67
 	.half	2
 	.byte	144,36
-	.word	.L248-.L67,.L249-.L67
+	.word	.L250-.L67,.L251-.L67
 	.half	2
 	.byte	144,36
-	.word	.L250-.L67,.L33-.L67
+	.word	.L252-.L67,.L33-.L67
 	.half	2
 	.byte	144,36
-	.word	.L251-.L67,.L252-.L67
+	.word	.L253-.L67,.L254-.L67
 	.half	2
 	.byte	144,36
-	.word	.L253-.L67,.L34-.L67
+	.word	.L255-.L67,.L34-.L67
 	.half	2
 	.byte	144,36
-	.word	.L254-.L67,.L255-.L67
+	.word	.L256-.L67,.L257-.L67
 	.half	2
 	.byte	144,36
 	.word	0,0
 .L171:
-	.word	-1,.L67,0,.L230-.L67
+	.word	-1,.L67,0,.L232-.L67
 	.half	2
 	.byte	144,34
-	.word	.L231-.L67,.L232-.L67
-	.half	2
-	.byte	144,37
-	.word	.L234-.L67,.L235-.L67
+	.word	.L233-.L67,.L234-.L67
 	.half	2
 	.byte	144,37
 	.word	.L236-.L67,.L237-.L67
 	.half	2
 	.byte	144,37
-	.word	.L256-.L67,.L19-.L67
+	.word	.L238-.L67,.L239-.L67
+	.half	2
+	.byte	144,37
+	.word	.L258-.L67,.L19-.L67
 	.half	2
 	.byte	144,37
 	.word	0,0
 .L174:
-	.word	-1,.L67,.L238-.L67,.L239-.L67
+	.word	-1,.L67,.L240-.L67,.L241-.L67
 	.half	2
 	.byte	144,38
 	.word	0,0
 .L178:
-	.word	-1,.L67,.L240-.L67,.L241-.L67
+	.word	-1,.L67,.L242-.L67,.L243-.L67
 	.half	2
 	.byte	144,34
-	.word	.L242-.L67,.L243-.L67
+	.word	.L244-.L67,.L245-.L67
 	.half	2
 	.byte	145,120
-	.word	.L246-.L67,.L31-.L67
+	.word	.L248-.L67,.L31-.L67
 	.half	6
 	.byte	95,147,4,89,147,4
-	.word	.L247-.L67,.L31-.L67
+	.word	.L249-.L67,.L31-.L67
 	.half	2
 	.byte	144,36
 	.word	.L31-.L67,.L29-.L67
@@ -24593,62 +24615,62 @@ _999001_last_target_speed:	.type	object
 	.byte	138,0
 	.word	0,0
 .L165:
-	.word	-1,.L59,0,.L203-.L59
+	.word	-1,.L59,0,.L205-.L59
 	.half	2
 	.byte	144,34
-	.word	.L204-.L59,.L205-.L59
+	.word	.L206-.L59,.L207-.L59
 	.half	2
 	.byte	144,36
-	.word	.L206-.L59,.L203-.L59
+	.word	.L208-.L59,.L205-.L59
 	.half	2
 	.byte	144,36
-	.word	.L207-.L59,.L208-.L59
+	.word	.L209-.L59,.L210-.L59
 	.half	2
 	.byte	144,36
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('drv8701_motor_speed_ctrl')
 	.sect	'.debug_loc'
-.L196:
-	.word	-1,.L61,.L211-.L61,.L212-.L61
+.L199:
+	.word	-1,.L61,.L213-.L61,.L214-.L61
 	.half	2
 	.byte	144,33
 	.word	0,0
 .L60:
-	.word	-1,.L61,0,.L193-.L61
+	.word	-1,.L61,0,.L196-.L61
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L199:
-	.word	-1,.L61,.L215-.L61,.L216-.L61
+.L202:
+	.word	-1,.L61,.L217-.L61,.L218-.L61
 	.half	2
 	.byte	144,36
-	.word	.L217-.L61,.L11-.L61
+	.word	.L219-.L61,.L11-.L61
 	.half	2
 	.byte	144,36
-	.word	.L218-.L61,.L219-.L61
+	.word	.L220-.L61,.L221-.L61
 	.half	2
 	.byte	144,36
-	.word	.L220-.L61,.L12-.L61
+	.word	.L222-.L61,.L12-.L61
 	.half	2
 	.byte	144,36
-	.word	.L221-.L61,.L222-.L61
-	.half	2
-	.byte	144,36
-	.word	0,0
-.L194:
-	.word	-1,.L61,0,.L209-.L61
-	.half	2
-	.byte	144,34
-	.word	.L210-.L61,.L211-.L61
+	.word	.L223-.L61,.L224-.L61
 	.half	2
 	.byte	144,36
 	.word	0,0
 .L197:
-	.word	-1,.L61,.L213-.L61,.L214-.L61
+	.word	-1,.L61,0,.L211-.L61
+	.half	2
+	.byte	144,34
+	.word	.L212-.L61,.L213-.L61
+	.half	2
+	.byte	144,36
+	.word	0,0
+.L200:
+	.word	-1,.L61,.L215-.L61,.L216-.L61
 	.half	2
 	.byte	144,37
 	.word	0,0
-.L195:
+.L198:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('drv8701_motor_test')
 	.sect	'.debug_loc'
@@ -24673,13 +24695,26 @@ _999001_last_target_speed:	.type	object
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('servo_set')
 	.sect	'.debug_loc'
+.L182:
+	.word	-1,.L71,.L262-.L71,.L263-.L71
+	.half	2
+	.byte	144,33
+	.word	0,0
 .L181:
-	.word	-1,.L71,0,.L257-.L71
+	.word	-1,.L71,0,.L259-.L71
 	.half	2
 	.byte	144,34
-	.word	.L258-.L71,.L259-.L71
+	.word	.L260-.L71,.L261-.L71
 	.half	2
 	.byte	144,35
+	.word	0,0
+.L184:
+	.word	-1,.L71,.L264-.L71,.L265-.L71
+	.half	1
+	.byte	82
+	.word	.L265-.L71,.L266-.L71
+	.half	1
+	.byte	85
 	.word	0,0
 .L70:
 	.word	-1,.L71,0,.L180-.L71
@@ -24689,84 +24724,84 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_loc',debug,cluster('servo_set_pd')
 	.sect	'.debug_loc'
 .L72:
-	.word	-1,.L73,0,.L182-.L73
+	.word	-1,.L73,0,.L185-.L73
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L184:
-	.word	-1,.L73,0,.L260-.L73
+.L187:
+	.word	-1,.L73,0,.L267-.L73
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('servo_set_pd_extended')
 	.sect	'.debug_loc'
-.L189:
-	.word	-1,.L75,.L264-.L75,.L37-.L75
+.L192:
+	.word	-1,.L75,.L271-.L75,.L37-.L75
 	.half	1
 	.byte	89
-	.word	.L266-.L75,.L185-.L75
+	.word	.L273-.L75,.L188-.L75
 	.half	1
 	.byte	89
 	.word	0,0
-.L190:
-	.word	-1,.L75,.L265-.L75,.L37-.L75
+.L193:
+	.word	-1,.L75,.L272-.L75,.L37-.L75
 	.half	1
 	.byte	90
-	.word	.L267-.L75,.L185-.L75
+	.word	.L274-.L75,.L188-.L75
 	.half	1
 	.byte	90
-	.word	.L261-.L75,.L262-.L75
+	.word	.L268-.L75,.L269-.L75
 	.half	1
 	.byte	84
 	.word	0,0
-.L191:
-	.word	-1,.L75,.L268-.L75,.L269-.L75
+.L194:
+	.word	-1,.L75,.L275-.L75,.L276-.L75
 	.half	2
 	.byte	144,38
-	.word	.L270-.L75,.L43-.L75
+	.word	.L277-.L75,.L43-.L75
 	.half	2
 	.byte	144,38
-	.word	.L271-.L75,.L272-.L75
+	.word	.L278-.L75,.L279-.L75
 	.half	2
 	.byte	144,38
-	.word	.L273-.L75,.L44-.L75
+	.word	.L280-.L75,.L44-.L75
 	.half	2
 	.byte	144,38
-	.word	.L274-.L75,.L275-.L75
+	.word	.L281-.L75,.L282-.L75
 	.half	2
 	.byte	144,38
-	.word	.L276-.L75,.L277-.L75
+	.word	.L283-.L75,.L284-.L75
 	.half	2
 	.byte	144,38
 	.word	0,0
 .L74:
-	.word	-1,.L75,0,.L185-.L75
+	.word	-1,.L75,0,.L188-.L75
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L186:
-	.word	-1,.L75,0,.L261-.L75
+.L189:
+	.word	-1,.L75,0,.L268-.L75
 	.half	1
 	.byte	84
-	.word	.L263-.L75,.L185-.L75
+	.word	.L270-.L75,.L188-.L75
 	.half	1
 	.byte	88
 	.word	0,0
-.L188:
-	.word	-1,.L75,0,.L262-.L75
+.L191:
+	.word	-1,.L75,0,.L269-.L75
 	.half	1
 	.byte	85
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('servo_test')
 	.sect	'.debug_loc'
 .L78:
-	.word	-1,.L79,0,.L192-.L79
+	.word	-1,.L79,0,.L195-.L79
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L666:
+.L674:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -24774,58 +24809,58 @@ _999001_last_target_speed:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('motor_encoder_proc')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L55,.L161-.L55
+	.word	.L674,.L55,.L161-.L55
 	.sdecl	'.debug_frame',debug,cluster('drv8701_motor_init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L57,.L162-.L57
+	.word	.L674,.L57,.L162-.L57
 	.sdecl	'.debug_frame',debug,cluster('drv8701_motor_set')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L59,.L163-.L59
+	.word	.L674,.L59,.L163-.L59
 	.sdecl	'.debug_frame',debug,cluster('drv8701_motor_speed_ctrl')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L61,.L193-.L61
+	.word	.L674,.L61,.L196-.L61
 	.sdecl	'.debug_frame',debug,cluster('bldc_motor_init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L63,.L167-.L63
+	.word	.L674,.L63,.L167-.L63
 	.sdecl	'.debug_frame',debug,cluster('bldc_motor_set')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L65,.L168-.L65
+	.word	.L674,.L65,.L168-.L65
 	.sdecl	'.debug_frame',debug,cluster('bldc_motor_speed_ctrl')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L666,.L67,.L170-.L67
+	.word	.L674,.L67,.L170-.L67
 	.byte	4
-	.word	(.L229-.L67)/2
+	.word	(.L231-.L67)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L170-.L229)/2
+	.word	(.L170-.L231)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('servo_init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L69,.L179-.L69
+	.word	.L674,.L69,.L179-.L69
 	.sdecl	'.debug_frame',debug,cluster('servo_set')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L71,.L180-.L71
+	.word	.L674,.L71,.L180-.L71
 	.sdecl	'.debug_frame',debug,cluster('servo_set_pd')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L73,.L182-.L73
+	.word	.L674,.L73,.L185-.L73
 	.sdecl	'.debug_frame',debug,cluster('servo_set_pd_extended')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L75,.L185-.L75
+	.word	.L674,.L75,.L188-.L75
 	.sdecl	'.debug_frame',debug,cluster('drv8701_motor_test')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L77,.L166-.L77
+	.word	.L674,.L77,.L166-.L77
 	.sdecl	'.debug_frame',debug,cluster('servo_test')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L666,.L79,.L192-.L79
+	.word	.L674,.L79,.L195-.L79
 	; Module end
