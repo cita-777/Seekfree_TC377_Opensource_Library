@@ -29,7 +29,7 @@ extern "C" {
 #define IMU_USE_ICM45686 (1)   // 定义使用 ICM45686 IMU
 
 // 选择WiFi配置
-#define WIFI_CONFIG 4   // 1: CMCC-nAHP, 2: cita, 3: NEWX
+#define WIFI_CONFIG 3   // 1: CMCC-nAHP, 2: cita, 3: NEWX
 
 #if WIFI_CONFIG == 1
 #    define MY_WIFI_SSID "CMCC-nAHP"

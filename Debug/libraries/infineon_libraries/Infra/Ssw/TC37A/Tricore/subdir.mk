@@ -1,8 +1,8 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
-# Add inputs and outputs from these tool invocations to the build variables 
+# 将这些工具调用的输入和输出添加到构建变量 
 C_SRCS += \
 "../libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Infra.c" \
 "../libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc0.c" \
@@ -28,21 +28,21 @@ OBJS += \
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc2.o" 
 
 
-# Each subdirectory must supply rules for building sources it contributes
+# 每个子目录必须为构建它所贡献的源提供规则
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Infra.src":"../libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Infra.c" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/cita/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fD:/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Infra.o":"libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Infra.src" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc0.src":"../libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc0.c" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/cita/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fD:/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc0.o":"libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc0.src" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc1.src":"../libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc1.c" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/cita/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fD:/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc1.o":"libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc1.src" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc2.src":"../libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc2.c" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
-	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fC:/Users/cita/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
+	cctc -cs --dep-file="$*.d" --misrac-version=2004 -D__CPU__=tc37x "-fD:/Desktop/Seekfree_TC377_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc37x -Y0 -N0 -Z0 -o "$@" "$<"
 "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc2.o":"libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/Ifx_Ssw_Tc2.src" "libraries/infineon_libraries/Infra/Ssw/TC37A/Tricore/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 

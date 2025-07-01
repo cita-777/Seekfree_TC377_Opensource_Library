@@ -122,23 +122,23 @@ void sbus_proc()
             // servo_set(uart_receiver.channel[0] * 0.025 + 64);
 
             // 科目1，51000编码器值是3m
-            if (cumulative_encoder_data_1 >= 600000)
-            {
-                // 使用扩展角度进行精确调头控制
-                // 0.0度表示保持当前角度，180.0度表示调头180度，-180.0度表示反方向调头
-                servo_set_pd_extended(360.0, true);   // 使用扩展角度模式
-            }
-            else if (cumulative_encoder_data_1 > 200000 && cumulative_encoder_data_1 < 400000)
-            {
-                // 进行180度调头，使用扩展角度可以精确控制是向左还是向右调头
-                // 如果当前扩展角度是30度，目标210度表示顺时针转180度
-                // 如果当前扩展角度是30度，目标-150度表示逆时针转180度
-                servo_set_pd_extended(180.0, true);   // 使用扩展角度模式
-            }
-            else
-            {
-                servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
-            }
+            // if (cumulative_encoder_data_1 >= 600000)
+            // {
+            //     // 使用扩展角度进行精确调头控制
+            //     // 0.0度表示保持当前角度，180.0度表示调头180度，-180.0度表示反方向调头
+            //     servo_set_pd_extended(360.0, true);   // 使用扩展角度模式
+            // }
+            // else if (cumulative_encoder_data_1 > 200000 && cumulative_encoder_data_1 < 400000)
+            // {
+            //     // 进行180度调头，使用扩展角度可以精确控制是向左还是向右调头
+            //     // 如果当前扩展角度是30度，目标210度表示顺时针转180度
+            //     // 如果当前扩展角度是30度，目标-150度表示逆时针转180度
+            //     servo_set_pd_extended(180.0, true);   // 使用扩展角度模式
+            // }
+            // else
+            // {
+            //     servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
+            // }
 
             // 科目2，八字s弯
             // 11000是60cm
@@ -203,7 +203,12 @@ void sbus_proc()
             // servo_set(90.0);
             //  printf("drv8701_motor_set input: %.2f\n", 123 - uart_receiver.channel[1] * 0.125);
             //   drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
-            drv8701_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+
+
+            // drv8701_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);
+
+
+
             //   bldc_motor_set(123 - uart_receiver.channel[1] * 0.125);
             //    timer_enable();
             //    bldc_motor_speed_ctrl(123 - uart_receiver.channel[1] * 0.125);

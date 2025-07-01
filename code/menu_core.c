@@ -36,6 +36,9 @@ void draw_adaptive_curve(void);
 void nav_start_course1(void);
 void nav_start_course2(void);
 void nav_start_course3(void);
+void nav_start_course1_key(void);
+void nav_start_course2_key(void);
+void nav_start_course3_key(void);
 void nav_stop_course(void);
 void nav_show_status(void);
 /*------------------------------ Menu level 3 -------------------------------*/
@@ -66,9 +69,9 @@ struct sMenu SubMenu_1 = {"     Level 2", SubMenuItems_1, COUNT_OF(SubMenuItems_
 
 struct sMenuItem SubMenuItems_2[] = {
     /*菜单项名称, 要执行的函数（对应的功能函数），上下动作时的功能，下一级菜单*/
-    {"course1", nav_start_course1, DisplayMenu, NULL},
-    {"course2", nav_start_course2, DisplayMenu, NULL},
-    {"course3", nav_start_course3, DisplayMenu, NULL},
+    {"course1_key", nav_start_course1_key, DisplayMenu, NULL},
+    {"course2_key", nav_start_course2_key, DisplayMenu, NULL},
+    {"course3_key", nav_start_course3_key, DisplayMenu, NULL},
     {"stop course", nav_stop_course, DisplayMenu, NULL},
     {"now state", nav_show_status, DisplayMenu, NULL}};
 struct sMenu SubMenu_2 = {"     Level 2", SubMenuItems_2, COUNT_OF(SubMenuItems_2)};
@@ -85,7 +88,7 @@ struct sMenu SubMenu_3 = {"     Level 2", SubMenuItems_3, COUNT_OF(SubMenuItems_
 struct sMenuItem MainMenuItems[] = {
     /*菜单项名称, 要执行的函数（对应的功能函数），上下动作时的功能，下一级菜单*/
     {"GPS", IdleFunc, IdleFunc, &SubMenu_1},
-    {"Item Two", IdleFunc, IdleFunc, &SubMenu_2},
+    {"Navigation", IdleFunc, IdleFunc, &SubMenu_2},
     {"Item Three", IdleFunc, IdleFunc, &SubMenu_3},
     {"Item Four", IdleFunc, IdleFunc, NULL},
     {"Item Five", IdleFunc, IdleFunc, NULL}};
@@ -564,4 +567,40 @@ void DownFunc(void)
 void Menu_test(void)
 {
     MENU_setScreenColor(RGB565_GREEN);
+}
+
+/**
+ * @brief 按键模式开始科目一
+ */
+void nav_start_course1_key(void)
+{
+    ips_clear();
+    ips_show_string(10, 0, "科目一按键模式启动!");
+    ips_show_string(10, 16, "0.5秒后自动开始...");
+
+    navigation_start_course1_key();
+}
+
+/**
+ * @brief 按键模式开始科目二
+ */
+void nav_start_course2_key(void)
+{
+    ips_clear();
+    ips_show_string(10, 0, "科目二按键模式启动!");
+    ips_show_string(10, 16, "0.5秒后自动开始...");
+
+    navigation_start_course2_key();
+}
+
+/**
+ * @brief 按键模式开始科目三
+ */
+void nav_start_course3_key(void)
+{
+    ips_clear();
+    ips_show_string(10, 0, "科目三按键模式启动!");
+    ips_show_string(10, 16, "0.5秒后自动开始...");
+
+    navigation_start_course3_key();
 }

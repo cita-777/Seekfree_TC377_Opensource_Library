@@ -55,16 +55,18 @@ extern double motor_duty;
 extern bool   dir;
 extern int16  encoder_data_1;
 // extern uint8 motor_encoder_pit_state;
-extern uint32 cumulative_encoder_data_1;
-extern double servo_value;
+extern uint32           cumulative_encoder_data_1;
+extern volatile uint8_t encoder_updated;
+extern double           servo_value;
 /*-------------------------------------os-------------------------------------*/
 
 /*----------------------------------function----------------------------------*/
 void motor_encoder_proc(void);   // 电机编码器中断处理
 
-void drv8701_motor_init(void);         // 有刷电机初始化
-void drv8701_motor_set(double duty);   // 有刷电机驱动
-void drv8701_motor_test(void);         // 有刷电机测试
+void drv8701_motor_init(void);                 // 有刷电机初始化
+void drv8701_motor_set(double duty);           // 有刷电机驱动
+void drv8701_motor_speed_ctrl(double speed);   // 有刷电机速度控制
+void drv8701_motor_test(void);                 // 有刷电机测试
 
 void bldc_motor_init(void);         // 无刷电机初始化
 void bldc_motor_set(double duty);   // 无刷电机驱动

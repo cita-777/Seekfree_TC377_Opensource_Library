@@ -1,12 +1,12 @@
 ################################################################################
-# Automatically-generated file. Do not edit!
+# 自动生成的文件。不要编辑！
 ################################################################################
 
 -include ../makefile.init
 
 RM := rm -rf
 
-# All of the sources participating in the build are defined here
+# 此处定义了参与生成的所有源
 -include sources.mk
 -include user/subdir.mk
 -include libraries/zf_driver/subdir.mk
@@ -50,23 +50,14 @@ RM := rm -rf
 -include code/subdir.mk
 -include bsp/subdir.mk
 ifneq ($(MAKECMDGOALS),clean)
-ifneq ($(strip $(C++M_DEPS)),)
--include $(C++M_DEPS)
-endif
 ifneq ($(strip $(C++_DEPS)),)
 -include $(C++_DEPS)
-endif
-ifneq ($(strip $(CCM_DEPS)),)
--include $(CCM_DEPS)
 endif
 ifneq ($(strip $(CC_DEPS)),)
 -include $(CC_DEPS)
 endif
 ifneq ($(strip $(CPP_DEPS)),)
 -include $(CPP_DEPS)
-endif
-ifneq ($(strip $(CXXM_DEPS)),)
--include $(CXXM_DEPS)
 endif
 ifneq ($(strip $(CXX_DEPS)),)
 -include $(CXX_DEPS)
@@ -92,37 +83,32 @@ BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
-# Add inputs and outputs from these tool invocations to the build variables 
+# 将这些工具调用的输入和输出添加到构建变量 
 SECONDARY_SIZE += \
 Seekfree_TC377_Opensource_Library.siz \
 
 
-# All Target
+# 所有目标
 all: main-build
 
-# Main-build Target
+# 主构建目标
 main-build: Seekfree_TC377_Opensource_Library.elf secondary-outputs
 
-# Tool invocations
-Seekfree_TC377_Opensource_Library.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS) .Seekfree_TC377_Opensource_Library.elf.opt
-	@echo 'Building target: $@'
-	@echo 'Invoking: TASKING Linker'
-	cctc -f .Seekfree_TC377_Opensource_Library.elf.opt
-	@echo 'Finished building target: $@'
+# 工具调用
+Seekfree_TC377_Opensource_Library.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
+	@echo '正在构建目标： $@'
+	@echo '正在调用： TASKING Linker'
+	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy "D:\Desktop\Seekfree_TC377_Opensource_Library\libraries\zf_device\zf_device_config.a" -Wl--map-file="Seekfree_TC377_Opensource_Library.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=2 -lc_fpu -lfp_fpu -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"Seekfree_TC377_Opensource_Library.elf" -Wl-o"Seekfree_TC377_Opensource_Library.hex:IHEX" $(OBJS)
+	@echo '已结束构建目标： $@'
 	@echo ' '
-
-.Seekfree_TC377_Opensource_Library.elf.opt:
-	@argfile .Seekfree_TC377_Opensource_Library.elf.opt --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy "C:\Users\cita\Desktop\Seekfree_TC377_Opensource_Library\libraries\zf_device\zf_device_config.a" -Wl--map-file="Seekfree_TC377_Opensource_Library.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=2 -lc_fpu -lfp_fpu -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc37x -o"Seekfree_TC377_Opensource_Library.elf" -Wl-o"Seekfree_TC377_Opensource_Library.hex:IHEX" $(OBJS)
-
-.PHONY: .Seekfree_TC377_Opensource_Library.elf.opt
 
 Seekfree_TC377_Opensource_Library.siz: Seekfree_TC377_Opensource_Library.elf makefile $(OPTIONAL_TOOL_DEPS)
-	@echo 'Invoking: Print Size'
+	@echo '正在调用： Print Size'
 	elfsize  "Seekfree_TC377_Opensource_Library.elf"
-	@echo 'Finished building: $@'
+	@echo '已结束构建： $@'
 	@echo ' '
 
-# Other Targets
+# 其他目标
 clean:
 	-$(RM) Seekfree_TC377_Opensource_Library.siz Seekfree_TC377_Opensource_Library.elf
 	-@echo ' '
