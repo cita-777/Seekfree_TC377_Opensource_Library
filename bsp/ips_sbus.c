@@ -122,13 +122,13 @@ void sbus_proc()
             // servo_set(uart_receiver.channel[0] * 0.025 + 64);
 
             // 科目1，51000编码器值是3m
-            if (cumulative_encoder_data_1 >= 400000 * 1.2)
+            if (cumulative_encoder_data_1 >= 600000)
             {
                 // 使用扩展角度进行精确调头控制
                 // 0.0度表示保持当前角度，180.0度表示调头180度，-180.0度表示反方向调头
                 servo_set_pd_extended(360.0, true);   // 使用扩展角度模式
             }
-            else if (cumulative_encoder_data_1 > 200000 * 1.2 && cumulative_encoder_data_1 < 400000 * 1.2)
+            else if (cumulative_encoder_data_1 > 200000 && cumulative_encoder_data_1 < 400000)
             {
                 // 进行180度调头，使用扩展角度可以精确控制是向左还是向右调头
                 // 如果当前扩展角度是30度，目标210度表示顺时针转180度
@@ -141,46 +141,65 @@ void sbus_proc()
             }
 
             // 科目2，八字s弯
-            // if (cumulative_encoder_data_1 >= 0 && cumulative_encoder_data_1 < 20000 * 1.1)
+            // 11000是60cm
+            // 核心控制参数
+            // float encoder_scale = 1.0f;   // 编码器缩放系数
+            // float servo_scale   = 1.0f;   // 舵机角度缩放系数
+
+            // // 路径参数
+            // float init_straight = 15000;   // 初始直行距离
+
+            // // 去程S弯参数
+            // float s_angle_go   = 40.0f;   // 去程S弯角度
+            // float s_segment_go = 50000;   // 去程单个S弯长度
+
+            // // 回程S弯参数
+            // float s_angle_back   = 40.0f;   // 回程S弯角度（可单独调整）
+            // float s_segment_back = 50000;   // 回程单个S弯长度（可单独调整）
+
+            // float pre_turn_straight = 30000;     // 掉头前直行距离
+            // float turn_distance     = 50000;     // 掉头阶段距离（1段）
+            // float turn_angle        = -180.0f;   // 掉头基准角度（负值=右转）
+
+            // float enc = cumulative_encoder_data_1 * encoder_scale;
+
+            // // 1. 初始直行
+            // if (enc < init_straight)
             // {
-            //     servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
+            //     servo_set_pd_extended(0.0, true);
             // }
-            // else if (cumulative_encoder_data_1 >= 20000 * 1.1 && cumulative_encoder_data_1 < 50000 * 1.1)
+            // // 2. 去程S弯（3段）
+            // else if (enc < init_straight + 3 * s_segment_go)
             // {
-            //     servo_set_pd_extended(50.0, true);   // 使用扩展角度模式
+            //     int   phase = (int)((enc - init_straight) / s_segment_go) % 3;
+            //     float angle = (phase == 1 ? -s_angle_go : s_angle_go);   // 相位1右转，其他左转
+            //     servo_set_pd_extended(angle * servo_scale, true);
             // }
-            // else if (cumulative_encoder_data_1 >= 50000 * 1.1 && cumulative_encoder_data_1 < 90000 * 1.1)
+            // // 3. 掉头前直行
+            // else if (enc < init_straight + 3 * s_segment_go + pre_turn_straight)
             // {
-            //     servo_set_pd_extended(-50.0, true);   // 使用扩展角度模式
+            //     servo_set_pd_extended(0.0, true);
             // }
-            // else if (cumulative_encoder_data_1 >= 90000 * 1.1 && cumulative_encoder_data_1 < 130000 * 1.1)
+            // // 4. 掉头阶段（1段）
+            // else if (enc < init_straight + 3 * s_segment_go + pre_turn_straight + turn_distance)
             // {
-            //     servo_set_pd_extended(50.0, true);   // 使用扩展角度模式
+            //     servo_set_pd_extended(turn_angle * servo_scale, true);   // 固定-180°掉头
             // }
-            // else if (cumulative_encoder_data_1 >= 130000 * 1.1 && cumulative_encoder_data_1 < 170000 * 1.1)
+            // // 5. 回程S弯（3段，独立参数控制）
+            // else if (enc < init_straight + 3 * s_segment_go + pre_turn_straight + turn_distance + 3 * s_segment_back)
             // {
-            //     servo_set_pd_extended(0.0, true);   // 使用扩展角度模式
+            //     int phase = (int)((enc - init_straight - 3 * s_segment_go - pre_turn_straight - turn_distance) /
+            //                       s_segment_back) %
+            //                 3;
+            //     float angle = turn_angle + (phase == 1 ? s_angle_back : -s_angle_back);   // 相位1:-140°，其他:-220°
+            //     servo_set_pd_extended(angle * servo_scale, true);
             // }
-            // else if (cumulative_encoder_data_1 >= 170000 * 1.1 && cumulative_encoder_data_1 < 240000 * 1.1)
+            // // 6. 最终直行（保持-180°）
+            // else
             // {
-            //     servo_set_pd_extended(-180.0, true);   // 使用扩展角度模式
+            //     servo_set_pd_extended(turn_angle * servo_scale, true);
             // }
-            // else if (cumulative_encoder_data_1 >= 240000 * 1.1 && cumulative_encoder_data_1 < 280000 * 1.1)
-            // {
-            //     servo_set_pd_extended(-230.0, true);   // 使用扩展角度模式
-            // }
-            // else if (cumulative_encoder_data_1 >= 280000 * 1.1 && cumulative_encoder_data_1 < 320000 * 1.1)
-            // {
-            //     servo_set_pd_extended(-130.0, true);   // 使用扩展角度模式
-            // }
-            // else if (cumulative_encoder_data_1 >= 320000 * 1.1 && cumulative_encoder_data_1 < 360000 * 1.1)
-            // {
-            //     servo_set_pd_extended(-230.0, true);   // 使用扩展角度模式
-            // }
-            // else if (cumulative_encoder_data_1 >= 360000 * 1.1 && cumulative_encoder_data_1 < 400000 * 1.1)
-            // {
-            //     servo_set_pd_extended(-180.0, true);   // 使用扩展角度模式
-            // }
+
             // servo_set(90.0);
             //  printf("drv8701_motor_set input: %.2f\n", 123 - uart_receiver.channel[1] * 0.125);
             //   drv8701_motor_set(123 - uart_receiver.channel[1] * 0.125);
