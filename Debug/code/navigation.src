@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc74236a --dep-file=code/navigation.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/navigation.src ../code/navigation.c"
+	.compiler_invocation	"ctc -f cc81236a --dep-file=code/navigation.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\code -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_common -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_components -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_device\\\\lib_icm45686 -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\zf_driver -ID:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/navigation.src ../code/navigation.c"
 	.compiler_name		"ctc"
 	;source	'../code/navigation.c'
 
@@ -85,342 +85,342 @@ $TC162
 	
 	.global	navigation_init
 ; Function navigation_init
-.L67:
+.L72:
 navigation_init:	.type	func
 	sub.a	a10,#8
-.L270:
+.L276:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L327:
+.L316:
 	mov	d15,#0
-.L328:
+.L317:
 	st.b	[a15],d15
-.L329:
+.L318:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L330:
+.L319:
 	mov	d15,#0
-.L331:
+.L320:
 	st.b	[a15]1,d15
-.L332:
+.L321:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L333:
+.L322:
 	mov	d15,#0
-.L334:
+.L323:
 	st.b	[a15]2,d15
-.L335:
+.L324:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L336:
+.L325:
 	mov	d0,#0
 	mov	d1,#0
-.L337:
+.L326:
 	st.d	[a15]4,e0
-.L338:
+.L327:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L339:
+.L328:
 	mov	d0,#0
 	mov	d1,#0
-.L340:
+.L329:
 	st.d	[a15]12,e0
-.L341:
+.L330:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L342:
+.L331:
 	mov	d15,#0
-.L343:
+.L332:
 	st.w	[a15]20,d15
-.L344:
+.L333:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L345:
+.L334:
 	mov	d0,#0
 	mov	d1,#0
-.L346:
+.L335:
 	st.d	[a15]24,e0
-.L347:
+.L336:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L348:
+.L337:
 	mov	d15,#0
-.L349:
+.L338:
 	st.h	[a15]32,d15
-.L350:
+.L339:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L351:
+.L340:
 	mov	d15,#0
-.L352:
+.L341:
 	st.b	[a15]34,d15
-.L353:
+.L342:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L354:
+.L343:
 	mov	d15,#0
-.L355:
+.L344:
 	st.w	[a15]36,d15
-.L356:
+.L345:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L357:
+.L346:
 	mov	d15,#0
-.L358:
+.L347:
 	st.b	[a15]40,d15
-.L359:
+.L348:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L360:
+.L349:
 	mov	d15,#4
-.L361:
+.L350:
 	st.b	[a15]364,d15
-.L362:
+.L351:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L363:
+.L352:
 	mov	d15,#0
-.L364:
+.L353:
 	st.b	[a15]365,d15
-.L365:
+.L354:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L366:
+.L355:
 	mov	d15,#0
-.L367:
+.L356:
 	st.b	[a15]366,d15
-.L368:
+.L357:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L369:
+.L358:
 	mov	d15,#0
-.L370:
+.L359:
 	st.b	[a15]367,d15
-.L371:
+.L360:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L372:
+.L361:
 	mov	d15,#0
-.L373:
+.L362:
 	st.b	[a15]368,d15
-.L374:
+.L363:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L375:
+.L364:
 	mov	d15,#0
-.L376:
+.L365:
 	st.w	[a15]370,d15
-.L377:
+.L366:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L378:
+.L367:
 	mov	d15,#5
-.L379:
+.L368:
 	st.b	[a15]536,d15
-.L380:
+.L369:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L381:
+.L370:
 	mov	d15,#0
-.L382:
+.L371:
 	st.b	[a15]537,d15
-.L383:
+.L372:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L384:
+.L373:
 	mov	d15,#0
-.L385:
+.L374:
 	st.b	[a15]538,d15
-.L386:
+.L375:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L387:
+.L376:
 	movh.a	a2,#@his(.20.cnt)
 	lea	a2,[a2]@los(.20.cnt)
 	ld.d	e0,[a2]0
-.L388:
+.L377:
 	st.d	[a15]44,e0
-.L389:
+.L378:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L390:
+.L379:
 	movh.a	a2,#@his(.21.cnt)
 	lea	a2,[a2]@los(.21.cnt)
 	ld.d	e0,[a2]0
-.L391:
+.L380:
 	st.d	[a15]52,e0
-.L392:
+.L381:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L393:
+.L382:
 	movh.a	a2,#@his(.22.cnt)
 	lea	a2,[a2]@los(.22.cnt)
 	ld.d	e0,[a2]0
-.L394:
+.L383:
 	st.d	[a15]60,e0
-.L395:
+.L384:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L396:
+.L385:
 	movh.a	a2,#@his(.23.cnt)
 	lea	a2,[a2]@los(.23.cnt)
 	ld.d	e0,[a2]0
-.L397:
+.L386:
 	st.d	[a15]68,e0
-.L398:
+.L387:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L399:
+.L388:
 	movh.a	a2,#@his(.24.cnt)
 	lea	a2,[a2]@los(.24.cnt)
 	ld.d	e0,[a2]0
-.L400:
+.L389:
 	st.d	[a15]76,e0
-.L401:
+.L390:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L402:
+.L391:
 	movh.a	a2,#@his(.25.cnt)
 	lea	a2,[a2]@los(.25.cnt)
 	ld.d	e0,[a2]0
-.L403:
+.L392:
 	st.d	[a15]84,e0
-.L404:
+.L393:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L405:
+.L394:
 	movh.a	a2,#@his(.20.cnt)
 	lea	a2,[a2]@los(.20.cnt)
 	ld.d	e0,[a2]0
-.L406:
+.L395:
 	st.d	[a15]92,e0
-.L407:
+.L396:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L408:
+.L397:
 	movh.a	a2,#@his(.21.cnt)
 	lea	a2,[a2]@los(.21.cnt)
 	ld.d	e0,[a2]0
-.L409:
+.L398:
 	st.d	[a15]100,e0
-.L410:
+.L399:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L411:
+.L400:
 	movh.a	a2,#@his(.20.cnt)
 	lea	a2,[a2]@los(.20.cnt)
 	ld.d	e0,[a2]0
-.L412:
+.L401:
 	st.d	[a15]376,e0
-.L413:
+.L402:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L414:
+.L403:
 	movh.a	a2,#@his(.21.cnt)
 	lea	a2,[a2]@los(.21.cnt)
 	ld.d	e0,[a2]0
-.L415:
+.L404:
 	st.d	[a15]384,e0
-.L416:
+.L405:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L417:
+.L406:
 	movh.a	a2,#@his(.26.cnt)
 	lea	a2,[a2]@los(.26.cnt)
 	ld.d	e0,[a2]0
-.L418:
+.L407:
 	st.d	[a15]392,e0
-.L419:
+.L408:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L420:
+.L409:
 	movh.a	a2,#@his(.27.cnt)
 	lea	a2,[a2]@los(.27.cnt)
 	ld.d	e0,[a2]0
-.L421:
+.L410:
 	st.d	[a15]400,e0
-.L422:
+.L411:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L423:
+.L412:
 	movh.a	a2,#@his(.28.cnt)
 	lea	a2,[a2]@los(.28.cnt)
 	ld.d	e0,[a2]0
-.L424:
+.L413:
 	st.d	[a15]408,e0
-.L425:
+.L414:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L426:
+.L415:
 	movh.a	a2,#@his(.29.cnt)
 	lea	a2,[a2]@los(.29.cnt)
 	ld.d	e0,[a2]0
-.L427:
+.L416:
 	st.d	[a15]416,e0
-.L428:
+.L417:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L429:
+.L418:
 	movh.a	a2,#@his(.30.cnt)
 	lea	a2,[a2]@los(.30.cnt)
 	ld.d	e0,[a2]0
-.L430:
+.L419:
 	st.d	[a15]424,e0
-.L431:
+.L420:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L432:
+.L421:
 	movh.a	a2,#@his(.31.cnt)
 	lea	a2,[a2]@los(.31.cnt)
 	ld.d	e0,[a2]0
-.L433:
+.L422:
 	st.d	[a15]432,e0
-.L434:
+.L423:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L435:
+.L424:
 	movh.a	a2,#@his(.24.cnt)
 	lea	a2,[a2]@los(.24.cnt)
 	ld.d	e0,[a2]0
-.L436:
+.L425:
 	st.d	[a15]440,e0
-.L437:
+.L426:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L438:
+.L427:
 	movh.a	a2,#@his(.25.cnt)
 	lea	a2,[a2]@los(.25.cnt)
 	ld.d	e0,[a2]0
-.L439:
+.L428:
 	st.d	[a15]448,e0
-.L440:
+.L429:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L441:
+.L430:
 	ld.bu	d15,[a15]2
-.L442:
+.L431:
 	jne	d15,#0,.L2
-.L443:
+.L432:
 	movh.a	a15,#@his(.3.str)
 	lea	a15,[a15]@los(.3.str)
-.L444:
+.L433:
 	j	.L3
 .L2:
 	movh.a	a15,#@his(.4.str)
 	lea	a15,[a15]@los(.4.str)
 .L3:
 	st.a	[a10],a15
-.L445:
+.L434:
 	movh.a	a4,#@his(.2.str)
 	lea	a4,[a4]@los(.2.str)
 	call	printf
-.L446:
+.L435:
 	ret
-.L212:
+.L217:
 	
 __navigation_init_function_end:
 	.size	navigation_init,__navigation_init_function_end-navigation_init
-.L114:
+.L119:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_proc',code,cluster('navigation_proc')
@@ -429,43 +429,43 @@ __navigation_init_function_end:
 	
 	.global	navigation_proc
 ; Function navigation_proc
-.L69:
+.L74:
 navigation_proc:	.type	func
 	sub.a	a10,#8
-.L271:
+.L277:
 	movh.a	a15,#@his(gnss)
 	lea	a15,[a15]@los(gnss)
-.L451:
+.L440:
 	ld.bu	d15,[a15]8
 	st.b	[a10],d15
-.L452:
+.L441:
 	movh.a	a15,#@his(g_imu_angle)
 	lea	a15,[a15]@los(g_imu_angle)
-.L453:
+.L442:
 	ld.w	d15,[a15]
 	st.w	[a10]4,d15
-.L454:
+.L443:
 	movh.a	a15,#@his(gnss)
 	lea	a15,[a15]@los(gnss)
-.L455:
+.L444:
 	ld.d	e4,[a15]24
-.L456:
+.L445:
 	movh.a	a15,#@his(gnss)
 	lea	a15,[a15]@los(gnss)
-.L457:
+.L446:
 	ld.d	e6,[a15]32
 	call	navigation_update
-.L458:
+.L447:
 	movh.a	a4,#@his(.5.str)
 	lea	a4,[a4]@los(.5.str)
 	call	disable_handler
-.L459:
+.L448:
 	ret
-.L213:
+.L218:
 	
 __navigation_proc_function_end:
 	.size	navigation_proc,__navigation_proc_function_end-navigation_proc
-.L119:
+.L124:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_update',code,cluster('navigation_update')
@@ -474,106 +474,106 @@ __navigation_proc_function_end:
 	
 	.global	navigation_update
 ; Function navigation_update
-.L71:
+.L76:
 navigation_update:	.type	func
 	ld.bu	d1,[a10]
-.L273:
+.L279:
 	ld.w	d15,[a10]4
-.L274:
+.L280:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L464:
+.L453:
 	st.w	[a15]20,d15
-.L465:
+.L454:
 	j	.L4
 .L5:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L466:
+.L455:
 	ld.w	d15,[a2]20
-.L467:
+.L456:
 	movh	d0,#17332
-.L468:
+.L457:
 	add.f	d15,d15,d0
 	st.w	[a15]20,d15
 .L4:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L469:
+.L458:
 	ld.w	d15,[a15]20
-.L470:
+.L459:
 	mov	d0,#0
-.L471:
+.L460:
 	cmp.f	d0,d15,d0
 	jnz.t	d0:0,.L5
-.L472:
+.L461:
 	j	.L6
 .L7:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L473:
+.L462:
 	ld.w	d15,[a2]20
-.L474:
+.L463:
 	movh	d0,#17332
-.L475:
+.L464:
 	sub.f	d15,d15,d0
 	st.w	[a15]20,d15
 .L6:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L476:
+.L465:
 	ld.w	d15,[a15]20
-.L477:
+.L466:
 	movh	d0,#17332
-.L478:
+.L467:
 	cmp.f	d15,d15,d0
 	and	d15,#6
 	ne	d15,d15,#0
-.L479:
+.L468:
 	jne	d15,#0,.L7
-.L480:
+.L469:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L481:
+.L470:
 	ld.bu	d15,[a15]2
-.L482:
+.L471:
 	jne	d15,#1,.L8
-.L483:
+.L472:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L484:
+.L473:
 	ld.bu	d15,[a15]34
-.L485:
+.L474:
 	jne	d15,#0,.L9
-.L486:
+.L475:
 	call	system_getval
-.L272:
+.L278:
 	mov	d15,#3125
 	sh	d15,#5
 	div.u	e0,d2,d15
-.L487:
+.L476:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L488:
+.L477:
 	ld.w	d15,[a15]36
-.L489:
+.L478:
 	sub	d15,d0,d15
-.L490:
+.L479:
 	mov	d0,#500
-.L491:
+.L480:
 	jlt.u	d15,d0,.L10
-.L492:
+.L481:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L493:
+.L482:
 	mov	d15,#1
-.L494:
+.L483:
 	st.b	[a15]34,d15
-.L495:
+.L484:
 	movh.a	a4,#@his(.6.str)
 	lea	a4,[a4]@los(.6.str)
 	call	printf
@@ -581,108 +581,108 @@ navigation_update:	.type	func
 .L9:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L496:
+.L485:
 	ld.bu	d15,[a15]34
-.L497:
+.L486:
 	jeq	d15,#0,.L11
-.L498:
+.L487:
 	movh.a	a15,#@his(uart_receiver)
 	lea	a15,[a15]@los(uart_receiver)
-.L499:
+.L488:
 	ld.bu	d15,[a15]12
-.L500:
+.L489:
 	jne	d15,#1,.L12
-.L501:
+.L490:
 	movh.a	a15,#@his(uart_receiver)
 	lea	a15,[a15]@los(uart_receiver)
-.L502:
+.L491:
 	ld.hu	d15,[a15]6
-.L503:
+.L492:
 	mov	d0,#992
-.L504:
+.L493:
 	jeq	d15,d0,.L13
 .L12:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L505:
+.L494:
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
 	call	servo_set
-.L506:
+.L495:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L507:
+.L496:
 	mov	d15,#0
-.L508:
+.L497:
 	st.b	[a15],d15
-.L509:
+.L498:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L510:
+.L499:
 	mov	d15,#0
-.L511:
+.L500:
 	st.b	[a15]34,d15
-.L512:
+.L501:
 	movh.a	a4,#@his(.7.str)
 	lea	a4,[a4]@los(.7.str)
 	call	printf
-.L513:
+.L502:
 	j	.L14
 .L13:
 .L11:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L514:
+.L503:
 	ld.bu	d15,[a15]
-.L515:
+.L504:
 	jne	d15,#1,.L15
-.L516:
+.L505:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L517:
+.L506:
 	ld.bu	d15,[a15]34
 	jeq	d15,#0,.L16
-.L518:
+.L507:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L519:
+.L508:
 	ld.bu	d15,[a15]1
-.L520:
+.L509:
 	mov	d0,#1
 	jeq	d15,d0,.L17
-.L521:
+.L510:
 	mov	d0,#2
 	jeq	d15,d0,.L18
-.L522:
+.L511:
 	mov	d0,#3
 	jeq	d15,d0,.L19
 	j	.L20
 .L17:
 	call	update_course1_encoder
-.L523:
+.L512:
 	j	.L21
 .L18:
 	call	update_course2_encoder
-.L524:
+.L513:
 	j	.L22
 .L19:
 	call	update_course3_encoder
-.L525:
+.L514:
 	j	.L23
 .L20:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L526:
+.L515:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L527:
+.L516:
 	mov	d15,#0
-.L528:
+.L517:
 	st.b	[a15],d15
-.L529:
+.L518:
 	j	.L24
 .L24:
 .L23:
@@ -693,57 +693,99 @@ navigation_update:	.type	func
 	j	.L25
 .L8:
 	jeq	d1,#0,.L26
-.L530:
+.L519:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L531:
+.L520:
 	st.d	[a15]4,e4
-.L532:
+.L521:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L533:
+.L522:
 	st.d	[a15]12,e6
 .L26:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L534:
+.L523:
 	ld.bu	d15,[a15]
-.L535:
+.L524:
 	jne	d15,#1,.L27
-.L536:
+.L525:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L537:
+.L526:
 	ld.bu	d15,[a15]1
-.L538:
+.L527:
 	mov	d0,#1
 	jeq	d15,d0,.L28
-.L539:
+.L528:
 	mov	d0,#2
 	jeq	d15,d0,.L29
-.L540:
+.L529:
 	mov	d0,#3
 	jeq	d15,d0,.L30
 	j	.L31
 .L28:
 	call	update_course1_gps
-.L275:
+.L281:
 	j	.L32
 .L29:
 	call	update_course2_gps
-.L276:
+.L282:
 	j	.L33
 .L30:
 	call	update_course3_gps
-.L277:
+.L283:
 	j	.L34
 .L31:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L530:
+	mov	d0,#0
+	mov	d1,#0
+.L284:
+	st.d	[a15]24,e0
+.L531:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L532:
+	mov	d15,#0
+.L533:
+	st.h	[a15]32,d15
+.L534:
+	j	.L35
+.L35:
+.L34:
+.L33:
+.L32:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L535:
+	ld.d	e4,[a15]24
+.L536:
+	call	__d_dtos
+.L537:
+	add	d4,d2,#90
+	call	__d_itod
+	mov	e4,d3,d2
+	call	servo_set
+.L538:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L539:
+	ld.h	d4,[a15]32
+	call	__d_itod
+	mov	e4,d3,d2
+	call	drv8701_motor_speed_ctrl
+.L540:
+	j	.L36
+.L27:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
 .L541:
 	mov	d0,#0
 	mov	d1,#0
-.L278:
+.L285:
 	st.d	[a15]24,e0
 .L542:
 	movh.a	a15,#@his(nav_sys)
@@ -752,57 +794,15 @@ navigation_update:	.type	func
 	mov	d15,#0
 .L544:
 	st.h	[a15]32,d15
-.L545:
-	j	.L35
-.L35:
-.L34:
-.L33:
-.L32:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L546:
-	ld.d	e4,[a15]24
-.L547:
-	call	__d_dtos
-.L548:
-	add	d4,d2,#90
-	call	__d_itod
-	mov	e4,d3,d2
-	call	servo_set
-.L549:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L550:
-	ld.h	d4,[a15]32
-	call	__d_itod
-	mov	e4,d3,d2
-	call	drv8701_motor_speed_ctrl
-.L551:
-	j	.L36
-.L27:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L552:
-	mov	d0,#0
-	mov	d1,#0
-.L279:
-	st.d	[a15]24,e0
-.L553:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L554:
-	mov	d15,#0
-.L555:
-	st.h	[a15]32,d15
 .L36:
 .L25:
 .L14:
 	ret
-.L214:
+.L219:
 	
 __navigation_update_function_end:
 	.size	navigation_update,__navigation_update_function_end-navigation_update
-.L124:
+.L129:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_start_course1',code,cluster('navigation_start_course1')
@@ -811,27 +811,27 @@ __navigation_update_function_end:
 	
 	.global	navigation_start_course1
 ; Function navigation_start_course1
-.L73:
+.L78:
 navigation_start_course1:	.type	func
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
 	call	servo_set
-.L573:
+.L562:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L574:
+.L563:
 	movh.a	a4,#@his(.8.str)
 	lea	a4,[a4]@los(.8.str)
 	call	printf
-.L575:
+.L564:
 	ret
-.L228:
+.L233:
 	
 __navigation_start_course1_function_end:
 	.size	navigation_start_course1,__navigation_start_course1_function_end-navigation_start_course1
-.L134:
+.L139:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_start_course2',code,cluster('navigation_start_course2')
@@ -840,27 +840,27 @@ __navigation_start_course1_function_end:
 	
 	.global	navigation_start_course2
 ; Function navigation_start_course2
-.L75:
+.L80:
 navigation_start_course2:	.type	func
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
 	call	servo_set
-.L606:
+.L595:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L607:
+.L596:
 	movh.a	a4,#@his(.8.str)
 	lea	a4,[a4]@los(.8.str)
 	call	printf
-.L608:
+.L597:
 	ret
-.L230:
+.L235:
 	
 __navigation_start_course2_function_end:
 	.size	navigation_start_course2,__navigation_start_course2_function_end-navigation_start_course2
-.L144:
+.L149:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_start_course3',code,cluster('navigation_start_course3')
@@ -869,27 +869,27 @@ __navigation_start_course2_function_end:
 	
 	.global	navigation_start_course3
 ; Function navigation_start_course3
-.L77:
+.L82:
 navigation_start_course3:	.type	func
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
 	call	servo_set
-.L642:
+.L631:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L643:
+.L632:
 	movh.a	a4,#@his(.8.str)
 	lea	a4,[a4]@los(.8.str)
 	call	printf
-.L644:
+.L633:
 	ret
-.L232:
+.L237:
 	
 __navigation_start_course3_function_end:
 	.size	navigation_start_course3,__navigation_start_course3_function_end-navigation_start_course3
-.L154:
+.L159:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_start_course1_key',code,cluster('navigation_start_course1_key')
@@ -898,70 +898,70 @@ __navigation_start_course3_function_end:
 	
 	.global	navigation_start_course1_key
 ; Function navigation_start_course1_key
-.L79:
+.L84:
 navigation_start_course1_key:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L580:
+.L569:
 	mov	d15,#1
-.L581:
+.L570:
 	st.b	[a15],d15
-.L582:
+.L571:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L583:
+.L572:
 	mov	d15,#1
-.L584:
+.L573:
 	st.b	[a15]1,d15
-.L585:
+.L574:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L586:
+.L575:
 	mov	d15,#1
-.L587:
+.L576:
 	st.b	[a15]2,d15
-.L588:
+.L577:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L589:
+.L578:
 	mov	d15,#0
-.L590:
+.L579:
 	st.b	[a15]365,d15
-.L591:
+.L580:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L592:
+.L581:
 	mov	d15,#0
-.L593:
+.L582:
 	st.b	[a15]40,d15
-.L594:
+.L583:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L595:
+.L584:
 	call	system_getval
 	mov	d15,#3125
 	sh	d15,#5
 	div.u	e0,d2,d15
-.L596:
+.L585:
 	st.w	[a15]36,d0
-.L597:
+.L586:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L598:
+.L587:
 	mov	d15,#0
-.L599:
+.L588:
 	st.b	[a15]34,d15
-.L600:
+.L589:
 	movh.a	a4,#@his(.9.str)
 	lea	a4,[a4]@los(.9.str)
 	call	printf
-.L601:
+.L590:
 	ret
-.L229:
+.L234:
 	
 __navigation_start_course1_key_function_end:
 	.size	navigation_start_course1_key,__navigation_start_course1_key_function_end-navigation_start_course1_key
-.L139:
+.L144:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_start_course2_key',code,cluster('navigation_start_course2_key')
@@ -970,77 +970,77 @@ __navigation_start_course1_key_function_end:
 	
 	.global	navigation_start_course2_key
 ; Function navigation_start_course2_key
-.L81:
+.L86:
 navigation_start_course2_key:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L613:
+.L602:
 	mov	d15,#1
-.L614:
+.L603:
 	st.b	[a15],d15
-.L615:
+.L604:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L616:
+.L605:
 	mov	d15,#2
-.L617:
+.L606:
 	st.b	[a15]1,d15
-.L618:
+.L607:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L619:
+.L608:
 	mov	d15,#1
-.L620:
+.L609:
 	st.b	[a15]2,d15
-.L621:
+.L610:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L622:
+.L611:
 	mov	d15,#0
-.L623:
+.L612:
 	st.b	[a15]366,d15
-.L624:
+.L613:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L625:
+.L614:
 	mov	d15,#0
-.L626:
+.L615:
 	st.b	[a15]537,d15
-.L627:
+.L616:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L628:
+.L617:
 	mov	d15,#0
-.L629:
+.L618:
 	st.b	[a15]538,d15
-.L630:
+.L619:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L631:
+.L620:
 	call	system_getval
 	mov	d15,#3125
 	sh	d15,#5
 	div.u	e0,d2,d15
-.L632:
+.L621:
 	st.w	[a15]36,d0
-.L633:
+.L622:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L634:
+.L623:
 	mov	d15,#0
-.L635:
+.L624:
 	st.b	[a15]34,d15
-.L636:
+.L625:
 	movh.a	a4,#@his(.10.str)
 	lea	a4,[a4]@los(.10.str)
 	call	printf
-.L637:
+.L626:
 	ret
-.L231:
+.L236:
 	
 __navigation_start_course2_key_function_end:
 	.size	navigation_start_course2_key,__navigation_start_course2_key_function_end-navigation_start_course2_key
-.L149:
+.L154:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_start_course3_key',code,cluster('navigation_start_course3_key')
@@ -1049,77 +1049,77 @@ __navigation_start_course2_key_function_end:
 	
 	.global	navigation_start_course3_key
 ; Function navigation_start_course3_key
-.L83:
+.L88:
 navigation_start_course3_key:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L649:
+.L638:
 	mov	d15,#1
-.L650:
+.L639:
 	st.b	[a15],d15
-.L651:
+.L640:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L652:
+.L641:
 	mov	d15,#3
-.L653:
+.L642:
 	st.b	[a15]1,d15
-.L654:
+.L643:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L655:
+.L644:
 	mov	d15,#1
-.L656:
+.L645:
 	st.b	[a15]2,d15
-.L657:
+.L646:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L658:
+.L647:
 	mov	d15,#0
-.L659:
+.L648:
 	st.b	[a15]367,d15
-.L660:
+.L649:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L661:
+.L650:
 	mov	d15,#0
-.L662:
+.L651:
 	st.b	[a15]40,d15
-.L663:
+.L652:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L664:
+.L653:
 	mov	d15,#0
-.L665:
+.L654:
 	st.b	[a15]368,d15
-.L666:
+.L655:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L667:
+.L656:
 	call	system_getval
 	mov	d15,#3125
 	sh	d15,#5
 	div.u	e0,d2,d15
-.L668:
+.L657:
 	st.w	[a15]36,d0
-.L669:
+.L658:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L670:
+.L659:
 	mov	d15,#0
-.L671:
+.L660:
 	st.b	[a15]34,d15
-.L672:
+.L661:
 	movh.a	a4,#@his(.11.str)
 	lea	a4,[a4]@los(.11.str)
 	call	printf
-.L673:
+.L662:
 	ret
-.L233:
+.L238:
 	
 __navigation_start_course3_key_function_end:
 	.size	navigation_start_course3_key,__navigation_start_course3_key_function_end-navigation_start_course3_key
-.L159:
+.L164:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_stop_course',code,cluster('navigation_stop_course')
@@ -1128,63 +1128,63 @@ __navigation_start_course3_key_function_end:
 	
 	.global	navigation_stop_course
 ; Function navigation_stop_course
-.L85:
+.L90:
 navigation_stop_course:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L678:
+.L667:
 	mov	d15,#0
-.L679:
+.L668:
 	st.b	[a15],d15
-.L680:
+.L669:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L681:
+.L670:
 	mov	d15,#0
-.L682:
+.L671:
 	st.b	[a15]1,d15
-.L683:
+.L672:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L684:
+.L673:
 	mov	d0,#0
 	mov	d1,#0
-.L685:
+.L674:
 	st.d	[a15]24,e0
-.L686:
+.L675:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L687:
+.L676:
 	mov	d15,#0
-.L688:
+.L677:
 	st.h	[a15]32,d15
-.L689:
+.L678:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L690:
+.L679:
 	mov	d15,#0
-.L691:
+.L680:
 	st.b	[a15]34,d15
-.L692:
+.L681:
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
 	call	servo_set
-.L693:
+.L682:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L694:
+.L683:
 	movh.a	a4,#@his(.12.str)
 	lea	a4,[a4]@los(.12.str)
 	call	printf
-.L695:
+.L684:
 	ret
-.L234:
+.L239:
 	
 __navigation_stop_course_function_end:
 	.size	navigation_stop_course,__navigation_stop_course_function_end-navigation_stop_course
-.L164:
+.L169:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_get_course_state',code,cluster('navigation_get_course_state')
@@ -1193,21 +1193,21 @@ __navigation_stop_course_function_end:
 	
 	.global	navigation_get_course_state
 ; Function navigation_get_course_state
-.L87:
+.L92:
 navigation_get_course_state:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L700:
+.L689:
 	ld.bu	d2,[a15]
-.L701:
+.L690:
 	j	.L37
 .L37:
 	ret
-.L235:
+.L240:
 	
 __navigation_get_course_state_function_end:
 	.size	navigation_get_course_state,__navigation_get_course_state_function_end-navigation_get_course_state
-.L169:
+.L174:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_get_status',code,cluster('navigation_get_status')
@@ -1216,41 +1216,41 @@ __navigation_get_course_state_function_end:
 	
 	.global	navigation_get_status
 ; Function navigation_get_status
-.L89:
+.L94:
 navigation_get_status:	.type	func
 	jz.a	a4,.L38
-.L560:
+.L549:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L561:
+.L550:
 	ld.d	e0,[a15]4
-.L562:
+.L551:
 	st.d	[a4]0,e0
 .L38:
 	jz.a	a5,.L39
-.L563:
+.L552:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L564:
+.L553:
 	ld.d	e0,[a15]12
-.L565:
+.L554:
 	st.d	[a5]0,e0
 .L39:
 	jz.a	a6,.L40
-.L566:
+.L555:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L567:
+.L556:
 	ld.w	d15,[a15]20
-.L568:
+.L557:
 	st.w	[a6],d15
 .L40:
 	ret
-.L222:
+.L227:
 	
 __navigation_get_status_function_end:
 	.size	navigation_get_status,__navigation_get_status_function_end-navigation_get_status
-.L129:
+.L134:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_collect_point',code,cluster('navigation_collect_point')
@@ -1259,25 +1259,56 @@ __navigation_get_status_function_end:
 	
 	.global	navigation_collect_point
 ; Function navigation_collect_point
-.L91:
+.L96:
 navigation_collect_point:	.type	func
 	sub.a	a10,#24
-.L280:
+.L286:
 	ld.d	e0,[a10]24
-.L282:
+.L288:
 	mov	d15,#20
-.L706:
+.L695:
 	jge.u	d4,d15,.L41
-.L707:
+.L696:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L708:
+.L697:
 	ld.bu	d15,[a15]1
-.L709:
+.L698:
 	jne	d15,#2,.L42
-.L710:
+.L699:
 	jge.u	d4,#10,.L43
+.L700:
+	mul	d15,d4,#16
+.L701:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L702:
+	addsc.a	a15,a15,d15,#0
+.L703:
+	st.d	[a15]376,e6
+.L704:
+	mul	d15,d4,#16
+.L705:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L706:
+	addsc.a	a15,a15,d15,#0
+.L707:
+	st.d	[a15]384,e0
+.L708:
+	st.w	[a10],d4
+.L709:
+	st.d	[a10]4,e6
+.L710:
+	st.d	[a10]12,e0
 .L711:
+	movh.a	a4,#@his(.13.str)
+	lea	a4,[a4]@los(.13.str)
+	call	printf
+.L287:
+	j	.L44
+.L43:
+.L42:
 	mul	d15,d4,#16
 .L712:
 	movh.a	a15,#@his(nav_sys)
@@ -1285,7 +1316,7 @@ navigation_collect_point:	.type	func
 .L713:
 	addsc.a	a15,a15,d15,#0
 .L714:
-	st.d	[a15]376,e6
+	st.d	[a15]44,e6
 .L715:
 	mul	d15,d4,#16
 .L716:
@@ -1294,7 +1325,7 @@ navigation_collect_point:	.type	func
 .L717:
 	addsc.a	a15,a15,d15,#0
 .L718:
-	st.d	[a15]384,e0
+	st.d	[a15]52,e0
 .L719:
 	st.w	[a10],d4
 .L720:
@@ -1302,48 +1333,17 @@ navigation_collect_point:	.type	func
 .L721:
 	st.d	[a10]12,e0
 .L722:
-	movh.a	a4,#@his(.13.str)
-	lea	a4,[a4]@los(.13.str)
-	call	printf
-.L281:
-	j	.L44
-.L43:
-.L42:
-	mul	d15,d4,#16
-.L723:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L724:
-	addsc.a	a15,a15,d15,#0
-.L725:
-	st.d	[a15]44,e6
-.L726:
-	mul	d15,d4,#16
-.L727:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L728:
-	addsc.a	a15,a15,d15,#0
-.L729:
-	st.d	[a15]52,e0
-.L730:
-	st.w	[a10],d4
-.L731:
-	st.d	[a10]4,e6
-.L732:
-	st.d	[a10]12,e0
-.L733:
 	movh.a	a4,#@his(.14.str)
 	lea	a4,[a4]@los(.14.str)
 	call	printf
 .L44:
 .L41:
 	ret
-.L236:
+.L241:
 	
 __navigation_collect_point_function_end:
 	.size	navigation_collect_point,__navigation_collect_point_function_end-navigation_collect_point
-.L174:
+.L179:
 	; End of function
 	
 	.sdecl	'.text.navigation.navigation_send_data',code,cluster('navigation_send_data')
@@ -1352,112 +1352,112 @@ __navigation_collect_point_function_end:
 	
 	.global	navigation_send_data
 ; Function navigation_send_data
-.L93:
+.L98:
 navigation_send_data:	.type	func
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L738:
+.L727:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L739:
+.L728:
 	ld.d	e4,[a2]4
 	call	__d_dtof
-.L740:
+.L729:
 	st.w	[a15]4,d2
-.L741:
+.L730:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L742:
+.L731:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L743:
+.L732:
 	ld.d	e4,[a2]12
 	call	__d_dtof
-.L744:
+.L733:
 	st.w	[a15]8,d2
-.L745:
+.L734:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L746:
+.L735:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L747:
+.L736:
 	ld.w	d15,[a2]20
-.L748:
+.L737:
 	st.w	[a15]12,d15
-.L749:
+.L738:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L750:
+.L739:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L751:
+.L740:
 	ld.d	e4,[a2]24
 	call	__d_dtof
-.L752:
+.L741:
 	st.w	[a15]16,d2
-.L753:
+.L742:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L754:
+.L743:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L755:
+.L744:
 	ld.h	d15,[a2]32
 	itof	d15,d15
-.L756:
+.L745:
 	st.w	[a15]20,d15
-.L757:
+.L746:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L758:
+.L747:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L759:
+.L748:
 	ld.bu	d15,[a2]2
 	utof	d15,d15
-.L760:
+.L749:
 	st.w	[a15]24,d15
-.L761:
+.L750:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L762:
+.L751:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L763:
+.L752:
 	ld.bu	d15,[a2]
 	utof	d15,d15
-.L764:
+.L753:
 	st.w	[a15]28,d15
-.L765:
+.L754:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L766:
+.L755:
 	movh.a	a2,#@his(nav_sys)
 	lea	a2,[a2]@los(nav_sys)
-.L767:
+.L756:
 	ld.bu	d15,[a2]1
 	utof	d15,d15
-.L768:
+.L757:
 	st.w	[a15]32,d15
-.L769:
+.L758:
 	movh.a	a15,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a15,[a15]@los(seekfree_assistant_oscilloscope_data)
-.L770:
+.L759:
 	mov	d15,#8
-.L771:
+.L760:
 	st.b	[a15]1,d15
-.L772:
+.L761:
 	movh.a	a4,#@his(seekfree_assistant_oscilloscope_data)
 	lea	a4,[a4]@los(seekfree_assistant_oscilloscope_data)
 	call	seekfree_assistant_oscilloscope_send
-.L773:
+.L762:
 	ret
-.L240:
+.L245:
 	
 __navigation_send_data_function_end:
 	.size	navigation_send_data,__navigation_send_data_function_end-navigation_send_data
-.L179:
+.L184:
 	; End of function
 	
 	.sdecl	'.text.navigation.update_course1_encoder',code,cluster('update_course1_encoder')
@@ -1465,87 +1465,135 @@ __navigation_send_data_function_end:
 	.align	2
 	
 ; Function update_course1_encoder
-.L95:
+.L100:
 update_course1_encoder:	.type	func
 	movh.a	a15,#@his(cumulative_encoder_data_1)
 	lea	a15,[a15]@los(cumulative_encoder_data_1)
 	ld.w	d15,[a15]
-.L778:
-	mov	d0,#9375
-	sh	d0,#6
-.L779:
+.L767:
+	mov	d0,#15625
+	sh	d0,#5
+.L768:
 	jlt.u	d15,d0,.L45
-.L780:
+.L769:
 	mov	d4,#0
 	mov	d5,#0
 	call	drv8701_motor_speed_ctrl
-.L781:
+.L770:
 	mov	d4,#0
 	mov.u	d5,#32768
 	addih	d5,d5,#16470
 	call	servo_set
-.L782:
+.L771:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L783:
+.L772:
 	mov	d15,#2
-.L784:
+.L773:
 	st.b	[a15],d15
-.L785:
+.L774:
 	movh.a	a4,#@his(.15.str)
 	lea	a4,[a4]@los(.15.str)
 	call	printf
-.L786:
+.L775:
 	j	.L46
 .L45:
 	movh.a	a15,#@his(cumulative_encoder_data_1)
 	lea	a15,[a15]@los(cumulative_encoder_data_1)
 	ld.w	d15,[a15]
-.L787:
+.L776:
 	mov	d0,#3125
 	sh	d0,#6
-.L788:
+.L777:
 	jge.u	d0,d15,.L47
-.L789:
+.L778:
 	movh.a	a15,#@his(cumulative_encoder_data_1)
 	lea	a15,[a15]@los(cumulative_encoder_data_1)
 	ld.w	d15,[a15]
-.L790:
-	mov	d0,#3125
-	sh	d0,#7
-.L791:
-	jge.u	d15,d0,.L48
-.L792:
+.L779:
+	mov	d0,#15625
+	sh	d0,#4
+.L780:
+	jlt.u	d0,d15,.L48
+.L781:
 	mov	d4,#0
 	mov	d5,#0
 	addih	d5,d5,#16404
 	call	drv8701_motor_speed_ctrl
-.L793:
+.L782:
 	movh	d4,#17204
-.L794:
+.L783:
 	mov	d5,#1
 	call	servo_set_pd_extended
-.L795:
+.L784:
 	j	.L49
 .L48:
 .L47:
+	movh.a	a15,#@his(cumulative_encoder_data_1)
+	lea	a15,[a15]@los(cumulative_encoder_data_1)
+	ld.w	d15,[a15]
+.L785:
+	mov	d0,#15625
+	sh	d0,#4
+.L786:
+	jge.u	d0,d15,.L50
+.L787:
+	movh.a	a15,#@his(cumulative_encoder_data_1)
+	lea	a15,[a15]@los(cumulative_encoder_data_1)
+	ld.w	d15,[a15]
+.L788:
+	mov	d0,#15625
+	sh	d0,#5
+.L789:
+	jge.u	d15,d0,.L51
+.L790:
 	mov	d4,#0
 	mov	d5,#0
 	addih	d5,d5,#16420
 	call	drv8701_motor_speed_ctrl
-.L796:
-	mov	d4,#0
-.L797:
+.L791:
+	movh	d4,#17204
+.L792:
 	mov	d5,#1
 	call	servo_set_pd_extended
+.L793:
+	j	.L52
+.L51:
+.L50:
+	movh.a	a15,#@his(cumulative_encoder_data_1)
+	lea	a15,[a15]@los(cumulative_encoder_data_1)
+	ld.w	d15,[a15]
+	jlt.u	d15,#0,.L53
+.L794:
+	movh.a	a15,#@his(cumulative_encoder_data_1)
+	lea	a15,[a15]@los(cumulative_encoder_data_1)
+	ld.w	d15,[a15]
+.L795:
+	mov	d0,#3125
+	sh	d0,#6
+.L796:
+	jlt.u	d0,d15,.L54
+.L797:
+	mov	d4,#0
+	mov	d5,#0
+	addih	d5,d5,#16420
+	call	drv8701_motor_speed_ctrl
+.L798:
+	mov	d4,#0
+.L799:
+	mov	d5,#1
+	call	servo_set_pd_extended
+.L54:
+.L53:
+.L52:
 .L49:
 .L46:
 	ret
-.L241:
+.L246:
 	
 __update_course1_encoder_function_end:
 	.size	update_course1_encoder,__update_course1_encoder_function_end-update_course1_encoder
-.L184:
+.L189:
 	; End of function
 	
 	.sdecl	'.text.navigation.update_course2_encoder',code,cluster('update_course2_encoder')
@@ -1553,204 +1601,203 @@ __update_course1_encoder_function_end:
 	.align	2
 	
 ; Function update_course2_encoder
-.L97:
+.L102:
 update_course2_encoder:	.type	func
+	movh	d13,#16256
+.L289:
+	mov	d12,#15000
+.L290:
+	movh	d11,#16928
+.L291:
+	mov.u	d10,#50000
+.L292:
+	movh	d14,#16928
+.L293:
+	mov.u	d9,#50000
+.L294:
+	mov.u	d15,#50000
+.L295:
+	movh.a	a15,#@his(cumulative_encoder_data_1)
+	lea	a15,[a15]@los(cumulative_encoder_data_1)
+	ld.w	d8,[a15]
+.L297:
+	mov	d0,#3
+.L804:
+	madd	d0,d12,d10,d0
+.L805:
+	addi	d0,d0,#30000
+.L806:
+	add	d0,d15
+.L807:
+	mov	d1,#3
+.L808:
+	madd	d0,d0,d9,d1
+.L809:
+	addi	d0,d0,#30000
+.L298:
+	jlt.u	d8,d0,.L55
+.L810:
+	mov	d4,#0
+	mov	d5,#0
+	call	drv8701_motor_speed_ctrl
+.L299:
+	mov	d4,#0
+	mov.u	d5,#32768
+	addih	d5,d5,#16470
+	call	servo_set
+.L811:
+	movh.a	a15,#@his(nav_sys)
+	lea	a15,[a15]@los(nav_sys)
+.L812:
+	mov	d15,#2
+.L296:
+	st.b	[a15],d15
+.L813:
+	movh.a	a4,#@his(.16.str)
+	lea	a4,[a4]@los(.16.str)
+	call	printf
+.L814:
+	j	.L56
+.L55:
 	mov	d4,#0
 	mov	d5,#0
 	addih	d5,d5,#16420
 	call	drv8701_motor_speed_ctrl
-.L243:
-	movh	d2,#16256
-.L283:
-	mov	d3,#15000
-.L285:
-	movh	d4,#16928
-.L286:
-	mov.u	d5,#50000
-.L288:
-	movh	d6,#16928
-.L290:
-	mov.u	d7,#50000
-.L291:
-	mov.u	d15,#50000
-.L292:
-	movh	d8,#49972
-.L294:
-	movh.a	a15,#@his(cumulative_encoder_data_1)
-	lea	a15,[a15]@los(cumulative_encoder_data_1)
-	ld.w	d9,[a15]
-.L295:
-	mov	d0,#3
-.L802:
-	madd	d0,d3,d5,d0
-.L803:
-	addi	d0,d0,#30000
-.L804:
-	add	d0,d15
-.L805:
-	mov	d1,#3
-.L806:
-	madd	d0,d0,d7,d1
-.L807:
-	addi	d0,d0,#30000
-.L296:
-	jlt.u	d9,d0,.L50
-.L808:
-	mov	d4,#0
-.L287:
-	mov	d5,#0
-.L289:
-	call	drv8701_motor_speed_ctrl
-.L284:
-	movh.a	a15,#@his(nav_sys)
-	lea	a15,[a15]@los(nav_sys)
-.L809:
-	mov	d15,#2
-.L293:
-	st.b	[a15],d15
-.L810:
-	movh.a	a4,#@his(.16.str)
-	lea	a4,[a4]@los(.16.str)
-	call	printf
-.L811:
-	j	.L51
-.L50:
-	jge.u	d9,d3,.L52
-.L812:
-	mov	d4,#0
-.L298:
-	mov	d5,#1
-.L299:
-	call	servo_set_pd_extended
-.L297:
-	j	.L53
-.L52:
-	mov	d0,#3
-.L303:
-	madd	d0,d3,d5,d0
-.L813:
-	jge.u	d9,d0,.L54
-.L256:
-	addi	d15,d9,#-15000
 .L300:
-	div.u	e0,d15,d5
-.L814:
-	mov	d15,#3
+	jge.u	d8,d12,.L57
 .L815:
-	div	e0,d0,d15
-.L304:
-	jne	d1,#1,.L55
+	mov	d4,#0
 .L816:
-	insn.t	d4,d4:31,d4:31
-.L817:
-	j	.L56
-.L55:
-.L56:
-	mul.f	d4,d4,d2
-.L301:
 	mov	d5,#1
-.L302:
 	call	servo_set_pd_extended
-.L257:
-	j	.L57
-.L54:
+.L817:
+	j	.L58
+.L57:
 	mov	d0,#3
 .L818:
-	madd	d0,d3,d5,d0
+	madd	d0,d12,d10,d0
 .L819:
-	addi	d0,d0,#30000
+	jge.u	d8,d0,.L59
+.L260:
+	addi	d15,d8,#-15000
+.L301:
+	div.u	e0,d15,d10
 .L820:
-	jge.u	d9,d0,.L58
+	mov	d15,#3
 .L821:
-	mov	d4,#0
-.L306:
-	mov	d5,#1
-.L307:
-	call	servo_set_pd_extended
-.L305:
-	j	.L59
-.L58:
-	mov	d0,#3
+	div	e0,d0,d15
+.L302:
+	jne	d1,#1,.L60
 .L822:
-	madd	d0,d3,d5,d0
+	insn.t	d11,d11:31,d11:31
 .L823:
-	addi	d0,d0,#30000
-.L824:
-	add	d0,d15
-.L825:
-	jge.u	d9,d0,.L60
-.L826:
-	mul.f	d4,d8,d2
-.L310:
-	mov	d5,#1
-.L311:
-	call	servo_set_pd_extended
-.L309:
 	j	.L61
 .L60:
-	mov	d0,#3
-.L827:
-	madd	d0,d3,d5,d0
-.L828:
-	addi	d0,d0,#30000
-.L829:
-	add	d0,d15
-.L830:
-	mov	d1,#3
-.L831:
-	madd	d0,d0,d7,d1
-.L832:
-	jge.u	d9,d0,.L62
+.L61:
+	mul.f	d4,d11,d13
+.L824:
+	mov	d5,#1
+	call	servo_set_pd_extended
 .L261:
-	addi	d0,d9,#-15000
-.L833:
-	mov	d1,#3
-.L834:
-	msub	d0,d0,d5,d1
-.L835:
-	addi	d0,d0,#-30000
-.L836:
-	sub	d0,d15
-.L837:
-	div.u	e0,d0,d7
-.L838:
-	mov	d15,#3
-.L308:
-	div	e0,d0,d15
-.L314:
-	jne	d1,#1,.L63
-.L839:
+	j	.L62
+.L59:
+	mov	d0,#3
+.L825:
+	madd	d0,d12,d10,d0
+.L826:
+	addi	d0,d0,#30000
+.L827:
+	jge.u	d8,d0,.L63
+.L828:
+	mov	d4,#0
+.L829:
+	mov	d5,#1
+	call	servo_set_pd_extended
+.L830:
 	j	.L64
 .L63:
-	insn.t	d6,d6:31,d6:31
-.L64:
-	add.f	d15,d8,d6
-.L315:
-	mul.f	d4,d15,d2
-.L312:
+	mov	d0,#3
+.L831:
+	madd	d0,d12,d10,d0
+.L832:
+	addi	d0,d0,#30000
+.L833:
+	add	d0,d15
+.L834:
+	jge.u	d8,d0,.L65
+.L835:
+	movh	d15,#49972
+.L303:
+	mul.f	d4,d15,d13
+.L836:
 	mov	d5,#1
-.L313:
 	call	servo_set_pd_extended
-.L262:
-	j	.L65
-.L62:
-	mul.f	d4,d8,d2
-.L316:
-	mov	d5,#1
-.L317:
-	call	servo_set_pd_extended
+.L837:
+	j	.L66
 .L65:
-.L61:
-.L59:
-.L57:
-.L53:
-.L51:
+	mov	d0,#3
+.L838:
+	madd	d0,d12,d10,d0
+.L839:
+	addi	d0,d0,#30000
+.L840:
+	add	d0,d15
+.L841:
+	mov	d1,#3
+.L842:
+	madd	d0,d0,d9,d1
+.L843:
+	jge.u	d8,d0,.L67
+.L266:
+	addi	d0,d8,#-15000
+.L844:
+	mov	d1,#3
+.L845:
+	msub	d0,d0,d10,d1
+.L846:
+	addi	d0,d0,#-30000
+.L847:
+	sub	d0,d15
+.L848:
+	div.u	e0,d0,d9
+.L849:
+	mov	d15,#3
+.L304:
+	div	e0,d0,d15
+.L305:
+	jne	d1,#1,.L68
+.L850:
+	j	.L69
+.L68:
+	insn.t	d14,d14:31,d14:31
+.L69:
+	movh	d15,#49972
+.L267:
+	add.f	d15,d15,d14
+.L306:
+	mul.f	d4,d15,d13
+.L851:
+	mov	d5,#1
+	call	servo_set_pd_extended
+.L268:
+	j	.L70
+.L67:
+	movh	d4,#49972
+.L852:
+	mov	d5,#1
+	call	servo_set_pd_extended
+.L70:
+.L66:
+.L64:
+.L62:
+.L58:
+.L56:
 	ret
-.L242:
+.L247:
 	
 __update_course2_encoder_function_end:
 	.size	update_course2_encoder,__update_course2_encoder_function_end-update_course2_encoder
-.L189:
+.L194:
 	; End of function
 	
 	.sdecl	'.text.navigation.update_course3_encoder',code,cluster('update_course3_encoder')
@@ -1758,16 +1805,16 @@ __update_course2_encoder_function_end:
 	.align	2
 	
 ; Function update_course3_encoder
-.L99:
+.L104:
 update_course3_encoder:	.type	func
 	call	update_course1_encoder
-.L844:
+.L857:
 	ret
-.L265:
+.L271:
 	
 __update_course3_encoder_function_end:
 	.size	update_course3_encoder,__update_course3_encoder_function_end-update_course3_encoder
-.L194:
+.L199:
 	; End of function
 	
 	.sdecl	'.text.navigation.update_course1_gps',code,cluster('update_course1_gps')
@@ -1775,33 +1822,33 @@ __update_course3_encoder_function_end:
 	.align	2
 	
 ; Function update_course1_gps
-.L101:
+.L106:
 update_course1_gps:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L849:
+.L862:
 	mov	d0,#0
 	mov	d1,#0
-.L850:
+.L863:
 	st.d	[a15]24,e0
-.L851:
+.L864:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L852:
+.L865:
 	mov	d15,#10
-.L853:
+.L866:
 	st.h	[a15]32,d15
-.L854:
+.L867:
 	movh.a	a4,#@his(.17.str)
 	lea	a4,[a4]@los(.17.str)
 	call	printf
-.L855:
+.L868:
 	ret
-.L266:
+.L272:
 	
 __update_course1_gps_function_end:
 	.size	update_course1_gps,__update_course1_gps_function_end-update_course1_gps
-.L199:
+.L204:
 	; End of function
 	
 	.sdecl	'.text.navigation.update_course2_gps',code,cluster('update_course2_gps')
@@ -1809,33 +1856,33 @@ __update_course1_gps_function_end:
 	.align	2
 	
 ; Function update_course2_gps
-.L103:
+.L108:
 update_course2_gps:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L860:
+.L873:
 	mov	d0,#0
 	mov	d1,#0
-.L861:
+.L874:
 	st.d	[a15]24,e0
-.L862:
+.L875:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L863:
+.L876:
 	mov	d15,#10
-.L864:
+.L877:
 	st.h	[a15]32,d15
-.L865:
+.L878:
 	movh.a	a4,#@his(.18.str)
 	lea	a4,[a4]@los(.18.str)
 	call	printf
-.L866:
+.L879:
 	ret
-.L267:
+.L273:
 	
 __update_course2_gps_function_end:
 	.size	update_course2_gps,__update_course2_gps_function_end-update_course2_gps
-.L204:
+.L209:
 	; End of function
 	
 	.sdecl	'.text.navigation.update_course3_gps',code,cluster('update_course3_gps')
@@ -1843,33 +1890,33 @@ __update_course2_gps_function_end:
 	.align	2
 	
 ; Function update_course3_gps
-.L105:
+.L110:
 update_course3_gps:	.type	func
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L871:
+.L884:
 	mov	d0,#0
 	mov	d1,#0
-.L872:
+.L885:
 	st.d	[a15]24,e0
-.L873:
+.L886:
 	movh.a	a15,#@his(nav_sys)
 	lea	a15,[a15]@los(nav_sys)
-.L874:
+.L887:
 	mov	d15,#10
-.L875:
+.L888:
 	st.h	[a15]32,d15
-.L876:
+.L889:
 	movh.a	a4,#@his(.19.str)
 	lea	a4,[a4]@los(.19.str)
 	call	printf
-.L877:
+.L890:
 	ret
-.L268:
+.L274:
 	
 __update_course3_gps_function_end:
 	.size	update_course3_gps,__update_course3_gps_function_end-update_course3_gps
-.L209:
+.L214:
 	; End of function
 	
 	.sdecl	'.bss.navigation.nav_sys',data,cluster('nav_sys')
@@ -2073,6 +2120,7 @@ nav_sys:	.type	object
 	.calls	'update_course1_encoder','printf'
 	.calls	'update_course1_encoder','servo_set_pd_extended'
 	.calls	'update_course2_encoder','drv8701_motor_speed_ctrl'
+	.calls	'update_course2_encoder','servo_set'
 	.calls	'update_course2_encoder','printf'
 	.calls	'update_course2_encoder','servo_set_pd_extended'
 	.calls	'update_course3_encoder','update_course1_encoder'
@@ -2118,17 +2166,17 @@ nav_sys:	.type	object
 	.calls	'update_course3_gps','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L107:
+.L112:
 	.word	158109
 	.half	3
-	.word	.L108
+	.word	.L113
 	.byte	4
-.L106:
+.L111:
 	.byte	1
 	.byte	'../code/navigation.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
-	.word	.L109
+	.word	.L114
 	.byte	2,1,1,3
 	.word	168
 	.byte	4
@@ -2137,7 +2185,7 @@ nav_sys:	.type	object
 	.word	171
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1
-.L220:
+.L225:
 	.byte	7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,152,2,18
@@ -2164,13 +2212,13 @@ nav_sys:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	314
 	.byte	6,0
-.L245:
+.L249:
 	.byte	7
 	.byte	'unsigned int',0,4,7
-.L258:
+.L262:
 	.byte	7
 	.byte	'int',0,4,5
-.L218:
+.L223:
 	.byte	7
 	.byte	'unsigned char',0,1,8,10
 	.byte	'_Ifx_SRC_SRCR_Bits',0,4,70,16,4,11
@@ -7140,13 +7188,13 @@ nav_sys:	.type	object
 	.byte	1,1,1,1,24,20,143,1,38
 	.word	32217
 	.byte	25,20,143,1,50,0
-.L215:
+.L220:
 	.byte	7
 	.byte	'double',0,8,4
-.L223:
+.L228:
 	.byte	3
 	.word	32257
-.L226:
+.L231:
 	.byte	3
 	.word	228
 	.byte	26
@@ -22855,7 +22903,7 @@ nav_sys:	.type	object
 	.word	32212
 	.byte	4,2,35,0,13
 	.byte	'psItems',0
-	.word	.L318-.L107
+	.word	.L307-.L112
 	.byte	4,2,35,4,13
 	.byte	'nItems',0
 	.word	455
@@ -22879,7 +22927,7 @@ nav_sys:	.type	object
 	.word	157337
 	.byte	4,2,35,12,0,3
 	.word	157351
-.L318:
+.L307:
 	.byte	33
 	.byte	'tMenuItem',0,59,25,27
 	.word	157450
@@ -22901,7 +22949,7 @@ nav_sys:	.type	object
 	.byte	19,19,0,18,160,1
 	.word	157551
 	.byte	19,9,0
-.L269:
+.L275:
 	.byte	20,25,76,9,156,4,13
 	.byte	'course_state',0
 	.word	455
@@ -22974,7 +23022,7 @@ nav_sys:	.type	object
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L108:
+.L113:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -22989,12 +23037,12 @@ nav_sys:	.type	object
 	.byte	15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L109:
-	.word	.L320-.L319
-.L319:
+.L114:
+	.word	.L309-.L308
+.L308:
 	.half	3
-	.word	.L322-.L321
-.L321:
+	.word	.L311-.L310
+.L310:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\\\Desktop\\\\Seekfree_TC377_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg',0
 	.byte	'D:\\Program Files\\Developer Center Launcher\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
@@ -23091,300 +23139,9 @@ nav_sys:	.type	object
 	.byte	'imu_wifi.h',0,5,0,0
 	.byte	'pose.h',0,14,0,0
 	.byte	'menu_core.h',0,14,0,0,0
-.L322:
-.L320:
+.L311:
+.L309:
 	.sdecl	'.debug_info',debug,cluster('navigation_init')
-	.sect	'.debug_info'
-.L110:
-	.word	220
-	.half	3
-	.word	.L111
-	.byte	4,1
-	.byte	'../code/navigation.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
-	.word	.L113,.L112
-	.byte	2
-	.word	.L106
-	.byte	3
-	.byte	'navigation_init',0,1,130,1,6,1,1,1
-	.word	.L67,.L212,.L66
-	.byte	4
-	.word	.L67,.L212
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_init')
-	.sect	'.debug_abbrev'
-.L111:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_init')
-	.sect	'.debug_line'
-.L112:
-	.word	.L324-.L323
-.L323:
-	.half	3
-	.word	.L326-.L325
-.L325:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../code/navigation.c',0,0,0,0,0
-.L326:
-	.byte	5,6,7,0,5,2
-	.word	.L67
-	.byte	3,129,1,1,5,5,9
-	.half	.L270-.L67
-	.byte	3,3,1,5,28,9
-	.half	.L327-.L270
-	.byte	1,5,26,9
-	.half	.L328-.L327
-	.byte	1,5,5,9
-	.half	.L329-.L328
-	.byte	3,1,1,5,28,9
-	.half	.L330-.L329
-	.byte	1,5,26,9
-	.half	.L331-.L330
-	.byte	1,5,5,9
-	.half	.L332-.L331
-	.byte	3,1,1,5,28,9
-	.half	.L333-.L332
-	.byte	1,5,26,9
-	.half	.L334-.L333
-	.byte	1,5,5,9
-	.half	.L335-.L334
-	.byte	3,3,1,5,27,9
-	.half	.L336-.L335
-	.byte	1,5,25,9
-	.half	.L337-.L336
-	.byte	1,5,5,9
-	.half	.L338-.L337
-	.byte	3,1,1,5,27,9
-	.half	.L339-.L338
-	.byte	1,5,25,9
-	.half	.L340-.L339
-	.byte	1,5,5,9
-	.half	.L341-.L340
-	.byte	3,1,1,5,27,9
-	.half	.L342-.L341
-	.byte	1,5,25,9
-	.half	.L343-.L342
-	.byte	1,5,5,9
-	.half	.L344-.L343
-	.byte	3,3,1,5,28,9
-	.half	.L345-.L344
-	.byte	1,5,26,9
-	.half	.L346-.L345
-	.byte	1,5,5,9
-	.half	.L347-.L346
-	.byte	3,1,1,5,28,9
-	.half	.L348-.L347
-	.byte	1,5,26,9
-	.half	.L349-.L348
-	.byte	1,5,5,9
-	.half	.L350-.L349
-	.byte	3,3,1,5,39,9
-	.half	.L351-.L350
-	.byte	1,5,37,9
-	.half	.L352-.L351
-	.byte	1,5,5,9
-	.half	.L353-.L352
-	.byte	3,1,1,5,39,9
-	.half	.L354-.L353
-	.byte	1,5,37,9
-	.half	.L355-.L354
-	.byte	1,5,5,9
-	.half	.L356-.L355
-	.byte	3,3,1,5,32,9
-	.half	.L357-.L356
-	.byte	1,5,30,9
-	.half	.L358-.L357
-	.byte	1,5,5,9
-	.half	.L359-.L358
-	.byte	3,1,1,5,32,9
-	.half	.L360-.L359
-	.byte	1,5,30,9
-	.half	.L361-.L360
-	.byte	1,5,5,9
-	.half	.L362-.L361
-	.byte	3,1,1,5,32,9
-	.half	.L363-.L362
-	.byte	1,5,30,9
-	.half	.L364-.L363
-	.byte	1,5,5,9
-	.half	.L365-.L364
-	.byte	3,1,1,5,32,9
-	.half	.L366-.L365
-	.byte	1,5,30,9
-	.half	.L367-.L366
-	.byte	1,5,5,9
-	.half	.L368-.L367
-	.byte	3,1,1,5,32,9
-	.half	.L369-.L368
-	.byte	1,5,30,9
-	.half	.L370-.L369
-	.byte	1,5,5,9
-	.half	.L371-.L370
-	.byte	3,1,1,5,32,9
-	.half	.L372-.L371
-	.byte	1,5,30,9
-	.half	.L373-.L372
-	.byte	1,5,5,9
-	.half	.L374-.L373
-	.byte	3,1,1,5,32,9
-	.half	.L375-.L374
-	.byte	1,5,30,9
-	.half	.L376-.L375
-	.byte	1,5,5,9
-	.half	.L377-.L376
-	.byte	3,3,1,5,32,9
-	.half	.L378-.L377
-	.byte	1,5,30,9
-	.half	.L379-.L378
-	.byte	1,5,5,9
-	.half	.L380-.L379
-	.byte	3,1,1,5,32,9
-	.half	.L381-.L380
-	.byte	1,5,30,9
-	.half	.L382-.L381
-	.byte	1,5,5,9
-	.half	.L383-.L382
-	.byte	3,1,1,5,32,9
-	.half	.L384-.L383
-	.byte	1,5,30,9
-	.half	.L385-.L384
-	.byte	1,5,5,9
-	.half	.L386-.L385
-	.byte	3,3,1,5,31,9
-	.half	.L387-.L386
-	.byte	1,5,29,9
-	.half	.L388-.L387
-	.byte	1,5,5,9
-	.half	.L389-.L388
-	.byte	3,1,1,5,31,9
-	.half	.L390-.L389
-	.byte	1,5,29,9
-	.half	.L391-.L390
-	.byte	1,5,5,9
-	.half	.L392-.L391
-	.byte	3,1,1,5,31,9
-	.half	.L393-.L392
-	.byte	1,5,29,9
-	.half	.L394-.L393
-	.byte	1,5,5,9
-	.half	.L395-.L394
-	.byte	3,1,1,5,31,9
-	.half	.L396-.L395
-	.byte	1,5,29,9
-	.half	.L397-.L396
-	.byte	1,5,5,9
-	.half	.L398-.L397
-	.byte	3,1,1,5,31,9
-	.half	.L399-.L398
-	.byte	1,5,29,9
-	.half	.L400-.L399
-	.byte	1,5,5,9
-	.half	.L401-.L400
-	.byte	3,1,1,5,31,9
-	.half	.L402-.L401
-	.byte	1,5,29,9
-	.half	.L403-.L402
-	.byte	1,5,5,9
-	.half	.L404-.L403
-	.byte	3,1,1,5,31,9
-	.half	.L405-.L404
-	.byte	1,5,29,9
-	.half	.L406-.L405
-	.byte	1,5,5,9
-	.half	.L407-.L406
-	.byte	3,1,1,5,31,9
-	.half	.L408-.L407
-	.byte	1,5,29,9
-	.half	.L409-.L408
-	.byte	1,5,5,9
-	.half	.L410-.L409
-	.byte	3,3,1,5,27,9
-	.half	.L411-.L410
-	.byte	1,5,25,9
-	.half	.L412-.L411
-	.byte	1,5,5,9
-	.half	.L413-.L412
-	.byte	3,1,1,5,27,9
-	.half	.L414-.L413
-	.byte	1,5,25,9
-	.half	.L415-.L414
-	.byte	1,5,5,9
-	.half	.L416-.L415
-	.byte	3,1,1,5,27,9
-	.half	.L417-.L416
-	.byte	1,5,25,9
-	.half	.L418-.L417
-	.byte	1,5,5,9
-	.half	.L419-.L418
-	.byte	3,1,1,5,27,9
-	.half	.L420-.L419
-	.byte	1,5,25,9
-	.half	.L421-.L420
-	.byte	1,5,5,9
-	.half	.L422-.L421
-	.byte	3,1,1,5,27,9
-	.half	.L423-.L422
-	.byte	1,5,25,9
-	.half	.L424-.L423
-	.byte	1,5,5,9
-	.half	.L425-.L424
-	.byte	3,1,1,5,27,9
-	.half	.L426-.L425
-	.byte	1,5,25,9
-	.half	.L427-.L426
-	.byte	1,5,5,9
-	.half	.L428-.L427
-	.byte	3,1,1,5,27,9
-	.half	.L429-.L428
-	.byte	1,5,25,9
-	.half	.L430-.L429
-	.byte	1,5,5,9
-	.half	.L431-.L430
-	.byte	3,1,1,5,27,9
-	.half	.L432-.L431
-	.byte	1,5,25,9
-	.half	.L433-.L432
-	.byte	1,5,5,9
-	.half	.L434-.L433
-	.byte	3,1,1,5,27,9
-	.half	.L435-.L434
-	.byte	1,5,25,9
-	.half	.L436-.L435
-	.byte	1,5,5,9
-	.half	.L437-.L436
-	.byte	3,1,1,5,27,9
-	.half	.L438-.L437
-	.byte	1,5,25,9
-	.half	.L439-.L438
-	.byte	1,5,47,9
-	.half	.L440-.L439
-	.byte	3,2,1,5,54,9
-	.half	.L441-.L440
-	.byte	1,5,47,9
-	.half	.L442-.L441
-	.byte	1,5,82,7,9
-	.half	.L443-.L442
-	.byte	1,5,88,9
-	.half	.L444-.L443
-	.byte	1,5,90,9
-	.half	.L2-.L444
-	.byte	1,5,80,9
-	.half	.L3-.L2
-	.byte	1,5,12,9
-	.half	.L445-.L3
-	.byte	1,5,1,9
-	.half	.L446-.L445
-	.byte	3,1,1,7,9
-	.half	.L114-.L446
-	.byte	0,1,1
-.L324:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_init')
-	.sect	'.debug_ranges'
-.L113:
-	.word	-1,.L67,0,.L114-.L67,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_proc')
 	.sect	'.debug_info'
 .L115:
 	.word	220
@@ -23396,63 +23153,289 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L118,.L117
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_proc',0,1,189,1,6,1,1,1
-	.word	.L69,.L213,.L68
+	.byte	'navigation_init',0,1,130,1,6,1,1,1
+	.word	.L72,.L217,.L71
 	.byte	4
-	.word	.L69,.L213
+	.word	.L72,.L217
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_proc')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_init')
 	.sect	'.debug_abbrev'
 .L116:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_proc')
+	.sdecl	'.debug_line',debug,cluster('navigation_init')
 	.sect	'.debug_line'
 .L117:
-	.word	.L448-.L447
-.L447:
+	.word	.L313-.L312
+.L312:
 	.half	3
-	.word	.L450-.L449
-.L449:
+	.word	.L315-.L314
+.L314:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L450:
+.L315:
 	.byte	5,6,7,0,5,2
-	.word	.L69
-	.byte	3,188,1,1,5,54,9
-	.half	.L271-.L69
-	.byte	3,2,1,5,58,9
-	.half	.L451-.L271
-	.byte	1,5,66,9
-	.half	.L452-.L451
-	.byte	1,5,77,9
-	.half	.L453-.L452
-	.byte	1,5,23,9
-	.half	.L454-.L453
-	.byte	1,5,27,9
-	.half	.L455-.L454
-	.byte	1,5,38,9
-	.half	.L456-.L455
-	.byte	1,5,42,9
-	.half	.L457-.L456
-	.byte	1,5,21,9
-	.half	.L458-.L457
-	.byte	3,1,1,5,1,9
-	.half	.L459-.L458
+	.word	.L72
+	.byte	3,129,1,1,5,5,9
+	.half	.L276-.L72
+	.byte	3,3,1,5,28,9
+	.half	.L316-.L276
+	.byte	1,5,26,9
+	.half	.L317-.L316
+	.byte	1,5,5,9
+	.half	.L318-.L317
+	.byte	3,1,1,5,28,9
+	.half	.L319-.L318
+	.byte	1,5,26,9
+	.half	.L320-.L319
+	.byte	1,5,5,9
+	.half	.L321-.L320
+	.byte	3,1,1,5,28,9
+	.half	.L322-.L321
+	.byte	1,5,26,9
+	.half	.L323-.L322
+	.byte	1,5,5,9
+	.half	.L324-.L323
+	.byte	3,3,1,5,27,9
+	.half	.L325-.L324
+	.byte	1,5,25,9
+	.half	.L326-.L325
+	.byte	1,5,5,9
+	.half	.L327-.L326
+	.byte	3,1,1,5,27,9
+	.half	.L328-.L327
+	.byte	1,5,25,9
+	.half	.L329-.L328
+	.byte	1,5,5,9
+	.half	.L330-.L329
+	.byte	3,1,1,5,27,9
+	.half	.L331-.L330
+	.byte	1,5,25,9
+	.half	.L332-.L331
+	.byte	1,5,5,9
+	.half	.L333-.L332
+	.byte	3,3,1,5,28,9
+	.half	.L334-.L333
+	.byte	1,5,26,9
+	.half	.L335-.L334
+	.byte	1,5,5,9
+	.half	.L336-.L335
+	.byte	3,1,1,5,28,9
+	.half	.L337-.L336
+	.byte	1,5,26,9
+	.half	.L338-.L337
+	.byte	1,5,5,9
+	.half	.L339-.L338
+	.byte	3,3,1,5,39,9
+	.half	.L340-.L339
+	.byte	1,5,37,9
+	.half	.L341-.L340
+	.byte	1,5,5,9
+	.half	.L342-.L341
+	.byte	3,1,1,5,39,9
+	.half	.L343-.L342
+	.byte	1,5,37,9
+	.half	.L344-.L343
+	.byte	1,5,5,9
+	.half	.L345-.L344
+	.byte	3,3,1,5,32,9
+	.half	.L346-.L345
+	.byte	1,5,30,9
+	.half	.L347-.L346
+	.byte	1,5,5,9
+	.half	.L348-.L347
+	.byte	3,1,1,5,32,9
+	.half	.L349-.L348
+	.byte	1,5,30,9
+	.half	.L350-.L349
+	.byte	1,5,5,9
+	.half	.L351-.L350
+	.byte	3,1,1,5,32,9
+	.half	.L352-.L351
+	.byte	1,5,30,9
+	.half	.L353-.L352
+	.byte	1,5,5,9
+	.half	.L354-.L353
+	.byte	3,1,1,5,32,9
+	.half	.L355-.L354
+	.byte	1,5,30,9
+	.half	.L356-.L355
+	.byte	1,5,5,9
+	.half	.L357-.L356
+	.byte	3,1,1,5,32,9
+	.half	.L358-.L357
+	.byte	1,5,30,9
+	.half	.L359-.L358
+	.byte	1,5,5,9
+	.half	.L360-.L359
+	.byte	3,1,1,5,32,9
+	.half	.L361-.L360
+	.byte	1,5,30,9
+	.half	.L362-.L361
+	.byte	1,5,5,9
+	.half	.L363-.L362
+	.byte	3,1,1,5,32,9
+	.half	.L364-.L363
+	.byte	1,5,30,9
+	.half	.L365-.L364
+	.byte	1,5,5,9
+	.half	.L366-.L365
+	.byte	3,3,1,5,32,9
+	.half	.L367-.L366
+	.byte	1,5,30,9
+	.half	.L368-.L367
+	.byte	1,5,5,9
+	.half	.L369-.L368
+	.byte	3,1,1,5,32,9
+	.half	.L370-.L369
+	.byte	1,5,30,9
+	.half	.L371-.L370
+	.byte	1,5,5,9
+	.half	.L372-.L371
+	.byte	3,1,1,5,32,9
+	.half	.L373-.L372
+	.byte	1,5,30,9
+	.half	.L374-.L373
+	.byte	1,5,5,9
+	.half	.L375-.L374
+	.byte	3,3,1,5,31,9
+	.half	.L376-.L375
+	.byte	1,5,29,9
+	.half	.L377-.L376
+	.byte	1,5,5,9
+	.half	.L378-.L377
+	.byte	3,1,1,5,31,9
+	.half	.L379-.L378
+	.byte	1,5,29,9
+	.half	.L380-.L379
+	.byte	1,5,5,9
+	.half	.L381-.L380
+	.byte	3,1,1,5,31,9
+	.half	.L382-.L381
+	.byte	1,5,29,9
+	.half	.L383-.L382
+	.byte	1,5,5,9
+	.half	.L384-.L383
+	.byte	3,1,1,5,31,9
+	.half	.L385-.L384
+	.byte	1,5,29,9
+	.half	.L386-.L385
+	.byte	1,5,5,9
+	.half	.L387-.L386
+	.byte	3,1,1,5,31,9
+	.half	.L388-.L387
+	.byte	1,5,29,9
+	.half	.L389-.L388
+	.byte	1,5,5,9
+	.half	.L390-.L389
+	.byte	3,1,1,5,31,9
+	.half	.L391-.L390
+	.byte	1,5,29,9
+	.half	.L392-.L391
+	.byte	1,5,5,9
+	.half	.L393-.L392
+	.byte	3,1,1,5,31,9
+	.half	.L394-.L393
+	.byte	1,5,29,9
+	.half	.L395-.L394
+	.byte	1,5,5,9
+	.half	.L396-.L395
+	.byte	3,1,1,5,31,9
+	.half	.L397-.L396
+	.byte	1,5,29,9
+	.half	.L398-.L397
+	.byte	1,5,5,9
+	.half	.L399-.L398
+	.byte	3,3,1,5,27,9
+	.half	.L400-.L399
+	.byte	1,5,25,9
+	.half	.L401-.L400
+	.byte	1,5,5,9
+	.half	.L402-.L401
+	.byte	3,1,1,5,27,9
+	.half	.L403-.L402
+	.byte	1,5,25,9
+	.half	.L404-.L403
+	.byte	1,5,5,9
+	.half	.L405-.L404
+	.byte	3,1,1,5,27,9
+	.half	.L406-.L405
+	.byte	1,5,25,9
+	.half	.L407-.L406
+	.byte	1,5,5,9
+	.half	.L408-.L407
+	.byte	3,1,1,5,27,9
+	.half	.L409-.L408
+	.byte	1,5,25,9
+	.half	.L410-.L409
+	.byte	1,5,5,9
+	.half	.L411-.L410
+	.byte	3,1,1,5,27,9
+	.half	.L412-.L411
+	.byte	1,5,25,9
+	.half	.L413-.L412
+	.byte	1,5,5,9
+	.half	.L414-.L413
+	.byte	3,1,1,5,27,9
+	.half	.L415-.L414
+	.byte	1,5,25,9
+	.half	.L416-.L415
+	.byte	1,5,5,9
+	.half	.L417-.L416
+	.byte	3,1,1,5,27,9
+	.half	.L418-.L417
+	.byte	1,5,25,9
+	.half	.L419-.L418
+	.byte	1,5,5,9
+	.half	.L420-.L419
+	.byte	3,1,1,5,27,9
+	.half	.L421-.L420
+	.byte	1,5,25,9
+	.half	.L422-.L421
+	.byte	1,5,5,9
+	.half	.L423-.L422
+	.byte	3,1,1,5,27,9
+	.half	.L424-.L423
+	.byte	1,5,25,9
+	.half	.L425-.L424
+	.byte	1,5,5,9
+	.half	.L426-.L425
+	.byte	3,1,1,5,27,9
+	.half	.L427-.L426
+	.byte	1,5,25,9
+	.half	.L428-.L427
+	.byte	1,5,47,9
+	.half	.L429-.L428
+	.byte	3,2,1,5,54,9
+	.half	.L430-.L429
+	.byte	1,5,47,9
+	.half	.L431-.L430
+	.byte	1,5,82,7,9
+	.half	.L432-.L431
+	.byte	1,5,88,9
+	.half	.L433-.L432
+	.byte	1,5,90,9
+	.half	.L2-.L433
+	.byte	1,5,80,9
+	.half	.L3-.L2
+	.byte	1,5,12,9
+	.half	.L434-.L3
+	.byte	1,5,1,9
+	.half	.L435-.L434
 	.byte	3,1,1,7,9
-	.half	.L119-.L459
+	.half	.L119-.L435
 	.byte	0,1,1
-.L448:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_proc')
+.L313:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_init')
 	.sect	'.debug_ranges'
 .L118:
-	.word	-1,.L69,0,.L119-.L69,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_update')
+	.word	-1,.L72,0,.L119-.L72,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_proc')
 	.sect	'.debug_info'
 .L120:
-	.word	308
+	.word	220
 	.half	3
 	.word	.L121
 	.byte	4,1
@@ -23461,293 +23444,63 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L123,.L122
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_update',0,1,198,1,6,1,1,1
-	.word	.L71,.L214,.L70
+	.byte	'navigation_proc',0,1,189,1,6,1,1,1
+	.word	.L74,.L218,.L73
 	.byte	4
-	.byte	'gps_lat',0,1,198,1,31
-	.word	.L215,.L216
-	.byte	4
-	.byte	'gps_lon',0,1,198,1,47
-	.word	.L215,.L217
-	.byte	4
-	.byte	'gps_valid',0,1,198,1,64
-	.word	.L218,.L219
-	.byte	4
-	.byte	'imu_yaw',0,1,198,1,81
-	.word	.L220,.L221
-	.byte	5
-	.word	.L71,.L214
+	.word	.L74,.L218
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_update')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_proc')
 	.sect	'.debug_abbrev'
 .L121:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_update')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('navigation_proc')
 	.sect	'.debug_line'
 .L122:
-	.word	.L461-.L460
-.L460:
+	.word	.L437-.L436
+.L436:
 	.half	3
-	.word	.L463-.L462
-.L462:
+	.word	.L439-.L438
+.L438:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L463:
+.L439:
 	.byte	5,6,7,0,5,2
-	.word	.L71
-	.byte	3,197,1,1,5,5,9
-	.half	.L274-.L71
-	.byte	3,3,1,5,25,9
-	.half	.L464-.L274
-	.byte	1,5,35,9
-	.half	.L465-.L464
-	.byte	3,1,1,5,37,9
-	.half	.L5-.L465
-	.byte	1,5,44,9
-	.half	.L466-.L5
-	.byte	1,5,60,9
-	.half	.L467-.L466
-	.byte	1,5,57,9
-	.half	.L468-.L467
-	.byte	1,5,12,9
-	.half	.L4-.L468
-	.byte	1,5,19,9
-	.half	.L469-.L4
-	.byte	1,5,34,9
-	.half	.L470-.L469
-	.byte	1,5,35,9
-	.half	.L471-.L470
-	.byte	1,5,41,9
-	.half	.L472-.L471
-	.byte	3,1,1,5,43,9
-	.half	.L7-.L472
-	.byte	1,5,50,9
-	.half	.L473-.L7
+	.word	.L74
+	.byte	3,188,1,1,5,54,9
+	.half	.L277-.L74
+	.byte	3,2,1,5,58,9
+	.half	.L440-.L277
 	.byte	1,5,66,9
-	.half	.L474-.L473
-	.byte	1,5,63,9
-	.half	.L475-.L474
-	.byte	1,5,12,9
-	.half	.L6-.L475
-	.byte	1,5,19,9
-	.half	.L476-.L6
-	.byte	1,5,35,9
-	.half	.L477-.L476
-	.byte	1,5,32,9
-	.half	.L478-.L477
-	.byte	1,5,41,9
-	.half	.L479-.L478
-	.byte	1,5,9,7,9
-	.half	.L480-.L479
-	.byte	3,3,1,5,16,9
-	.half	.L481-.L480
-	.byte	1,5,5,9
-	.half	.L482-.L481
-	.byte	1,5,14,7,9
-	.half	.L483-.L482
-	.byte	3,5,1,5,21,9
-	.half	.L484-.L483
-	.byte	1,5,14,9
-	.half	.L485-.L484
-	.byte	1,5,45,7,9
-	.half	.L486-.L485
-	.byte	1,5,66,9
-	.half	.L487-.L486
-	.byte	1,5,73,9
-	.half	.L488-.L487
-	.byte	1,5,64,9
-	.half	.L489-.L488
-	.byte	1,5,102,9
-	.half	.L490-.L489
-	.byte	1,5,99,9
-	.half	.L491-.L490
-	.byte	1,5,13,7,9
-	.half	.L492-.L491
-	.byte	3,2,1,5,42,9
-	.half	.L493-.L492
-	.byte	1,5,40,9
-	.half	.L494-.L493
-	.byte	1,5,20,9
-	.half	.L495-.L494
-	.byte	3,1,1,5,13,9
-	.half	.L9-.L495
-	.byte	3,4,1,5,20,9
-	.half	.L496-.L9
-	.byte	1,5,9,9
-	.half	.L497-.L496
-	.byte	1,5,17,7,9
-	.half	.L498-.L497
-	.byte	3,2,1,5,30,9
-	.half	.L499-.L498
-	.byte	1,5,17,9
-	.half	.L500-.L499
-	.byte	1,5,45,7,9
-	.half	.L501-.L500
-	.byte	1,5,66,9
-	.half	.L502-.L501
-	.byte	1,5,73,9
-	.half	.L503-.L502
-	.byte	1,5,70,9
-	.half	.L504-.L503
-	.byte	1,5,42,7,9
-	.half	.L12-.L504
-	.byte	3,3,1,5,27,9
-	.half	.L505-.L12
-	.byte	3,1,1,5,17,9
-	.half	.L506-.L505
-	.byte	3,1,1,5,46,9
-	.half	.L507-.L506
-	.byte	1,5,44,9
-	.half	.L508-.L507
-	.byte	1,5,17,9
-	.half	.L509-.L508
-	.byte	3,1,1,5,46,9
-	.half	.L510-.L509
-	.byte	1,5,44,9
-	.half	.L511-.L510
-	.byte	1,5,24,9
-	.half	.L512-.L511
-	.byte	3,1,1,5,17,9
-	.half	.L513-.L512
-	.byte	3,1,1,5,13,9
-	.half	.L11-.L513
-	.byte	3,5,1,5,20,9
-	.half	.L514-.L11
-	.byte	1,5,13,9
-	.half	.L515-.L514
-	.byte	1,5,61,7,9
-	.half	.L516-.L515
-	.byte	1,5,68,9
-	.half	.L517-.L516
-	.byte	1,5,21,9
-	.half	.L518-.L517
-	.byte	3,2,1,5,28,9
-	.half	.L519-.L518
-	.byte	1,5,18,9
-	.half	.L520-.L519
-	.byte	3,2,1,9
-	.half	.L521-.L520
-	.byte	3,1,1,9
-	.half	.L522-.L521
-	.byte	3,1,1,5,43,9
-	.half	.L17-.L522
-	.byte	3,126,1,5,47,9
-	.half	.L523-.L17
-	.byte	1,5,43,9
-	.half	.L18-.L523
-	.byte	3,1,1,5,47,9
-	.half	.L524-.L18
-	.byte	1,5,43,9
-	.half	.L19-.L524
-	.byte	3,1,1,5,47,9
-	.half	.L525-.L19
+	.half	.L441-.L440
+	.byte	1,5,77,9
+	.half	.L442-.L441
+	.byte	1,5,23,9
+	.half	.L443-.L442
+	.byte	1,5,27,9
+	.half	.L444-.L443
+	.byte	1,5,38,9
+	.half	.L445-.L444
 	.byte	1,5,42,9
-	.half	.L20-.L525
-	.byte	3,2,1,5,17,9
-	.half	.L526-.L20
-	.byte	3,1,1,5,40,9
-	.half	.L527-.L526
-	.byte	1,5,38,9
-	.half	.L528-.L527
-	.byte	1,5,17,9
-	.half	.L529-.L528
-	.byte	3,1,1,5,87,9
-	.half	.L15-.L529
-	.byte	3,118,1,5,9,9
-	.half	.L8-.L15
-	.byte	3,19,1,5,13,7,9
-	.half	.L530-.L8
-	.byte	3,2,1,5,33,9
-	.half	.L531-.L530
-	.byte	1,5,13,9
-	.half	.L532-.L531
-	.byte	3,1,1,5,33,9
-	.half	.L533-.L532
-	.byte	1,5,13,9
-	.half	.L26-.L533
-	.byte	3,4,1,5,20,9
-	.half	.L534-.L26
-	.byte	1,5,9,9
-	.half	.L535-.L534
-	.byte	1,5,21,7,9
-	.half	.L536-.L535
-	.byte	3,2,1,5,28,9
-	.half	.L537-.L536
-	.byte	1,5,18,9
-	.half	.L538-.L537
-	.byte	3,2,1,9
-	.half	.L539-.L538
-	.byte	3,1,1,9
-	.half	.L540-.L539
-	.byte	3,1,1,5,39,9
-	.half	.L28-.L540
-	.byte	3,126,1,5,43,9
-	.half	.L275-.L28
-	.byte	1,5,39,9
-	.half	.L29-.L275
-	.byte	3,1,1,5,43,9
-	.half	.L276-.L29
-	.byte	1,5,39,9
-	.half	.L30-.L276
-	.byte	3,1,1,5,43,9
-	.half	.L277-.L30
-	.byte	1,5,17,9
-	.half	.L31-.L277
-	.byte	3,2,1,5,40,9
-	.half	.L541-.L31
-	.byte	1,5,38,9
-	.half	.L278-.L541
-	.byte	1,5,17,9
-	.half	.L542-.L278
-	.byte	3,1,1,5,40,9
-	.half	.L543-.L542
-	.byte	1,5,38,9
-	.half	.L544-.L543
-	.byte	1,5,17,9
-	.half	.L545-.L544
-	.byte	3,1,1,5,50,9
-	.half	.L32-.L545
-	.byte	3,4,1,5,57,9
-	.half	.L546-.L32
-	.byte	1,5,41,9
-	.half	.L547-.L546
-	.byte	1,5,39,9
-	.half	.L548-.L547
-	.byte	1,5,38,9
-	.half	.L549-.L548
-	.byte	3,1,1,5,45,9
-	.half	.L550-.L549
-	.byte	1,5,71,9
-	.half	.L551-.L550
-	.byte	3,127,1,5,13,9
-	.half	.L27-.L551
-	.byte	3,5,1,5,36,9
-	.half	.L552-.L27
-	.byte	1,5,34,9
-	.half	.L279-.L552
-	.byte	1,5,13,9
-	.half	.L553-.L279
-	.byte	3,1,1,5,36,9
-	.half	.L554-.L553
-	.byte	1,5,34,9
-	.half	.L555-.L554
-	.byte	1,5,1,9
-	.half	.L14-.L555
-	.byte	3,3,1,7,9
-	.half	.L124-.L14
+	.half	.L446-.L445
+	.byte	1,5,21,9
+	.half	.L447-.L446
+	.byte	3,1,1,5,1,9
+	.half	.L448-.L447
+	.byte	3,1,1,7,9
+	.half	.L124-.L448
 	.byte	0,1,1
-.L461:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_update')
+.L437:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_proc')
 	.sect	'.debug_ranges'
 .L123:
-	.word	-1,.L71,0,.L124-.L71,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_get_status')
+	.word	-1,.L74,0,.L124-.L74,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_update')
 	.sect	'.debug_info'
 .L125:
-	.word	277
+	.word	308
 	.half	3
 	.word	.L126
 	.byte	4,1
@@ -23756,76 +23509,293 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L128,.L127
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_get_status',0,1,239,2,6,1,1,1
-	.word	.L89,.L222,.L88
+	.byte	'navigation_update',0,1,198,1,6,1,1,1
+	.word	.L76,.L219,.L75
 	.byte	4
-	.byte	'lat',0,1,239,2,36
+	.byte	'gps_lat',0,1,198,1,31
+	.word	.L220,.L221
+	.byte	4
+	.byte	'gps_lon',0,1,198,1,47
+	.word	.L220,.L222
+	.byte	4
+	.byte	'gps_valid',0,1,198,1,64
 	.word	.L223,.L224
 	.byte	4
-	.byte	'lon',0,1,239,2,49
-	.word	.L223,.L225
-	.byte	4
-	.byte	'yaw',0,1,239,2,61
-	.word	.L226,.L227
+	.byte	'imu_yaw',0,1,198,1,81
+	.word	.L225,.L226
 	.byte	5
-	.word	.L89,.L222
+	.word	.L76,.L219
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_get_status')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_update')
 	.sect	'.debug_abbrev'
 .L126:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_get_status')
+	.sdecl	'.debug_line',debug,cluster('navigation_update')
 	.sect	'.debug_line'
 .L127:
-	.word	.L557-.L556
-.L556:
+	.word	.L450-.L449
+.L449:
 	.half	3
-	.word	.L559-.L558
-.L558:
+	.word	.L452-.L451
+.L451:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L559:
-	.byte	5,5,7,0,5,2
-	.word	.L89
-	.byte	3,240,2,1,5,21,7,9
-	.half	.L560-.L89
-	.byte	1,5,28,9
-	.half	.L561-.L560
+.L452:
+	.byte	5,6,7,0,5,2
+	.word	.L76
+	.byte	3,197,1,1,5,5,9
+	.half	.L280-.L76
+	.byte	3,3,1,5,25,9
+	.half	.L453-.L280
+	.byte	1,5,35,9
+	.half	.L454-.L453
+	.byte	3,1,1,5,37,9
+	.half	.L5-.L454
+	.byte	1,5,44,9
+	.half	.L455-.L5
+	.byte	1,5,60,9
+	.half	.L456-.L455
+	.byte	1,5,57,9
+	.half	.L457-.L456
+	.byte	1,5,12,9
+	.half	.L4-.L457
 	.byte	1,5,19,9
-	.half	.L562-.L561
+	.half	.L458-.L4
+	.byte	1,5,34,9
+	.half	.L459-.L458
+	.byte	1,5,35,9
+	.half	.L460-.L459
+	.byte	1,5,41,9
+	.half	.L461-.L460
+	.byte	3,1,1,5,43,9
+	.half	.L7-.L461
+	.byte	1,5,50,9
+	.half	.L462-.L7
+	.byte	1,5,66,9
+	.half	.L463-.L462
+	.byte	1,5,63,9
+	.half	.L464-.L463
+	.byte	1,5,12,9
+	.half	.L6-.L464
+	.byte	1,5,19,9
+	.half	.L465-.L6
+	.byte	1,5,35,9
+	.half	.L466-.L465
+	.byte	1,5,32,9
+	.half	.L467-.L466
+	.byte	1,5,41,9
+	.half	.L468-.L467
+	.byte	1,5,9,7,9
+	.half	.L469-.L468
+	.byte	3,3,1,5,16,9
+	.half	.L470-.L469
 	.byte	1,5,5,9
-	.half	.L38-.L562
-	.byte	3,1,1,5,21,7,9
-	.half	.L563-.L38
-	.byte	1,5,28,9
-	.half	.L564-.L563
-	.byte	1,5,19,9
-	.half	.L565-.L564
-	.byte	1,5,5,9
-	.half	.L39-.L565
-	.byte	3,1,1,5,21,7,9
-	.half	.L566-.L39
-	.byte	1,5,28,9
-	.half	.L567-.L566
-	.byte	1,5,19,9
-	.half	.L568-.L567
+	.half	.L471-.L470
+	.byte	1,5,14,7,9
+	.half	.L472-.L471
+	.byte	3,5,1,5,21,9
+	.half	.L473-.L472
+	.byte	1,5,14,9
+	.half	.L474-.L473
+	.byte	1,5,45,7,9
+	.half	.L475-.L474
+	.byte	1,5,66,9
+	.half	.L476-.L475
+	.byte	1,5,73,9
+	.half	.L477-.L476
+	.byte	1,5,64,9
+	.half	.L478-.L477
+	.byte	1,5,102,9
+	.half	.L479-.L478
+	.byte	1,5,99,9
+	.half	.L480-.L479
+	.byte	1,5,13,7,9
+	.half	.L481-.L480
+	.byte	3,2,1,5,42,9
+	.half	.L482-.L481
+	.byte	1,5,40,9
+	.half	.L483-.L482
+	.byte	1,5,20,9
+	.half	.L484-.L483
+	.byte	3,1,1,5,13,9
+	.half	.L9-.L484
+	.byte	3,4,1,5,20,9
+	.half	.L485-.L9
+	.byte	1,5,9,9
+	.half	.L486-.L485
+	.byte	1,5,17,7,9
+	.half	.L487-.L486
+	.byte	3,2,1,5,30,9
+	.half	.L488-.L487
+	.byte	1,5,17,9
+	.half	.L489-.L488
+	.byte	1,5,45,7,9
+	.half	.L490-.L489
+	.byte	1,5,66,9
+	.half	.L491-.L490
+	.byte	1,5,73,9
+	.half	.L492-.L491
+	.byte	1,5,70,9
+	.half	.L493-.L492
+	.byte	1,5,42,7,9
+	.half	.L12-.L493
+	.byte	3,3,1,5,27,9
+	.half	.L494-.L12
+	.byte	3,1,1,5,17,9
+	.half	.L495-.L494
+	.byte	3,1,1,5,46,9
+	.half	.L496-.L495
+	.byte	1,5,44,9
+	.half	.L497-.L496
+	.byte	1,5,17,9
+	.half	.L498-.L497
+	.byte	3,1,1,5,46,9
+	.half	.L499-.L498
+	.byte	1,5,44,9
+	.half	.L500-.L499
+	.byte	1,5,24,9
+	.half	.L501-.L500
+	.byte	3,1,1,5,17,9
+	.half	.L502-.L501
+	.byte	3,1,1,5,13,9
+	.half	.L11-.L502
+	.byte	3,5,1,5,20,9
+	.half	.L503-.L11
+	.byte	1,5,13,9
+	.half	.L504-.L503
+	.byte	1,5,61,7,9
+	.half	.L505-.L504
+	.byte	1,5,68,9
+	.half	.L506-.L505
+	.byte	1,5,21,9
+	.half	.L507-.L506
+	.byte	3,2,1,5,28,9
+	.half	.L508-.L507
+	.byte	1,5,18,9
+	.half	.L509-.L508
+	.byte	3,2,1,9
+	.half	.L510-.L509
+	.byte	3,1,1,9
+	.half	.L511-.L510
+	.byte	3,1,1,5,43,9
+	.half	.L17-.L511
+	.byte	3,126,1,5,47,9
+	.half	.L512-.L17
+	.byte	1,5,43,9
+	.half	.L18-.L512
+	.byte	3,1,1,5,47,9
+	.half	.L513-.L18
+	.byte	1,5,43,9
+	.half	.L19-.L513
+	.byte	3,1,1,5,47,9
+	.half	.L514-.L19
+	.byte	1,5,42,9
+	.half	.L20-.L514
+	.byte	3,2,1,5,17,9
+	.half	.L515-.L20
+	.byte	3,1,1,5,40,9
+	.half	.L516-.L515
+	.byte	1,5,38,9
+	.half	.L517-.L516
+	.byte	1,5,17,9
+	.half	.L518-.L517
+	.byte	3,1,1,5,87,9
+	.half	.L15-.L518
+	.byte	3,118,1,5,9,9
+	.half	.L8-.L15
+	.byte	3,19,1,5,13,7,9
+	.half	.L519-.L8
+	.byte	3,2,1,5,33,9
+	.half	.L520-.L519
+	.byte	1,5,13,9
+	.half	.L521-.L520
+	.byte	3,1,1,5,33,9
+	.half	.L522-.L521
+	.byte	1,5,13,9
+	.half	.L26-.L522
+	.byte	3,4,1,5,20,9
+	.half	.L523-.L26
+	.byte	1,5,9,9
+	.half	.L524-.L523
+	.byte	1,5,21,7,9
+	.half	.L525-.L524
+	.byte	3,2,1,5,28,9
+	.half	.L526-.L525
+	.byte	1,5,18,9
+	.half	.L527-.L526
+	.byte	3,2,1,9
+	.half	.L528-.L527
+	.byte	3,1,1,9
+	.half	.L529-.L528
+	.byte	3,1,1,5,39,9
+	.half	.L28-.L529
+	.byte	3,126,1,5,43,9
+	.half	.L281-.L28
+	.byte	1,5,39,9
+	.half	.L29-.L281
+	.byte	3,1,1,5,43,9
+	.half	.L282-.L29
+	.byte	1,5,39,9
+	.half	.L30-.L282
+	.byte	3,1,1,5,43,9
+	.half	.L283-.L30
+	.byte	1,5,17,9
+	.half	.L31-.L283
+	.byte	3,2,1,5,40,9
+	.half	.L530-.L31
+	.byte	1,5,38,9
+	.half	.L284-.L530
+	.byte	1,5,17,9
+	.half	.L531-.L284
+	.byte	3,1,1,5,40,9
+	.half	.L532-.L531
+	.byte	1,5,38,9
+	.half	.L533-.L532
+	.byte	1,5,17,9
+	.half	.L534-.L533
+	.byte	3,1,1,5,50,9
+	.half	.L32-.L534
+	.byte	3,4,1,5,57,9
+	.half	.L535-.L32
+	.byte	1,5,41,9
+	.half	.L536-.L535
+	.byte	1,5,39,9
+	.half	.L537-.L536
+	.byte	1,5,38,9
+	.half	.L538-.L537
+	.byte	3,1,1,5,45,9
+	.half	.L539-.L538
+	.byte	1,5,71,9
+	.half	.L540-.L539
+	.byte	3,127,1,5,13,9
+	.half	.L27-.L540
+	.byte	3,5,1,5,36,9
+	.half	.L541-.L27
+	.byte	1,5,34,9
+	.half	.L285-.L541
+	.byte	1,5,13,9
+	.half	.L542-.L285
+	.byte	3,1,1,5,36,9
+	.half	.L543-.L542
+	.byte	1,5,34,9
+	.half	.L544-.L543
 	.byte	1,5,1,9
-	.half	.L40-.L568
-	.byte	3,1,1,7,9
-	.half	.L129-.L40
+	.half	.L14-.L544
+	.byte	3,3,1,7,9
+	.half	.L129-.L14
 	.byte	0,1,1
-.L557:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_get_status')
+.L450:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_update')
 	.sect	'.debug_ranges'
 .L128:
-	.word	-1,.L89,0,.L129-.L89,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_start_course1')
+	.word	-1,.L76,0,.L129-.L76,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_get_status')
 	.sect	'.debug_info'
 .L130:
-	.word	229
+	.word	277
 	.half	3
 	.word	.L131
 	.byte	4,1
@@ -23834,49 +23804,76 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L133,.L132
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_start_course1',0,1,157,2,6,1,1,1
-	.word	.L73,.L228,.L72
+	.byte	'navigation_get_status',0,1,239,2,6,1,1,1
+	.word	.L94,.L227,.L93
 	.byte	4
-	.word	.L73,.L228
+	.byte	'lat',0,1,239,2,36
+	.word	.L228,.L229
+	.byte	4
+	.byte	'lon',0,1,239,2,49
+	.word	.L228,.L230
+	.byte	4
+	.byte	'yaw',0,1,239,2,61
+	.word	.L231,.L232
+	.byte	5
+	.word	.L94,.L227
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course1')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_get_status')
 	.sect	'.debug_abbrev'
 .L131:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_start_course1')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('navigation_get_status')
 	.sect	'.debug_line'
 .L132:
-	.word	.L570-.L569
-.L569:
+	.word	.L546-.L545
+.L545:
 	.half	3
-	.word	.L572-.L571
-.L571:
+	.word	.L548-.L547
+.L547:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L572:
-	.byte	5,15,7,0,5,2
-	.word	.L73
-	.byte	3,159,2,1,5,30,9
-	.half	.L573-.L73
-	.byte	3,1,1,5,12,9
-	.half	.L574-.L573
-	.byte	3,1,1,5,1,9
-	.half	.L575-.L574
+.L548:
+	.byte	5,5,7,0,5,2
+	.word	.L94
+	.byte	3,240,2,1,5,21,7,9
+	.half	.L549-.L94
+	.byte	1,5,28,9
+	.half	.L550-.L549
+	.byte	1,5,19,9
+	.half	.L551-.L550
+	.byte	1,5,5,9
+	.half	.L38-.L551
+	.byte	3,1,1,5,21,7,9
+	.half	.L552-.L38
+	.byte	1,5,28,9
+	.half	.L553-.L552
+	.byte	1,5,19,9
+	.half	.L554-.L553
+	.byte	1,5,5,9
+	.half	.L39-.L554
+	.byte	3,1,1,5,21,7,9
+	.half	.L555-.L39
+	.byte	1,5,28,9
+	.half	.L556-.L555
+	.byte	1,5,19,9
+	.half	.L557-.L556
+	.byte	1,5,1,9
+	.half	.L40-.L557
 	.byte	3,1,1,7,9
-	.half	.L134-.L575
+	.half	.L134-.L40
 	.byte	0,1,1
-.L570:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course1')
+.L546:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_get_status')
 	.sect	'.debug_ranges'
 .L133:
-	.word	-1,.L73,0,.L134-.L73,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_start_course1_key')
+	.word	-1,.L94,0,.L134-.L94,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_start_course1')
 	.sect	'.debug_info'
 .L135:
-	.word	233
+	.word	229
 	.half	3
 	.word	.L136
 	.byte	4,1
@@ -23885,87 +23882,49 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L138,.L137
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_start_course1_key',0,1,182,2,6,1,1,1
-	.word	.L79,.L229,.L78
+	.byte	'navigation_start_course1',0,1,157,2,6,1,1,1
+	.word	.L78,.L233,.L77
 	.byte	4
-	.word	.L79,.L229
+	.word	.L78,.L233
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course1_key')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course1')
 	.sect	'.debug_abbrev'
 .L136:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_start_course1_key')
+	.sdecl	'.debug_line',debug,cluster('navigation_start_course1')
 	.sect	'.debug_line'
 .L137:
-	.word	.L577-.L576
-.L576:
+	.word	.L559-.L558
+.L558:
 	.half	3
-	.word	.L579-.L578
-.L578:
+	.word	.L561-.L560
+.L560:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L579:
-	.byte	5,5,7,0,5,2
-	.word	.L79
-	.byte	3,183,2,1,5,39,9
-	.half	.L580-.L79
-	.byte	1,5,37,9
-	.half	.L581-.L580
-	.byte	1,5,5,9
-	.half	.L582-.L581
-	.byte	3,1,1,5,39,9
-	.half	.L583-.L582
-	.byte	1,5,37,9
-	.half	.L584-.L583
-	.byte	1,5,5,9
-	.half	.L585-.L584
-	.byte	3,1,1,5,39,9
-	.half	.L586-.L585
-	.byte	1,5,37,9
-	.half	.L587-.L586
-	.byte	1,5,5,9
-	.half	.L588-.L587
-	.byte	3,1,1,5,39,9
-	.half	.L589-.L588
-	.byte	1,5,37,9
-	.half	.L590-.L589
-	.byte	1,5,5,9
-	.half	.L591-.L590
-	.byte	3,1,1,5,39,9
-	.half	.L592-.L591
-	.byte	1,5,37,9
-	.half	.L593-.L592
-	.byte	1,5,5,9
-	.half	.L594-.L593
-	.byte	3,1,1,5,39,9
-	.half	.L595-.L594
-	.byte	1,5,37,9
-	.half	.L596-.L595
-	.byte	1,5,5,9
-	.half	.L597-.L596
-	.byte	3,1,1,5,39,9
-	.half	.L598-.L597
-	.byte	1,5,37,9
-	.half	.L599-.L598
-	.byte	1,5,12,9
-	.half	.L600-.L599
+.L561:
+	.byte	5,15,7,0,5,2
+	.word	.L78
+	.byte	3,159,2,1,5,30,9
+	.half	.L562-.L78
+	.byte	3,1,1,5,12,9
+	.half	.L563-.L562
 	.byte	3,1,1,5,1,9
-	.half	.L601-.L600
+	.half	.L564-.L563
 	.byte	3,1,1,7,9
-	.half	.L139-.L601
+	.half	.L139-.L564
 	.byte	0,1,1
-.L577:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course1_key')
+.L559:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course1')
 	.sect	'.debug_ranges'
 .L138:
-	.word	-1,.L79,0,.L139-.L79,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_start_course2')
+	.word	-1,.L78,0,.L139-.L78,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_start_course1_key')
 	.sect	'.debug_info'
 .L140:
-	.word	229
+	.word	233
 	.half	3
 	.word	.L141
 	.byte	4,1
@@ -23974,49 +23933,87 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L143,.L142
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_start_course2',0,1,165,2,6,1,1,1
-	.word	.L75,.L230,.L74
+	.byte	'navigation_start_course1_key',0,1,182,2,6,1,1,1
+	.word	.L84,.L234,.L83
 	.byte	4
-	.word	.L75,.L230
+	.word	.L84,.L234
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course2')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course1_key')
 	.sect	'.debug_abbrev'
 .L141:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_start_course2')
+	.sdecl	'.debug_line',debug,cluster('navigation_start_course1_key')
 	.sect	'.debug_line'
 .L142:
-	.word	.L603-.L602
-.L602:
+	.word	.L566-.L565
+.L565:
 	.half	3
-	.word	.L605-.L604
-.L604:
+	.word	.L568-.L567
+.L567:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L605:
-	.byte	5,15,7,0,5,2
-	.word	.L75
-	.byte	3,167,2,1,5,30,9
-	.half	.L606-.L75
-	.byte	3,1,1,5,12,9
-	.half	.L607-.L606
+.L568:
+	.byte	5,5,7,0,5,2
+	.word	.L84
+	.byte	3,183,2,1,5,39,9
+	.half	.L569-.L84
+	.byte	1,5,37,9
+	.half	.L570-.L569
+	.byte	1,5,5,9
+	.half	.L571-.L570
+	.byte	3,1,1,5,39,9
+	.half	.L572-.L571
+	.byte	1,5,37,9
+	.half	.L573-.L572
+	.byte	1,5,5,9
+	.half	.L574-.L573
+	.byte	3,1,1,5,39,9
+	.half	.L575-.L574
+	.byte	1,5,37,9
+	.half	.L576-.L575
+	.byte	1,5,5,9
+	.half	.L577-.L576
+	.byte	3,1,1,5,39,9
+	.half	.L578-.L577
+	.byte	1,5,37,9
+	.half	.L579-.L578
+	.byte	1,5,5,9
+	.half	.L580-.L579
+	.byte	3,1,1,5,39,9
+	.half	.L581-.L580
+	.byte	1,5,37,9
+	.half	.L582-.L581
+	.byte	1,5,5,9
+	.half	.L583-.L582
+	.byte	3,1,1,5,39,9
+	.half	.L584-.L583
+	.byte	1,5,37,9
+	.half	.L585-.L584
+	.byte	1,5,5,9
+	.half	.L586-.L585
+	.byte	3,1,1,5,39,9
+	.half	.L587-.L586
+	.byte	1,5,37,9
+	.half	.L588-.L587
+	.byte	1,5,12,9
+	.half	.L589-.L588
 	.byte	3,1,1,5,1,9
-	.half	.L608-.L607
+	.half	.L590-.L589
 	.byte	3,1,1,7,9
-	.half	.L144-.L608
+	.half	.L144-.L590
 	.byte	0,1,1
-.L603:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course2')
+.L566:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course1_key')
 	.sect	'.debug_ranges'
 .L143:
-	.word	-1,.L75,0,.L144-.L75,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_start_course2_key')
+	.word	-1,.L84,0,.L144-.L84,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_start_course2')
 	.sect	'.debug_info'
 .L145:
-	.word	233
+	.word	229
 	.half	3
 	.word	.L146
 	.byte	4,1
@@ -24025,93 +24022,49 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L148,.L147
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_start_course2_key',0,1,194,2,6,1,1,1
-	.word	.L81,.L231,.L80
+	.byte	'navigation_start_course2',0,1,165,2,6,1,1,1
+	.word	.L80,.L235,.L79
 	.byte	4
-	.word	.L81,.L231
+	.word	.L80,.L235
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course2_key')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course2')
 	.sect	'.debug_abbrev'
 .L146:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_start_course2_key')
+	.sdecl	'.debug_line',debug,cluster('navigation_start_course2')
 	.sect	'.debug_line'
 .L147:
-	.word	.L610-.L609
-.L609:
+	.word	.L592-.L591
+.L591:
 	.half	3
-	.word	.L612-.L611
-.L611:
+	.word	.L594-.L593
+.L593:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L612:
-	.byte	5,5,7,0,5,2
-	.word	.L81
-	.byte	3,195,2,1,5,39,9
-	.half	.L613-.L81
-	.byte	1,5,37,9
-	.half	.L614-.L613
-	.byte	1,5,5,9
-	.half	.L615-.L614
-	.byte	3,1,1,5,39,9
-	.half	.L616-.L615
-	.byte	1,5,37,9
-	.half	.L617-.L616
-	.byte	1,5,5,9
-	.half	.L618-.L617
-	.byte	3,1,1,5,39,9
-	.half	.L619-.L618
-	.byte	1,5,37,9
-	.half	.L620-.L619
-	.byte	1,5,5,9
-	.half	.L621-.L620
-	.byte	3,1,1,5,39,9
-	.half	.L622-.L621
-	.byte	1,5,37,9
-	.half	.L623-.L622
-	.byte	1,5,5,9
-	.half	.L624-.L623
-	.byte	3,1,1,5,39,9
-	.half	.L625-.L624
-	.byte	1,5,37,9
-	.half	.L626-.L625
-	.byte	1,5,5,9
-	.half	.L627-.L626
-	.byte	3,1,1,5,39,9
-	.half	.L628-.L627
-	.byte	1,5,37,9
-	.half	.L629-.L628
-	.byte	1,5,5,9
-	.half	.L630-.L629
-	.byte	3,1,1,5,39,9
-	.half	.L631-.L630
-	.byte	1,5,37,9
-	.half	.L632-.L631
-	.byte	1,5,5,9
-	.half	.L633-.L632
-	.byte	3,1,1,5,39,9
-	.half	.L634-.L633
-	.byte	1,5,37,9
-	.half	.L635-.L634
-	.byte	1,5,12,9
-	.half	.L636-.L635
+.L594:
+	.byte	5,15,7,0,5,2
+	.word	.L80
+	.byte	3,167,2,1,5,30,9
+	.half	.L595-.L80
+	.byte	3,1,1,5,12,9
+	.half	.L596-.L595
 	.byte	3,1,1,5,1,9
-	.half	.L637-.L636
+	.half	.L597-.L596
 	.byte	3,1,1,7,9
-	.half	.L149-.L637
+	.half	.L149-.L597
 	.byte	0,1,1
-.L610:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course2_key')
+.L592:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course2')
 	.sect	'.debug_ranges'
 .L148:
-	.word	-1,.L81,0,.L149-.L81,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_start_course3')
+	.word	-1,.L80,0,.L149-.L80,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_start_course2_key')
 	.sect	'.debug_info'
 .L150:
-	.word	229
+	.word	233
 	.half	3
 	.word	.L151
 	.byte	4,1
@@ -24120,49 +24073,93 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L153,.L152
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_start_course3',0,1,173,2,6,1,1,1
-	.word	.L77,.L232,.L76
+	.byte	'navigation_start_course2_key',0,1,194,2,6,1,1,1
+	.word	.L86,.L236,.L85
 	.byte	4
-	.word	.L77,.L232
+	.word	.L86,.L236
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course3')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course2_key')
 	.sect	'.debug_abbrev'
 .L151:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_start_course3')
+	.sdecl	'.debug_line',debug,cluster('navigation_start_course2_key')
 	.sect	'.debug_line'
 .L152:
-	.word	.L639-.L638
-.L638:
+	.word	.L599-.L598
+.L598:
 	.half	3
-	.word	.L641-.L640
-.L640:
+	.word	.L601-.L600
+.L600:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L641:
-	.byte	5,15,7,0,5,2
-	.word	.L77
-	.byte	3,175,2,1,5,30,9
-	.half	.L642-.L77
-	.byte	3,1,1,5,12,9
-	.half	.L643-.L642
+.L601:
+	.byte	5,5,7,0,5,2
+	.word	.L86
+	.byte	3,195,2,1,5,39,9
+	.half	.L602-.L86
+	.byte	1,5,37,9
+	.half	.L603-.L602
+	.byte	1,5,5,9
+	.half	.L604-.L603
+	.byte	3,1,1,5,39,9
+	.half	.L605-.L604
+	.byte	1,5,37,9
+	.half	.L606-.L605
+	.byte	1,5,5,9
+	.half	.L607-.L606
+	.byte	3,1,1,5,39,9
+	.half	.L608-.L607
+	.byte	1,5,37,9
+	.half	.L609-.L608
+	.byte	1,5,5,9
+	.half	.L610-.L609
+	.byte	3,1,1,5,39,9
+	.half	.L611-.L610
+	.byte	1,5,37,9
+	.half	.L612-.L611
+	.byte	1,5,5,9
+	.half	.L613-.L612
+	.byte	3,1,1,5,39,9
+	.half	.L614-.L613
+	.byte	1,5,37,9
+	.half	.L615-.L614
+	.byte	1,5,5,9
+	.half	.L616-.L615
+	.byte	3,1,1,5,39,9
+	.half	.L617-.L616
+	.byte	1,5,37,9
+	.half	.L618-.L617
+	.byte	1,5,5,9
+	.half	.L619-.L618
+	.byte	3,1,1,5,39,9
+	.half	.L620-.L619
+	.byte	1,5,37,9
+	.half	.L621-.L620
+	.byte	1,5,5,9
+	.half	.L622-.L621
+	.byte	3,1,1,5,39,9
+	.half	.L623-.L622
+	.byte	1,5,37,9
+	.half	.L624-.L623
+	.byte	1,5,12,9
+	.half	.L625-.L624
 	.byte	3,1,1,5,1,9
-	.half	.L644-.L643
+	.half	.L626-.L625
 	.byte	3,1,1,7,9
-	.half	.L154-.L644
+	.half	.L154-.L626
 	.byte	0,1,1
-.L639:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course3')
+.L599:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course2_key')
 	.sect	'.debug_ranges'
 .L153:
-	.word	-1,.L77,0,.L154-.L77,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_start_course3_key')
+	.word	-1,.L86,0,.L154-.L86,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_start_course3')
 	.sect	'.debug_info'
 .L155:
-	.word	233
+	.word	229
 	.half	3
 	.word	.L156
 	.byte	4,1
@@ -24171,93 +24168,49 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L158,.L157
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_start_course3_key',0,1,207,2,6,1,1,1
-	.word	.L83,.L233,.L82
+	.byte	'navigation_start_course3',0,1,173,2,6,1,1,1
+	.word	.L82,.L237,.L81
 	.byte	4
-	.word	.L83,.L233
+	.word	.L82,.L237
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course3_key')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course3')
 	.sect	'.debug_abbrev'
 .L156:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_start_course3_key')
+	.sdecl	'.debug_line',debug,cluster('navigation_start_course3')
 	.sect	'.debug_line'
 .L157:
-	.word	.L646-.L645
-.L645:
+	.word	.L628-.L627
+.L627:
 	.half	3
-	.word	.L648-.L647
-.L647:
+	.word	.L630-.L629
+.L629:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L648:
-	.byte	5,5,7,0,5,2
-	.word	.L83
-	.byte	3,208,2,1,5,39,9
-	.half	.L649-.L83
-	.byte	1,5,37,9
-	.half	.L650-.L649
-	.byte	1,5,5,9
-	.half	.L651-.L650
-	.byte	3,1,1,5,39,9
-	.half	.L652-.L651
-	.byte	1,5,37,9
-	.half	.L653-.L652
-	.byte	1,5,5,9
-	.half	.L654-.L653
-	.byte	3,1,1,5,39,9
-	.half	.L655-.L654
-	.byte	1,5,37,9
-	.half	.L656-.L655
-	.byte	1,5,5,9
-	.half	.L657-.L656
-	.byte	3,1,1,5,39,9
-	.half	.L658-.L657
-	.byte	1,5,37,9
-	.half	.L659-.L658
-	.byte	1,5,5,9
-	.half	.L660-.L659
-	.byte	3,1,1,5,39,9
-	.half	.L661-.L660
-	.byte	1,5,37,9
-	.half	.L662-.L661
-	.byte	1,5,5,9
-	.half	.L663-.L662
-	.byte	3,1,1,5,39,9
-	.half	.L664-.L663
-	.byte	1,5,37,9
-	.half	.L665-.L664
-	.byte	1,5,5,9
-	.half	.L666-.L665
-	.byte	3,1,1,5,39,9
-	.half	.L667-.L666
-	.byte	1,5,37,9
-	.half	.L668-.L667
-	.byte	1,5,5,9
-	.half	.L669-.L668
-	.byte	3,1,1,5,39,9
-	.half	.L670-.L669
-	.byte	1,5,37,9
-	.half	.L671-.L670
-	.byte	1,5,12,9
-	.half	.L672-.L671
+.L630:
+	.byte	5,15,7,0,5,2
+	.word	.L82
+	.byte	3,175,2,1,5,30,9
+	.half	.L631-.L82
+	.byte	3,1,1,5,12,9
+	.half	.L632-.L631
 	.byte	3,1,1,5,1,9
-	.half	.L673-.L672
+	.half	.L633-.L632
 	.byte	3,1,1,7,9
-	.half	.L159-.L673
+	.half	.L159-.L633
 	.byte	0,1,1
-.L646:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course3_key')
+.L628:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course3')
 	.sect	'.debug_ranges'
 .L158:
-	.word	-1,.L83,0,.L159-.L83,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_stop_course')
+	.word	-1,.L82,0,.L159-.L82,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_start_course3_key')
 	.sect	'.debug_info'
 .L160:
-	.word	227
+	.word	233
 	.half	3
 	.word	.L161
 	.byte	4,1
@@ -24266,79 +24219,93 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L163,.L162
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_stop_course',0,1,221,2,6,1,1,1
-	.word	.L85,.L234,.L84
+	.byte	'navigation_start_course3_key',0,1,207,2,6,1,1,1
+	.word	.L88,.L238,.L87
 	.byte	4
-	.word	.L85,.L234
+	.word	.L88,.L238
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_stop_course')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_start_course3_key')
 	.sect	'.debug_abbrev'
 .L161:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_stop_course')
+	.sdecl	'.debug_line',debug,cluster('navigation_start_course3_key')
 	.sect	'.debug_line'
 .L162:
-	.word	.L675-.L674
-.L674:
+	.word	.L635-.L634
+.L634:
 	.half	3
-	.word	.L677-.L676
-.L676:
+	.word	.L637-.L636
+.L636:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L677:
+.L637:
 	.byte	5,5,7,0,5,2
-	.word	.L85
-	.byte	3,222,2,1,5,34,9
-	.half	.L678-.L85
-	.byte	1,5,32,9
-	.half	.L679-.L678
+	.word	.L88
+	.byte	3,208,2,1,5,39,9
+	.half	.L638-.L88
+	.byte	1,5,37,9
+	.half	.L639-.L638
 	.byte	1,5,5,9
-	.half	.L680-.L679
-	.byte	3,1,1,5,34,9
-	.half	.L681-.L680
-	.byte	1,5,32,9
-	.half	.L682-.L681
+	.half	.L640-.L639
+	.byte	3,1,1,5,39,9
+	.half	.L641-.L640
+	.byte	1,5,37,9
+	.half	.L642-.L641
 	.byte	1,5,5,9
-	.half	.L683-.L682
-	.byte	3,1,1,5,34,9
-	.half	.L684-.L683
-	.byte	1,5,32,9
-	.half	.L685-.L684
+	.half	.L643-.L642
+	.byte	3,1,1,5,39,9
+	.half	.L644-.L643
+	.byte	1,5,37,9
+	.half	.L645-.L644
 	.byte	1,5,5,9
-	.half	.L686-.L685
-	.byte	3,1,1,5,34,9
-	.half	.L687-.L686
-	.byte	1,5,32,9
-	.half	.L688-.L687
+	.half	.L646-.L645
+	.byte	3,1,1,5,39,9
+	.half	.L647-.L646
+	.byte	1,5,37,9
+	.half	.L648-.L647
 	.byte	1,5,5,9
-	.half	.L689-.L688
-	.byte	3,1,1,5,34,9
-	.half	.L690-.L689
-	.byte	1,5,32,9
-	.half	.L691-.L690
-	.byte	1,5,15,9
-	.half	.L692-.L691
-	.byte	3,2,1,5,30,9
-	.half	.L693-.L692
-	.byte	3,1,1,5,12,9
-	.half	.L694-.L693
+	.half	.L649-.L648
+	.byte	3,1,1,5,39,9
+	.half	.L650-.L649
+	.byte	1,5,37,9
+	.half	.L651-.L650
+	.byte	1,5,5,9
+	.half	.L652-.L651
+	.byte	3,1,1,5,39,9
+	.half	.L653-.L652
+	.byte	1,5,37,9
+	.half	.L654-.L653
+	.byte	1,5,5,9
+	.half	.L655-.L654
+	.byte	3,1,1,5,39,9
+	.half	.L656-.L655
+	.byte	1,5,37,9
+	.half	.L657-.L656
+	.byte	1,5,5,9
+	.half	.L658-.L657
+	.byte	3,1,1,5,39,9
+	.half	.L659-.L658
+	.byte	1,5,37,9
+	.half	.L660-.L659
+	.byte	1,5,12,9
+	.half	.L661-.L660
 	.byte	3,1,1,5,1,9
-	.half	.L695-.L694
+	.half	.L662-.L661
 	.byte	3,1,1,7,9
-	.half	.L164-.L695
+	.half	.L164-.L662
 	.byte	0,1,1
-.L675:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_stop_course')
+.L635:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_start_course3_key')
 	.sect	'.debug_ranges'
 .L163:
-	.word	-1,.L85,0,.L164-.L85,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_get_course_state')
+	.word	-1,.L88,0,.L164-.L88,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_stop_course')
 	.sect	'.debug_info'
 .L165:
-	.word	236
+	.word	227
 	.half	3
 	.word	.L166
 	.byte	4,1
@@ -24347,51 +24314,79 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L168,.L167
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_get_course_state',0,1,234,2,9
-	.word	.L218
-	.byte	1,1,1
-	.word	.L87,.L235,.L86
+	.byte	'navigation_stop_course',0,1,221,2,6,1,1,1
+	.word	.L90,.L239,.L89
 	.byte	4
-	.word	.L87,.L235
+	.word	.L90,.L239
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_get_course_state')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_stop_course')
 	.sect	'.debug_abbrev'
 .L166:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_get_course_state')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('navigation_stop_course')
 	.sect	'.debug_line'
 .L167:
-	.word	.L697-.L696
-.L696:
+	.word	.L664-.L663
+.L663:
 	.half	3
-	.word	.L699-.L698
-.L698:
+	.word	.L666-.L665
+.L665:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L699:
-	.byte	5,12,7,0,5,2
-	.word	.L87
-	.byte	3,235,2,1,5,19,9
-	.half	.L700-.L87
+.L666:
+	.byte	5,5,7,0,5,2
+	.word	.L90
+	.byte	3,222,2,1,5,34,9
+	.half	.L667-.L90
+	.byte	1,5,32,9
+	.half	.L668-.L667
 	.byte	1,5,5,9
-	.half	.L701-.L700
-	.byte	1,5,1,9
-	.half	.L37-.L701
+	.half	.L669-.L668
+	.byte	3,1,1,5,34,9
+	.half	.L670-.L669
+	.byte	1,5,32,9
+	.half	.L671-.L670
+	.byte	1,5,5,9
+	.half	.L672-.L671
+	.byte	3,1,1,5,34,9
+	.half	.L673-.L672
+	.byte	1,5,32,9
+	.half	.L674-.L673
+	.byte	1,5,5,9
+	.half	.L675-.L674
+	.byte	3,1,1,5,34,9
+	.half	.L676-.L675
+	.byte	1,5,32,9
+	.half	.L677-.L676
+	.byte	1,5,5,9
+	.half	.L678-.L677
+	.byte	3,1,1,5,34,9
+	.half	.L679-.L678
+	.byte	1,5,32,9
+	.half	.L680-.L679
+	.byte	1,5,15,9
+	.half	.L681-.L680
+	.byte	3,2,1,5,30,9
+	.half	.L682-.L681
+	.byte	3,1,1,5,12,9
+	.half	.L683-.L682
+	.byte	3,1,1,5,1,9
+	.half	.L684-.L683
 	.byte	3,1,1,7,9
-	.half	.L169-.L37
+	.half	.L169-.L684
 	.byte	0,1,1
-.L697:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_get_course_state')
+.L664:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_stop_course')
 	.sect	'.debug_ranges'
 .L168:
-	.word	-1,.L87,0,.L169-.L87,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_collect_point')
+	.word	-1,.L90,0,.L169-.L90,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_get_course_state')
 	.sect	'.debug_info'
 .L170:
-	.word	288
+	.word	236
 	.half	3
 	.word	.L171
 	.byte	4,1
@@ -24400,116 +24395,51 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L173,.L172
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_collect_point',0,1,246,2,6,1,1,1
-	.word	.L91,.L236,.L90
+	.byte	'navigation_get_course_state',0,1,234,2,9
+	.word	.L223
+	.byte	1,1,1
+	.word	.L92,.L240,.L91
 	.byte	4
-	.byte	'point_index',0,1,246,2,39
-	.word	.L218,.L237
-	.byte	4
-	.byte	'lat',0,1,246,2,59
-	.word	.L215,.L238
-	.byte	4
-	.byte	'lon',0,1,246,2,71
-	.word	.L215,.L239
-	.byte	5
-	.word	.L91,.L236
+	.word	.L92,.L240
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_collect_point')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_get_course_state')
 	.sect	'.debug_abbrev'
 .L171:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_collect_point')
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('navigation_get_course_state')
 	.sect	'.debug_line'
 .L172:
-	.word	.L703-.L702
-.L702:
+	.word	.L686-.L685
+.L685:
 	.half	3
-	.word	.L705-.L704
-.L704:
+	.word	.L688-.L687
+.L687:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L705:
-	.byte	5,6,7,0,5,2
-	.word	.L91
-	.byte	3,245,2,1,5,23,9
-	.half	.L282-.L91
-	.byte	3,2,1,5,5,9
-	.half	.L706-.L282
-	.byte	1,5,13,7,9
-	.half	.L707-.L706
-	.byte	3,2,1,5,20,9
-	.half	.L708-.L707
-	.byte	1,5,13,9
-	.half	.L709-.L708
-	.byte	1,5,53,7,9
-	.half	.L710-.L709
-	.byte	1,5,26,7,9
-	.half	.L711-.L710
-	.byte	3,2,1,5,13,9
-	.half	.L712-.L711
-	.byte	1,5,26,9
-	.half	.L713-.L712
-	.byte	1,5,43,9
-	.half	.L714-.L713
-	.byte	1,5,26,9
-	.half	.L715-.L714
-	.byte	3,1,1,5,13,9
-	.half	.L716-.L715
-	.byte	1,5,26,9
-	.half	.L717-.L716
-	.byte	1,5,43,9
-	.half	.L718-.L717
-	.byte	1,5,56,9
-	.half	.L719-.L718
-	.byte	3,1,1,5,69,9
-	.half	.L720-.L719
-	.byte	1,5,74,9
-	.half	.L721-.L720
-	.byte	1,5,20,9
-	.half	.L722-.L721
-	.byte	1,5,48,9
-	.half	.L281-.L722
-	.byte	3,126,1,5,30,9
-	.half	.L42-.L281
-	.byte	3,6,1,5,13,9
-	.half	.L723-.L42
-	.byte	1,5,30,9
-	.half	.L724-.L723
-	.byte	1,5,47,9
-	.half	.L725-.L724
-	.byte	1,5,30,9
-	.half	.L726-.L725
-	.byte	3,1,1,5,13,9
-	.half	.L727-.L726
-	.byte	1,5,30,9
-	.half	.L728-.L727
-	.byte	1,5,47,9
-	.half	.L729-.L728
-	.byte	1,5,52,9
-	.half	.L730-.L729
-	.byte	3,1,1,5,65,9
-	.half	.L731-.L730
-	.byte	1,5,70,9
-	.half	.L732-.L731
-	.byte	1,5,20,9
-	.half	.L733-.L732
+.L688:
+	.byte	5,12,7,0,5,2
+	.word	.L92
+	.byte	3,235,2,1,5,19,9
+	.half	.L689-.L92
+	.byte	1,5,5,9
+	.half	.L690-.L689
 	.byte	1,5,1,9
-	.half	.L41-.L733
-	.byte	3,3,1,7,9
-	.half	.L174-.L41
+	.half	.L37-.L690
+	.byte	3,1,1,7,9
+	.half	.L174-.L37
 	.byte	0,1,1
-.L703:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_collect_point')
+.L686:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_get_course_state')
 	.sect	'.debug_ranges'
 .L173:
-	.word	-1,.L91,0,.L174-.L91,0,0
-	.sdecl	'.debug_info',debug,cluster('navigation_send_data')
+	.word	-1,.L92,0,.L174-.L92,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_collect_point')
 	.sect	'.debug_info'
 .L175:
-	.word	225
+	.word	288
 	.half	3
 	.word	.L176
 	.byte	4,1
@@ -24518,115 +24448,116 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L178,.L177
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'navigation_send_data',0,1,137,3,6,1,1,1
-	.word	.L93,.L240,.L92
+	.byte	'navigation_collect_point',0,1,246,2,6,1,1,1
+	.word	.L96,.L241,.L95
 	.byte	4
-	.word	.L93,.L240
+	.byte	'point_index',0,1,246,2,39
+	.word	.L223,.L242
+	.byte	4
+	.byte	'lat',0,1,246,2,59
+	.word	.L220,.L243
+	.byte	4
+	.byte	'lon',0,1,246,2,71
+	.word	.L220,.L244
+	.byte	5
+	.word	.L96,.L241
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('navigation_send_data')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_collect_point')
 	.sect	'.debug_abbrev'
 .L176:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('navigation_send_data')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('navigation_collect_point')
 	.sect	'.debug_line'
 .L177:
-	.word	.L735-.L734
-.L734:
+	.word	.L692-.L691
+.L691:
 	.half	3
-	.word	.L737-.L736
-.L736:
+	.word	.L694-.L693
+.L693:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L737:
-	.byte	5,5,7,0,5,2
-	.word	.L93
-	.byte	3,138,3,1,5,56,9
-	.half	.L738-.L93
-	.byte	1,5,63,9
-	.half	.L739-.L738
-	.byte	1,5,54,9
-	.half	.L740-.L739
-	.byte	1,5,5,9
-	.half	.L741-.L740
-	.byte	3,1,1,5,56,9
-	.half	.L742-.L741
-	.byte	1,5,63,9
-	.half	.L743-.L742
-	.byte	1,5,54,9
-	.half	.L744-.L743
-	.byte	1,5,5,9
-	.half	.L745-.L744
-	.byte	3,1,1,5,56,9
-	.half	.L746-.L745
-	.byte	1,5,63,9
-	.half	.L747-.L746
-	.byte	1,5,54,9
-	.half	.L748-.L747
-	.byte	1,5,5,9
-	.half	.L749-.L748
-	.byte	3,1,1,5,56,9
-	.half	.L750-.L749
-	.byte	1,5,63,9
-	.half	.L751-.L750
-	.byte	1,5,54,9
-	.half	.L752-.L751
-	.byte	1,5,5,9
-	.half	.L753-.L752
-	.byte	3,1,1,5,56,9
-	.half	.L754-.L753
-	.byte	1,5,63,9
-	.half	.L755-.L754
-	.byte	1,5,54,9
-	.half	.L756-.L755
-	.byte	1,5,5,9
-	.half	.L757-.L756
-	.byte	3,1,1,5,56,9
-	.half	.L758-.L757
-	.byte	1,5,63,9
-	.half	.L759-.L758
-	.byte	1,5,54,9
-	.half	.L760-.L759
-	.byte	1,5,5,9
-	.half	.L761-.L760
-	.byte	3,1,1,5,56,9
-	.half	.L762-.L761
-	.byte	1,5,63,9
-	.half	.L763-.L762
-	.byte	1,5,54,9
-	.half	.L764-.L763
-	.byte	1,5,5,9
-	.half	.L765-.L764
-	.byte	3,1,1,5,56,9
-	.half	.L766-.L765
-	.byte	1,5,63,9
-	.half	.L767-.L766
-	.byte	1,5,54,9
-	.half	.L768-.L767
-	.byte	1,5,5,9
-	.half	.L769-.L768
-	.byte	3,1,1,5,56,9
-	.half	.L770-.L769
-	.byte	1,5,54,9
-	.half	.L771-.L770
+.L694:
+	.byte	5,6,7,0,5,2
+	.word	.L96
+	.byte	3,245,2,1,5,23,9
+	.half	.L288-.L96
+	.byte	3,2,1,5,5,9
+	.half	.L695-.L288
+	.byte	1,5,13,7,9
+	.half	.L696-.L695
+	.byte	3,2,1,5,20,9
+	.half	.L697-.L696
+	.byte	1,5,13,9
+	.half	.L698-.L697
+	.byte	1,5,53,7,9
+	.half	.L699-.L698
+	.byte	1,5,26,7,9
+	.half	.L700-.L699
+	.byte	3,2,1,5,13,9
+	.half	.L701-.L700
+	.byte	1,5,26,9
+	.half	.L702-.L701
 	.byte	1,5,43,9
-	.half	.L772-.L771
-	.byte	3,1,1,5,1,9
-	.half	.L773-.L772
-	.byte	3,1,1,7,9
-	.half	.L179-.L773
+	.half	.L703-.L702
+	.byte	1,5,26,9
+	.half	.L704-.L703
+	.byte	3,1,1,5,13,9
+	.half	.L705-.L704
+	.byte	1,5,26,9
+	.half	.L706-.L705
+	.byte	1,5,43,9
+	.half	.L707-.L706
+	.byte	1,5,56,9
+	.half	.L708-.L707
+	.byte	3,1,1,5,69,9
+	.half	.L709-.L708
+	.byte	1,5,74,9
+	.half	.L710-.L709
+	.byte	1,5,20,9
+	.half	.L711-.L710
+	.byte	1,5,48,9
+	.half	.L287-.L711
+	.byte	3,126,1,5,30,9
+	.half	.L42-.L287
+	.byte	3,6,1,5,13,9
+	.half	.L712-.L42
+	.byte	1,5,30,9
+	.half	.L713-.L712
+	.byte	1,5,47,9
+	.half	.L714-.L713
+	.byte	1,5,30,9
+	.half	.L715-.L714
+	.byte	3,1,1,5,13,9
+	.half	.L716-.L715
+	.byte	1,5,30,9
+	.half	.L717-.L716
+	.byte	1,5,47,9
+	.half	.L718-.L717
+	.byte	1,5,52,9
+	.half	.L719-.L718
+	.byte	3,1,1,5,65,9
+	.half	.L720-.L719
+	.byte	1,5,70,9
+	.half	.L721-.L720
+	.byte	1,5,20,9
+	.half	.L722-.L721
+	.byte	1,5,1,9
+	.half	.L41-.L722
+	.byte	3,3,1,7,9
+	.half	.L179-.L41
 	.byte	0,1,1
-.L735:
-	.sdecl	'.debug_ranges',debug,cluster('navigation_send_data')
+.L692:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_collect_point')
 	.sect	'.debug_ranges'
 .L178:
-	.word	-1,.L93,0,.L179-.L93,0,0
-	.sdecl	'.debug_info',debug,cluster('update_course1_encoder')
+	.word	-1,.L96,0,.L179-.L96,0,0
+	.sdecl	'.debug_info',debug,cluster('navigation_send_data')
 	.sect	'.debug_info'
 .L180:
-	.word	226
+	.word	225
 	.half	3
 	.word	.L181
 	.byte	4,1
@@ -24635,89 +24566,115 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L183,.L182
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'update_course1_encoder',0,1,160,3,13,1,1
-	.word	.L95,.L241,.L94
+	.byte	'navigation_send_data',0,1,137,3,6,1,1,1
+	.word	.L98,.L245,.L97
 	.byte	4
-	.word	.L95,.L241
+	.word	.L98,.L245
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('update_course1_encoder')
+	.sdecl	'.debug_abbrev',debug,cluster('navigation_send_data')
 	.sect	'.debug_abbrev'
 .L181:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('update_course1_encoder')
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('navigation_send_data')
 	.sect	'.debug_line'
 .L182:
-	.word	.L775-.L774
-.L774:
+	.word	.L724-.L723
+.L723:
 	.half	3
-	.word	.L777-.L776
-.L776:
+	.word	.L726-.L725
+.L725:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L777:
-	.byte	5,9,7,0,5,2
-	.word	.L95
-	.byte	3,162,3,1,5,38,9
-	.half	.L778-.L95
+.L726:
+	.byte	5,5,7,0,5,2
+	.word	.L98
+	.byte	3,138,3,1,5,56,9
+	.half	.L727-.L98
+	.byte	1,5,63,9
+	.half	.L728-.L727
+	.byte	1,5,54,9
+	.half	.L729-.L728
 	.byte	1,5,5,9
-	.half	.L779-.L778
-	.byte	1,5,34,7,9
-	.half	.L780-.L779
-	.byte	3,2,1,5,19,9
-	.half	.L781-.L780
-	.byte	3,1,1,5,9,9
-	.half	.L782-.L781
-	.byte	3,1,1,5,32,9
-	.half	.L783-.L782
-	.byte	1,5,30,9
-	.half	.L784-.L783
-	.byte	1,5,16,9
-	.half	.L785-.L784
-	.byte	3,1,1,5,36,9
-	.half	.L786-.L785
-	.byte	3,125,1,5,14,9
-	.half	.L45-.L786
-	.byte	3,5,1,5,42,9
-	.half	.L787-.L45
-	.byte	1,5,14,9
-	.half	.L788-.L787
-	.byte	1,5,52,7,9
-	.half	.L789-.L788
-	.byte	1,5,80,9
-	.half	.L790-.L789
-	.byte	1,5,78,9
-	.half	.L791-.L790
-	.byte	1,5,34,7,9
-	.half	.L792-.L791
-	.byte	3,2,1,5,31,9
-	.half	.L793-.L792
-	.byte	3,1,1,5,38,9
-	.half	.L794-.L793
-	.byte	1,5,36,9
-	.half	.L795-.L794
-	.byte	3,127,1,5,34,9
-	.half	.L47-.L795
-	.byte	3,5,1,5,31,9
-	.half	.L796-.L47
-	.byte	3,1,1,5,36,9
-	.half	.L797-.L796
-	.byte	1,5,1,9
-	.half	.L46-.L797
-	.byte	3,2,1,7,9
-	.half	.L184-.L46
+	.half	.L730-.L729
+	.byte	3,1,1,5,56,9
+	.half	.L731-.L730
+	.byte	1,5,63,9
+	.half	.L732-.L731
+	.byte	1,5,54,9
+	.half	.L733-.L732
+	.byte	1,5,5,9
+	.half	.L734-.L733
+	.byte	3,1,1,5,56,9
+	.half	.L735-.L734
+	.byte	1,5,63,9
+	.half	.L736-.L735
+	.byte	1,5,54,9
+	.half	.L737-.L736
+	.byte	1,5,5,9
+	.half	.L738-.L737
+	.byte	3,1,1,5,56,9
+	.half	.L739-.L738
+	.byte	1,5,63,9
+	.half	.L740-.L739
+	.byte	1,5,54,9
+	.half	.L741-.L740
+	.byte	1,5,5,9
+	.half	.L742-.L741
+	.byte	3,1,1,5,56,9
+	.half	.L743-.L742
+	.byte	1,5,63,9
+	.half	.L744-.L743
+	.byte	1,5,54,9
+	.half	.L745-.L744
+	.byte	1,5,5,9
+	.half	.L746-.L745
+	.byte	3,1,1,5,56,9
+	.half	.L747-.L746
+	.byte	1,5,63,9
+	.half	.L748-.L747
+	.byte	1,5,54,9
+	.half	.L749-.L748
+	.byte	1,5,5,9
+	.half	.L750-.L749
+	.byte	3,1,1,5,56,9
+	.half	.L751-.L750
+	.byte	1,5,63,9
+	.half	.L752-.L751
+	.byte	1,5,54,9
+	.half	.L753-.L752
+	.byte	1,5,5,9
+	.half	.L754-.L753
+	.byte	3,1,1,5,56,9
+	.half	.L755-.L754
+	.byte	1,5,63,9
+	.half	.L756-.L755
+	.byte	1,5,54,9
+	.half	.L757-.L756
+	.byte	1,5,5,9
+	.half	.L758-.L757
+	.byte	3,1,1,5,56,9
+	.half	.L759-.L758
+	.byte	1,5,54,9
+	.half	.L760-.L759
+	.byte	1,5,43,9
+	.half	.L761-.L760
+	.byte	3,1,1,5,1,9
+	.half	.L762-.L761
+	.byte	3,1,1,7,9
+	.half	.L184-.L762
 	.byte	0,1,1
-.L775:
-	.sdecl	'.debug_ranges',debug,cluster('update_course1_encoder')
+.L724:
+	.sdecl	'.debug_ranges',debug,cluster('navigation_send_data')
 	.sect	'.debug_ranges'
 .L183:
-	.word	-1,.L95,0,.L184-.L95,0,0
-	.sdecl	'.debug_info',debug,cluster('update_course2_encoder')
+	.word	-1,.L98,0,.L184-.L98,0,0
+	.sdecl	'.debug_info',debug,cluster('update_course1_encoder')
 	.sect	'.debug_info'
 .L185:
-	.word	616
+	.word	226
 	.half	3
 	.word	.L186
 	.byte	4,1
@@ -24726,254 +24683,117 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L188,.L187
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'update_course2_encoder',0,1,182,3,13,1,1
-	.word	.L97,.L242,.L96
+	.byte	'update_course1_encoder',0,1,160,3,13,1,1
+	.word	.L100,.L246,.L99
 	.byte	4
-	.word	.L97,.L242
-	.byte	4
-	.word	.L243,.L242
-	.byte	5
-	.byte	'servo_scale',0,1,188,3,14
-	.word	.L220,.L244
-	.byte	5
-	.byte	'init_straight',0,1,189,3,14
-	.word	.L245,.L246
-	.byte	5
-	.byte	's_angle_go',0,1,190,3,14
-	.word	.L220,.L247
-	.byte	5
-	.byte	's_segment_go',0,1,191,3,14
-	.word	.L245,.L248
-	.byte	5
-	.byte	's_angle_back',0,1,192,3,14
-	.word	.L220,.L249
-	.byte	5
-	.byte	's_segment_back',0,1,193,3,14
-	.word	.L245,.L250
-	.byte	5
-	.byte	'pre_turn_straight',0,1,194,3,14
-	.word	.L245,.L251
-	.byte	5
-	.byte	'turn_distance',0,1,195,3,14
-	.word	.L245,.L252
-	.byte	5
-	.byte	'turn_angle',0,1,196,3,14
-	.word	.L220,.L253
-	.byte	5
-	.byte	'enc',0,1,198,3,14
-	.word	.L245,.L254
-	.byte	5
-	.byte	'total_distance',0,1,199,3,14
-	.word	.L245,.L255
-	.byte	4
-	.word	.L256,.L257
-	.byte	5
-	.byte	'phase',0,1,218,3,15
-	.word	.L258,.L259
-	.byte	5
-	.byte	'angle',0,1,219,3,15
-	.word	.L220,.L260
-	.byte	0,4
-	.word	.L261,.L262
-	.byte	5
-	.byte	'phase',0,1,235,3,13
-	.word	.L258,.L263
-	.byte	5
-	.byte	'angle',0,1,237,3,15
-	.word	.L220,.L264
-	.byte	0,0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('update_course2_encoder')
+	.word	.L100,.L246
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('update_course1_encoder')
 	.sect	'.debug_abbrev'
 .L186:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('update_course2_encoder')
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('update_course1_encoder')
 	.sect	'.debug_line'
 .L187:
-	.word	.L799-.L798
-.L798:
+	.word	.L764-.L763
+.L763:
 	.half	3
-	.word	.L801-.L800
-.L800:
+	.word	.L766-.L765
+.L765:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L801:
-	.byte	5,30,7,0,5,2
-	.word	.L97
-	.byte	3,184,3,1,5,34,9
-	.half	.L243-.L97
-	.byte	3,3,1,5,32,9
-	.half	.L283-.L243
-	.byte	3,1,1,5,34,9
-	.half	.L285-.L283
-	.byte	3,1,1,5,32,9
-	.half	.L286-.L285
-	.byte	3,1,1,5,34,9
-	.half	.L288-.L286
-	.byte	3,1,1,5,32,9
-	.half	.L290-.L288
-	.byte	3,1,1,9
-	.half	.L291-.L290
-	.byte	3,2,1,5,34,9
-	.half	.L292-.L291
-	.byte	3,1,1,5,20,9
-	.half	.L294-.L292
-	.byte	3,2,1,5,25,9
-	.half	.L295-.L294
-	.byte	3,2,1,5,23,9
-	.half	.L802-.L295
-	.byte	1,5,42,9
-	.half	.L803-.L802
-	.byte	1,5,62,9
-	.half	.L804-.L803
-	.byte	1,5,80,9
-	.half	.L805-.L804
-	.byte	1,5,78,9
-	.half	.L806-.L805
-	.byte	1,5,99,9
-	.half	.L807-.L806
+.L766:
+	.byte	5,9,7,0,5,2
+	.word	.L100
+	.byte	3,162,3,1,5,38,9
+	.half	.L767-.L100
 	.byte	1,5,5,9
-	.half	.L296-.L807
-	.byte	3,2,1,5,34,7,9
-	.half	.L808-.L296
-	.byte	3,2,1,5,9,9
-	.half	.L284-.L808
-	.byte	3,1,1,5,32,9
-	.half	.L809-.L284
-	.byte	1,5,30,9
-	.half	.L293-.L809
-	.byte	1,5,16,9
-	.half	.L810-.L293
-	.byte	3,1,1,5,9,9
-	.half	.L811-.L810
-	.byte	3,1,1,5,5,9
-	.half	.L50-.L811
-	.byte	3,4,1,5,31,7,9
-	.half	.L812-.L50
-	.byte	3,2,1,5,36,9
-	.half	.L298-.L812
-	.byte	1,5,41,9
-	.half	.L297-.L298
-	.byte	1,5,36,9
-	.half	.L52-.L297
-	.byte	3,3,1,5,34,9
-	.half	.L303-.L52
-	.byte	1,5,10,9
-	.half	.L813-.L303
+	.half	.L768-.L767
 	.byte	1,5,34,7,9
-	.half	.L256-.L813
-	.byte	3,2,1,5,51,9
-	.half	.L300-.L256
-	.byte	1,5,69,9
-	.half	.L814-.L300
-	.byte	1,5,67,9
-	.half	.L815-.L814
-	.byte	1,5,24,9
-	.half	.L304-.L815
-	.byte	3,1,1,5,37,7,9
-	.half	.L816-.L304
-	.byte	1,5,49,9
-	.half	.L817-.L816
-	.byte	1,5,37,9
-	.half	.L56-.L817
-	.byte	3,1,1,5,52,9
-	.half	.L301-.L56
-	.byte	1,5,21,9
-	.half	.L257-.L301
-	.byte	3,127,1,5,36,9
-	.half	.L54-.L257
-	.byte	3,4,1,5,34,9
-	.half	.L818-.L54
-	.byte	1,5,53,9
-	.half	.L819-.L818
-	.byte	1,5,10,9
-	.half	.L820-.L819
-	.byte	1,5,31,7,9
-	.half	.L821-.L820
-	.byte	3,2,1,5,36,9
-	.half	.L306-.L821
-	.byte	1,5,41,9
-	.half	.L305-.L306
+	.half	.L769-.L768
+	.byte	3,3,1,5,19,9
+	.half	.L770-.L769
+	.byte	3,1,1,5,9,9
+	.half	.L771-.L770
+	.byte	3,1,1,5,32,9
+	.half	.L772-.L771
+	.byte	1,5,30,9
+	.half	.L773-.L772
+	.byte	1,5,16,9
+	.half	.L774-.L773
+	.byte	3,1,1,5,36,9
+	.half	.L775-.L774
+	.byte	3,125,1,5,14,9
+	.half	.L45-.L775
+	.byte	3,5,1,5,42,9
+	.half	.L776-.L45
+	.byte	1,5,14,9
+	.half	.L777-.L776
+	.byte	1,5,52,7,9
+	.half	.L778-.L777
+	.byte	1,5,81,9
+	.half	.L779-.L778
+	.byte	1,5,78,9
+	.half	.L780-.L779
+	.byte	1,5,34,7,9
+	.half	.L781-.L780
+	.byte	3,3,1,5,31,9
+	.half	.L782-.L781
+	.byte	3,1,1,5,38,9
+	.half	.L783-.L782
 	.byte	1,5,36,9
-	.half	.L58-.L305
-	.byte	3,3,1,5,34,9
-	.half	.L822-.L58
-	.byte	1,5,53,9
-	.half	.L823-.L822
-	.byte	1,5,73,9
-	.half	.L824-.L823
-	.byte	1,5,10,9
-	.half	.L825-.L824
-	.byte	1,5,42,7,9
-	.half	.L826-.L825
-	.byte	3,2,1,5,57,9
-	.half	.L310-.L826
-	.byte	1,5,62,9
-	.half	.L309-.L310
-	.byte	1,5,36,9
-	.half	.L60-.L309
-	.byte	3,3,1,5,34,9
-	.half	.L827-.L60
-	.byte	1,5,53,9
-	.half	.L828-.L827
-	.byte	1,5,73,9
-	.half	.L829-.L828
-	.byte	1,5,91,9
-	.half	.L830-.L829
-	.byte	1,5,89,9
-	.half	.L831-.L830
-	.byte	1,5,10,9
-	.half	.L832-.L831
-	.byte	1,5,24,7,9
-	.half	.L261-.L832
+	.half	.L784-.L783
+	.byte	3,127,1,5,14,9
+	.half	.L47-.L784
 	.byte	3,3,1,5,42,9
-	.half	.L833-.L261
-	.byte	1,5,40,9
-	.half	.L834-.L833
-	.byte	1,5,59,9
-	.half	.L835-.L834
-	.byte	1,5,79,9
-	.half	.L836-.L835
-	.byte	1,5,96,9
-	.half	.L837-.L836
-	.byte	1,5,116,9
-	.half	.L838-.L837
-	.byte	1,5,114,9
-	.half	.L308-.L838
-	.byte	1,5,37,9
-	.half	.L314-.L308
-	.byte	3,1,1,5,63,7,9
-	.half	.L839-.L314
-	.byte	1,5,65,9
-	.half	.L63-.L839
-	.byte	1,5,34,9
-	.half	.L64-.L63
-	.byte	1,5,37,9
-	.half	.L315-.L64
-	.byte	3,1,1,5,52,9
-	.half	.L312-.L315
-	.byte	1,5,21,9
-	.half	.L262-.L312
-	.byte	3,127,1,5,42,9
-	.half	.L62-.L262
-	.byte	3,6,1,5,57,9
-	.half	.L316-.L62
+	.half	.L785-.L47
+	.byte	1,5,14,9
+	.half	.L786-.L785
+	.byte	1,5,52,7,9
+	.half	.L787-.L786
+	.byte	1,5,80,9
+	.half	.L788-.L787
+	.byte	1,5,78,9
+	.half	.L789-.L788
+	.byte	1,5,34,7,9
+	.half	.L790-.L789
+	.byte	3,3,1,5,31,9
+	.half	.L791-.L790
+	.byte	3,1,1,5,38,9
+	.half	.L792-.L791
+	.byte	1,5,39,9
+	.half	.L793-.L792
+	.byte	3,127,1,5,14,9
+	.half	.L50-.L793
+	.byte	3,3,1,5,48,9
+	.half	.L794-.L50
+	.byte	1,5,77,9
+	.half	.L795-.L794
+	.byte	1,5,74,9
+	.half	.L796-.L795
+	.byte	1,5,34,7,9
+	.half	.L797-.L796
+	.byte	3,3,1,5,31,9
+	.half	.L798-.L797
+	.byte	3,1,1,5,36,9
+	.half	.L799-.L798
 	.byte	1,5,1,9
-	.half	.L51-.L316
+	.half	.L46-.L799
 	.byte	3,2,1,7,9
-	.half	.L189-.L51
+	.half	.L189-.L46
 	.byte	0,1,1
-.L799:
-	.sdecl	'.debug_ranges',debug,cluster('update_course2_encoder')
+.L764:
+	.sdecl	'.debug_ranges',debug,cluster('update_course1_encoder')
 	.sect	'.debug_ranges'
 .L188:
-	.word	-1,.L97,0,.L189-.L97,0,0
-	.sdecl	'.debug_info',debug,cluster('update_course3_encoder')
+	.word	-1,.L100,0,.L189-.L100,0,0
+	.sdecl	'.debug_info',debug,cluster('update_course2_encoder')
 	.sect	'.debug_info'
 .L190:
-	.word	226
+	.word	602
 	.half	3
 	.word	.L191
 	.byte	4,1
@@ -24982,45 +24802,259 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L193,.L192
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'update_course3_encoder',0,1,247,3,13,1,1
-	.word	.L99,.L265,.L98
+	.byte	'update_course2_encoder',0,1,191,3,13,1,1
+	.word	.L102,.L247,.L101
 	.byte	4
-	.word	.L99,.L265
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('update_course3_encoder')
+	.word	.L102,.L247
+	.byte	5
+	.byte	'servo_scale',0,1,196,3,14
+	.word	.L225,.L248
+	.byte	5
+	.byte	'init_straight',0,1,197,3,14
+	.word	.L249,.L250
+	.byte	5
+	.byte	's_angle_go',0,1,198,3,14
+	.word	.L225,.L251
+	.byte	5
+	.byte	's_segment_go',0,1,199,3,14
+	.word	.L249,.L252
+	.byte	5
+	.byte	's_angle_back',0,1,200,3,14
+	.word	.L225,.L253
+	.byte	5
+	.byte	's_segment_back',0,1,201,3,14
+	.word	.L249,.L254
+	.byte	5
+	.byte	'pre_turn_straight',0,1,202,3,14
+	.word	.L249,.L255
+	.byte	5
+	.byte	'turn_distance',0,1,203,3,14
+	.word	.L249,.L256
+	.byte	5
+	.byte	'turn_angle',0,1,204,3,14
+	.word	.L225,.L257
+	.byte	5
+	.byte	'enc',0,1,206,3,14
+	.word	.L249,.L258
+	.byte	5
+	.byte	'total_distance',0,1,207,3,14
+	.word	.L249,.L259
+	.byte	4
+	.word	.L260,.L261
+	.byte	5
+	.byte	'phase',0,1,231,3,15
+	.word	.L262,.L263
+	.byte	5
+	.byte	'angle',0,1,232,3,15
+	.word	.L225,.L264
+	.byte	0,6
+	.word	.L265
+	.byte	5
+	.byte	'phase',0,1,248,3,13
+	.word	.L262,.L269
+	.byte	5
+	.byte	'angle',0,1,250,3,15
+	.word	.L225,.L270
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('update_course2_encoder')
 	.sect	'.debug_abbrev'
 .L191:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('update_course3_encoder')
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,11,1,85,6,0
+	.byte	0,0
+	.sdecl	'.debug_line',debug,cluster('update_course2_encoder')
 	.sect	'.debug_line'
 .L192:
-	.word	.L841-.L840
-.L840:
+	.word	.L801-.L800
+.L800:
 	.half	3
-	.word	.L843-.L842
-.L842:
+	.word	.L803-.L802
+.L802:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L843:
-	.byte	5,27,7,0,5,2
-	.word	.L99
-	.byte	3,249,3,1,5,1,9
-	.half	.L844-.L99
-	.byte	3,1,1,7,9
-	.half	.L194-.L844
+.L803:
+	.byte	5,34,7,0,5,2
+	.word	.L102
+	.byte	3,195,3,1,5,32,9
+	.half	.L289-.L102
+	.byte	3,1,1,5,34,9
+	.half	.L290-.L289
+	.byte	3,1,1,5,32,9
+	.half	.L291-.L290
+	.byte	3,1,1,5,34,9
+	.half	.L292-.L291
+	.byte	3,1,1,5,32,9
+	.half	.L293-.L292
+	.byte	3,1,1,9
+	.half	.L294-.L293
+	.byte	3,2,1,5,20,9
+	.half	.L295-.L294
+	.byte	3,3,1,5,25,9
+	.half	.L297-.L295
+	.byte	3,2,1,5,23,9
+	.half	.L804-.L297
+	.byte	1,5,42,9
+	.half	.L805-.L804
+	.byte	1,5,62,9
+	.half	.L806-.L805
+	.byte	1,5,80,9
+	.half	.L807-.L806
+	.byte	1,5,78,9
+	.half	.L808-.L807
+	.byte	1,5,99,9
+	.half	.L809-.L808
+	.byte	1,5,5,9
+	.half	.L298-.L809
+	.byte	3,3,1,5,34,7,9
+	.half	.L810-.L298
+	.byte	3,2,1,5,19,9
+	.half	.L299-.L810
+	.byte	3,1,1,5,9,9
+	.half	.L811-.L299
+	.byte	3,1,1,5,32,9
+	.half	.L812-.L811
+	.byte	1,5,30,9
+	.half	.L296-.L812
+	.byte	1,5,16,9
+	.half	.L813-.L296
+	.byte	3,1,1,5,9,9
+	.half	.L814-.L813
+	.byte	3,1,1,5,30,9
+	.half	.L55-.L814
+	.byte	3,4,1,5,5,9
+	.half	.L300-.L55
+	.byte	3,3,1,5,31,7,9
+	.half	.L815-.L300
+	.byte	3,2,1,5,36,9
+	.half	.L816-.L815
+	.byte	1,5,41,9
+	.half	.L817-.L816
+	.byte	1,5,36,9
+	.half	.L57-.L817
+	.byte	3,3,1,5,34,9
+	.half	.L818-.L57
+	.byte	1,5,10,9
+	.half	.L819-.L818
+	.byte	1,5,34,7,9
+	.half	.L260-.L819
+	.byte	3,2,1,5,51,9
+	.half	.L301-.L260
+	.byte	1,5,69,9
+	.half	.L820-.L301
+	.byte	1,5,67,9
+	.half	.L821-.L820
+	.byte	1,5,24,9
+	.half	.L302-.L821
+	.byte	3,1,1,5,37,7,9
+	.half	.L822-.L302
+	.byte	1,5,49,9
+	.half	.L823-.L822
+	.byte	1,5,37,9
+	.half	.L61-.L823
+	.byte	3,1,1,5,52,9
+	.half	.L824-.L61
+	.byte	1,5,21,9
+	.half	.L261-.L824
+	.byte	3,127,1,5,36,9
+	.half	.L59-.L261
+	.byte	3,4,1,5,34,9
+	.half	.L825-.L59
+	.byte	1,5,53,9
+	.half	.L826-.L825
+	.byte	1,5,10,9
+	.half	.L827-.L826
+	.byte	1,5,31,7,9
+	.half	.L828-.L827
+	.byte	3,2,1,5,36,9
+	.half	.L829-.L828
+	.byte	1,5,41,9
+	.half	.L830-.L829
+	.byte	1,5,36,9
+	.half	.L63-.L830
+	.byte	3,3,1,5,34,9
+	.half	.L831-.L63
+	.byte	1,5,53,9
+	.half	.L832-.L831
+	.byte	1,5,73,9
+	.half	.L833-.L832
+	.byte	1,5,10,9
+	.half	.L834-.L833
+	.byte	1,5,34,7,9
+	.half	.L835-.L834
+	.byte	3,91,1,5,42,9
+	.half	.L303-.L835
+	.byte	3,39,1,5,57,9
+	.half	.L836-.L303
+	.byte	1,5,62,9
+	.half	.L837-.L836
+	.byte	1,5,36,9
+	.half	.L65-.L837
+	.byte	3,3,1,5,34,9
+	.half	.L838-.L65
+	.byte	1,5,53,9
+	.half	.L839-.L838
+	.byte	1,5,73,9
+	.half	.L840-.L839
+	.byte	1,5,91,9
+	.half	.L841-.L840
+	.byte	1,5,89,9
+	.half	.L842-.L841
+	.byte	1,5,10,9
+	.half	.L843-.L842
+	.byte	1,5,24,7,9
+	.half	.L266-.L843
+	.byte	3,3,1,5,42,9
+	.half	.L844-.L266
+	.byte	1,5,40,9
+	.half	.L845-.L844
+	.byte	1,5,59,9
+	.half	.L846-.L845
+	.byte	1,5,79,9
+	.half	.L847-.L846
+	.byte	1,5,96,9
+	.half	.L848-.L847
+	.byte	1,5,116,9
+	.half	.L849-.L848
+	.byte	1,5,114,9
+	.half	.L304-.L849
+	.byte	1,5,37,9
+	.half	.L305-.L304
+	.byte	3,1,1,5,63,7,9
+	.half	.L850-.L305
+	.byte	1,5,65,9
+	.half	.L68-.L850
+	.byte	1,5,34,9
+	.half	.L69-.L68
+	.byte	3,82,1,9
+	.half	.L267-.L69
+	.byte	3,46,1,5,37,9
+	.half	.L306-.L267
+	.byte	3,1,1,5,52,9
+	.half	.L851-.L306
+	.byte	1,5,21,9
+	.half	.L268-.L851
+	.byte	3,127,1,5,31,9
+	.half	.L67-.L268
+	.byte	3,6,1,5,39,9
+	.half	.L852-.L67
+	.byte	1,5,1,9
+	.half	.L56-.L852
+	.byte	3,2,1,7,9
+	.half	.L194-.L56
 	.byte	0,1,1
-.L841:
-	.sdecl	'.debug_ranges',debug,cluster('update_course3_encoder')
+.L801:
+	.sdecl	'.debug_ranges',debug,cluster('update_course2_encoder')
 	.sect	'.debug_ranges'
 .L193:
-	.word	-1,.L99,0,.L194-.L99,0,0
-	.sdecl	'.debug_info',debug,cluster('update_course1_gps')
+	.word	-1,.L102,0,.L194-.L102,0,0
+.L265:
+	.word	-1,.L102,.L266-.L102,.L69-.L102,.L267-.L102,.L268-.L102,0,0
+	.sdecl	'.debug_info',debug,cluster('update_course3_encoder')
 	.sect	'.debug_info'
 .L195:
-	.word	222
+	.word	226
 	.half	3
 	.word	.L196
 	.byte	4,1
@@ -25029,54 +25063,42 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L198,.L197
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'update_course1_gps',0,1,254,3,13,1,1
-	.word	.L101,.L266,.L100
+	.byte	'update_course3_encoder',0,1,132,4,13,1,1
+	.word	.L104,.L271,.L103
 	.byte	4
-	.word	.L101,.L266
+	.word	.L104,.L271
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('update_course1_gps')
+	.sdecl	'.debug_abbrev',debug,cluster('update_course3_encoder')
 	.sect	'.debug_abbrev'
 .L196:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('update_course1_gps')
+	.sdecl	'.debug_line',debug,cluster('update_course3_encoder')
 	.sect	'.debug_line'
 .L197:
-	.word	.L846-.L845
-.L845:
+	.word	.L854-.L853
+.L853:
 	.half	3
-	.word	.L848-.L847
-.L847:
+	.word	.L856-.L855
+.L855:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L848:
-	.byte	5,5,7,0,5,2
-	.word	.L101
-	.byte	3,128,4,1,5,28,9
-	.half	.L849-.L101
-	.byte	1,5,26,9
-	.half	.L850-.L849
-	.byte	1,5,5,9
-	.half	.L851-.L850
-	.byte	3,1,1,5,28,9
-	.half	.L852-.L851
-	.byte	1,5,26,9
-	.half	.L853-.L852
-	.byte	1,5,12,9
-	.half	.L854-.L853
-	.byte	3,1,1,5,1,9
-	.half	.L855-.L854
+.L856:
+	.byte	5,27,7,0,5,2
+	.word	.L104
+	.byte	3,134,4,1,5,1,9
+	.half	.L857-.L104
 	.byte	3,1,1,7,9
-	.half	.L199-.L855
+	.half	.L199-.L857
 	.byte	0,1,1
-.L846:
-	.sdecl	'.debug_ranges',debug,cluster('update_course1_gps')
+.L854:
+	.sdecl	'.debug_ranges',debug,cluster('update_course3_encoder')
 	.sect	'.debug_ranges'
 .L198:
-	.word	-1,.L101,0,.L199-.L101,0,0
-	.sdecl	'.debug_info',debug,cluster('update_course2_gps')
+	.word	-1,.L104,0,.L199-.L104,0,0
+	.sdecl	'.debug_info',debug,cluster('update_course1_gps')
 	.sect	'.debug_info'
 .L200:
 	.word	222
@@ -25088,54 +25110,54 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L203,.L202
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'update_course2_gps',0,1,134,4,13,1,1
-	.word	.L103,.L267,.L102
+	.byte	'update_course1_gps',0,1,139,4,13,1,1
+	.word	.L106,.L272,.L105
 	.byte	4
-	.word	.L103,.L267
+	.word	.L106,.L272
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('update_course2_gps')
+	.sdecl	'.debug_abbrev',debug,cluster('update_course1_gps')
 	.sect	'.debug_abbrev'
 .L201:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('update_course2_gps')
+	.sdecl	'.debug_line',debug,cluster('update_course1_gps')
 	.sect	'.debug_line'
 .L202:
-	.word	.L857-.L856
-.L856:
-	.half	3
 	.word	.L859-.L858
 .L858:
+	.half	3
+	.word	.L861-.L860
+.L860:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L859:
+.L861:
 	.byte	5,5,7,0,5,2
-	.word	.L103
-	.byte	3,136,4,1,5,28,9
-	.half	.L860-.L103
+	.word	.L106
+	.byte	3,141,4,1,5,28,9
+	.half	.L862-.L106
 	.byte	1,5,26,9
-	.half	.L861-.L860
-	.byte	1,5,5,9
-	.half	.L862-.L861
-	.byte	3,1,1,5,28,9
 	.half	.L863-.L862
-	.byte	1,5,26,9
+	.byte	1,5,5,9
 	.half	.L864-.L863
-	.byte	1,5,12,9
+	.byte	3,1,1,5,28,9
 	.half	.L865-.L864
-	.byte	3,1,1,5,1,9
+	.byte	1,5,26,9
 	.half	.L866-.L865
+	.byte	1,5,12,9
+	.half	.L867-.L866
+	.byte	3,1,1,5,1,9
+	.half	.L868-.L867
 	.byte	3,1,1,7,9
-	.half	.L204-.L866
+	.half	.L204-.L868
 	.byte	0,1,1
-.L857:
-	.sdecl	'.debug_ranges',debug,cluster('update_course2_gps')
+.L859:
+	.sdecl	'.debug_ranges',debug,cluster('update_course1_gps')
 	.sect	'.debug_ranges'
 .L203:
-	.word	-1,.L103,0,.L204-.L103,0,0
-	.sdecl	'.debug_info',debug,cluster('update_course3_gps')
+	.word	-1,.L106,0,.L204-.L106,0,0
+	.sdecl	'.debug_info',debug,cluster('update_course2_gps')
 	.sect	'.debug_info'
 .L205:
 	.word	222
@@ -25147,546 +25169,500 @@ nav_sys:	.type	object
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
 	.word	.L208,.L207
 	.byte	2
-	.word	.L106
+	.word	.L111
 	.byte	3
-	.byte	'update_course3_gps',0,1,142,4,13,1,1
-	.word	.L105,.L268,.L104
+	.byte	'update_course2_gps',0,1,147,4,13,1,1
+	.word	.L108,.L273,.L107
 	.byte	4
-	.word	.L105,.L268
+	.word	.L108,.L273
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('update_course3_gps')
+	.sdecl	'.debug_abbrev',debug,cluster('update_course2_gps')
 	.sect	'.debug_abbrev'
 .L206:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('update_course3_gps')
+	.sdecl	'.debug_line',debug,cluster('update_course2_gps')
 	.sect	'.debug_line'
 .L207:
-	.word	.L868-.L867
-.L867:
-	.half	3
 	.word	.L870-.L869
 .L869:
+	.half	3
+	.word	.L872-.L871
+.L871:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/navigation.c',0,0,0,0,0
-.L870:
+.L872:
 	.byte	5,5,7,0,5,2
-	.word	.L105
-	.byte	3,144,4,1,5,28,9
-	.half	.L871-.L105
+	.word	.L108
+	.byte	3,149,4,1,5,28,9
+	.half	.L873-.L108
 	.byte	1,5,26,9
-	.half	.L872-.L871
-	.byte	1,5,5,9
-	.half	.L873-.L872
-	.byte	3,1,1,5,28,9
 	.half	.L874-.L873
-	.byte	1,5,26,9
+	.byte	1,5,5,9
 	.half	.L875-.L874
-	.byte	1,5,12,9
+	.byte	3,1,1,5,28,9
 	.half	.L876-.L875
-	.byte	3,1,1,5,1,9
+	.byte	1,5,26,9
 	.half	.L877-.L876
+	.byte	1,5,12,9
+	.half	.L878-.L877
+	.byte	3,1,1,5,1,9
+	.half	.L879-.L878
 	.byte	3,1,1,7,9
-	.half	.L209-.L877
+	.half	.L209-.L879
 	.byte	0,1,1
-.L868:
-	.sdecl	'.debug_ranges',debug,cluster('update_course3_gps')
+.L870:
+	.sdecl	'.debug_ranges',debug,cluster('update_course2_gps')
 	.sect	'.debug_ranges'
 .L208:
-	.word	-1,.L105,0,.L209-.L105,0,0
-	.sdecl	'.debug_info',debug,cluster('nav_sys')
+	.word	-1,.L108,0,.L209-.L108,0,0
+	.sdecl	'.debug_info',debug,cluster('update_course3_gps')
 	.sect	'.debug_info'
 .L210:
-	.word	188
+	.word	222
 	.half	3
 	.word	.L211
 	.byte	4,1
 	.byte	'../code/navigation.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1
+	.word	.L213,.L212
+	.byte	2
+	.word	.L111
+	.byte	3
+	.byte	'update_course3_gps',0,1,155,4,13,1,1
+	.word	.L110,.L274,.L109
+	.byte	4
+	.word	.L110,.L274
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('update_course3_gps')
+	.sect	'.debug_abbrev'
+.L211:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('update_course3_gps')
+	.sect	'.debug_line'
+.L212:
+	.word	.L881-.L880
+.L880:
+	.half	3
+	.word	.L883-.L882
+.L882:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/navigation.c',0,0,0,0,0
+.L883:
+	.byte	5,5,7,0,5,2
+	.word	.L110
+	.byte	3,157,4,1,5,28,9
+	.half	.L884-.L110
+	.byte	1,5,26,9
+	.half	.L885-.L884
+	.byte	1,5,5,9
+	.half	.L886-.L885
+	.byte	3,1,1,5,28,9
+	.half	.L887-.L886
+	.byte	1,5,26,9
+	.half	.L888-.L887
+	.byte	1,5,12,9
+	.half	.L889-.L888
+	.byte	3,1,1,5,1,9
+	.half	.L890-.L889
+	.byte	3,1,1,7,9
+	.half	.L214-.L890
+	.byte	0,1,1
+.L881:
+	.sdecl	'.debug_ranges',debug,cluster('update_course3_gps')
+	.sect	'.debug_ranges'
+.L213:
+	.word	-1,.L110,0,.L214-.L110,0,0
+	.sdecl	'.debug_info',debug,cluster('nav_sys')
+	.sect	'.debug_info'
+.L215:
+	.word	188
+	.half	3
+	.word	.L216
+	.byte	4,1
+	.byte	'../code/navigation.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'D:\\Desktop\\Seekfree_TC377_Opensource_Library\\Debug\\',0,12,1,2
-	.word	.L106
+	.word	.L111
 	.byte	3
 	.byte	'nav_sys',0,25,114,18
-	.word	.L269
+	.word	.L275
 	.byte	5,3
 	.word	nav_sys
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('nav_sys')
 	.sect	'.debug_abbrev'
-.L211:
+.L216:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_collect_point')
 	.sect	'.debug_loc'
-.L238:
-	.word	-1,.L91,0,.L281-.L91
+.L243:
+	.word	-1,.L96,0,.L287-.L96
 	.half	2
 	.byte	144,35
-	.word	.L42-.L91,.L41-.L91
+	.word	.L42-.L96,.L41-.L96
 	.half	2
 	.byte	144,35
 	.word	0,0
-.L239:
-	.word	-1,.L91,0,.L236-.L91
+.L244:
+	.word	-1,.L96,0,.L241-.L96
 	.half	2
 	.byte	145,0
-	.word	0,.L236-.L91
+	.word	0,.L241-.L96
 	.half	2
 	.byte	145,0
-	.word	.L282-.L91,.L281-.L91
+	.word	.L288-.L96,.L287-.L96
 	.half	2
 	.byte	144,32
-	.word	.L42-.L91,.L41-.L91
+	.word	.L42-.L96,.L41-.L96
 	.half	2
 	.byte	144,32
 	.word	0,0
-.L90:
-	.word	-1,.L91,0,.L280-.L91
+.L95:
+	.word	-1,.L96,0,.L286-.L96
 	.half	2
 	.byte	138,0
-	.word	.L280-.L91,.L236-.L91
+	.word	.L286-.L96,.L241-.L96
 	.half	2
 	.byte	138,24
-	.word	.L236-.L91,.L236-.L91
+	.word	.L241-.L96,.L241-.L96
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L237:
-	.word	-1,.L91,0,.L281-.L91
+.L242:
+	.word	-1,.L96,0,.L287-.L96
 	.half	1
 	.byte	84
-	.word	.L42-.L91,.L41-.L91
+	.word	.L42-.L96,.L41-.L96
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_get_course_state')
 	.sect	'.debug_loc'
-.L86:
-	.word	-1,.L87,0,.L235-.L87
+.L91:
+	.word	-1,.L92,0,.L240-.L92
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_get_status')
 	.sect	'.debug_loc'
-.L224:
-	.word	-1,.L89,0,.L222-.L89
+.L229:
+	.word	-1,.L94,0,.L227-.L94
 	.half	1
 	.byte	100
 	.word	0,0
-.L225:
-	.word	-1,.L89,0,.L222-.L89
+.L230:
+	.word	-1,.L94,0,.L227-.L94
 	.half	1
 	.byte	101
 	.word	0,0
-.L88:
-	.word	-1,.L89,0,.L222-.L89
+.L93:
+	.word	-1,.L94,0,.L227-.L94
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L227:
-	.word	-1,.L89,0,.L222-.L89
+.L232:
+	.word	-1,.L94,0,.L227-.L94
 	.half	1
 	.byte	102
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_init')
 	.sect	'.debug_loc'
-.L66:
-	.word	-1,.L67,0,.L270-.L67
+.L71:
+	.word	-1,.L72,0,.L276-.L72
 	.half	2
 	.byte	138,0
-	.word	.L270-.L67,.L212-.L67
+	.word	.L276-.L72,.L217-.L72
 	.half	2
 	.byte	138,8
-	.word	.L212-.L67,.L212-.L67
+	.word	.L217-.L72,.L217-.L72
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_proc')
 	.sect	'.debug_loc'
-.L68:
-	.word	-1,.L69,0,.L271-.L69
+.L73:
+	.word	-1,.L74,0,.L277-.L74
 	.half	2
 	.byte	138,0
-	.word	.L271-.L69,.L213-.L69
+	.word	.L277-.L74,.L218-.L74
 	.half	2
 	.byte	138,8
-	.word	.L213-.L69,.L213-.L69
+	.word	.L218-.L74,.L218-.L74
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_send_data')
 	.sect	'.debug_loc'
-.L92:
-	.word	-1,.L93,0,.L240-.L93
+.L97:
+	.word	-1,.L98,0,.L245-.L98
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_start_course1')
 	.sect	'.debug_loc'
-.L72:
-	.word	-1,.L73,0,.L228-.L73
+.L77:
+	.word	-1,.L78,0,.L233-.L78
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_start_course1_key')
 	.sect	'.debug_loc'
-.L78:
-	.word	-1,.L79,0,.L229-.L79
+.L83:
+	.word	-1,.L84,0,.L234-.L84
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_start_course2')
 	.sect	'.debug_loc'
-.L74:
-	.word	-1,.L75,0,.L230-.L75
+.L79:
+	.word	-1,.L80,0,.L235-.L80
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_start_course2_key')
 	.sect	'.debug_loc'
-.L80:
-	.word	-1,.L81,0,.L231-.L81
+.L85:
+	.word	-1,.L86,0,.L236-.L86
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_start_course3')
 	.sect	'.debug_loc'
-.L76:
-	.word	-1,.L77,0,.L232-.L77
+.L81:
+	.word	-1,.L82,0,.L237-.L82
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_start_course3_key')
 	.sect	'.debug_loc'
-.L82:
-	.word	-1,.L83,0,.L233-.L83
+.L87:
+	.word	-1,.L88,0,.L238-.L88
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_stop_course')
 	.sect	'.debug_loc'
-.L84:
-	.word	-1,.L85,0,.L234-.L85
+.L89:
+	.word	-1,.L90,0,.L239-.L90
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('navigation_update')
 	.sect	'.debug_loc'
-.L216:
-	.word	-1,.L71,0,.L272-.L71
+.L221:
+	.word	-1,.L76,0,.L278-.L76
 	.half	2
 	.byte	144,34
-	.word	.L8-.L71,.L275-.L71
+	.word	.L8-.L76,.L281-.L76
 	.half	2
 	.byte	144,34
-	.word	.L29-.L71,.L276-.L71
+	.word	.L29-.L76,.L282-.L76
 	.half	2
 	.byte	144,34
-	.word	.L30-.L71,.L277-.L71
+	.word	.L30-.L76,.L283-.L76
 	.half	2
 	.byte	144,34
-	.word	.L31-.L71,.L32-.L71
+	.word	.L31-.L76,.L32-.L76
 	.half	2
 	.byte	144,34
-	.word	.L27-.L71,.L14-.L71
+	.word	.L27-.L76,.L14-.L76
 	.half	2
 	.byte	144,34
 	.word	0,0
-.L217:
-	.word	-1,.L71,0,.L272-.L71
+.L222:
+	.word	-1,.L76,0,.L278-.L76
 	.half	2
 	.byte	144,35
-	.word	.L8-.L71,.L275-.L71
+	.word	.L8-.L76,.L281-.L76
 	.half	2
 	.byte	144,35
-	.word	.L29-.L71,.L276-.L71
+	.word	.L29-.L76,.L282-.L76
 	.half	2
 	.byte	144,35
-	.word	.L30-.L71,.L277-.L71
+	.word	.L30-.L76,.L283-.L76
 	.half	2
 	.byte	144,35
-	.word	.L31-.L71,.L32-.L71
+	.word	.L31-.L76,.L32-.L76
 	.half	2
 	.byte	144,35
-	.word	.L27-.L71,.L14-.L71
+	.word	.L27-.L76,.L14-.L76
 	.half	2
 	.byte	144,35
 	.word	0,0
-.L219:
-	.word	-1,.L71,0,.L214-.L71
+.L224:
+	.word	-1,.L76,0,.L219-.L76
 	.half	2
 	.byte	145,0
-	.word	.L273-.L71,.L272-.L71
+	.word	.L279-.L76,.L278-.L76
 	.half	1
 	.byte	81
-	.word	.L8-.L71,.L275-.L71
+	.word	.L8-.L76,.L281-.L76
 	.half	1
 	.byte	81
-	.word	.L29-.L71,.L276-.L71
+	.word	.L29-.L76,.L282-.L76
 	.half	1
 	.byte	81
-	.word	.L30-.L71,.L277-.L71
+	.word	.L30-.L76,.L283-.L76
 	.half	1
 	.byte	81
-	.word	.L31-.L71,.L278-.L71
+	.word	.L31-.L76,.L284-.L76
 	.half	1
 	.byte	81
-	.word	.L27-.L71,.L279-.L71
+	.word	.L27-.L76,.L285-.L76
 	.half	1
 	.byte	81
 	.word	0,0
-.L221:
-	.word	-1,.L71,0,.L214-.L71
+.L226:
+	.word	-1,.L76,0,.L219-.L76
 	.half	2
 	.byte	145,4
-	.word	0,.L214-.L71
+	.word	0,.L219-.L76
 	.half	2
 	.byte	145,4
-	.word	.L274-.L71,.L5-.L71
+	.word	.L280-.L76,.L5-.L76
 	.half	1
 	.byte	95
 	.word	0,0
-.L70:
-	.word	-1,.L71,0,.L214-.L71
+.L75:
+	.word	-1,.L76,0,.L219-.L76
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('update_course1_encoder')
 	.sect	'.debug_loc'
-.L94:
-	.word	-1,.L95,0,.L241-.L95
+.L99:
+	.word	-1,.L100,0,.L246-.L100
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('update_course1_gps')
 	.sect	'.debug_loc'
-.L100:
-	.word	-1,.L101,0,.L266-.L101
+.L105:
+	.word	-1,.L106,0,.L272-.L106
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('update_course2_encoder')
 	.sect	'.debug_loc'
-.L260:
-	.word	0,0
 .L264:
-	.word	-1,.L97,.L315-.L97,.L62-.L97
+	.word	0,0
+.L270:
+	.word	-1,.L102,.L306-.L102,.L67-.L102
 	.half	1
 	.byte	95
 	.word	0,0
-.L254:
-	.word	-1,.L97,.L295-.L97,.L242-.L97
-	.half	1
-	.byte	89
-	.word	0,0
-.L246:
-	.word	-1,.L97,.L285-.L97,.L284-.L97
-	.half	1
-	.byte	83
-	.word	.L50-.L97,.L297-.L97
-	.half	1
-	.byte	83
-	.word	.L52-.L97,.L257-.L97
-	.half	1
-	.byte	83
-	.word	.L54-.L97,.L305-.L97
-	.half	1
-	.byte	83
-	.word	.L58-.L97,.L309-.L97
-	.half	1
-	.byte	83
-	.word	.L60-.L97,.L262-.L97
-	.half	1
-	.byte	83
-	.word	.L62-.L97,.L51-.L97
-	.half	1
-	.byte	83
-	.word	0,0
-.L259:
-	.word	-1,.L97,.L304-.L97,.L257-.L97
-	.half	1
-	.byte	81
-	.word	0,0
-.L263:
-	.word	-1,.L97,.L314-.L97,.L262-.L97
-	.half	1
-	.byte	81
-	.word	0,0
-.L251:
-	.word	0,0
-.L249:
-	.word	-1,.L97,.L290-.L97,.L284-.L97
-	.half	1
-	.byte	86
-	.word	.L50-.L97,.L297-.L97
-	.half	1
-	.byte	86
-	.word	.L52-.L97,.L257-.L97
-	.half	1
-	.byte	86
-	.word	.L54-.L97,.L305-.L97
-	.half	1
-	.byte	86
-	.word	.L58-.L97,.L309-.L97
-	.half	1
-	.byte	86
-	.word	.L60-.L97,.L262-.L97
-	.half	1
-	.byte	86
-	.word	.L62-.L97,.L51-.L97
-	.half	1
-	.byte	86
-	.word	0,0
-.L247:
-	.word	-1,.L97,.L286-.L97,.L287-.L97
-	.half	1
-	.byte	84
-	.word	.L50-.L97,.L298-.L97
-	.half	1
-	.byte	84
-	.word	.L52-.L97,.L301-.L97
-	.half	1
-	.byte	84
-	.word	.L54-.L97,.L306-.L97
-	.half	1
-	.byte	84
-	.word	.L58-.L97,.L310-.L97
-	.half	1
-	.byte	84
-	.word	.L60-.L97,.L312-.L97
-	.half	1
-	.byte	84
-	.word	.L62-.L97,.L316-.L97
-	.half	1
-	.byte	84
-	.word	0,0
-.L250:
-	.word	-1,.L97,.L291-.L97,.L284-.L97
-	.half	1
-	.byte	87
-	.word	.L50-.L97,.L297-.L97
-	.half	1
-	.byte	87
-	.word	.L52-.L97,.L257-.L97
-	.half	1
-	.byte	87
-	.word	.L54-.L97,.L305-.L97
-	.half	1
-	.byte	87
-	.word	.L58-.L97,.L309-.L97
-	.half	1
-	.byte	87
-	.word	.L60-.L97,.L262-.L97
-	.half	1
-	.byte	87
-	.word	.L62-.L97,.L51-.L97
-	.half	1
-	.byte	87
-	.word	0,0
-.L248:
-	.word	-1,.L97,.L288-.L97,.L289-.L97
-	.half	1
-	.byte	85
-	.word	.L50-.L97,.L299-.L97
-	.half	1
-	.byte	85
-	.word	.L52-.L97,.L302-.L97
-	.half	1
-	.byte	85
-	.word	.L54-.L97,.L307-.L97
-	.half	1
-	.byte	85
-	.word	.L58-.L97,.L311-.L97
-	.half	1
-	.byte	85
-	.word	.L60-.L97,.L313-.L97
-	.half	1
-	.byte	85
-	.word	.L62-.L97,.L317-.L97
-	.half	1
-	.byte	85
-	.word	0,0
-.L244:
-	.word	-1,.L97,.L283-.L97,.L284-.L97
-	.half	1
-	.byte	82
-	.word	.L50-.L97,.L297-.L97
-	.half	1
-	.byte	82
-	.word	.L52-.L97,.L257-.L97
-	.half	1
-	.byte	82
-	.word	.L54-.L97,.L305-.L97
-	.half	1
-	.byte	82
-	.word	.L58-.L97,.L309-.L97
-	.half	1
-	.byte	82
-	.word	.L60-.L97,.L262-.L97
-	.half	1
-	.byte	82
-	.word	.L62-.L97,.L51-.L97
-	.half	1
-	.byte	82
-	.word	0,0
-.L255:
-	.word	-1,.L97,.L296-.L97,.L284-.L97
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L50-.L97,.L297-.L97
-	.half	5
-	.byte	144,32,157,32,0
-	.word	.L52-.L97,.L303-.L97
-	.half	5
-	.byte	144,32,157,32,0
-	.word	0,0
-.L253:
-	.word	-1,.L97,.L294-.L97,.L242-.L97
+.L258:
+	.word	-1,.L102,.L297-.L102,.L247-.L102
 	.half	1
 	.byte	88
 	.word	0,0
+.L250:
+	.word	-1,.L102,.L290-.L102,.L247-.L102
+	.half	1
+	.byte	92
+	.word	0,0
+.L263:
+	.word	-1,.L102,.L302-.L102,.L261-.L102
+	.half	1
+	.byte	81
+	.word	0,0
+.L269:
+	.word	-1,.L102,.L305-.L102,.L268-.L102
+	.half	1
+	.byte	81
+	.word	0,0
+.L255:
+	.word	0,0
+.L253:
+	.word	-1,.L102,.L293-.L102,.L247-.L102
+	.half	1
+	.byte	94
+	.word	0,0
+.L251:
+	.word	-1,.L102,.L291-.L102,.L247-.L102
+	.half	1
+	.byte	91
+	.word	0,0
+.L254:
+	.word	-1,.L102,.L294-.L102,.L247-.L102
+	.half	1
+	.byte	89
+	.word	0,0
 .L252:
-	.word	-1,.L97,.L292-.L97,.L293-.L97
+	.word	-1,.L102,.L292-.L102,.L247-.L102
+	.half	1
+	.byte	90
+	.word	0,0
+.L248:
+	.word	-1,.L102,.L289-.L102,.L247-.L102
+	.half	1
+	.byte	93
+	.word	0,0
+.L259:
+	.word	-1,.L102,.L298-.L102,.L299-.L102
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L55-.L102,.L300-.L102
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L257:
+	.word	-1,.L102,.L303-.L102,.L65-.L102
 	.half	1
 	.byte	95
-	.word	.L50-.L97,.L300-.L97
-	.half	1
-	.byte	95
-	.word	.L54-.L97,.L308-.L97
-	.half	1
-	.byte	95
-	.word	.L62-.L97,.L51-.L97
+	.word	.L267-.L102,.L306-.L102
 	.half	1
 	.byte	95
 	.word	0,0
-.L96:
-	.word	-1,.L97,0,.L242-.L97
+.L256:
+	.word	-1,.L102,.L295-.L102,.L296-.L102
+	.half	1
+	.byte	95
+	.word	.L55-.L102,.L301-.L102
+	.half	1
+	.byte	95
+	.word	.L59-.L102,.L303-.L102
+	.half	1
+	.byte	95
+	.word	.L65-.L102,.L304-.L102
+	.half	1
+	.byte	95
+	.word	.L67-.L102,.L56-.L102
+	.half	1
+	.byte	95
+	.word	0,0
+.L101:
+	.word	-1,.L102,0,.L247-.L102
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('update_course2_gps')
 	.sect	'.debug_loc'
-.L102:
-	.word	-1,.L103,0,.L267-.L103
+.L107:
+	.word	-1,.L108,0,.L273-.L108
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('update_course3_encoder')
 	.sect	'.debug_loc'
-.L98:
-	.word	-1,.L99,0,.L265-.L99
+.L103:
+	.word	-1,.L104,0,.L271-.L104
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('update_course3_gps')
 	.sect	'.debug_loc'
-.L104:
-	.word	-1,.L105,0,.L268-.L105
+.L109:
+	.word	-1,.L110,0,.L274-.L110
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L878:
+.L891:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -25694,98 +25670,98 @@ nav_sys:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('navigation_init')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L878,.L67,.L212-.L67
+	.word	.L891,.L72,.L217-.L72
 	.byte	4
-	.word	(.L270-.L67)/2
+	.word	(.L276-.L72)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L212-.L270)/2
+	.word	(.L217-.L276)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('navigation_proc')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L878,.L69,.L213-.L69
+	.word	.L891,.L74,.L218-.L74
 	.byte	4
-	.word	(.L271-.L69)/2
+	.word	(.L277-.L74)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L213-.L271)/2
+	.word	(.L218-.L277)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('navigation_update')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L71,.L214-.L71
+	.word	.L891,.L76,.L219-.L76
 	.sdecl	'.debug_frame',debug,cluster('navigation_start_course1')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L73,.L228-.L73
+	.word	.L891,.L78,.L233-.L78
 	.sdecl	'.debug_frame',debug,cluster('navigation_start_course2')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L75,.L230-.L75
+	.word	.L891,.L80,.L235-.L80
 	.sdecl	'.debug_frame',debug,cluster('navigation_start_course3')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L77,.L232-.L77
+	.word	.L891,.L82,.L237-.L82
 	.sdecl	'.debug_frame',debug,cluster('navigation_start_course1_key')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L79,.L229-.L79
+	.word	.L891,.L84,.L234-.L84
 	.sdecl	'.debug_frame',debug,cluster('navigation_start_course2_key')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L81,.L231-.L81
+	.word	.L891,.L86,.L236-.L86
 	.sdecl	'.debug_frame',debug,cluster('navigation_start_course3_key')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L83,.L233-.L83
+	.word	.L891,.L88,.L238-.L88
 	.sdecl	'.debug_frame',debug,cluster('navigation_stop_course')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L85,.L234-.L85
+	.word	.L891,.L90,.L239-.L90
 	.sdecl	'.debug_frame',debug,cluster('navigation_get_course_state')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L878,.L87,.L235-.L87
+	.word	.L891,.L92,.L240-.L92
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('navigation_get_status')
 	.sect	'.debug_frame'
 	.word	20
-	.word	.L878,.L89,.L222-.L89
+	.word	.L891,.L94,.L227-.L94
 	.byte	8,18,8,19,8,23,0,0
 	.sdecl	'.debug_frame',debug,cluster('navigation_collect_point')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L878,.L91,.L236-.L91
+	.word	.L891,.L96,.L241-.L96
 	.byte	4
-	.word	(.L280-.L91)/2
+	.word	(.L286-.L96)/2
 	.byte	19,24,22,26,3,19,138,24,4
-	.word	(.L236-.L280)/2
+	.word	(.L241-.L286)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('navigation_send_data')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L93,.L240-.L93
+	.word	.L891,.L98,.L245-.L98
 	.sdecl	'.debug_frame',debug,cluster('update_course1_encoder')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L95,.L241-.L95
+	.word	.L891,.L100,.L246-.L100
 	.sdecl	'.debug_frame',debug,cluster('update_course2_encoder')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L97,.L242-.L97
+	.word	.L891,.L102,.L247-.L102
 	.sdecl	'.debug_frame',debug,cluster('update_course3_encoder')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L99,.L265-.L99
+	.word	.L891,.L104,.L271-.L104
 	.sdecl	'.debug_frame',debug,cluster('update_course1_gps')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L101,.L266-.L101
+	.word	.L891,.L106,.L272-.L106
 	.sdecl	'.debug_frame',debug,cluster('update_course2_gps')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L103,.L267-.L103
+	.word	.L891,.L108,.L273-.L108
 	.sdecl	'.debug_frame',debug,cluster('update_course3_gps')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L878,.L105,.L268-.L105
+	.word	.L891,.L110,.L274-.L110
 	; Module end

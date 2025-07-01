@@ -416,20 +416,29 @@ static double normalize_angle(double angle)
 static void update_course1_encoder(void)
 {
     // 科目一：基于编码器值的三阶段控制
-    if (cumulative_encoder_data_1 >= 600000)
+    if (cumulative_encoder_data_1 >= 500000)
     {
-        drv8701_motor_speed_ctrl(0);
-        servo_set(SERVO_MOTOR_MID);   // 舵机回中
+        // 完成条件：编码器值≥500000
+        drv8701_motor_speed_ctrl(0);   // 电机停止
+        servo_set(SERVO_MOTOR_MID);    // 舵机回中
         nav_sys.course_state = COURSE_STATE_COMPLETED;
         printf("科目一编码器模式完成\r\n");
     }
-    else if (cumulative_encoder_data_1 > 200000 && cumulative_encoder_data_1 < 400000)
+    else if (cumulative_encoder_data_1 > 200000 && cumulative_encoder_data_1 <= 250000)
     {
-        drv8701_motor_speed_ctrl(5);          // 掉头阶段低速
+        // 第一阶段：200000-250000 低速掉头
+        drv8701_motor_speed_ctrl(5);          // 低速模式
         servo_set_pd_extended(180.0, true);   // 掉头舵机控制
     }
-    else
+    else if (cumulative_encoder_data_1 > 250000 && cumulative_encoder_data_1 < 500000)
     {
+        // 第二阶段：250000-600000 正常速度掉头
+        drv8701_motor_speed_ctrl(10.0);       // 正常速度
+        servo_set_pd_extended(180.0, true);   // 掉头舵机控制
+    }
+    else if (cumulative_encoder_data_1 >= 0 && cumulative_encoder_data_1 <= 200000)
+    {
+        // 初始阶段：0-200000 直行
         drv8701_motor_speed_ctrl(10.0);     // 正常速度
         servo_set_pd_extended(0.0, true);   // 直行舵机控制
     }
@@ -438,7 +447,6 @@ static void update_course1_encoder(void)
 static void update_course2_encoder(void)
 {
     // 科目二：八字S弯控制
-    drv8701_motor_speed_ctrl(10);   // 固定速度
 
     // 控制参数
     float    servo_scale       = 1.0f;
@@ -455,13 +463,18 @@ static void update_course2_encoder(void)
     uint32_t total_distance =
         init_straight + 3 * s_segment_go + pre_turn_straight + turn_distance + 3 * s_segment_back + 30000;
 
+    // 先检查完成条件，如果完成就直接返回，不执行后续控制
     if (enc >= total_distance)
     {
         drv8701_motor_speed_ctrl(0);
+        servo_set(SERVO_MOTOR_MID);   // 舵机回中
         nav_sys.course_state = COURSE_STATE_COMPLETED;
         printf("科目二编码器模式完成\r\n");
-        return;
+        return;   // 立即返回，避免后续控制被执行
     }
+
+    // 只有未完成时才执行速度控制
+    drv8701_motor_speed_ctrl(10);   // 固定速度
 
     // 1. 初始直行
     if (enc < init_straight)
@@ -496,7 +509,7 @@ static void update_course2_encoder(void)
     // 6. 最终直行
     else
     {
-        servo_set_pd_extended(turn_angle * servo_scale, true);
+        servo_set_pd_extended(-180.0, true);   // 修改为直行，避免继续转向
     }
 }
 
